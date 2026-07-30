@@ -1,0 +1,351 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navbar from '../../components/nav/Navbar.astro';
+import MobileNav from '../../components/nav/MobileNav.astro';
+import Footer from '../../components/nav/Footer.astro';
+import Tag from '../../components/ui/Tag.astro';
+import ArticleNav from '../../components/blog/ArticleNav.astro';
+import NewsletterSubscribe from '../../components/ui/NewsletterSubscribe.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+  return sortedPosts.map((post, index) => {
+    const prev = index < sortedPosts.length - 1 ? sortedPosts[index + 1] : null;
+    const next = index > 0 ? sortedPosts[index - 1] : null;
+
+    return {
+      params: { slug: post.id },
+      props: {
+        post,
+        prevPost: prev ? {
+          id: prev.id,
+          title: prev.data.title,
+          heroImage: prev.data.heroImage,
+          category: prev.data.category,
+        } : null,
+        nextPost: next ? {
+          id: next.id,
+          title: next.data.title,
+          heroImage: next.data.heroImage,
+          category: next.data.category,
+        } : null,
+      },
+    };
+  });
+}
+
+const { post, prevPost, nextPost } = Astro.props;
+const { Content } = await render(post);
+
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  author,
+  heroImage,
+  heroImageAlt,
+  category,
+  tags,
+} = post.data;
+
+const formattedPubDate = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric', month: 'long', day: 'numeric',
+}).format(pubDate);
+
+const formattedUpdated = updatedDate
+  ? new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' }).format(updatedDate)
+  : null;
+
+// Estimate reading time — rough estimate based on description length
+const readingTime = Math.max(1, Math.ceil((post.body?.split(' ').length ?? 500) / 200));
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  ogImage={heroImage}
+  ogType="article"
+  pubDate={pubDate}
+  updatedDate={updatedDate}
+  author={author}
+>
+  <!-- Progress bar is injected by BaseLayout for articles -->
+  <Navbar />
+
+  <main id="main-content">
+    <!-- Article header -->
+    <header class="article-header container">
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol role="list">
+          <li><a href="/">Home</a></li>
+          <li aria-hidden="true">›</li>
+          <li><a href="/blog/">Blog</a></li>
+          <li aria-hidden="true">›</li>
+          <li aria-current="page">{title}</li>
+        </ol>
+      </nav>
+
+      <!-- Category + date -->
+      <div class="article-meta reveal-fade">
+        <Tag label={category} variant="blush" size="md" href={`/${category}/`} />
+        <time datetime={pubDate.toISOString()} class="article-date">
+          {formattedPubDate}
+        </time>
+        <span class="article-read-time">{readingTime} min read</span>
+      </div>
+
+      <!-- Title -->
+      <h1 class="article-title reveal-fade">{title}</h1>
+
+      <!-- Author -->
+      <div class="article-author reveal-fade">
+        <div class="article-author__avatar" aria-hidden="true">
+          {author?.charAt(0) ?? 'N'}
+        </div>
+        <div>
+          <p class="article-author__name">{author ?? 'NailSet Gallery'}</p>
+          {formattedUpdated && (
+            <p class="article-author__updated">
+              Updated: <time datetime={updatedDate?.toISOString()}>{formattedUpdated}</time>
+            </p>
+          )}
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero image -->
+    {heroImage && (
+      <div class="article-hero-image container-wide reveal-fade">
+        <img
+          src={heroImage}
+          alt={heroImageAlt ?? title}
+          loading="eager"
+          decoding="async"
+          class="article-hero-img"
+        />
+      </div>
+    )}
+
+    <!-- Article body -->
+    <div class="article-body container">
+      <article class="prose">
+        <Content />
+      </article>
+    </div>
+
+    <!-- Tags -->
+    {tags.length > 0 && (
+      <div class="article-tags container">
+        <p class="label">Tags:</p>
+        <div class="article-tags__list">
+          {tags.map((tag) => (
+            <Tag label={tag} variant="default" size="md" href={`/tags/${tag}/`} />
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Next / Previous Navigation -->
+    <ArticleNav prevPost={prevPost} nextPost={nextPost} />
+
+    <!-- Newsletter CTA -->
+    <div class="container">
+      <NewsletterSubscribe variant="banner" />
+    </div>
+
+    <!-- Back to gallery -->
+    <div class="article-footer container">
+      <a href="/blog/" class="btn-back">
+        ← Back to Gallery
+      </a>
+    </div>
+  </main>
+
+  <Footer />
+  <MobileNav />
+</BaseLayout>
+
+<style>
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+  }
+
+  .container-wide {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+  }
+
+  /* Article header */
+  .article-header {
+    padding-top: calc(var(--space-3xl) + 80px);
+    padding-bottom: var(--space-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  /* Breadcrumb */
+  .breadcrumb ol {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    list-style: none;
+    flex-wrap: wrap;
+  }
+
+  .breadcrumb a {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-out);
+    min-height: auto;
+  }
+
+  .breadcrumb a:hover { color: var(--color-rose); }
+
+  .breadcrumb [aria-hidden] {
+    color: var(--color-text-subtle);
+    font-size: var(--text-sm);
+  }
+
+  .breadcrumb [aria-current] {
+    font-size: var(--text-sm);
+    color: var(--color-text-subtle);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+  }
+
+  /* Meta row */
+  .article-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+  }
+
+  .article-date,
+  .article-read-time {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+  }
+
+  /* Title */
+  .article-title {
+    font-family: var(--font-display);
+    font-size: var(--text-5xl);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--color-text);
+  }
+
+  /* Author */
+  .article-author {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  .article-author__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-full);
+    background-color: var(--color-rose);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: var(--text-lg);
+    font-weight: 300;
+    flex-shrink: 0;
+  }
+
+  .article-author__name {
+    font-weight: 500;
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    max-width: none;
+  }
+
+  .article-author__updated {
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+    max-width: none;
+  }
+
+  /* Hero image */
+  .article-hero-image {
+    margin-bottom: var(--space-2xl);
+  }
+
+  .article-hero-img {
+    width: 100%;
+    border-radius: var(--radius-lg);
+    aspect-ratio: 16/7;
+    object-fit: cover;
+    background-color: var(--color-bg-deep);
+  }
+
+  /* Article body */
+  .article-body {
+    padding-bottom: var(--space-2xl);
+  }
+
+  /* Tags */
+  .article-tags {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    padding-bottom: var(--space-xl);
+    border-top: 1px solid var(--color-border-soft);
+    padding-top: var(--space-xl);
+  }
+
+  .article-tags__list {
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+  }
+
+  /* Footer */
+  .article-footer {
+    padding-bottom: calc(var(--space-2xl) + 70px);
+  }
+
+  @media (min-width: 768px) {
+    .article-footer { padding-bottom: var(--space-2xl); }
+  }
+
+  .btn-back {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    text-decoration: none;
+    min-height: 48px;
+    transition: color var(--duration-fast) var(--ease-out);
+  }
+
+  .btn-back:hover { color: var(--color-rose); }
+
+  @media (max-width: 767px) {
+    .article-header { padding-top: calc(54px + var(--space-lg)); }
+    .article-title { font-size: var(--text-3xl); }
+    .container, .container-wide { padding: 0 var(--space-md); }
+  }
+</style>

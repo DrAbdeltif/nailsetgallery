@@ -1,0 +1,90 @@
+---
+// GalleryGrid — Pinterest-style masonry grid
+// Responsive: 4-col desktop → 2-col tablet → 2-col mobile
+// Uses CSS Grid (not CSS columns:) so that:
+// 1. scroll-timeline animation-timeline: view() fires correctly per card
+// 2. card order is predictable (L→R row-by-row, not column-by-column)
+// 3. IntersectionObserver-based reveals work reliably
+
+import NailCard from './NailCard.astro';
+
+interface GalleryItem {
+  title: string;
+  image: string;
+  imageAlt: string;
+  href: string;
+  category: string;
+  tags?: string[];
+}
+
+interface Props {
+  items: GalleryItem[];
+  columns?: 2 | 3 | 4;
+}
+
+const { items, columns = 4 } = Astro.props;
+---
+
+<section class="gallery-grid" aria-label="Nail gallery">
+  <div class={`gallery-grid__columns gallery-grid__columns--${columns}`}>
+    {items.map((item) => (
+      <NailCard {...item} />
+    ))}
+  </div>
+</section>
+
+<style>
+  .gallery-grid {
+    padding: var(--space-xl) 0;
+  }
+
+  /* ── CSS Grid layout (replacing CSS columns:) ──
+     Using auto-fill + minmax for fluid responsive behaviour.
+     Cards have varying natural heights via aspect-ratio on images
+     which gives a masonry-like visual rhythm. */
+  .gallery-grid__columns {
+    display: grid;
+    gap: var(--space-md);
+    align-items: start;  /* let cards stretch to their natural height */
+  }
+
+  /* 4-column layout */
+  .gallery-grid__columns--4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* 3-column layout */
+  .gallery-grid__columns--3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* 2-column layout */
+  .gallery-grid__columns--2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Tablet: max 2 columns */
+  @media (max-width: 1024px) {
+    .gallery-grid__columns--4 { grid-template-columns: repeat(2, 1fr); }
+    .gallery-grid__columns--3 { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* Mobile: 2 compact columns (Pinterest-style grid) */
+  @media (max-width: 640px) {
+    .gallery-grid__columns--4,
+    .gallery-grid__columns--3,
+    .gallery-grid__columns--2 {
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-sm);
+    }
+  }
+
+  /* Very small mobile: single column */
+  @media (max-width: 375px) {
+    .gallery-grid__columns--4,
+    .gallery-grid__columns--3,
+    .gallery-grid__columns--2 {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

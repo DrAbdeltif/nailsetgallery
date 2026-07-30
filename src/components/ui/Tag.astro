@@ -1,0 +1,93 @@
+---
+// Reusable UI Tag/Pill component
+
+interface Props {
+  label: string;
+  href?: string;
+  variant?: 'default' | 'rose' | 'gold' | 'blush';
+  size?: 'sm' | 'md';
+}
+
+const {
+  label,
+  href,
+  variant = 'default',
+  size = 'sm',
+} = Astro.props;
+
+const Tag = href ? 'a' : 'span';
+---
+
+<Tag
+  href={href}
+  class={`tag tag--${variant} tag--${size} ${href ? 'tag--link' : ''}`}
+>
+  {label}
+</Tag>
+
+<style>
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    border-radius: var(--radius-full);
+    font-family: var(--font-body);
+    font-weight: 500;
+    letter-spacing: var(--tracking-widest);
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  /* Sizes */
+  .tag--sm {
+    padding: 4px 10px;
+    font-size: 10px;
+    min-height: auto;
+  }
+
+  .tag--md {
+    padding: 6px var(--space-md);
+    font-size: var(--text-xs);
+    min-height: 32px;
+  }
+
+  /* Variants */
+  .tag--default {
+    background-color: var(--color-bg-deep);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border-soft);
+  }
+
+  .tag--rose {
+    background-color: var(--color-rose);
+    color: #ffffff;
+  }
+
+  .tag--gold {
+    background-color: var(--color-gold);
+    color: #1C1C1C;
+  }
+
+  .tag--blush {
+    background-color: var(--color-blush);
+    color: var(--color-rose-dark);
+  }
+
+  /* Hover only for links */
+  .tag--link {
+    cursor: pointer;
+    transition:
+      opacity var(--duration-fast) var(--ease-out),
+      transform var(--duration-fast) var(--ease-out);
+  }
+
+  .tag--link:hover {
+    opacity: 0.8;
+  }
+
+  .tag--link:focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+  }
+</style>

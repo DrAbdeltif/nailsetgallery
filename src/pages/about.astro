@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/nav/Navbar.astro';
+import MobileNav from '../components/nav/MobileNav.astro';
+import Footer from '../components/nav/Footer.astro';
+
+---
+
+<BaseLayout
+  title="About Us"
+  description="About NailSet Gallery — Our mission, editorial team, and commitment to high-quality nail set design, color palettes, and nail care advice."
+>
+  <Navbar />
+
+  <main id="main-content" class="container page-main">
+    <div class="page-header reveal-fade">
+      <p class="label label-rose">✦ Editorial & Mission</p>
+      <h1 class="page-title">About NailSet Gallery</h1>
+      <p class="page-subtitle lead">
+        Curating the art of the perfect nail set, one color at a time.
+      </p>
+    </div>
+
+    <article class="prose reveal-fade">
+      <h2>Our Story & Mission</h2>
+      <p>
+        Founded in 2026, <strong>NailSet Gallery</strong> was created out of a desire for a cleaner, more editorial approach to nail design discovery. In a sea of endless social feeds and low-quality aggregators, we aim to be the definitive digital gallery for nail art enthusiasts, professional technicians, and everyday beauty lovers.
+      </p>
+
+      <h2>Our Editorial Standards & E-E-A-T</h2>
+      <p>
+        We believe that nail care and beauty advice should be grounded in practical expertise and visual clarity. Every article, trend report, and gallery entry on NailSet Gallery undergoes an editorial review process:
+      </p>
+      <ul>
+        <li><strong>Expert-Backed Insights:</strong> Our guides are compiled with input from licensed nail technicians and manicurists.</li>
+        <li><strong>Original High-Resolution Imagery:</strong> All gallery entries feature clear descriptions, color palette breakdowns, and nail shape specifications.</li>
+        <li><strong>Accessibility First:</strong> We ensure all visual media includes descriptive alternative text for screen readers.</li>
+      </ul>
+
+      <h2>What We Cover</h2>
+      <p>
+        Whether you are looking for understated nude manicures for a corporate environment or 3D chrome sculpted press-ons for a music festival, our coverage is organized into 5 primary pillars:
+      </p>
+      <ul>
+        <li><a href="/colors/">Nail Colors & Palettes</a> — Seasonal color swatches, skin tone pairings, and shade reviews.</li>
+        <li><a href="/styles/">Nail Shapes & Extensions</a> — Almond, soft square, coffin, and press-on application techniques.</li>
+        <li><a href="/seasons/">Seasonal Inspiration</a> — Spring pastels, summer brights, autumn warm tones, and winter glazes.</li>
+        <li><a href="/trends/">Viral Trend Forecasts</a> — Forward-looking predictions for 2026 and 2027.</li>
+        <li><a href="/tutorials/">Nail Care & DIY Tutorials</a> — Healthy nail routines and gel removal at home.</li>
+      </ul>
+
+      <h2>Contact & Connect</h2>
+      <p>
+        Have a question, feedback, or a nail set submission? Visit our <a href="/contact/">Contact Page</a> or reach out to our team at <a href="mailto:contact@nailsetgallery.com">contact@nailsetgallery.com</a>. You can also follow our visual inspiration and curated boards on <a href="https://www.pinterest.com/ayastickers21/" target="_blank" rel="noopener noreferrer">Pinterest</a>.
+      </p>
+    </article>
+  </main>
+
+  <Footer />
+  <MobileNav />
+</BaseLayout>
+
+<style>
+  .container { max-width: 760px; margin: 0 auto; padding: 0 var(--space-lg); }
+  .page-main { padding-top: calc(var(--space-3xl) + 80px); padding-bottom: var(--space-3xl); }
+  .page-header { display: flex; flex-direction: column; gap: var(--space-sm); margin-bottom: var(--space-2xl); }
+  .page-title { font-family: var(--font-display); font-size: var(--text-5xl); font-weight: 300; font-style: italic; color: var(--color-text); line-height: var(--leading-tight); }
+  .page-subtitle { color: var(--color-text-muted); }
+
+  @media (max-width: 767px) {
+    .page-main { padding-top: calc(54px + var(--space-lg)); padding-bottom: calc(var(--space-2xl) + 70px); }
+    .container { padding: 0 var(--space-md); }
+  }
+</style>

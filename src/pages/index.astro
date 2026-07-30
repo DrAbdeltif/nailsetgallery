@@ -1,0 +1,314 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/nav/Navbar.astro';
+import MobileNav from '../components/nav/MobileNav.astro';
+import Footer from '../components/nav/Footer.astro';
+import CategoryPills from '../components/nav/CategoryPills.astro';
+import HeroSection from '../components/hero/HeroSection.astro';
+import GalleryGrid from '../components/gallery/GalleryGrid.astro';
+import FeatureCard from '../components/gallery/FeatureCard.astro';
+import NewsletterSubscribe from '../components/ui/NewsletterSubscribe.astro';
+import { getCollection } from 'astro:content';
+
+// Fetch latest blog posts
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const latestPosts = allPosts
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 8);
+
+// Map posts to gallery items
+const galleryItems = latestPosts.map((post) => ({
+  title: post.data.title,
+  image: post.data.heroImage ?? '/images/og-default.jpg',
+  imageAlt: post.data.heroImageAlt ?? post.data.title,
+  href: `/blog/${post.id}/`,
+  category: post.data.category,
+  tags: post.data.tags,
+}));
+
+// Featured post (first featured or latest)
+const featured = allPosts.find((p) => p.data.featured) ?? allPosts[0];
+---
+
+<BaseLayout
+  title="NailSet Gallery"
+  description="Discover the most beautiful nail set colors, styles, and trends. Your go-to gallery for nail art inspiration in 2026 and beyond."
+>
+  <!-- Desktop floating navbar -->
+  <Navbar />
+
+  <!-- Main content -->
+  <main id="main-content">
+    <!-- Hero section -->
+    <HeroSection />
+
+    <!-- Container -->
+    <div class="container">
+      <!-- Category pills navigation -->
+      <CategoryPills />
+
+      <!-- Featured article -->
+      {featured && (
+        <section aria-label="Featured article">
+          <div class="section-header">
+            <p class="label label-rose">✦ Featured</p>
+            <h2 class="section-title">Editor's Pick</h2>
+          </div>
+          <FeatureCard
+            title={featured.data.title}
+            excerpt={featured.data.description}
+            href={`/blog/${featured.id}/`}
+            image={featured.data.heroImage}
+            imageAlt={featured.data.heroImageAlt ?? featured.data.title}
+            category={featured.data.category}
+            pubDate={featured.data.pubDate}
+          />
+        </section>
+      )}
+
+      <!-- Gallery grid -->
+      <section aria-label="Latest nail inspirations">
+        <div class="section-header">
+          <p class="label label-rose">✦ Latest</p>
+          <h2 class="section-title">Nail Inspiration Gallery</h2>
+        </div>
+
+        {galleryItems.length > 0 ? (
+          <GalleryGrid items={galleryItems} columns={4} />
+        ) : (
+          <div class="empty-state">
+            <p>Beautiful nail content coming soon. ✨</p>
+            <a href="/blog/" class="btn-primary">Browse All Posts</a>
+          </div>
+        )}
+
+        <div class="load-more-row">
+          <a href="/blog/" class="btn-outline">
+            View All Nail Styles
+          </a>
+        </div>
+      </section>
+
+      <!-- Trend spotlight -->
+      <section class="trends-section reveal-fade" aria-label="Nail trend spotlight">
+        <div class="section-header">
+          <p class="label label-rose">✦ Trending Now</p>
+          <h2 class="section-title">Nail Trends 2026</h2>
+        </div>
+        <div class="trends-grid">
+          {[
+            { label: 'Glazed Donut', desc: 'The sheer, milky finish everyone wants', href: '/trends/' },
+            { label: 'Cherry Red', desc: 'Bold vintage red making its annual return', href: '/colors/' },
+            { label: 'Quiet Luxury Nude', desc: 'Understated elegance for every occasion', href: '/colors/' },
+            { label: 'Bubble Nails', desc: '3D sculptural art that pops off the hand', href: '/styles/' },
+          ].map((trend) => (
+            <a href={trend.href} class="trend-chip hover-lift">
+              <strong class="trend-chip__name">{trend.label}</strong>
+              <span class="trend-chip__desc">{trend.desc}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <!-- Newsletter Banner CTA -->
+      <section aria-label="Newsletter Subscription">
+        <NewsletterSubscribe variant="banner" />
+      </section>
+    </div>
+  </main>
+
+  <!-- Global Footer -->
+  <Footer />
+
+  <!-- Mobile bottom navigation -->
+  <MobileNav />
+</BaseLayout>
+
+<style>
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+  }
+
+  .section-header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-xl);
+  }
+
+  .section-title {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: 500;
+    font-style: italic;
+    color: var(--color-text);
+    line-height: var(--leading-snug);
+  }
+
+  /* Empty state */
+  .empty-state {
+    text-align: center;
+    padding: var(--space-3xl) 0;
+    color: var(--color-text-muted);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-lg);
+  }
+
+  /* Load more */
+  .load-more-row {
+    display: flex;
+    justify-content: center;
+    padding: var(--space-xl) 0;
+  }
+
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    padding: 14px var(--space-xl);
+    border: 1.5px solid var(--color-rose);
+    color: var(--color-rose);
+    border-radius: var(--radius-full);
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    letter-spacing: var(--tracking-wider);
+    text-transform: uppercase;
+    text-decoration: none;
+    min-height: 48px;
+    transition:
+      background-color var(--duration-fast) var(--ease-out),
+      color var(--duration-fast) var(--ease-out);
+  }
+
+  .btn-outline:hover {
+    background-color: var(--color-rose);
+    color: #ffffff;
+  }
+
+  /* Trends section */
+  .trends-section {
+    padding: var(--space-2xl) 0;
+  }
+
+  .trends-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-md);
+  }
+
+  .trend-chip {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    padding: var(--space-lg);
+    background-color: var(--color-bg-deep);
+    border: 1px solid var(--color-border-soft);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    color: var(--color-text);
+    cursor: pointer;
+    transition: border-color var(--duration-fast) var(--ease-out);
+  }
+
+  .trend-chip:hover {
+    border-color: var(--color-rose);
+  }
+
+  .trend-chip__name {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    font-weight: 500;
+    font-style: italic;
+    color: var(--color-rose);
+    line-height: 1.2;
+  }
+
+  .trend-chip__desc {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    line-height: var(--leading-normal);
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: var(--space-3xl);
+    padding: var(--space-2xl) 0 calc(var(--space-2xl) + 70px); /* space for mobile nav */
+    border-top: 1px solid var(--color-border-soft);
+  }
+
+  @media (min-width: 768px) {
+    .footer {
+      padding-bottom: var(--space-2xl);
+    }
+  }
+
+  .footer__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-lg);
+    text-align: center;
+  }
+
+  .footer__logo {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: var(--text-2xl);
+    font-weight: 300;
+    color: var(--color-rose);
+  }
+
+  .footer__tagline {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    max-width: 40ch;
+    margin: 0 auto;
+  }
+
+  .footer__links {
+    display: flex;
+    gap: var(--space-xl);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__links a {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-out);
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__links a:hover {
+    color: var(--color-rose);
+  }
+
+  .footer__copy {
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+  }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .trends-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .trends-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .container {
+      padding: 0 var(--space-md);
+    }
+  }
+</style>

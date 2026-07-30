@@ -1,0 +1,74 @@
+---
+export interface Props {
+  name: string;
+  description?: string;
+  url?: string;
+  telephone: string;
+  email?: string;
+  address: {
+    streetAddress: string;
+    addressLocality: string;
+    addressRegion: string;
+    postalCode: string;
+    addressCountry: string;
+  };
+  geo?: {
+    latitude: number;
+    longitude: number;
+  };
+  image?: string;
+  priceRange?: string;
+  openingHours?: string[];
+  areaServed?: string[];
+}
+
+const {
+  name,
+  description = "Legal and professional legal services",
+  url = Astro.url.href,
+  telephone,
+  email,
+  address,
+  geo,
+  image,
+  priceRange = "$$",
+  openingHours = ["Mo-Fr 08:00-18:00"],
+  areaServed = [],
+} = Astro.props;
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": name,
+  "description": description,
+  "url": url,
+  "telephone": telephone,
+  ...(email && { "email": email }),
+  ...(image && { "image": image }),
+  "priceRange": priceRange,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": address.streetAddress,
+    "addressLocality": address.addressLocality,
+    "addressRegion": address.addressRegion,
+    "postalCode": address.postalCode,
+    "addressCountry": address.addressCountry,
+  },
+  ...(geo && {
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": geo.latitude,
+      "longitude": geo.longitude,
+    },
+  }),
+  "openingHoursSpecification": openingHours.map((hours) => ({
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": hours.split(" ")[1]?.split("-")[0] || "08:00",
+    "closes": hours.split(" ")[1]?.split("-")[1] || "18:00",
+  })),
+  ...(areaServed.length > 0 && { "areaServed": areaServed }),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schemaData)} />

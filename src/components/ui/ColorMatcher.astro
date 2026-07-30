@@ -1,0 +1,289 @@
+---
+// ColorMatcher.astro — Interactive Nail Color Pairing Generator
+// Allows users to pick a base shade and see perfect complimentary color pairs
+
+interface ColorPairing {
+  id: string;
+  name: string;
+  hex: string;
+  pediPairs: {
+    name: string;
+    hex: string;
+    vibe: string;
+    tip: string;
+  }[];
+}
+
+const colorPairings: ColorPairing[] = [
+  {
+    id: 'cherry-cola',
+    name: 'Cherry Cola',
+    hex: '#4A121A',
+    pediPairs: [
+      { name: 'Nude Blush', hex: '#E8C4C4', vibe: 'Soft Contrast', tip: 'Balances dark nails with a clean, low-maintenance shade.' },
+      { name: 'Matching Burgundy', hex: '#6A1238', vibe: 'Monochromatic Luxury', tip: 'Coordinated dark tone for formal events and evening wear.' },
+      { name: 'Champagne Gold', hex: '#C9A96E', vibe: 'Glam Contrast', tip: 'Adds warm metallic sparkle for holiday seasons.' }
+    ]
+  },
+  {
+    id: 'milky-white',
+    name: 'Milky White',
+    hex: '#F5F2EC',
+    pediPairs: [
+      { name: 'Deep Espresso', hex: '#36231C', vibe: 'High Contrast', tip: 'Creates a striking minimalist contrast.' },
+      { name: 'Sage Green', hex: '#8A9A86', vibe: 'Earthy Botanical', tip: 'Fresh spring combination.' },
+      { name: 'Sheer Rose Quartz', hex: '#E2B8C4', vibe: 'Soft Minimalist', tip: 'Clean "soap nail" aesthetic.' }
+    ]
+  },
+  {
+    id: 'rose-gold',
+    name: 'Rose Gold Chrome',
+    hex: '#D49B9B',
+    pediPairs: [
+      { name: 'French White Tip', hex: '#FFFFFF', vibe: 'Classic Elegance', tip: 'Timeless style that complements metallic accents.' },
+      { name: 'Deep Plum', hex: '#482038', vibe: 'Moody Contrast', tip: 'Rich jewel tone that makes rose gold shimmer pop.' },
+      { name: 'Barely-There Nude', hex: '#F0E5DE', vibe: 'Subtle Elegance', tip: 'Keeps focus on your hands looking neat.' }
+    ]
+  },
+  {
+    id: 'sage-green',
+    name: 'Sage Green',
+    hex: '#8A9A86',
+    pediPairs: [
+      { name: 'Butter Yellow', hex: '#F3E5AB', vibe: 'Pastel Harmony', tip: 'Playful spring/summer combination.' },
+      { name: 'Cream White', hex: '#FAF6EE', vibe: 'Fresh Clean', tip: 'Crisp, modern summer aesthetic.' },
+      { name: 'Terracotta Rust', hex: '#B85B43', vibe: 'Warm Earthy', tip: 'Rich fall pairing inspired by natural botanical hues.' }
+    ]
+  }
+];
+---
+
+<div class="color-matcher" id="color-matcher-container">
+  <div class="color-matcher__header">
+    <span class="label label-rose">✦ Interactive Color Pairing ✦</span>
+    <h2 class="color-matcher__title">Nail Color Matcher</h2>
+    <p class="color-matcher__sub">
+      Select your current or desired manicure shade below to instantly see expert-curated color pairings.
+    </p>
+  </div>
+
+  <!-- Manicure Color Swatches -->
+  <div class="color-matcher__swatches" role="radiogroup" aria-label="Select Manicure Shade">
+    {colorPairings.map((pair, index) => (
+      <button
+        type="button"
+        class={`color-matcher__swatch-btn ${index === 0 ? 'active' : ''}`}
+        data-pair-id={pair.id}
+        aria-checked={index === 0 ? 'true' : 'false'}
+        role="radio"
+      >
+        <span class="color-matcher__swatch-circle" style={`background-color: ${pair.hex};`}></span>
+        <span class="color-matcher__swatch-name">{pair.name}</span>
+      </button>
+    ))}
+  </div>
+
+  <!-- Recommended Pedicure Pairings Display -->
+  <div class="color-matcher__results" id="color-matcher-results">
+    {colorPairings.map((pair, index) => (
+      <div
+        class="color-matcher__pair-group"
+        data-group-id={pair.id}
+        style={index === 0 ? 'display: block;' : 'display: none;'}
+      >
+        <h3 class="color-matcher__group-title">
+          Top Pedicure Matches for <span class="color-matcher__highlight">{pair.name}</span> Hands:
+        </h3>
+
+        <div class="color-matcher__cards">
+          {pair.pediPairs.map((pedi) => (
+            <div class="color-matcher__card">
+              <div class="color-matcher__card-header">
+                <span class="color-matcher__pedi-circle" style={`background-color: ${pedi.hex};`}></span>
+                <div>
+                  <strong class="color-matcher__pedi-name">{pedi.name}</strong>
+                  <span class="color-matcher__vibe-badge">{pedi.vibe}</span>
+                </div>
+              </div>
+              <p class="color-matcher__pedi-tip">{pedi.tip}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
+<script>
+  const swatchBtns = document.querySelectorAll('.color-matcher__swatch-btn');
+  const pairGroups = document.querySelectorAll('.color-matcher__pair-group');
+
+  swatchBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const selectedId = btn.getAttribute('data-pair-id');
+
+      // Update button active state
+      swatchBtns.forEach((b) => {
+        b.classList.remove('active');
+        b.setAttribute('aria-checked', 'false');
+      });
+      btn.classList.add('active');
+      btn.setAttribute('aria-checked', 'true');
+
+      // Update visible pairing card group
+      pairGroups.forEach((group) => {
+        const groupId = group.getAttribute('data-group-id');
+        if (groupId === selectedId) {
+          (group as HTMLElement).style.display = 'block';
+        } else {
+          (group as HTMLElement).style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  .color-matcher {
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    padding: var(--space-2xl);
+    box-shadow: var(--shadow-card);
+    max-width: 960px;
+    margin: var(--space-2xl) auto;
+  }
+
+  .color-matcher__header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto var(--space-xl);
+  }
+
+  .color-matcher__title {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    margin-top: var(--space-xs);
+  }
+
+  .color-matcher__sub {
+    color: var(--color-text-muted);
+    margin-top: var(--space-xs);
+  }
+
+  .color-matcher__swatches {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-2xl);
+  }
+
+  .color-matcher__swatch-btn {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: 8px var(--space-lg);
+    min-height: 48px;
+    border-radius: var(--radius-full);
+    border: 1px solid var(--color-border-soft);
+    background-color: var(--color-bg);
+    transition:
+      border-color var(--duration-fast) var(--ease-out),
+      background-color var(--duration-fast) var(--ease-out),
+      transform var(--duration-fast) var(--ease-out);
+  }
+
+  .color-matcher__swatch-btn:hover,
+  .color-matcher__swatch-btn.active {
+    border-color: var(--color-rose);
+    background-color: var(--color-blush-light);
+    transform: translateY(-2px);
+  }
+
+  .color-matcher__swatch-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: var(--radius-full);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+  }
+
+  .color-matcher__swatch-name {
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--color-text);
+  }
+
+  .color-matcher__group-title {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-lg);
+    text-align: center;
+  }
+
+  .color-matcher__highlight {
+    color: var(--color-rose);
+    font-style: italic;
+  }
+
+  .color-matcher__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+  }
+
+  .color-matcher__card {
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border-soft);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .color-matcher__card-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+
+  .color-matcher__pedi-circle {
+    width: 28px;
+    height: 28px;
+    border-radius: var(--radius-full);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
+  }
+
+  .color-matcher__pedi-name {
+    font-size: var(--text-base);
+    color: var(--color-text);
+    display: block;
+  }
+
+  .color-matcher__vibe-badge {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: var(--tracking-wider);
+    text-transform: uppercase;
+    color: var(--color-rose);
+    background-color: var(--color-blush);
+    padding: 2px 8px;
+    border-radius: var(--radius-full);
+    display: inline-block;
+  }
+
+  .color-matcher__pedi-tip {
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    line-height: var(--leading-relaxed);
+  }
+
+  @media (max-width: 768px) {
+    .color-matcher__cards {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

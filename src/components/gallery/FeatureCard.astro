@@ -1,0 +1,205 @@
+---
+// FeatureCard — Wide editorial article card
+// Used on homepage to spotlight the latest trend report
+
+interface Props {
+  title: string;
+  excerpt: string;
+  href: string;
+  image?: string;
+  imageAlt?: string;
+  category: string;
+  pubDate?: Date;
+}
+
+const {
+  title,
+  excerpt,
+  href,
+  image,
+  imageAlt = 'Feature article image',
+  category,
+  pubDate,
+} = Astro.props;
+
+import Tag from '../ui/Tag.astro';
+
+const formattedDate = pubDate
+  ? new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' }).format(pubDate)
+  : null;
+---
+
+<article class="feature-card reveal-left">
+  <a href={href} class="feature-card__link">
+    <!-- Image side -->
+    <div class="img-zoom-container feature-card__image-side">
+      {image ? (
+        <img
+          src={image}
+          alt={imageAlt}
+          loading="lazy"
+          decoding="async"
+          class="feature-card__image"
+        />
+      ) : (
+        <div class="feature-card__image-placeholder" aria-hidden="true">
+          <span class="feature-card__placeholder-text">
+            Nail Set Gallery
+          </span>
+        </div>
+      )}
+    </div>
+
+    <!-- Text side -->
+    <div class="feature-card__content">
+      <div class="feature-card__meta">
+        <Tag label={category} variant="rose" size="sm" />
+        {formattedDate && (
+          <time datetime={pubDate?.toISOString()} class="feature-card__date">
+            {formattedDate}
+          </time>
+        )}
+      </div>
+
+      <h2 class="feature-card__title">{title}</h2>
+      <p class="feature-card__excerpt">{excerpt}</p>
+
+      <span class="feature-card__cta" aria-hidden="true">
+        Read More
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+        </svg>
+      </span>
+    </div>
+  </a>
+</article>
+
+<style>
+  .feature-card {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background-color: var(--color-rose);
+    margin: var(--space-xl) 0;
+  }
+
+  .feature-card__link {
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    min-height: 360px; /* single declaration — removed duplicate 'auto' override */
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* Image side */
+  .feature-card__image-side {
+    border-radius: 0;
+    position: relative;
+  }
+
+  .feature-card__image {
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+    object-fit: cover;
+  }
+
+  .feature-card__image-placeholder {
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+    background: linear-gradient(135deg, #C9849F 0%, #8B1A4A 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature-card__placeholder-text {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: var(--text-2xl);
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 300;
+  }
+
+  /* Content side */
+  .feature-card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--space-md);
+    padding: var(--space-2xl);
+    color: #ffffff;
+  }
+
+  .feature-card__meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+
+  /* Override tag colors for dark bg */
+  .feature-card__content :global(.tag--rose) {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .feature-card__date {
+    font-size: var(--text-xs);
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: var(--tracking-wide);
+  }
+
+  .feature-card__title {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: 300;
+    font-style: italic;
+    line-height: var(--leading-snug);
+    color: #ffffff;
+    letter-spacing: var(--tracking-tight);
+  }
+
+  .feature-card__excerpt {
+    color: rgba(255, 255, 255, 0.75);
+    line-height: var(--leading-relaxed);
+    max-width: 44ch;
+  }
+
+  .feature-card__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    letter-spacing: var(--tracking-wider);
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    transition: gap var(--duration-fast) var(--ease-out),
+                color var(--duration-fast) var(--ease-out);
+  }
+
+  .feature-card:hover .feature-card__cta {
+    gap: var(--space-sm);
+    color: #ffffff;
+  }
+
+  /* Mobile: stack vertically */
+  @media (max-width: 767px) {
+    .feature-card__link {
+      grid-template-columns: 1fr;
+    }
+
+    .feature-card__image,
+    .feature-card__image-placeholder {
+      min-height: 220px;
+    }
+
+    .feature-card__content {
+      padding: var(--space-xl) var(--space-lg);
+    }
+
+    .feature-card__title {
+      font-size: var(--text-2xl);
+    }
+  }
+</style>

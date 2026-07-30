@@ -1,0 +1,247 @@
+/* ============================================================
+   NailSetGallery — Scroll Animations & Transitions
+   Strategy: CSS-first (scroll-timeline), GPU-safe transform/opacity only
+   All animations respect prefers-reduced-motion (global.css + guards below)
+   ============================================================ */
+
+/* ── Keyframes ── */
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes progress-bar {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+/* ── Scroll-timeline reveal (CSS native, no JS) ──
+   Guarded: only fires when user has NOT requested reduced motion.
+   Fallback: elements are fully visible (opacity:1) without this block. */
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal-on-scroll {
+    animation: fade-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+  }
+
+  .reveal-fade {
+    animation: fade-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+  }
+
+  .reveal-left {
+    animation: slide-in-left linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+  }
+
+  .reveal-right {
+    animation: slide-in-right linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+  }
+}
+
+/* ── Staggered children ──
+   NOTE: animation-delay has no effect on scroll-timeline animations.
+   Stagger is achieved through animation-range offset instead. */
+@media (prefers-reduced-motion: no-preference) {
+  .stagger-children > *:nth-child(1)  { animation-range: entry  0% cover 25%; }
+  .stagger-children > *:nth-child(2)  { animation-range: entry  5% cover 30%; }
+  .stagger-children > *:nth-child(3)  { animation-range: entry 10% cover 35%; }
+  .stagger-children > *:nth-child(4)  { animation-range: entry 15% cover 40%; }
+  .stagger-children > *:nth-child(5)  { animation-range: entry 20% cover 45%; }
+  .stagger-children > *:nth-child(6)  { animation-range: entry 25% cover 50%; }
+  .stagger-children > *:nth-child(n+7) { animation-range: entry 30% cover 55%; }
+}
+
+/* ── Hero entrance (page load) ──
+   Uses regular duration animations (not scroll-timeline) so prefers-reduced-motion
+   is handled by the global blanket rule in global.css. */
+.hero-enter {
+  animation: fade-up var(--duration-slow) var(--ease-out) both;
+}
+
+.hero-enter-delay-1 {
+  animation: fade-up var(--duration-slow) var(--ease-out) 150ms both;
+}
+
+.hero-enter-delay-2 {
+  animation: fade-up var(--duration-slow) var(--ease-out) 300ms both;
+}
+
+.hero-enter-delay-3 {
+  animation: fade-up var(--duration-slow) var(--ease-out) 450ms both;
+}
+
+/* ── Reading progress bar ──
+   Uses scroll() on block axis — more broadly supported than scroll(root). */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--color-rose);
+  transform-origin: left;
+  z-index: var(--z-nav);
+  animation: progress-bar linear;
+  animation-timeline: scroll(block);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-progress {
+    animation: none;
+    transform: scaleX(1); /* Always full if no motion preferred */
+    opacity: 0; /* Hide since static bar provides no info */
+  }
+}
+
+/* ── Hover transitions (GPU-safe: transform + opacity only) ── */
+.hover-lift {
+  transition:
+    transform var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+/* hover-lift should not conflict with reveal-on-scroll.
+   When reveal completes (opacity:1, translateY:0), hover adds its own layer.
+   The two don't fight because reveal uses animation (fill:both) and
+   hover uses transition — they operate on separate triggers. */
+
+.hover-scale {
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.hover-scale:hover {
+  transform: scale(1.02);
+}
+
+/* ── Card image zoom on hover ── */
+.img-zoom-container {
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+.img-zoom-container img {
+  transition: transform var(--duration-slow) var(--ease-out);
+  will-change: transform;
+}
+
+.img-zoom-container:hover img,
+.img-zoom-container:focus-within img {
+  transform: scale(1.04);
+}
+
+/* ── Nav transparency transition ── */
+.navbar {
+  transition:
+    background-color var(--duration-normal) var(--ease-out),
+    box-shadow var(--duration-normal) var(--ease-out),
+    backdrop-filter var(--duration-normal) var(--ease-out);
+}
+
+.navbar.scrolled {
+  background-color: var(--color-surface-blur);
+  backdrop-filter: blur(12px) saturate(1.4);
+  -webkit-backdrop-filter: blur(12px) saturate(1.4);
+  box-shadow: var(--shadow-nav);
+}
+
+/* ── Category pill active state ── */
+.category-pill {
+  position: relative;
+  transition:
+    color var(--duration-fast) var(--ease-out),
+    background-color var(--duration-fast) var(--ease-out);
+}
+
+.category-pill::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  right: 50%;
+  height: 1px;
+  background: var(--color-rose);
+  transition:
+    left var(--duration-normal) var(--ease-out),
+    right var(--duration-normal) var(--ease-out);
+}
+
+.category-pill:hover::after,
+.category-pill.active::after {
+  left: 0;
+  right: 0;
+}
+
+.category-pill.active {
+  color: var(--color-rose);
+}
+
+/* ── Parallax host element (desktop only) ── */
+@media (min-width: 769px) and (prefers-reduced-motion: no-preference) {
+  [data-parallax] {
+    will-change: transform;
+  }
+}
+
+/* ── Mobile: disable all parallax ── */
+@media (max-width: 768px) {
+  [data-parallax] {
+    transform: none !important;
+  }
+}

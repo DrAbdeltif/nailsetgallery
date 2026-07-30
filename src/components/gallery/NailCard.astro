@@ -1,0 +1,167 @@
+---
+// NailCard — Gallery masonry card
+// Renders a nail image with category tag, title, hover overlay
+// All images must have descriptive alt text (AdSense compliance)
+
+import Tag from '../ui/Tag.astro';
+import { Image } from 'astro:assets';
+
+interface Props {
+  title: string;
+  image: string;
+  imageAlt: string;
+  href: string;
+  category: string;
+  tags?: string[];
+}
+
+const { title, image, imageAlt, href, category, tags = [] } = Astro.props;
+
+// Capitalize category for display
+const displayCategory = category.charAt(0).toUpperCase() + category.slice(1);
+---
+
+<article class="nail-card reveal-on-scroll hover-lift">
+  <!-- The <h3> inside provides the accessible name; no aria-label needed on the link -->
+  <a href={href} class="nail-card__link">
+    <div class="img-zoom-container nail-card__image-wrap">
+      <img
+        src={image}
+        alt={imageAlt}
+        loading="lazy"
+        decoding="async"
+        width="400"
+        height="500"
+        class="nail-card__image"
+      />
+      <!-- Hover overlay -->
+      <div class="nail-card__overlay" aria-hidden="true">
+        <span class="nail-card__overlay-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+          </svg>
+        </span>
+      </div>
+    </div>
+
+    <div class="nail-card__body">
+      <div class="nail-card__meta">
+        <Tag label={displayCategory} variant="blush" size="sm" />
+      </div>
+      <h3 class="nail-card__title">{title}</h3>
+      {tags.length > 0 && (
+        <div class="nail-card__tags" aria-label="Tags">
+          {tags.slice(0, 2).map((tag) => (
+            <Tag label={tag} variant="default" size="sm" />
+          ))}
+        </div>
+      )}
+    </div>
+  </a>
+</article>
+
+<style>
+  .nail-card {
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    border: 1px solid var(--color-border-soft);
+    break-inside: avoid;
+    cursor: pointer;
+  }
+
+  .nail-card__link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    min-height: auto;
+  }
+
+  /* Image container */
+  .nail-card__image-wrap {
+    position: relative;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+    overflow: hidden;
+    background-color: var(--color-bg-deep);
+    aspect-ratio: 4/5;
+  }
+
+  .nail-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Hover overlay */
+  .nail-card__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      rgba(139, 26, 74, 0.3) 0%,
+      transparent 60%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity var(--duration-normal) var(--ease-out);
+  }
+
+  .nail-card:hover .nail-card__overlay,
+  .nail-card:focus-within .nail-card__overlay {
+    opacity: 1;
+  }
+
+  .nail-card__overlay-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--color-rose);
+    transform: translateY(8px);
+    transition: transform var(--duration-normal) var(--ease-out);
+  }
+
+  .nail-card:hover .nail-card__overlay-icon,
+  .nail-card:focus-within .nail-card__overlay-icon {
+    transform: translateY(0);
+  }
+
+  /* Card body */
+  .nail-card__body {
+    padding: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .nail-card__meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+  }
+
+  .nail-card__title {
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    font-weight: 500;
+    line-height: var(--leading-snug);
+    color: var(--color-text);
+    /* Limit to 2 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .nail-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    margin-top: 2px;
+  }
+</style>

@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navbar from '../../components/nav/Navbar.astro';
+import MobileNav from '../../components/nav/MobileNav.astro';
+import Footer from '../../components/nav/Footer.astro';
+import Tag from '../../components/ui/Tag.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+
+const tagCounts = allPosts.reduce((acc, post) => {
+  (post.data.tags || []).forEach((t) => {
+    acc[t] = (acc[t] || 0) + 1;
+  });
+  return acc;
+}, {} as Record<string, number>);
+
+const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
+---
+
+<BaseLayout
+  title="All Tags — Nail Set Gallery"
+  description="Explore all nail topic tags including jelly nails, chrome, quiet luxury, 3D art, and seasonal trends."
+>
+  <Navbar />
+
+  <main id="main-content" class="container page-main">
+    <div class="page-header reveal-fade">
+      <p class="label label-rose">✦ All Topics</p>
+      <h1 class="page-title">Explore by Tag</h1>
+      <p class="page-subtitle lead">
+        Find articles by specific styles, techniques, colors, and trends.
+      </p>
+    </div>
+
+    <div class="tags-cloud">
+      {sortedTags.map(([tag, count]) => (
+        <Tag
+          label={`${tag} (${count})`}
+          variant="default"
+          size="md"
+          href={`/tags/${tag}/`}
+        />
+      ))}
+    </div>
+  </main>
+
+  <Footer />
+  <MobileNav />
+</BaseLayout>
+
+<style>
+  .container { max-width: 1320px; margin: 0 auto; padding: 0 var(--space-lg); }
+  .page-main { padding-top: calc(var(--space-3xl) + 80px); padding-bottom: var(--space-3xl); }
+  .page-header { display: flex; flex-direction: column; gap: var(--space-sm); margin-bottom: var(--space-xl); }
+  .page-title { font-family: var(--font-display); font-size: var(--text-5xl); font-weight: 300; font-style: italic; color: var(--color-text); line-height: var(--leading-tight); }
+  .page-subtitle { color: var(--color-text-muted); }
+
+  .tags-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    padding: var(--space-xl) 0;
+  }
+
+  @media (max-width: 767px) {
+    .page-main { padding-top: var(--space-xl); padding-bottom: calc(var(--space-2xl) + 70px); }
+    .container { padding: 0 var(--space-md); }
+  }
+</style>

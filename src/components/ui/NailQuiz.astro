@@ -1,0 +1,426 @@
+---
+// NailQuiz.astro — Interactive 4-step Nail Shape & Style Finder Quiz
+// Touch-friendly options (min 48px), client-side JS logic, zero external dependencies
+
+interface QuizOption {
+  id: string;
+  label: string;
+  sublabel: string;
+  icon?: string;
+}
+
+interface Step {
+  id: number;
+  title: string;
+  question: string;
+  options: QuizOption[];
+}
+
+const steps: Step[] = [
+  {
+    id: 1,
+    title: "Hand & Nail Bed Type",
+    question: "How would you describe your natural hands and nail beds?",
+    options: [
+      { id: "slender", label: "Long & Slender", sublabel: "Narrow nail beds with elongated fingers" },
+      { id: "petite", label: "Petite & Small", sublabel: "Smaller hands with shorter nail beds" },
+      { id: "wide", label: "Wide or Square Beds", sublabel: "Broader nail beds that need balancing length" },
+      { id: "curved", label: "Naturally Curved", sublabel: "Strong natural C-curve and almond shape" }
+    ]
+  },
+  {
+    id: 2,
+    title: "Lifestyle & Daily Activity",
+    question: "What does your typical daily routine look like?",
+    options: [
+      { id: "hands-on", label: "Hands-On & Active", sublabel: "Frequent typing, dishwashing, sports, or physical work" },
+      { id: "office", label: "Corporate / Desk Work", sublabel: "Typing daily, professional office environment" },
+      { id: "balanced", label: "Balanced Daily Routine", sublabel: "Mix of computer work and casual activities" },
+      { id: "glam", label: "Glam & Special Events", sublabel: "Low physical strain, love dramatic manicures" }
+    ]
+  },
+  {
+    id: 3,
+    title: "Maintenance & Care",
+    question: "How much time do you want to spend on nail maintenance?",
+    options: [
+      { id: "low", label: "Low Maintenance (1-2 wks)", sublabel: "Quick dry, chip-disguising, easy home care" },
+      { id: "mid", label: "Medium Maintenance (2-3 wks)", sublabel: "Bi-weekly gel touch-ups or press-on applications" },
+      { id: "high", label: "High Salon Maintenance (3+ wks)", sublabel: "Structure gel overlays or regular salon fills" }
+    ]
+  },
+  {
+    id: 4,
+    title: "Aesthetic Preference",
+    question: "Which aesthetic vibe best describes your personal style?",
+    options: [
+      { id: "quiet-luxury", label: "Quiet Luxury Nudes", sublabel: "Milky pinks, sheer greiges, clean soap finish" },
+      { id: "bold-art", label: "3D Art & Cat-Eye Chrome", sublabel: "Velvet cat-eye, pearls, glazed chrome powder" },
+      { id: "classic-chic", label: "Classic French & Reds", sublabel: "Timeless white tips, vampy cherry cola, red" },
+      { id: "botanical", label: "Pastel & Botanical", sublabel: "Soft sage, spring lilacs, fruit art, floral" }
+    ]
+  }
+];
+---
+
+<div class="nail-quiz" id="nail-quiz-container">
+  <!-- Progress Header -->
+  <div class="nail-quiz__progress-bar-wrap">
+    <div class="nail-quiz__progress-bar" id="quiz-progress-bar" style="width: 25%;"></div>
+  </div>
+  <div class="nail-quiz__step-indicator">
+    Step <span id="quiz-current-step">1</span> of 4
+  </div>
+
+  <!-- Wizard Forms -->
+  {steps.map((step) => (
+    <div class={`nail-quiz__step ${step.id === 1 ? 'nail-quiz__step--active' : ''}`} data-step={step.id}>
+      <span class="label label-rose">{step.title}</span>
+      <h3 class="nail-quiz__question">{step.question}</h3>
+
+      <div class="nail-quiz__options">
+        {step.options.map((opt) => (
+          <button
+            type="button"
+            class="nail-quiz__option-btn"
+            data-step-id={step.id}
+            data-option-id={opt.id}
+          >
+            <div class="nail-quiz__option-text">
+              <strong class="nail-quiz__option-label">{opt.label}</strong>
+              <span class="nail-quiz__option-sub">{opt.sublabel}</span>
+            </div>
+            <span class="nail-quiz__radio-icon" aria-hidden="true"></span>
+          </button>
+        ))}
+      </div>
+    </div>
+  ))}
+
+  <!-- Results Screen (Hidden initially) -->
+  <div class="nail-quiz__results" id="quiz-results-screen" style="display: none;">
+    <div class="nail-quiz__results-header">
+      <span class="label label-rose">✦ Your Match Results ✦</span>
+      <h2 class="nail-quiz__results-title" id="quiz-matched-shape">Almond Shape & Quiet Luxury</h2>
+      <p class="nail-quiz__results-desc" id="quiz-matched-desc">
+        Based on your slender fingers and corporate lifestyle, an elegant Almond shape balances durability with sophistication.
+      </p>
+    </div>
+
+    <div class="nail-quiz__results-cards">
+      <div class="nail-quiz__recommendation-card">
+        <h3>Recommended Color Palette</h3>
+        <p id="quiz-color-recommendation">Milky Coconut, Sheer Greige, & Rose Quartz</p>
+      </div>
+
+      <div class="nail-quiz__recommendation-card">
+        <h3>Suggested Articles for You</h3>
+        <ul class="nail-quiz__rec-links" id="quiz-article-links">
+          <li><a href="/blog/quiet-luxury-nude-gel-guide/">Quiet Luxury Nude Gel Guide →</a></li>
+          <li><a href="/blog/minimalist-office-work-nail-colors/">Minimalist Office Work Colors →</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <button type="button" class="btn-primary" id="quiz-restart-btn">
+      🔄 Retake Shape & Style Finder Quiz
+    </button>
+  </div>
+</div>
+
+<script>
+  // Client-side quiz state and recommendation engine
+  const userAnswers: Record<number, string> = {};
+  let currentStep = 1;
+
+  const totalSteps = 4;
+  const progressBar = document.getElementById('quiz-progress-bar');
+  const currentStepLabel = document.getElementById('quiz-current-step');
+  const resultsScreen = document.getElementById('quiz-results-screen');
+  const optionButtons = document.querySelectorAll('.nail-quiz__option-btn');
+  const restartBtn = document.getElementById('quiz-restart-btn');
+
+  function updateStep(newStep: number) {
+    document.querySelectorAll('.nail-quiz__step').forEach((el) => {
+      const stepNum = parseInt(el.getAttribute('data-step') || '1', 10);
+      if (stepNum === newStep) {
+        el.classList.add('nail-quiz__step--active');
+      } else {
+        el.classList.remove('nail-quiz__step--active');
+      }
+    });
+
+    currentStep = newStep;
+    if (currentStepLabel) currentStepLabel.textContent = String(currentStep);
+    if (progressBar) progressBar.style.width = `${(currentStep / totalSteps) * 100}%`;
+  }
+
+  function calculateResults() {
+    const handType = userAnswers[1] || 'slender';
+    const lifestyle = userAnswers[2] || 'office';
+    const maintenance = userAnswers[3] || 'low';
+    const vibe = userAnswers[4] || 'quiet-luxury';
+
+    let recommendedShape = 'Soft Squoval';
+    let desc = 'Squoval nails provide flat-edge strength while rounded corners prevent snags.';
+    let colors = 'Milky White, Sheer Rose, & Greige';
+    let articles = [
+      { title: 'Minimalist Office Work Colors 2026', href: '/blog/minimalist-office-work-nail-colors/' },
+      { title: 'Cuticle Care & Hydration Routine', href: '/blog/cuticle-care-and-nail-hydration-routine/' }
+    ];
+
+    if (handType === 'slender' || vibe === 'bold-art') {
+      recommendedShape = 'Medium Almond';
+      desc = 'Almond nails elongate the fingers and complement 3D cat-eye and glazed finishes beautifully.';
+      colors = 'Champagne Chrome, Velvet Cat-Eye, & Rose Gold';
+      articles = [
+        { title: 'Magnetic Cat-Eye Gel Nails Guide 2026', href: '/blog/magnetic-cat-eye-gel-nails-guide/' },
+        { title: 'Glazed Chrome Powder Tutorial', href: '/blog/glazed-chrome-powder-nail-tutorial/' }
+      ];
+    } else if (handType === 'wide' || maintenance === 'high') {
+      recommendedShape = 'Coffin / Ballerina';
+      desc = 'Coffin nails provide dramatic edge taper to balance broader nail beds.';
+      colors = 'Deep Cherry Cola, Espresso, & French Tip Ombre';
+      articles = [
+        { title: 'Moody Dark Nail Color Palettes 2026', href: '/blog/moody-dark-nail-color-palettes/' },
+        { title: '3D Pearl & Charm Application', href: '/blog/3d-pearl-and-charm-nail-art-tutorial/' }
+      ];
+    } else if (lifestyle === 'hands-on' || maintenance === 'low') {
+      recommendedShape = 'Short Natural Round';
+      desc = 'Round nails flush with the fingertip offer maximum durability and zero chipping.';
+      colors = 'Sheer Jelly Pink, Clear Gloss, & Natural Nudes';
+      articles = [
+        { title: 'Soap & Jelly Nails Trend Guide 2026', href: '/blog/soap-and-jelly-nails-trend-guide/' },
+        { title: 'Post-Acrylic Damaged Nail Recovery Plan', href: '/blog/post-acrylic-nail-rehab-recovery-guide/' }
+      ];
+    }
+
+    const titleEl = document.getElementById('quiz-matched-shape');
+    const descEl = document.getElementById('quiz-matched-desc');
+    const colorEl = document.getElementById('quiz-color-recommendation');
+    const linksEl = document.getElementById('quiz-article-links');
+
+    if (titleEl) titleEl.textContent = `${recommendedShape} Shape`;
+    if (descEl) descEl.textContent = desc;
+    if (colorEl) colorEl.textContent = colors;
+    if (linksEl) {
+      linksEl.innerHTML = articles.map(a => `<li><a href="${a.href}">${a.title} →</a></li>`).join('');
+    }
+
+    // Hide steps, show results
+    document.querySelectorAll('.nail-quiz__step').forEach((el) => {
+      (el as HTMLElement).style.display = 'none';
+    });
+    if (resultsScreen) resultsScreen.style.display = 'block';
+  }
+
+  optionButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const stepId = parseInt(btn.getAttribute('data-step-id') || '1', 10);
+      const optionId = btn.getAttribute('data-option-id') || '';
+
+      userAnswers[stepId] = optionId;
+
+      if (stepId < totalSteps) {
+        updateStep(stepId + 1);
+      } else {
+        calculateResults();
+      }
+    });
+  });
+
+  if (restartBtn) {
+    restartBtn.addEventListener('click', () => {
+      if (resultsScreen) resultsScreen.style.display = 'none';
+      document.querySelectorAll('.nail-quiz__step').forEach((el) => {
+        (el as HTMLElement).style.display = '';
+      });
+      updateStep(1);
+    });
+  }
+</script>
+
+<style>
+  .nail-quiz {
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    padding: var(--space-2xl);
+    box-shadow: var(--shadow-card);
+    max-width: 720px;
+    margin: var(--space-2xl) auto;
+  }
+
+  .nail-quiz__progress-bar-wrap {
+    height: 6px;
+    background-color: var(--color-bg-deep);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+    margin-bottom: var(--space-xs);
+  }
+
+  .nail-quiz__progress-bar {
+    height: 100%;
+    background-color: var(--color-rose);
+    transition: width var(--duration-normal) var(--ease-out);
+  }
+
+  .nail-quiz__step-indicator {
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+    letter-spacing: var(--tracking-wider);
+    text-transform: uppercase;
+    margin-bottom: var(--space-lg);
+  }
+
+  .nail-quiz__step {
+    display: none;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .nail-quiz__step--active {
+    display: flex;
+  }
+
+  .nail-quiz__question {
+    font-family: var(--font-display);
+    font-size: var(--text-2xl);
+    font-weight: 400;
+    line-height: var(--leading-snug);
+  }
+
+  .nail-quiz__options {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    margin-top: var(--space-sm);
+  }
+
+  .nail-quiz__option-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-md) var(--space-lg);
+    min-height: 56px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border-soft);
+    background-color: var(--color-bg);
+    text-align: left;
+    transition:
+      border-color var(--duration-fast) var(--ease-out),
+      background-color var(--duration-fast) var(--ease-out),
+      transform var(--duration-fast) var(--ease-out);
+  }
+
+  .nail-quiz__option-btn:hover,
+  .nail-quiz__option-btn:focus-visible {
+    border-color: var(--color-rose);
+    background-color: var(--color-blush-light);
+    transform: translateY(-2px);
+  }
+
+  .nail-quiz__option-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .nail-quiz__option-label {
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    font-weight: 500;
+    color: var(--color-text);
+  }
+
+  .nail-quiz__option-sub {
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+  }
+
+  .nail-quiz__radio-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: var(--radius-full);
+    border: 2px solid var(--color-border-soft);
+    flex-shrink: 0;
+  }
+
+  .nail-quiz__option-btn:hover .nail-quiz__radio-icon {
+    border-color: var(--color-rose);
+    background-color: var(--color-rose);
+  }
+
+  /* Results Screen */
+  .nail-quiz__results {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+  }
+
+  .nail-quiz__results-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+
+  .nail-quiz__results-title {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    color: var(--color-rose);
+  }
+
+  .nail-quiz__results-desc {
+    color: var(--color-text-muted);
+    max-width: 50ch;
+    margin: 0 auto;
+  }
+
+  .nail-quiz__results-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    text-align: left;
+  }
+
+  .nail-quiz__recommendation-card {
+    background-color: var(--color-bg);
+    padding: var(--space-lg);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border-soft);
+  }
+
+  .nail-quiz__recommendation-card h3 {
+    font-size: var(--text-sm);
+    color: var(--color-text-subtle);
+    letter-spacing: var(--tracking-wider);
+    text-transform: uppercase;
+    margin-bottom: var(--space-xs);
+  }
+
+  .nail-quiz__rec-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    margin-top: var(--space-xs);
+  }
+
+  .nail-quiz__rec-links a {
+    color: var(--color-rose);
+    font-weight: 500;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 640px) {
+    .nail-quiz {
+      padding: var(--space-lg);
+    }
+
+    .nail-quiz__results-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

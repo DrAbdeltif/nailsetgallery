@@ -1,0 +1,228 @@
+/* ============================================================
+   NailSetGallery — Global Design System
+   Aesthetic: Soft Luxury Editorial ("Velvet Bloom")
+   ============================================================ */
+
+/* ── Google Fonts ── */
+/* ── CSS Custom Properties (Design Tokens) ── */
+:root {
+  /* Background */
+  --color-bg:           #FAF8F5;
+  --color-bg-deep:      #F0EBE3;
+  --color-bg-card:      #FFFFFF;
+
+  /* Text */
+  --color-text:         #1C1C1C;
+  --color-text-muted:   #6B6060;
+  --color-text-subtle:  #9C8F8F;
+
+  /* Brand */
+  --color-rose:         #8B1A4A;
+  --color-rose-light:   #B8416E;
+  --color-rose-dark:    #6A1238;
+  --color-blush:        #E8C4C4;
+  --color-blush-light:  #F5E4E4;
+  --color-gold:         #C9A96E;
+
+  /* Surfaces */
+  --color-surface:      rgba(255, 255, 255, 0.85);
+  --color-surface-blur: rgba(250, 248, 245, 0.95);
+  --color-border:       rgba(139, 26, 74, 0.10);
+  --color-border-soft:  rgba(28, 28, 28, 0.08);
+
+  /* Focus / A11y */
+  --color-focus:        #8B1A4A;
+
+  /* Shadows */
+  --shadow-sm:    0 1px 4px rgba(28, 28, 28, 0.04);
+  --shadow-card:  0 2px 20px rgba(28, 28, 28, 0.06);
+  --shadow-hover: 0 8px 40px rgba(139, 26, 74, 0.12);
+  --shadow-nav:   0 1px 32px rgba(28, 28, 28, 0.08);
+
+  /* Spacing (8px base) */
+  --space-xs:  4px;
+  --space-sm:  8px;
+  --space-md:  16px;
+  --space-lg:  24px;
+  --space-xl:  40px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+
+  /* Border radius */
+  --radius-sm:  6px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --ease-out:   cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:    cubic-bezier(0.7, 0, 0.84, 0);
+  --duration-fast:   150ms;
+  --duration-normal: 300ms;
+  --duration-slow:   500ms;
+
+  /* Z-index scale */
+  --z-base:     10;
+  --z-dropdown: 20;
+  --z-sticky:   30;
+  --z-overlay:  40;
+  --z-nav:      50;
+  --z-toast:    60;
+}
+
+/* ── Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 1rem;          /* 16px min — prevents iOS zoom */
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ── Grain texture overlay ── */
+/* z-index: 5 — below all nav/modal/interactive layers (was var(--z-overlay)=40, which sat above the search modal backdrop) */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 5;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+}
+
+/* ── Accessibility: Skip Link ── */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-md);
+  z-index: 9999;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-rose);
+  color: #FFFFFF;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: top var(--duration-fast) var(--ease-out);
+}
+
+.skip-link:focus {
+  top: var(--space-md);
+}
+
+/* ── Visually hidden (screen-reader only) ── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ── Focus Ring (All interactive elements) ── */
+:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+/* ── Links ── */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-rose);
+}
+
+/* ── Images ── */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* ── Touch targets — minimum 44px (WCAG 2.5.5) ──
+   Scoped to interactive controls only (not decorative spans/divs).
+   Individual components can increase this as needed. */
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+  min-height: 44px;
+  cursor: pointer;
+}
+
+/* Anchors used as CTAs/buttons (flex/inline-flex) inherit min-height from component */
+.btn-primary,
+.btn-ghost,
+.btn-outline {
+  min-height: 48px;
+}
+
+/* Button reset */
+button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* ── Scrollbar styling ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-deep);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-blush);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-rose-light);
+}
+
+/* ── Selection ── */
+::selection {
+  background: var(--color-blush);
+  color: var(--color-rose-dark);
+}
+
+/* ── Reduced Motion (Accessibility — CRITICAL) ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,87 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/nav/Navbar.astro';
+import MobileNav from '../components/nav/MobileNav.astro';
+import Footer from '../components/nav/Footer.astro';
+
+---
+
+<BaseLayout
+  title="Privacy Policy"
+  description="Privacy Policy for NailSet Gallery — Details on how we handle data, cookies, and Google AdSense compliance."
+>
+  <Navbar />
+
+  <main id="main-content" class="container page-main">
+    <div class="page-header reveal-fade">
+      <p class="label label-rose">✦ Legal & Privacy</p>
+      <h1 class="page-title">Privacy Policy</h1>
+      <p class="page-subtitle lead">
+        Last updated: July 28, 2026
+      </p>
+    </div>
+
+    <article class="prose reveal-fade">
+      <h2>1. Introduction</h2>
+      <p>
+        Welcome to <strong>NailSet Gallery</strong> ("we," "our," or "us"). We respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclosure, and safeguard your information when you visit <code>nailsetgallery.com</code>.
+      </p>
+
+      <h2>2. Information We Collect</h2>
+      <p>
+        We may collect limited non-personally identifiable information about your interaction with our site, including:
+      </p>
+      <ul>
+        <li>Log and usage data (IP address, browser type, operating system, pages viewed)</li>
+        <li>Device information and screen resolution</li>
+        <li>Cookies and tracking technologies (as detailed below)</li>
+      </ul>
+
+      <h2>3. Google AdSense & Third-Party Advertising</h2>
+      <p>
+        NailSet Gallery works with third-party advertising vendors, including Google AdSense, to serve ads when you visit our website. Google uses cookies to serve ads based on your prior visits to our website or other websites on the Internet:
+      </p>
+      <ul>
+        <li>Google's use of advertising cookies enables it and its partners to serve ads to you based on your visit to our sites and/or other sites on the Internet.</li>
+        <li>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Google Ad Settings</a>.</li>
+        <li>Alternatively, you can opt out of a third-party vendor's use of cookies for personalized advertising by visiting <a href="https://www.aboutads.info" target="_blank" rel="noopener noreferrer">aboutads.info</a>.</li>
+      </ul>
+
+      <h2>4. Cookies & Web Beacons</h2>
+      <p>
+        Cookies are small text files placed on your device to collect standard Internet log information and visitor behavior information. You can set your browser not to accept cookies; however, some site features may not function as a result.
+      </p>
+
+      <h2>5. Data Security</h2>
+      <p>
+        We implement appropriate technical and organizational security measures to protect your information against unauthorized access, alteration, disclosure, or destruction.
+      </p>
+
+      <h2>6. Children's Privacy</h2>
+      <p>
+        Our website is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.
+      </p>
+
+      <h2>7. Contact Us</h2>
+      <p>
+        If you have questions or concerns about this Privacy Policy, please contact us at: <a href="mailto:privacy@nailsetgallery.com">privacy@nailsetgallery.com</a>.
+      </p>
+    </article>
+  </main>
+
+  <Footer />
+  <MobileNav />
+</BaseLayout>
+
+<style>
+  .container { max-width: 760px; margin: 0 auto; padding: 0 var(--space-lg); }
+  .page-main { padding-top: calc(var(--space-3xl) + 80px); padding-bottom: var(--space-3xl); }
+  .page-header { display: flex; flex-direction: column; gap: var(--space-sm); margin-bottom: var(--space-2xl); }
+  .page-title { font-family: var(--font-display); font-size: var(--text-5xl); font-weight: 300; font-style: italic; color: var(--color-text); line-height: var(--leading-tight); }
+  .page-subtitle { color: var(--color-text-muted); }
+
+  @media (max-width: 767px) {
+    .page-main { padding-top: var(--space-xl); padding-bottom: calc(var(--space-2xl) + 70px); }
+    .container { padding: 0 var(--space-md); }
+  }
+</style>

@@ -1,0 +1,125 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navbar from '../../components/nav/Navbar.astro';
+import MobileNav from '../../components/nav/MobileNav.astro';
+import Footer from '../../components/nav/Footer.astro';
+import CategoryPills from '../../components/nav/CategoryPills.astro';
+import GalleryGrid from '../../components/gallery/GalleryGrid.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft && data.category === 'colors');
+const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const galleryItems = posts.map((post) => ({
+  title: post.data.title,
+  image: post.data.heroImage ?? '/images/og-default.jpg',
+  imageAlt: post.data.heroImageAlt ?? post.data.title,
+  href: `/blog/${post.id}/`,
+  category: post.data.category,
+  tags: post.data.tags,
+}));
+
+// Popular color palettes
+const colorPalettes = [
+  { name: 'Dusty Rose & Nude', hex: '#E8C4C4', desc: 'Soft romantic undertones for everyday luxury' },
+  { name: 'Deep Cherry Burgundy', hex: '#8B1A4A', desc: 'Bold vintage glamour that pairs with everything' },
+  { name: 'Champagne Gold Shimmer', hex: '#C9A96E', desc: 'Subtle metallic brilliance for special occasions' },
+  { name: 'Ocean Aquamarine', hex: '#7BAEBA', desc: 'Cool refreshing summer and spring palette' },
+];
+---
+
+<BaseLayout
+  title="Nail Set Colors & Palettes 2026"
+  description="Explore the best nail set color palettes for 2026. From muted dusty rose and nude gel to deep burgundy and metallic champagne gold."
+>
+  <Navbar />
+
+  <main id="main-content" class="container page-main">
+    <div class="page-header reveal-fade">
+      <p class="label label-rose">✦ Color Guide 2026</p>
+      <h1 class="page-title">Nail Colors & Palettes</h1>
+      <p class="page-subtitle lead">
+        Curated color combinations, shade pairings, and seasonal palettes for your next manicure.
+      </p>
+    </div>
+
+    <CategoryPills activeCategory="colors" />
+
+    <!-- Color Swatches Grid -->
+    <section class="color-swatches-section reveal-fade" aria-label="Trending color palettes">
+      <div class="swatches-grid">
+        {colorPalettes.map((palette) => (
+          <div class="swatch-card hover-lift">
+            <div class="swatch-color" style={`background-color: ${palette.hex};`}></div>
+            <div class="swatch-info">
+              <h3 class="swatch-name">{palette.name}</h3>
+              <p class="swatch-desc">{palette.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section aria-label="Color articles">
+      <h2 class="section-title text-display mb-lg">Color Inspiration Articles</h2>
+      {galleryItems.length > 0 ? (
+        <GalleryGrid items={galleryItems} columns={4} />
+      ) : (
+        <div class="empty-state">
+          <p>More color guides coming soon. Explore all our latest articles!</p>
+          <a href="/blog/" class="btn-outline">Browse All Articles</a>
+        </div>
+      )}
+    </section>
+  </main>
+
+  <Footer />
+  <MobileNav />
+</BaseLayout>
+
+<style>
+  .container { max-width: 1320px; margin: 0 auto; padding: 0 var(--space-lg); }
+  .page-main { padding-top: calc(var(--space-3xl) + 80px); padding-bottom: var(--space-3xl); }
+  .page-header { display: flex; flex-direction: column; gap: var(--space-sm); margin-bottom: var(--space-xl); }
+  .page-title {
+    font-family: var(--font-display);
+    font-size: var(--text-5xl);
+    font-weight: 300;
+    font-style: italic;
+    color: var(--color-text);
+    line-height: var(--leading-tight);
+  }
+  .page-subtitle { color: var(--color-text-muted); }
+  .mb-lg { margin-bottom: var(--space-lg); }
+  .section-divider { height: 1px; background-color: var(--color-border-soft); margin: var(--space-2xl) 0; }
+
+  /* Swatches */
+  .color-swatches-section { margin: var(--space-xl) 0; }
+  .swatches-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-md); }
+  .swatch-card {
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border-soft);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .swatch-color { height: 120px; width: 100%; }
+  .swatch-info { padding: var(--space-md); display: flex; flex-direction: column; gap: 4px; }
+  .swatch-name { font-family: var(--font-display); font-size: var(--text-lg); font-style: italic; color: var(--color-text); }
+  .swatch-desc { font-size: var(--text-xs); color: var(--color-text-muted); line-height: 1.4; }
+
+  .empty-state { text-align: center; padding: var(--space-2xl) 0; color: var(--color-text-muted); display: flex; flex-direction: column; align-items: center; gap: var(--space-md); }
+  .btn-outline {
+    display: inline-flex; align-items: center; padding: 12px var(--space-lg); border: 1.5px solid var(--color-rose); color: var(--color-rose); border-radius: var(--radius-full); font-size: var(--text-xs); font-weight: 500; text-transform: uppercase; text-decoration: none; min-height: 48px;
+  }
+
+  @media (max-width: 1024px) { .swatches-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 767px) {
+    .page-main { padding-top: calc(54px + var(--space-lg)); padding-bottom: calc(var(--space-2xl) + 70px); }
+    .container { padding: 0 var(--space-md); }
+    .swatches-grid { grid-template-columns: 1fr; }
+  }
+</style>

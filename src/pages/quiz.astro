@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/nav/Navbar.astro';
+import MobileNav from '../components/nav/MobileNav.astro';
+import Footer from '../components/nav/Footer.astro';
+import CategoryPills from '../components/nav/CategoryPills.astro';
+import NailQuiz from '../components/ui/NailQuiz.astro';
+import ColorMatcher from '../components/ui/ColorMatcher.astro';
+---
+
+<BaseLayout
+  title="Nail Shape & Style Finder Quiz 2026"
+  description="Take our 60-second interactive nail shape and color finder quiz to discover your ideal manicure match for your hands, lifestyle, and aesthetic."
+>
+  <Navbar />
+
+  <main id="main-content" class="quiz-page">
+    <div class="quiz-page__hero">
+      <div class="quiz-page__hero-content">
+        <span class="label label-rose">✦ Interactive Utility ✦</span>
+        <h1 class="quiz-page__title text-display">Find Your Ideal Nail Shape & Color Match</h1>
+        <p class="lead quiz-page__lead">
+          Answer 4 quick questions about your hand shape, daily lifestyle, and aesthetic preference to get instant personalized manicure recommendations.
+        </p>
+      </div>
+    </div>
+
+    <CategoryPills activeCategory="" />
+
+    <!-- Quiz Component -->
+    <section class="container" aria-label="Nail Shape Finder Quiz">
+      <NailQuiz />
+    </section>
+
+    <!-- Color Matcher Generator Component -->
+    <section class="container" aria-label="Mani-Pedi Color Matcher">
+      <ColorMatcher />
+    </section>
+  </main>
+
+  <Footer />
+  <MobileNav />
+</BaseLayout>
+
+<style>
+  .quiz-page {
+    padding-top: calc(var(--space-3xl) + 40px);
+    padding-bottom: var(--space-3xl);
+  }
+
+  .quiz-page__hero {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto var(--space-2xl);
+    padding: 0 var(--space-lg);
+  }
+
+  .quiz-page__hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+
+  .quiz-page__title {
+    font-size: var(--text-5xl);
+  }
+
+  .quiz-page__lead {
+    max-width: 56ch;
+  }
+
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+  }
+
+  @media (max-width: 767px) {
+    .quiz-page {
+      padding-top: calc(54px + var(--space-lg));
+      padding-bottom: calc(var(--space-3xl) + 60px);
+    }
+  }
+</style>

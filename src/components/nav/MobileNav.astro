@@ -1,0 +1,201 @@
+---
+// Mobile bottom tab bar — visible only on screens < 768px
+// High-level navigation: Home, Gallery, Trends, Tutorials, About
+
+const currentPath = Astro.url.pathname;
+
+const tabs = [
+  {
+    href: '/',
+    label: 'Home',
+    icon: `<path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z"/><polyline points="9,21 9,12 15,12 15,21"/>`,
+    exact: true,
+  },
+  {
+    href: '/blog/',
+    label: 'Gallery',
+    icon: `<path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>`,
+    exact: false,
+  },
+  {
+    href: '/trends/',
+    label: 'Trends',
+    icon: `<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/>`,
+    exact: false,
+  },
+  {
+    href: '/tutorials/',
+    label: 'Tutorials',
+    icon: `<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>`,
+    exact: false,
+  },
+  {
+    href: '/quiz/',
+    label: 'Quiz',
+    icon: `<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>`,
+    exact: false,
+  },
+  {
+    href: '/about/',
+    label: 'About',
+    icon: `<circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/>`,
+    exact: false,
+  },
+];
+
+function isActive(tab: { href: string; exact: boolean }) {
+  if (tab.exact) return currentPath === '/' || currentPath === '';
+  return currentPath.startsWith(tab.href);
+}
+---
+
+<nav
+  class="mobile-nav"
+  aria-label="Mobile Navigation"
+  role="navigation"
+>
+  {tabs.map((tab) => {
+    const active = isActive(tab);
+    return (
+      <a
+        href={tab.href}
+        class={`mobile-nav__tab ${active ? 'mobile-nav__tab--active' : ''}`}
+        aria-label={tab.label}
+        aria-current={active ? 'page' : undefined}
+      >
+        <span class="mobile-nav__icon-wrapper">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width={active ? '2' : '1.5'}
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            set:html={tab.icon}
+          />
+        </span>
+        <span class="mobile-nav__label">{tab.label}</span>
+      </a>
+    );
+  })}
+</nav>
+
+<script>
+  // Mobile nav auto-hide on scroll down, reveal on scroll up
+  const mobileNav = document.querySelector('.mobile-nav');
+  let lastScrollY = typeof window !== 'undefined' ? window.scrollY : 0;
+  const delta = 8;
+
+  function updateMobileNav() {
+    if (!mobileNav) return;
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY <= 60) {
+      mobileNav.classList.remove('mobile-nav--hidden');
+    } else if (currentScrollY > lastScrollY + delta) {
+      // Scrolling down -> hide bottom tab bar
+      mobileNav.classList.add('mobile-nav--hidden');
+    } else if (currentScrollY < lastScrollY - delta) {
+      // Scrolling up -> reveal bottom tab bar
+      mobileNav.classList.remove('mobile-nav--hidden');
+    }
+
+    lastScrollY = Math.max(0, currentScrollY);
+  }
+
+  updateMobileNav();
+
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        updateMobileNav();
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+</script>
+
+<style>
+  .mobile-nav {
+    display: none; /* hidden on desktop */
+  }
+
+  @media (max-width: 767px) {
+    .mobile-nav {
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: var(--z-nav);
+      background-color: var(--color-surface-blur);
+      backdrop-filter: blur(16px) saturate(1.6);
+      -webkit-backdrop-filter: blur(16px) saturate(1.6);
+      border-top: 1px solid var(--color-border-soft);
+      padding-bottom: env(safe-area-inset-bottom, 0px); /* iOS home indicator safe area */
+      box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.04);
+      transition: transform var(--duration-normal) var(--ease-out);
+    }
+
+    .mobile-nav.mobile-nav--hidden {
+      transform: translateY(100%);
+    }
+
+    .mobile-nav__tab {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+      padding: 8px var(--space-xs);
+      min-height: 56px;
+      min-width: 0;
+      color: var(--color-text-subtle);
+      text-decoration: none;
+      transition: color var(--duration-fast) var(--ease-out);
+      -webkit-tap-highlight-color: transparent;
+      position: relative;
+    }
+
+    .mobile-nav__tab--active {
+      color: var(--color-rose);
+    }
+
+    .mobile-nav__tab--active::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 30%;
+      right: 30%;
+      height: 2px;
+      background-color: var(--color-rose);
+      border-radius: var(--radius-full);
+    }
+
+    .mobile-nav__tab:active {
+      opacity: 0.75;
+    }
+
+    .mobile-nav__icon-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+    }
+
+    .mobile-nav__label {
+      font-family: var(--font-body);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      line-height: 1;
+      white-space: nowrap;
+    }
+  }
+</style>

@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/nav/Navbar.astro';
+import MobileNav from '../components/nav/MobileNav.astro';
+import Footer from '../components/nav/Footer.astro';
+
+---
+
+<BaseLayout
+  title="Contact Us"
+  description="Get in touch with the NailSet Gallery editorial team. Submissions, feedback, and press inquiries."
+>
+  <Navbar />
+
+  <main id="main-content" class="container page-main">
+    <div class="page-header reveal-fade">
+      <p class="label label-rose">✦ Get In Touch</p>
+      <h1 class="page-title">Contact Us</h1>
+      <p class="page-subtitle lead">
+        We'd love to hear from you. Reach out for editorial inquiries, artist features, or general feedback.
+      </p>
+    </div>
+
+    <div class="contact-grid reveal-fade">
+      <div class="contact-info">
+        <h3>Editorial Team</h3>
+        <p>Email us directly for story tips, nail art submissions, or press inquiries:</p>
+        <a href="mailto:contact@nailsetgallery.com" class="contact-link">contact@nailsetgallery.com</a>
+
+        <div class="info-block">
+          <h4>Pinterest & Visual Inspiration</h4>
+          <p>Follow our curated boards on Pinterest: <a href="https://www.pinterest.com/ayastickers21/" target="_blank" rel="noopener noreferrer" class="contact-sublink">pinterest.com/ayastickers21</a></p>
+        </div>
+
+        <div class="info-block">
+          <h4>Submissions</h4>
+          <p>Are you a professional nail artist? Tag @nailsetgallery or email high-resolution images of your work to be featured in our seasonal guides.</p>
+        </div>
+
+        <div class="info-block">
+          <h4>Response Time</h4>
+          <p>Our editorial team typically responds to all inquiries within 24–48 business hours.</p>
+        </div>
+      </div>
+
+      <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Thank you for reaching out! We will be in touch soon.');">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required placeholder="Jane Doe" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="jane@example.com" />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject" required>
+            <option value="general">General Inquiry</option>
+            <option value="submission">Nail Art Submission</option>
+            <option value="press">Press & Media</option>
+            <option value="feedback">Website Feedback</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <Footer />
+  <MobileNav />
+</BaseLayout>
+
+<style>
+  .container { max-width: 960px; margin: 0 auto; padding: 0 var(--space-lg); }
+  .page-main { padding-top: calc(var(--space-3xl) + 80px); padding-bottom: var(--space-3xl); }
+  .page-header { display: flex; flex-direction: column; gap: var(--space-sm); margin-bottom: var(--space-2xl); }
+  .page-title { font-family: var(--font-display); font-size: var(--text-5xl); font-weight: 300; font-style: italic; color: var(--color-text); line-height: var(--leading-tight); }
+  .page-subtitle { color: var(--color-text-muted); }
+
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2xl); }
+  .contact-info { display: flex; flex-direction: column; gap: var(--space-lg); }
+  .contact-info h3 { font-family: var(--font-display); font-size: var(--text-2xl); font-style: italic; }
+  .contact-link { font-size: var(--text-lg); color: var(--color-rose); text-decoration: underline; }
+  .contact-sublink { color: var(--color-rose); text-decoration: underline; word-break: break-all; }
+
+  .info-block { display: flex; flex-direction: column; gap: 4px; border-left: 2px solid var(--color-rose); padding-left: var(--space-md); }
+  .info-block h4 { font-size: var(--text-sm); text-transform: uppercase; letter-spacing: var(--tracking-wider); }
+  .info-block p { font-size: var(--text-sm); color: var(--color-text-muted); }
+
+  .contact-form { display: flex; flex-direction: column; gap: var(--space-md); background: var(--color-bg-card); padding: var(--space-xl); border-radius: var(--radius-lg); border: 1px solid var(--color-border-soft); }
+  .form-group { display: flex; flex-direction: column; gap: 6px; }
+  .form-group label { font-size: var(--text-xs); font-weight: 500; text-transform: uppercase; letter-spacing: var(--tracking-wider); color: var(--color-text-muted); }
+  .form-group input, .form-group select, .form-group textarea {
+    padding: 10px var(--space-md); border: 1px solid var(--color-border-soft); border-radius: var(--radius-sm); font-family: var(--font-body); font-size: var(--text-base); background: var(--color-bg); color: var(--color-text);
+  }
+  .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: 2px solid var(--color-rose); border-color: transparent; }
+
+  .btn-primary {
+    display: inline-flex; align-items: center; justify-content: center; padding: 14px var(--space-xl); background-color: var(--color-rose); color: #ffffff; border-radius: var(--radius-full); font-family: var(--font-body); font-size: var(--text-sm); font-weight: 500; letter-spacing: var(--tracking-wider); text-transform: uppercase; border: none; cursor: pointer; min-height: 48px; margin-top: var(--space-sm);
+  }
+
+  @media (max-width: 767px) {
+    .contact-grid { grid-template-columns: 1fr; gap: var(--space-xl); }
+    .page-main { padding-top: var(--space-xl); padding-bottom: calc(var(--space-2xl) + 70px); }
+    .container { padding: 0 var(--space-md); }
+  }
+</style>

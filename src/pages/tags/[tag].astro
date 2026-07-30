@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navbar from '../../components/nav/Navbar.astro';
+import MobileNav from '../../components/nav/MobileNav.astro';
+import Footer from '../../components/nav/Footer.astro';
+import CategoryPills from '../../components/nav/CategoryPills.astro';
+import GalleryGrid from '../../components/gallery/GalleryGrid.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+
+  const tags = Array.from(
+    new Set(posts.flatMap((post) => post.data.tags || []))
+  );
+
+  return tags.map((tag) => {
+    const filteredPosts = posts
+      .filter((post) => post.data.tags?.includes(tag))
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+    return {
+      params: { tag },
+      props: {
+        tag,
+        posts: filteredPosts,
+      },
+    };
+  });
+}
+
+const { tag, posts } = Astro.props;
+
+const galleryItems = posts.map((post) => ({
+  title: post.data.title,
+  image: post.data.heroImage ?? '/images/og-default.jpg',
+  imageAlt: post.data.heroImageAlt ?? post.data.title,
+  href: `/blog/${post.id}/`,
+  category: post.data.category,
+  tags: post.data.tags,
+}));
+
+const displayTag = tag
+  .split('-')
+  .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
+  .join(' ');
+---
+
+<BaseLayout
+  title={`${displayTag} Nails — Ideas & Trends`}
+  description={`Discover nail art ideas, trend reports, and guides tagged with #${tag}.`}
+>
+  <Navbar />
+
+  <main id="main-content" class="container page-main">
+    <div class="page-header reveal-fade">
+      <p class="label label-rose">✦ Tag Filter</p>
+      <h1 class="page-title">#{displayTag}</h1>
+      <p class="page-subtitle lead">
+        {posts.length} {posts.length === 1 ? 'article' : 'articles'} tagged with #{tag}
+      </p>
+    </div>
+
+    <CategoryPills />
+
+    <section aria-label="Tagged articles">
+      <h2 class="section-title text-display mb-lg">Articles</h2>
+      {galleryItems.length > 0 ? (
+        <GalleryGrid items={galleryItems} columns={4} />
+      ) : (
+        <div class="empty-state">
+          <p>No articles found with tag #{tag}.</p>
+          <a href="/blog/" class="btn-outline">Browse All Articles</a>
+        </div>
+      )}
+    </section>
+  </main>
+
+  <Footer />
+  <MobileNav />
+</BaseLayout>
+
+<style>
+  .container { max-width: 1320px; margin: 0 auto; padding: 0 var(--space-lg); }
+  .page-main { padding-top: calc(var(--space-3xl) + 80px); padding-bottom: var(--space-3xl); }
+  .page-header { display: flex; flex-direction: column; gap: var(--space-sm); margin-bottom: var(--space-xl); }
+  .page-title { font-family: var(--font-display); font-size: var(--text-5xl); font-weight: 300; font-style: italic; color: var(--color-text); line-height: var(--leading-tight); }
+  .page-subtitle { color: var(--color-text-muted); }
+  .mb-lg { margin-bottom: var(--space-lg); }
+
+  .empty-state { text-align: center; padding: var(--space-2xl) 0; color: var(--color-text-muted); display: flex; flex-direction: column; align-items: center; gap: var(--space-md); }
+  .btn-outline { display: inline-flex; align-items: center; padding: 12px var(--space-lg); border: 1.5px solid var(--color-rose); color: var(--color-rose); border-radius: var(--radius-full); font-size: var(--text-xs); font-weight: 500; text-transform: uppercase; text-decoration: none; min-height: 48px; }
+
+  @media (max-width: 767px) { .page-main { padding-top: var(--space-xl); padding-bottom: calc(var(--space-2xl) + 70px); } .container { padding: 0 var(--space-md); } }
+</style>

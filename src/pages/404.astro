@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/nav/Navbar.astro';
+import MobileNav from '../components/nav/MobileNav.astro';
+---
+
+<BaseLayout
+  title="Page Not Found"
+  description="The page you are looking for could not be found. Browse the NailSet Gallery for nail colors, styles, trends, and tutorials."
+  noIndex={true}
+>
+  <Navbar />
+
+  <main id="main-content" class="not-found">
+    <p class="label label-rose">404</p>
+    <h1>Page not found</h1>
+    <p class="lead">
+      This page is no longer available, but the gallery still has plenty of nail inspiration to explore.
+    </p>
+    <div class="not-found__actions">
+      <a href="/blog/" class="btn-primary">Browse Gallery</a>
+      <a href="/" class="btn-secondary">Back Home</a>
+    </div>
+  </main>
+
+  <MobileNav />
+</BaseLayout>
+
+<style>
+  .not-found {
+    min-height: 100svh;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: calc(var(--space-3xl) + 96px) var(--space-lg) calc(var(--space-2xl) + 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--space-lg);
+  }
+
+  .not-found h1 {
+    font-family: var(--font-display);
+    font-size: var(--text-5xl);
+    font-style: italic;
+    font-weight: 300;
+    line-height: var(--leading-tight);
+  }
+
+  .not-found__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 12px var(--space-xl);
+    border-radius: var(--radius-full);
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    letter-spacing: var(--tracking-wider);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .btn-primary {
+    background-color: var(--color-rose);
+    color: #ffffff;
+  }
+
+  .btn-secondary {
+    border: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+  }
+
+  @media (max-width: 767px) {
+    .not-found {
+      padding-top: var(--space-2xl);
+      padding-inline: var(--space-md);
+    }
+  }
+</style>

@@ -1,0 +1,381 @@
+---
+// HeroSection — Full editorial asymmetric hero
+// Left: large italic display headline
+// Right: overlapping photo collage (PhotoCollage.astro)
+// Parallax effect on background (GSAP, desktop only)
+
+interface Props {
+  headline?: string;
+  subheadline?: string;
+  ctaLabel?: string;
+  ctaHref?: string;
+}
+
+const {
+  headline = 'The Art of the Perfect Nail Set',
+  subheadline = 'Curated nail colors, styles, and trends — all in one beautiful gallery.',
+  ctaLabel = 'Explore the Gallery',
+  ctaHref = '/blog/',
+} = Astro.props;
+---
+
+<section class="hero" aria-label="Welcome to NailSet Gallery">
+  <!-- Subtle background gradient blob -->
+  <div class="hero__blob hero__blob--1" aria-hidden="true"></div>
+  <div class="hero__blob hero__blob--2" aria-hidden="true"></div>
+
+  <div class="hero__inner">
+    <!-- Left: Editorial text content -->
+    <div class="hero__content">
+      <p class="hero__eyebrow label label-rose hero-enter">
+        ✦ Nail Inspiration 2026 ✦
+      </p>
+
+      <h1 class="hero__headline text-hero hero-enter-delay-1">
+        {headline}
+      </h1>
+
+      <p class="hero__sub lead hero-enter-delay-2">
+        {subheadline}
+      </p>
+
+      <div class="hero__cta-row hero-enter-delay-3">
+        <a href={ctaHref} class="btn-primary">
+          {ctaLabel}
+        </a>
+        <a href="/trends/" class="btn-ghost">
+          Nail Trends 2026 →
+        </a>
+      </div>
+
+      <!-- Trust signals -->
+      <div class="hero__stats hero-enter-delay-3" aria-label="Site stats">
+        <div class="hero__stat">
+          <strong>500+</strong>
+          <span>Nail styles</span>
+        </div>
+        <div class="hero__stat-divider" aria-hidden="true"></div>
+        <div class="hero__stat">
+          <strong>50+</strong>
+          <span>Color palettes</span>
+        </div>
+        <div class="hero__stat-divider" aria-hidden="true"></div>
+        <div class="hero__stat">
+          <strong>Weekly</strong>
+          <span>New trends</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Photo collage -->
+    <!-- aria-hidden removed: images have meaningful alt text and contribute
+         to the editorial narrative. Screen reader users benefit from knowing
+         the color palette examples exist. -->
+    <div class="hero__collage hero-enter-delay-2">
+      <div class="hero__collage-grid">
+        <div class="hero__collage-item hero__collage-item--1">
+          <div class="hero__collage-card">
+            <img src="/images/collage-rose-quartz.jpg" alt="Rose Quartz gel nails" class="hero__collage-img" loading="eager" decoding="async" />
+            <div class="hero__collage-overlay">
+              <span class="hero__collage-label">Rose Quartz</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__collage-item hero__collage-item--2">
+          <div class="hero__collage-card">
+            <img src="/images/collage-nude-elegant.jpg" alt="Nude & Elegant gel nails" class="hero__collage-img" loading="eager" decoding="async" />
+            <div class="hero__collage-overlay">
+              <span class="hero__collage-label">Nude & Elegant</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__collage-item hero__collage-item--3">
+          <div class="hero__collage-card">
+            <img src="/images/collage-deep-burgundy.jpg" alt="Deep Burgundy gel nails" class="hero__collage-img" loading="eager" decoding="async" />
+            <div class="hero__collage-overlay">
+              <span class="hero__collage-label">Deep Burgundy</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__collage-item hero__collage-item--4">
+          <div class="hero__collage-card">
+            <img src="/images/collage-champagne-gold.jpg" alt="Champagne Gold gel nails" class="hero__collage-img" loading="eager" decoding="async" />
+            <div class="hero__collage-overlay">
+              <span class="hero__collage-label">Champagne Gold</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: 100svh;
+    padding: calc(var(--space-3xl) + 80px) var(--space-lg) var(--space-2xl);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Background gradient blobs */
+  .hero__blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .hero__blob--1 {
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(232, 196, 196, 0.35) 0%, transparent 70%);
+    top: -10%;
+    right: -5%;
+    /* GPU layer promotion: prevents continuous repaint from filter:blur
+       during scroll on Safari/iOS. translateZ(0) forces composited layer. */
+    transform: translateZ(0);
+    will-change: transform;
+  }
+
+  .hero__blob--2 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(201, 169, 110, 0.15) 0%, transparent 70%);
+    bottom: 5%;
+    left: 5%;
+    transform: translateZ(0);
+    will-change: transform;
+  }
+
+  /* Inner layout */
+  .hero__inner {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 55% 1fr;
+    gap: var(--space-2xl);
+    align-items: center;
+  }
+
+  /* Left content */
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .hero__eyebrow {
+    color: var(--color-rose);
+    font-size: var(--text-xs);
+  }
+
+  .hero__headline {
+    /* Override default h1 to use display class sizing */
+    font-size: var(--text-hero);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    max-width: 14ch;
+  }
+
+  .hero__sub {
+    max-width: 44ch;
+    color: var(--color-text-muted);
+  }
+
+  /* CTA row */
+  .hero__cta-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    padding: 14px var(--space-xl);
+    background-color: var(--color-rose);
+    color: #ffffff;
+    border-radius: var(--radius-full);
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    letter-spacing: var(--tracking-wider);
+    text-transform: uppercase;
+    text-decoration: none;
+    min-height: 48px;
+    transition:
+      background-color var(--duration-fast) var(--ease-out),
+      transform var(--duration-fast) var(--ease-out),
+      box-shadow var(--duration-fast) var(--ease-out);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-rose-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(139, 26, 74, 0.25);
+  }
+
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    text-decoration: none;
+    min-height: 48px;
+    transition: color var(--duration-fast) var(--ease-out);
+  }
+
+  .btn-ghost:hover {
+    color: var(--color-rose);
+  }
+
+  /* Stats */
+  .hero__stats {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    padding-top: var(--space-sm);
+  }
+
+  .hero__stat {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .hero__stat strong {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    font-weight: 500;
+    color: var(--color-text);
+    line-height: 1;
+  }
+
+  .hero__stat span {
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+  }
+
+  .hero__stat-divider {
+    width: 1px;
+    height: 32px;
+    background-color: var(--color-border-soft);
+  }
+
+  /* Right: Photo collage */
+  .hero__collage {
+    position: relative;
+  }
+
+  .hero__collage-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: var(--space-md);
+    position: relative;
+  }
+
+  .hero__collage-item {
+    border-radius: var(--radius-md);
+    overflow: hidden;
+  }
+
+  /* Offset items for editorial feel */
+  .hero__collage-item--1 { margin-top: 0; }
+  .hero__collage-item--2 { margin-top: var(--space-xl); }
+  .hero__collage-item--3 { margin-top: calc(var(--space-xl) * -1); }
+  .hero__collage-item--4 { margin-top: 0; }
+
+  /* Collage Cards */
+  .hero__collage-card {
+    aspect-ratio: 3/4;
+    border-radius: var(--radius-md);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  }
+
+  .hero__collage-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--duration-normal) var(--ease-out);
+  }
+
+  .hero__collage-card:hover .hero__collage-img {
+    transform: scale(1.05);
+  }
+
+  .hero__collage-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 60%);
+    display: flex;
+    align-items: flex-end;
+    padding: var(--space-md);
+  }
+
+  .hero__collage-label {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: var(--text-sm);
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 1024px) {
+    .hero__inner {
+      grid-template-columns: 1fr;
+      gap: var(--space-xl);
+    }
+
+    .hero__collage {
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .hero__headline {
+      max-width: 20ch;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .hero {
+      min-height: auto;
+      align-items: flex-start;
+      padding-top: calc(54px + var(--space-md));
+      padding-bottom: calc(var(--space-xl) + 60px); /* space for mobile nav */
+    }
+
+    .hero__headline {
+      max-width: 100%;
+    }
+
+    .hero__stats {
+      gap: var(--space-md);
+    }
+
+    .hero__collage-grid {
+      gap: var(--space-sm);
+    }
+
+    .hero__collage-item--2 { margin-top: var(--space-lg); }
+    .hero__collage-item--3 { margin-top: calc(var(--space-lg) * -1); }
+  }
+</style>
