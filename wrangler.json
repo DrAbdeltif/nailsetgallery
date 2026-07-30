@@ -5,9 +5,9 @@
   "compatibility_flags": [
     "nodejs_compat"
   ],
+  "main": "./dist/server/entry.mjs",
   "assets": {
     "binding": "ASSETS",
-    "directory": "./dist"
+    "directory": "./dist/client"
   }
 }
-
