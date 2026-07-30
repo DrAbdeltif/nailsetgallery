@@ -13,6 +13,7 @@ interface Props {
   updatedDate?: Date;
   author?: string;
   noIndex?: boolean;
+  googleAdsenseId?: string;
 }
 
 const {
@@ -24,7 +25,10 @@ const {
   updatedDate,
   author,
   noIndex = false,
+  googleAdsenseId,
 } = Astro.props;
+
+const adsensePublisherId = googleAdsenseId || import.meta.env.PUBLIC_GOOGLE_ADSENSE_ID;
 
 const siteUrl = 'https://nailsetgallery.com';
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
@@ -78,6 +82,15 @@ const fullTitle = title === 'NailSet Gallery'
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300;1,500&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Google AdSense Script -->
+    {adsensePublisherId && (
+      <script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsensePublisherId}`}
+        crossorigin="anonymous"
+      />
+    )}
 
     <!-- Article Schema (@graph pattern for blog posts) -->
     {ogType === 'article' && pubDate && (

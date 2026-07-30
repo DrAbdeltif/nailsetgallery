@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/nav/Navbar.astro';
+import MobileNav from '../components/nav/MobileNav.astro';
+import Footer from '../components/nav/Footer.astro';
+
+---
+
+<BaseLayout
+  title="Advertising & Content Disclaimer"
+  description="Disclaimer & Disclosure statement for NailSet Gallery — Information regarding Google AdSense ads, affiliate links, and editorial content."
+>
+  <Navbar />
+
+  <main id="main-content" class="container page-main">
+    <div class="page-header reveal-fade">
+      <p class="label label-rose">✦ Legal & Advertising</p>
+      <h1 class="page-title">Disclaimer & Disclosure</h1>
+      <p class="page-subtitle lead">
+        Last updated: July 28, 2026
+      </p>
+    </div>
+
+    <article class="prose reveal-fade">
+      <h2>1. General Information & Purpose</h2>
+      <p>
+        All content provided on <strong>NailSet Gallery</strong> (<code>nailsetgallery.com</code>) is for general informational, educational, and aesthetic inspiration purposes only. While we strive to present accurate, up-to-date, and expert-reviewed information on nail art, manicures, and color swatches, we make no representations or warranties of any kind regarding completeness, reliability, or suitability.
+      </p>
+
+      <h2>2. Advertising & Google AdSense Disclosure</h2>
+      <p>
+        NailSet Gallery earns revenue through third-party advertising services, including <strong>Google AdSense</strong> and contextual banner advertisements:
+      </p>
+      <ul>
+        <li>Advertisements served on our website are marked clearly as "Sponsored," "Ads," or "AdChoice."</li>
+        <li>Google and third-party vendors use cookies to serve advertisements based on your prior visits to our site or other internet locations.</li>
+        <li>We do not directly endorse specific products, services, or companies appearing in third-party automated ad units unless explicitly stated in an original review.</li>
+      </ul>
+
+      <h2>3. Affiliate Links & Commissions</h2>
+      <p>
+        Some links on NailSet Gallery may be affiliate links. If you click through an affiliate link and make a purchase (e.g., nail polishes, press-on kits, or UV lamp curing tools), we may receive a small commission at no extra cost to you. We only recommend products we genuinely admire or believe add value to our readers.
+      </p>
+
+      <h2>4. Professional Beauty & Dermatological Disclaimer</h2>
+      <p>
+        The content on NailSet Gallery does not constitute medical, dermatological, or healthcare advice. Always consult a qualified dermatologist or healthcare professional regarding nail infections, severe acrylic damage, skin allergies, or chemical sensitivities to gel products.
+      </p>
+
+      <h2>5. Copyright & Media Attribution</h2>
+      <p>
+        All original written text, visual designs, color palettes, and curated trend guides are the property of NailSet Gallery. User-submitted or royalty-licensed nail photography is featured with artist attribution. If you believe your copyrighted material is displayed without permission, please reach out to <a href="mailto:copyright@nailsetgallery.com">copyright@nailsetgallery.com</a> for immediate resolution.
+      </p>
+
+      <h2>6. Contact Us</h2>
+      <p>
+        If you have questions regarding this Disclaimer, please contact us at <a href="mailto:legal@nailsetgallery.com">legal@nailsetgallery.com</a>.
+      </p>
+    </article>
+  </main>
+
+  <Footer />
+  <MobileNav />
+</BaseLayout>
+
+<style>
+  .container { max-width: 760px; margin: 0 auto; padding: 0 var(--space-lg); }
+  .page-main { padding-top: calc(var(--space-3xl) + 80px); padding-bottom: var(--space-3xl); }
+  .page-header { display: flex; flex-direction: column; gap: var(--space-sm); margin-bottom: var(--space-2xl); }
+  .page-title { font-family: var(--font-display); font-size: var(--text-5xl); font-weight: 300; font-style: italic; color: var(--color-text); line-height: var(--leading-tight); }
+  .page-subtitle { color: var(--color-text-muted); }
+
+  @media (max-width: 767px) {
+    .page-main { padding-top: calc(54px + var(--space-lg)); padding-bottom: calc(var(--space-2xl) + 70px); }
+    .container { padding: 0 var(--space-md); }
+  }
+</style>
