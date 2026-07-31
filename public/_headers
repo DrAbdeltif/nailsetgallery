@@ -1,2 +1,6 @@
+/.well-known/api-catalog
+  Content-Type: application/linkset+json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
 /*
   Link: </.well-known/api-catalog>; rel="api-catalog", </sitemap-index.xml>; rel="sitemap", </rss.xml>; rel="alternate"; type="application/rss+xml"

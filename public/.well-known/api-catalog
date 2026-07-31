@@ -1,14 +1,23 @@
 {
-  "link-template": [],
-  "apis": [
+  "linkset": [
     {
-      "name": "Nail Set Gallery API",
-      "description": "API services for Nail Set Gallery",
-      "endpoints": [
+      "anchor": "https://nailsetgallery.com/api/",
+      "service-desc": [
         {
-          "path": "/api/subscribe",
-          "method": "POST",
-          "description": "Subscribe email to newsletter"
+          "href": "https://nailsetgallery.com/api/openapi.json",
+          "type": "application/vnd.oai.openapi+json;version=3.0"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://nailsetgallery.com/about",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://nailsetgallery.com/api/health",
+          "type": "application/json"
         }
       ]
     }
