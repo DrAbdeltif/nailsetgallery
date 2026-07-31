@@ -1,0 +1,16 @@
+{
+  "link-template": [],
+  "apis": [
+    {
+      "name": "Nail Set Gallery API",
+      "description": "API services for Nail Set Gallery",
+      "endpoints": [
+        {
+          "path": "/api/subscribe",
+          "method": "POST",
+          "description": "Subscribe email to newsletter"
+        }
+      ]
+    }
+  ]
+}
