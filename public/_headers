@@ -2,5 +2,17 @@
   Content-Type: application/linkset+json; charset=utf-8
   Access-Control-Allow-Origin: *
 
+/.well-known/openid-configuration
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/oauth-authorization-server
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/jwks.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
 /*
   Link: </.well-known/api-catalog>; rel="api-catalog", </sitemap-index.xml>; rel="sitemap", </rss.xml>; rel="alternate"; type="application/rss+xml"
