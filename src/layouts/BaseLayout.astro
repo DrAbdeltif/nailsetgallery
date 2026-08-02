@@ -75,6 +75,14 @@ const fullTitle = title === 'NailSet Gallery'
     <meta name="apple-mobile-web-app-title" content="NailSet Gallery" />
     <link rel="manifest" href="/site.webmanifest" />
 
+    <!-- LCP Preload for Hero Collage Images on Homepage -->
+    {Astro.url.pathname === '/' && (
+      <>
+        <link rel="preload" as="image" href="/images/collage-nude-elegant.jpg" fetchpriority="high" />
+        <link rel="preload" as="image" href="/images/collage-rose-quartz.jpg" fetchpriority="high" />
+      </>
+    )}
+
     <!-- Google Fonts — preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
