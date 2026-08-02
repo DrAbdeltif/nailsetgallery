@@ -52,32 +52,32 @@ In 2026, nail aesthetics shifted toward rich, pigmented colors with multidimensi
 Finding the perfect emerald shade depends on identifying your skin undertone. Below is a breakdown of optimal contrast pairings:
 
 <figure style="margin: 2rem 0; text-align: center; background: #0f172a; padding: 1.5rem; border-radius: 12px; color: #fff;">
-  <svg viewBox="0 0 560 220" style="max-width: 100%; height: auto;">
-    <rect width="560" height="220" fill="#0f172a" rx="8"/>
-    <text x="280" y="30" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle">Skin Tone & Emerald Contrast Matrix</text>
-    
-    <!-- Fair Skin -->
-    <rect x="30" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#059669" stroke-width="2"/>
-    <text x="105" y="90" fill="#34d399" font-size="14" font-weight="bold" text-anchor="middle">Fair / Cool</text>
-    <text x="105" y="115" fill="#94a3b8" font-size="11" text-anchor="middle">Deep Pine Emerald</text>
-    <text x="105" y="135" fill="#cbd5e1" font-size="10" text-anchor="middle">Cool Blue Undertones</text>
-    <text x="105" y="155" fill="#f59e0b" font-size="11" text-anchor="middle">Accent: Silver Foil</text>
+<svg viewBox="0 0 560 220" style="max-width: 100%; height: auto;">
+<rect width="560" height="220" fill="#0f172a" rx="8"/>
+<text x="280" y="30" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle">Skin Tone & Emerald Contrast Matrix</text>
 
-    <!-- Olive Skin -->
-    <rect x="205" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
-    <text x="280" y="90" fill="#34d399" font-size="14" font-weight="bold" text-anchor="middle">Medium / Olive</text>
-    <text x="280" y="115" fill="#94a3b8" font-size="11" text-anchor="middle">Vibrant Jade Emerald</text>
-    <text x="280" y="135" fill="#cbd5e1" font-size="10" text-anchor="middle">Warm Golden Base</text>
-    <text x="280" y="155" fill="#f59e0b" font-size="11" text-anchor="middle">Accent: 24k Gold</text>
+<!-- Fair Skin -->
+<rect x="30" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#059669" stroke-width="2"/>
+<text x="105" y="90" fill="#34d399" font-size="14" font-weight="bold" text-anchor="middle">Fair / Cool</text>
+<text x="105" y="115" fill="#94a3b8" font-size="11" text-anchor="middle">Deep Pine Emerald</text>
+<text x="105" y="135" fill="#cbd5e1" font-size="10" text-anchor="middle">Cool Blue Undertones</text>
+<text x="105" y="155" fill="#f59e0b" font-size="11" text-anchor="middle">Accent: Silver Foil</text>
 
-    <!-- Deep Skin -->
-    <rect x="380" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#34d399" stroke-width="2"/>
-    <text x="455" y="90" fill="#34d399" font-size="14" font-weight="bold" text-anchor="middle">Deep / Warm</text>
-    <text x="455" y="115" fill="#94a3b8" font-size="11" text-anchor="middle">Bright Metallic Emerald</text>
-    <text x="455" y="135" fill="#cbd5e1" font-size="10" text-anchor="middle">High Contrast Vibrancy</text>
-    <text x="455" y="155" fill="#f59e0b" font-size="11" text-anchor="middle">Accent: Bronze & Brass</text>
-  </svg>
-  <figcaption style="margin-top: 8px; font-size: 12px; color: #94a3b8;">Source: NailSet Gallery Color Analytics 2026</figcaption>
+<!-- Olive Skin -->
+<rect x="205" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+<text x="280" y="90" fill="#34d399" font-size="14" font-weight="bold" text-anchor="middle">Medium / Olive</text>
+<text x="280" y="115" fill="#94a3b8" font-size="11" text-anchor="middle">Vibrant Jade Emerald</text>
+<text x="280" y="135" fill="#cbd5e1" font-size="10" text-anchor="middle">Warm Golden Base</text>
+<text x="280" y="155" fill="#f59e0b" font-size="11" text-anchor="middle">Accent: 24k Gold</text>
+
+<!-- Deep Skin -->
+<rect x="380" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#34d399" stroke-width="2"/>
+<text x="455" y="90" fill="#34d399" font-size="14" font-weight="bold" text-anchor="middle">Deep / Warm</text>
+<text x="455" y="115" fill="#94a3b8" font-size="11" text-anchor="middle">Bright Metallic Emerald</text>
+<text x="455" y="135" fill="#cbd5e1" font-size="10" text-anchor="middle">High Contrast Vibrancy</text>
+<text x="455" y="155" fill="#f59e0b" font-size="11" text-anchor="middle">Accent: Bronze & Brass</text>
+</svg>
+<figcaption style="margin-top: 8px; font-size: 12px; color: #94a3b8;">Source: NailSet Gallery Color Analytics 2026</figcaption>
 </figure>
 
 ### 1. Fair & Cool Undertones

@@ -50,32 +50,32 @@ When executed with an airbrush gun or blooming gel, aura nails produce a soft bl
 Choosing color pairings that evoke distinct emotional moods is central to aura nail styling:
 
 <figure style="margin: 2rem 0; text-align: center; background: #0f172a; padding: 1.5rem; border-radius: 12px; color: #fff;">
-  <svg viewBox="0 0 560 220" style="max-width: 100%; height: auto;">
-    <rect width="560" height="220" fill="#0f172a" rx="8"/>
-    <text x="280" y="30" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle">Aura Color Energy Harmony Matrix</text>
-    
-    <!-- Pair 1: Romantic Energy -->
-    <rect x="30" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#ec4899" stroke-width="2"/>
-    <text x="105" y="90" fill="#f472b6" font-size="14" font-weight="bold" text-anchor="middle">Cosmic Heart</text>
-    <circle cx="105" cy="130" r="28" fill="#cbd5e1"/>
-    <circle cx="105" cy="130" r="16" fill="#db2777"/>
-    <text x="105" y="170" fill="#94a3b8" font-size="10" text-anchor="middle">Magenta inside Lavender</text>
+<svg viewBox="0 0 560 220" style="max-width: 100%; height: auto;">
+<rect width="560" height="220" fill="#0f172a" rx="8"/>
+<text x="280" y="30" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle">Aura Color Energy Harmony Matrix</text>
 
-    <!-- Pair 2: Celestial Energy -->
-    <rect x="205" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
-    <text x="280" y="90" fill="#38bdf8" font-size="14" font-weight="bold" text-anchor="middle">Solar Orbit</text>
-    <circle cx="280" cy="130" r="28" fill="#fef3c7"/>
-    <circle cx="280" cy="130" r="16" fill="#f59e0b"/>
-    <text x="280" y="170" fill="#94a3b8" font-size="10" text-anchor="middle">Amber inside Cream</text>
+<!-- Pair 1: Romantic Energy -->
+<rect x="30" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#ec4899" stroke-width="2"/>
+<text x="105" y="90" fill="#f472b6" font-size="14" font-weight="bold" text-anchor="middle">Cosmic Heart</text>
+<circle cx="105" cy="130" r="28" fill="#cbd5e1"/>
+<circle cx="105" cy="130" r="16" fill="#db2777"/>
+<text x="105" y="170" fill="#94a3b8" font-size="10" text-anchor="middle">Magenta inside Lavender</text>
 
-    <!-- Pair 3: Mystic Energy -->
-    <rect x="380" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#a855f7" stroke-width="2"/>
-    <text x="455" y="90" fill="#c084fc" font-size="14" font-weight="bold" text-anchor="middle">Mystic Astral</text>
-    <circle cx="455" cy="130" r="28" fill="#0f172a"/>
-    <circle cx="455" cy="130" r="16" fill="#a855f7"/>
-    <text x="455" y="170" fill="#94a3b8" font-size="10" text-anchor="middle">Violet inside Obsidian</text>
-  </svg>
-  <figcaption style="margin-top: 8px; font-size: 12px; color: #94a3b8;">Source: 2026 Nail Art Trend Forecast - NailSet Gallery</figcaption>
+<!-- Pair 2: Celestial Energy -->
+<rect x="205" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+<text x="280" y="90" fill="#38bdf8" font-size="14" font-weight="bold" text-anchor="middle">Solar Orbit</text>
+<circle cx="280" cy="130" r="28" fill="#fef3c7"/>
+<circle cx="280" cy="130" r="16" fill="#f59e0b"/>
+<text x="280" y="170" fill="#94a3b8" font-size="10" text-anchor="middle">Amber inside Cream</text>
+
+<!-- Pair 3: Mystic Energy -->
+<rect x="380" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#a855f7" stroke-width="2"/>
+<text x="455" y="90" fill="#c084fc" font-size="14" font-weight="bold" text-anchor="middle">Mystic Astral</text>
+<circle cx="455" cy="130" r="28" fill="#0f172a"/>
+<circle cx="455" cy="130" r="16" fill="#a855f7"/>
+<text x="455" y="170" fill="#94a3b8" font-size="10" text-anchor="middle">Violet inside Obsidian</text>
+</svg>
+<figcaption style="margin-top: 8px; font-size: 12px; color: #94a3b8;">Source: 2026 Nail Art Trend Forecast - NailSet Gallery</figcaption>
 </figure>
 
 ### 1. Romantic Heart Aura (Magenta & Lavender)

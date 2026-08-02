@@ -52,31 +52,31 @@ Burnt orange occupies a unique sweet spot in seasonal color theory. Unlike neon 
 Understanding how to layer autumn hues ensures your manicures feel cohesive:
 
 <figure style="margin: 2rem 0; text-align: center; background: #0f172a; padding: 1.5rem; border-radius: 12px; color: #fff;">
-  <svg viewBox="0 0 560 220" style="max-width: 100%; height: auto;">
-    <rect width="560" height="220" fill="#0f172a" rx="8"/>
-    <text x="280" y="30" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle">2026 Autumn Harvest Color Synergy</text>
-    
-    <!-- Color 1: Burnt Orange -->
-    <rect x="30" y="60" width="110" height="120" rx="6" fill="#c2410c"/>
-    <text x="85" y="115" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">Burnt Orange</text>
-    <text x="85" y="140" fill="#ffedd5" font-size="10" text-anchor="middle">Primary Anchor</text>
+<svg viewBox="0 0 560 220" style="max-width: 100%; height: auto;">
+<rect width="560" height="220" fill="#0f172a" rx="8"/>
+<text x="280" y="30" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle">2026 Autumn Harvest Color Synergy</text>
 
-    <!-- Color 2: Espresso Brown -->
-    <rect x="160" y="60" width="110" height="120" rx="6" fill="#451a03"/>
-    <text x="215" y="115" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">Espresso</text>
-    <text x="215" y="140" fill="#fed7aa" font-size="10" text-anchor="middle">Deep Shadow</text>
+<!-- Color 1: Burnt Orange -->
+<rect x="30" y="60" width="110" height="120" rx="6" fill="#c2410c"/>
+<text x="85" y="115" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">Burnt Orange</text>
+<text x="85" y="140" fill="#ffedd5" font-size="10" text-anchor="middle">Primary Anchor</text>
 
-    <!-- Color 3: Warm Mustard -->
-    <rect x="290" y="60" width="110" height="120" rx="6" fill="#b45309"/>
-    <text x="345" y="115" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">Spiced Amber</text>
-    <text x="345" y="140" fill="#fef3c7" font-size="10" text-anchor="middle">Warm Highlight</text>
+<!-- Color 2: Espresso Brown -->
+<rect x="160" y="60" width="110" height="120" rx="6" fill="#451a03"/>
+<text x="215" y="115" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">Espresso</text>
+<text x="215" y="140" fill="#fed7aa" font-size="10" text-anchor="middle">Deep Shadow</text>
 
-    <!-- Color 4: Warm Cream -->
-    <rect x="420" y="60" width="110" height="120" rx="6" fill="#fef3c7"/>
-    <text x="475" y="115" fill="#78350f" font-size="13" font-weight="bold" text-anchor="middle">Cream Nude</text>
-    <text x="475" y="140" fill="#92400e" font-size="10" text-anchor="middle">Neutral Balance</text>
-  </svg>
-  <figcaption style="margin-top: 8px; font-size: 12px; color: #94a3b8;">Source: Seasonal Color Analytics - NailSet Gallery</figcaption>
+<!-- Color 3: Warm Mustard -->
+<rect x="290" y="60" width="110" height="120" rx="6" fill="#b45309"/>
+<text x="345" y="115" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">Spiced Amber</text>
+<text x="345" y="140" fill="#fef3c7" font-size="10" text-anchor="middle">Warm Highlight</text>
+
+<!-- Color 4: Warm Cream -->
+<rect x="420" y="60" width="110" height="120" rx="6" fill="#fef3c7"/>
+<text x="475" y="115" fill="#78350f" font-size="13" font-weight="bold" text-anchor="middle">Cream Nude</text>
+<text x="475" y="140" fill="#92400e" font-size="10" text-anchor="middle">Neutral Balance</text>
+</svg>
+<figcaption style="margin-top: 8px; font-size: 12px; color: #94a3b8;">Source: Seasonal Color Analytics - NailSet Gallery</figcaption>
 </figure>
 
 ---

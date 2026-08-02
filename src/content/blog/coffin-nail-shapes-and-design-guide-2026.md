@@ -53,29 +53,29 @@ Both styles give fingers an elongated, sleek appearance that complements both bo
 Sculpting symmetrical coffin nails requires precise hand positioning and filing angles. Follow this guide to achieve salon-sharp edges:
 
 <figure style="margin: 2rem 0; text-align: center; background: #0f172a; padding: 1.5rem; border-radius: 12px; color: #fff;">
-  <svg viewBox="0 0 560 220" style="max-width: 100%; height: auto;">
-    <rect width="560" height="220" fill="#0f172a" rx="8"/>
-    <text x="280" y="30" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle">Coffin Nail Filing Angle Architecture</text>
-    
-    <!-- Step 1 Square -->
-    <rect x="30" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
-    <text x="105" y="90" fill="#38bdf8" font-size="14" font-weight="bold" text-anchor="middle">1. Square Foundation</text>
-    <text x="105" y="115" fill="#cbd5e1" font-size="11" text-anchor="middle">File free edge 90° flat</text>
-    <text x="105" y="140" fill="#94a3b8" font-size="10" text-anchor="middle">Establish length baseline</text>
+<svg viewBox="0 0 560 220" style="max-width: 100%; height: auto;">
+<rect width="560" height="220" fill="#0f172a" rx="8"/>
+<text x="280" y="30" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle">Coffin Nail Filing Angle Architecture</text>
 
-    <!-- Step 2 Angle Taper -->
-    <rect x="205" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
-    <text x="280" y="90" fill="#f59e0b" font-size="14" font-weight="bold" text-anchor="middle">2. 45° Inward Taper</text>
-    <text x="280" y="115" fill="#cbd5e1" font-size="11" text-anchor="middle">File sidewalls inward</text>
-    <text x="280" y="140" fill="#94a3b8" font-size="10" text-anchor="middle">Maintain equal side angles</text>
+<!-- Step 1 Square -->
+<rect x="30" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+<text x="105" y="90" fill="#38bdf8" font-size="14" font-weight="bold" text-anchor="middle">1. Square Foundation</text>
+<text x="105" y="115" fill="#cbd5e1" font-size="11" text-anchor="middle">File free edge 90° flat</text>
+<text x="105" y="140" fill="#94a3b8" font-size="10" text-anchor="middle">Establish length baseline</text>
 
-    <!-- Step 3 Crisp Tip -->
-    <rect x="380" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
-    <text x="455" y="90" fill="#10b981" font-size="14" font-weight="bold" text-anchor="middle">3. Tip Squaring</text>
-    <text x="455" y="115" fill="#cbd5e1" font-size="11" text-anchor="middle">Sharpen flat free edge</text>
-    <text x="455" y="140" fill="#94a3b8" font-size="10" text-anchor="middle">Bevel sharp corner burrs</text>
-  </svg>
-  <figcaption style="margin-top: 8px; font-size: 12px; color: #94a3b8;">Source: NailSet Gallery Structural Engineering Standards</figcaption>
+<!-- Step 2 Angle Taper -->
+<rect x="205" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+<text x="280" y="90" fill="#f59e0b" font-size="14" font-weight="bold" text-anchor="middle">2. 45° Inward Taper</text>
+<text x="280" y="115" fill="#cbd5e1" font-size="11" text-anchor="middle">File sidewalls inward</text>
+<text x="280" y="140" fill="#94a3b8" font-size="10" text-anchor="middle">Maintain equal side angles</text>
+
+<!-- Step 3 Crisp Tip -->
+<rect x="380" y="60" width="150" height="120" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+<text x="455" y="90" fill="#10b981" font-size="14" font-weight="bold" text-anchor="middle">3. Tip Squaring</text>
+<text x="455" y="115" fill="#cbd5e1" font-size="11" text-anchor="middle">Sharpen flat free edge</text>
+<text x="455" y="140" fill="#94a3b8" font-size="10" text-anchor="middle">Bevel sharp corner burrs</text>
+</svg>
+<figcaption style="margin-top: 8px; font-size: 12px; color: #94a3b8;">Source: NailSet Gallery Structural Engineering Standards</figcaption>
 </figure>
 
 ### Step 1: Establish a Square Length Baseline
