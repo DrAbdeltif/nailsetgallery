@@ -11,8 +11,6 @@ featured: false
 draft: false
 ---
 
-# Moody Dark Nail Color Palettes 2026: Espresso, Cherry & Navy
-
 Moody dark nail color palettes feature complex, deep undertones like cherry cola mahogany, roasted espresso, midnight navy, and velvet forest green.
 
 > **TL;DR:** 2026 moody dark nail palettes swap flat black for multi-dimensional deep shades like cherry cola, roasted espresso, midnight navy, and forest green. Always use a stain-blocking base coat and clean up cuticle edges with acetone before curing.
@@ -58,15 +56,19 @@ These vampy, opulent shades deliver high-contrast elegance and look particularly
 ## Step-by-Step DIY Dark Manicure Guide
 
 ### Step 1: Alcohol Dehydration & Stain-Block Base Coat
+
 Wipe nail plates with 90%+ isopropyl alcohol to remove oils. Apply 1 coat of stain-blocking base coat and cure for 30 seconds.
 
 ### Step 2: Apply 2 Thin Color Coats
+
 Apply 2 thin, even coats of dark gel polish. Avoid thick globs that flood cuticle folds, curing 60 seconds after each layer.
 
 ### Step 3: Acetone Line Clean-Up
+
 Before curing each layer, use a fine detail brush dipped in acetone to clean up any polish touching skin walls.
 
 ### Step 4: High-Gloss Top Coat & Free Edge Wrap
+
 Apply a non-wipe glass top coat, wrapping the free edge tip thoroughly. Cure for 60 seconds and massage with jojoba cuticle oil.
 
 ---
@@ -83,18 +85,23 @@ Apply a non-wipe glass top coat, wrapping the free edge tip thoroughly. Cure for
 ## Frequently Asked Questions
 
 ### What dark nail colors are trending in 2026?
+
 Cherry cola (black-red), dark roasted espresso, midnight navy, and velvet forest green are the top dark nail trends of 2026.
 
 ### How do I stop dark nail polish from staining my natural nails?
+
 Apply a stain-blocking base coat before painting dark polishes, and avoid leaving dark polish on for more than 3 weeks.
 
 ### Do dark nail colors look better on short or long nails?
+
 Dark nail colors look particularly chic and modern on short squoval or short oval nails, providing a clean high-fashion look.
 
 ### How do you clean up messy dark polish around cuticles?
+
 Dip a flat square brush into pure acetone and trace around cuticle skin folds to clean up polish before curing under the lamp.
 
 ### What is cherry cola nail polish?
+
 Cherry cola nail polish is a deep mahogany red with dark black undertones that looks nearly black in low light and crimson in sunlight.
 
 ---

@@ -11,8 +11,6 @@ featured: false
 draft: false
 ---
 
-# Skin Tone Nail Color Matching Guide: Cool, Warm & Olive
-
 Selecting nail polish shades that match your skin undertones prevents washed-out hands and highlights your natural complexion.
 
 > **TL;DR:** To match nail polish to skin tone, check your wrist veins: blue veins indicate cool undertones suited for pink nudes and blue-reds; green veins indicate warm undertones suited for peachy nudes and orange-reds; dark olive veins suit taupe and forest tones.
@@ -61,12 +59,15 @@ Determine your skin's underlying pigment using the **Daylight Wrist Vein Test**:
 ## Step-by-Step Color Swatching & Selection Guide
 
 ### Step 1: Check Under Natural Sunlight
+
 Always evaluate polish bottle colors or swatch sticks under natural daylight; indoor fluorescent lighting distorts warm and cool undertones.
 
 ### Step 2: Test Swatches Against Your Hand
+
 Place polish bottles or swatch sticks directly along your inner wrist or cuticle line. If the color makes your cuticle skin appear red or yellow, the undertones clash.
 
 ### Step 3: Choose Your Desired Aesthetic Effect
+
 - **Quiet Luxury Elongation:** Choose a nude shade matching your exact skin tone or one shade lighter.
 - **High Contrast Elegance:** Choose a nude shade 2 shades darker (such as rich espresso or warm caramel).
 
@@ -84,18 +85,23 @@ Place polish bottles or swatch sticks directly along your inner wrist or cuticle
 ## Frequently Asked Questions
 
 ### How do I know if my skin undertones are warm or cool?
+
 Look at your wrist veins in daylight: blue or purple veins mean cool undertones, while green veins mean warm undertones.
 
 ### What nail polish color makes hands look younger?
+
 Soft peachy nudes, warm rose shades, and hydrating glossy finishes make hands look younger by smoothing skin contrast.
 
 ### What nail color goes with all skin tones?
+
 Soft dusty rose, neutral nude blush, and sheer translucent milky white look flattering on almost all skin tones.
 
 ### What nail colors look best on olive skin?
+
 Rich burgundy, warm taupe, forest green, oxblood red, and deep plum complement the greenish undertones of olive skin best.
 
 ### Why does nude nail polish make my hands look yellow?
+
 Cool pink nudes on warm golden skin create color clashes that highlight yellow skin tones. Switch to peachy beige nudes instead.
 
 ---

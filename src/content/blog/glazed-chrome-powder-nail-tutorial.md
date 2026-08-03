@@ -11,8 +11,6 @@ featured: false
 draft: false
 ---
 
-# Glazed Chrome Powder Nail Tutorial: No-Wipe Technique
-
 Chrome powder creates high-shine mirror reflections, liquid metal finishes, and viral glazed donut pearl sheens when burnished over gel polish.
 
 > **TL;DR:** To apply chrome powder without flaking, burnish micro-fine pigment onto a 30-second half-cured no-wipe gel top coat using a silicone tool. Dust off excess powder, file tip edges lightly, apply acid-free primer, and seal with a second top coat layer.
@@ -21,7 +19,7 @@ Chrome powder creates high-shine mirror reflections, liquid metal finishes, and 
 
 ## What Are Glazed Chrome Powder Nails?
 
-Glazed chrome powder nails are gel manicures finished with micro-milled synthetic mica pigment burnished onto a tack-free gel top coat surface to create a mirror-like, pearlescent reflection. 
+Glazed chrome powder nails are gel manicures finished with micro-milled synthetic mica pigment burnished onto a tack-free gel top coat surface to create a mirror-like, pearlescent reflection.
 
 Unlike traditional metallic lacquer polishes, chrome powders create seamless, liquid-metal shine without brush stroke marks or dulling over time.
 
@@ -58,6 +56,7 @@ Unlike traditional metallic lacquer polishes, chrome powders create seamless, li
 ## Step-by-Step Glazed Chrome Powder Application Guide
 
 ### Step 1: Base Color & Half-Cure Top Coat
+
 1. Apply gel base coat and 2 coats of your chosen base color (sheer nude for glazed, black for mirror). Cure for 60 seconds.
 2. Apply a thin, even layer of no-wipe gel top coat.
 3. **Cure under LED for exactly 30 seconds** (half standard curing time).
@@ -65,16 +64,19 @@ Unlike traditional metallic lacquer polishes, chrome powders create seamless, li
 > **Why Timing Matters:** Under-curing leaves the surface sticky and grainy; over-curing makes it too hard for powder to grip.
 
 ### Step 2: Burnish the Chrome Powder
+
 1. Dip a silicone applicator into chrome powder.
 2. Rub the powder firmly in small circular motions, then smooth vertically from cuticle to tip.
 3. Watch the surface immediately transform into a mirror reflection.
 
 ### Step 3: Dust & Seal Tip Edges (Anti-Peel Technique)
+
 1. Dust away excess powder particles with a soft fan brush.
 2. Lightly file the very tip edge of the nail with a 240-grit file to expose bare gel edge.
 3. Apply a tiny dot of acid-free primer along the free edge to create a sticky anchor.
 
 ### Step 4: Final Top Coat Seal
+
 1. Apply a full coat of no-wipe gel top coat, capping free edges completely.
 2. Cure for **60 full seconds** in a 48W+ LED lamp.
 
@@ -92,18 +94,23 @@ Unlike traditional metallic lacquer polishes, chrome powders create seamless, li
 ## Frequently Asked Questions
 
 ### Why is my chrome powder flaking off at the tips?
+
 Flaking happens when chrome powder coats the tip edge. File the free edge lightly and apply acid-free primer before sealing with top coat.
 
 ### How long should you cure no-wipe top coat before chrome?
+
 Cure no-wipe gel top coat for 30 seconds under LED lamps (half the standard 60-second cure) for ideal powder grip.
 
 ### Can you put chrome powder over regular nail polish?
+
 No, chrome powder requires the smooth tack-free surface of light-cured no-wipe gel top coat to achieve a mirror finish.
 
 ### What is the best base color for glazed donut nails?
+
 Sheer milky white, translucent baby pink, or nude gel polish produces the iconic glazed donut pearl sheen.
 
 ### Why does my chrome look grainy instead of like a mirror?
+
 Graininess is caused by under-curing the base top coat or using coarse, low-quality glitter powders instead of fine synthetic mica.
 
 ---
