@@ -5,6 +5,7 @@ import MobileNav from '../../components/nav/MobileNav.astro';
 import Footer from '../../components/nav/Footer.astro';
 import Tag from '../../components/ui/Tag.astro';
 import ArticleNav from '../../components/blog/ArticleNav.astro';
+import RelatedPosts from '../../components/blog/RelatedPosts.astro';
 import NewsletterSubscribe from '../../components/ui/NewsletterSubscribe.astro';
 import { getCollection, render } from 'astro:content';
 
@@ -20,6 +21,7 @@ export async function getStaticPaths() {
       params: { slug: post.id },
       props: {
         post,
+        allPosts: sortedPosts,
         prevPost: prev ? {
           id: prev.id,
           title: prev.data.title,
@@ -37,7 +39,7 @@ export async function getStaticPaths() {
   });
 }
 
-const { post, prevPost, nextPost } = Astro.props;
+const { post, allPosts, prevPost, nextPost } = Astro.props;
 const { Content } = await render(post);
 
 const {
@@ -62,6 +64,87 @@ const formattedUpdated = updatedDate
 
 // Estimate reading time — rough estimate based on description length
 const readingTime = Math.max(1, Math.ceil((post.body?.split(' ').length ?? 500) / 200));
+
+// Contextual Related Posts calculation
+const candidatePosts = allPosts || (await getCollection('blog', ({ data }) => !data.draft));
+const relatedPosts = candidatePosts
+  .filter((p) => p.id !== post.id)
+  .map((p) => {
+    let score = 0;
+    if (p.data.category === category) score += 3;
+    const sharedTags = p.data.tags.filter((t) => tags.includes(t));
+    score += sharedTags.length * 2;
+    return { post: p, score };
+  })
+  .sort((a, b) => b.score - a.score || b.post.data.pubDate.valueOf() - a.post.data.pubDate.valueOf())
+  .slice(0, 3)
+  .map(({ post: p }) => ({
+    id: p.id,
+    title: p.data.title,
+    description: p.data.description,
+    heroImage: p.data.heroImage,
+    heroImageAlt: p.data.heroImageAlt,
+    category: p.data.category,
+    pubDate: p.data.pubDate,
+  }));
+
+// Dynamic FAQ Schema extraction
+const faqItems: { question: string; answer: string }[] = [];
+if (post.body) {
+  const faqMatch = post.body.match(/## Frequently Asked Questions[\s\S]*?(?=---|\n## |$)/i);
+  if (faqMatch) {
+    const faqSection = faqMatch[0];
+    const qMatches = Array.from(faqSection.matchAll(/### ([^\n]+)\n+([\s\S]*?)(?=\n### |\n## |---|$)/g));
+    for (const match of qMatches) {
+      const qText = match[1].trim();
+      const aText = match[2].trim().replace(/[\r\n]+/g, ' ');
+      if (qText && aText) {
+        faqItems.push({ question: qText, answer: aText });
+      }
+    }
+  }
+}
+
+const faqSchema = faqItems.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqItems.map((item) => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer,
+    },
+  })),
+} : null;
+
+// Dynamic HowTo Schema extraction for tutorials & guides
+const isTutorial = category === 'tutorials' || tags.some((t) => t.includes('tutorial') || t.includes('guide') || t.includes('diy'));
+const howToSteps: { name: string; text: string }[] = [];
+if (isTutorial && post.body) {
+  const stepMatches = Array.from(post.body.matchAll(/### (Step \d+:[^\n]+|\d+\.[^\n]+)\n+([\s\S]*?)(?=\n### |\n## |---|$)/gi));
+  for (const match of stepMatches) {
+    const stepName = match[1].trim();
+    const stepText = match[2].trim().replace(/[\r\n]+/g, ' ');
+    if (stepName && stepText) {
+      howToSteps.push({ name: stepName, text: stepText });
+    }
+  }
+}
+
+const howToSchema = howToSteps.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": title,
+  "description": description,
+  "image": heroImage ? `https://nailsetgallery.com${heroImage}` : undefined,
+  "step": howToSteps.map((step, idx) => ({
+    "@type": "HowToStep",
+    "position": idx + 1,
+    "name": step.name,
+    "text": step.text,
+  })),
+} : null;
 ---
 
 <BaseLayout
@@ -73,6 +156,14 @@ const readingTime = Math.max(1, Math.ceil((post.body?.split(' ').length ?? 500) 
   updatedDate={updatedDate}
   author={author}
 >
+  <!-- FAQ & HowTo Rich Snippets -->
+  {faqSchema && (
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  )}
+  {howToSchema && (
+    <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />
+  )}
+
   <!-- Progress bar is injected by BaseLayout for articles -->
   <Navbar />
 
@@ -152,6 +243,9 @@ const readingTime = Math.max(1, Math.ceil((post.body?.split(' ').length ?? 500) 
 
     <!-- Next / Previous Navigation -->
     <ArticleNav prevPost={prevPost} nextPost={nextPost} />
+
+    <!-- Related Posts -->
+    <RelatedPosts posts={relatedPosts} />
 
     <!-- Newsletter CTA -->
     <div class="container">

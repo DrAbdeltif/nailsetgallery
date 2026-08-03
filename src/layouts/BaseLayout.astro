@@ -57,6 +57,7 @@ const fullTitle = title === 'NailSet Gallery'
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={`${siteUrl}${ogImage}`} />
+    <meta property="og:image:alt" content={title} />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="1024" />
     <meta property="og:site_name" content="NailSet Gallery" />
@@ -66,6 +67,7 @@ const fullTitle = title === 'NailSet Gallery'
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />
+    <meta name="twitter:image:alt" content={title} />
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -133,6 +135,9 @@ const fullTitle = title === 'NailSet Gallery'
             "@id": `${siteUrl}#organization`,
             "name": "NailSet Gallery",
             "url": siteUrl,
+            "sameAs": [
+              "https://fr.pinterest.com/nailsetgallery/"
+            ],
             "logo": {
               "@type": "ImageObject",
               "url": `${siteUrl}/images/og-default.jpg`

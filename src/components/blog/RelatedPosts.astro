@@ -1,0 +1,188 @@
+---
+import Tag from '../ui/Tag.astro';
+
+export interface RelatedPostItem {
+  id: string;
+  title: string;
+  description: string;
+  heroImage?: string;
+  heroImageAlt?: string;
+  category: string;
+  pubDate: Date;
+}
+
+interface Props {
+  posts: RelatedPostItem[];
+}
+
+const { posts } = Astro.props;
+
+if (!posts || posts.length === 0) return null;
+---
+
+<section class="related-posts container reveal-fade" aria-label="Related articles">
+  <div class="related-posts__header">
+    <p class="label label-rose">✦ You Might Also Like</p>
+    <h2 class="related-posts__title">Related Nail Inspiration</h2>
+  </div>
+
+  <div class="related-posts__grid">
+    {posts.map((post) => {
+      const formattedDate = new Intl.DateTimeFormat('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+      }).format(post.pubDate);
+
+      return (
+        <article class="related-card hover-lift">
+          <a href={`/blog/${post.id}/`} class="related-card__link">
+            <div class="related-card__image-wrap img-zoom-container">
+              <img
+                src={post.heroImage ?? '/images/og-default.jpg'}
+                alt={post.heroImageAlt ?? post.title}
+                loading="lazy"
+                decoding="async"
+                class="related-card__image"
+              />
+            </div>
+            <div class="related-card__content">
+              <div class="related-card__meta">
+                <Tag label={post.category} variant="blush" size="sm" />
+                <time datetime={post.pubDate.toISOString()} class="related-card__date">
+                  {formattedDate}
+                </time>
+              </div>
+              <h3 class="related-card__heading">{post.title}</h3>
+              <p class="related-card__excerpt">{post.description}</p>
+            </div>
+          </a>
+        </article>
+      );
+    })}
+  </div>
+</section>
+
+<style>
+  .related-posts {
+    margin: var(--space-3xl) auto var(--space-2xl) auto;
+    padding-top: var(--space-2xl);
+    border-top: 1px solid var(--color-border-soft);
+  }
+
+  .related-posts__header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-xl);
+  }
+
+  .related-posts__title {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: 300;
+    font-style: italic;
+    color: var(--color-text);
+  }
+
+  .related-posts__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+  }
+
+  .related-card {
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border-soft);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform var(--duration-normal) var(--ease-out),
+                box-shadow var(--duration-normal) var(--ease-out);
+  }
+
+  .related-card__link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .related-card__image-wrap {
+    aspect-ratio: 16/10;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--color-bg-deep);
+  }
+
+  .related-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--duration-slow) var(--ease-out);
+  }
+
+  .related-card:hover .related-card__image {
+    transform: scale(1.05);
+  }
+
+  .related-card__content {
+    padding: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    flex-grow: 1;
+  }
+
+  .related-card__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-xs);
+    margin-bottom: 2px;
+  }
+
+  .related-card__date {
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+  }
+
+  .related-card__heading {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--color-text);
+    line-height: var(--leading-snug);
+    margin-top: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .related-card__excerpt {
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    line-height: var(--leading-normal);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  @media (max-width: 991px) {
+    .related-posts__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .related-posts__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
