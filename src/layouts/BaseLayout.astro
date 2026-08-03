@@ -14,6 +14,8 @@ interface Props {
   author?: string;
   noIndex?: boolean;
   googleAdsenseId?: string;
+  bingSiteVerification?: string;
+  googleSiteVerification?: string;
 }
 
 const {
@@ -26,6 +28,8 @@ const {
   author,
   noIndex = false,
   googleAdsenseId,
+  bingSiteVerification = import.meta.env.PUBLIC_BING_SITE_VERIFICATION || '47A28E9D30F443B78912E750C184C8A2',
+  googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION,
 } = Astro.props;
 
 const adsensePublisherId = googleAdsenseId || import.meta.env.PUBLIC_GOOGLE_ADSENSE_ID;
@@ -38,18 +42,30 @@ const fullTitle = title === 'NailSet Gallery'
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <!-- Charset & Viewport -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Primary Meta -->
+    <!-- Primary Meta & Search Engine Directives -->
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
-    {noIndex && <meta name="robots" content="noindex, nofollow" />}
-    {!noIndex && <meta name="robots" content="index, follow" />}
+    {noIndex ? (
+      <meta name="robots" content="noindex, nofollow" />
+    ) : (
+      <>
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+      </>
+    )}
+
+    <!-- Bing IndexNow & Site Verification -->
+    <meta name="indexnow" content="47a28e9d30f443b78912e750c184c8a2" />
+    {bingSiteVerification && <meta name="msvalidate.01" content={bingSiteVerification} />}
+    {googleSiteVerification && <meta name="google-site-verification" content={googleSiteVerification} />}
 
     <!-- Open Graph -->
     <meta property="og:type" content={ogType} />
