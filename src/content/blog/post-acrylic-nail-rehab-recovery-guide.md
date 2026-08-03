@@ -3,7 +3,7 @@ title: "Post-Acrylic Nail Rehab: 4-Week Damaged Nail Recovery Plan"
 description: "Restore thin, bendy, or peeling nails after acrylic or dip gel removal. A 4-week nail rehab guide using keratin, jojoba oil, and gentle prep."
 pubDate: 2026-07-28
 author: "NailSet Gallery Team"
-heroImage: "/images/post-acrylic-rehab-hero.jpg"
+heroImage: "/images/nail-strengtheners-hero.png"
 heroImageAlt: "Natural healthy nails being treated with nourishing cuticle oil after gel removal"
 category: "tutorials"
 tags: ["nail-rehab", "nail-health", "nail-care", "tutorials"]
