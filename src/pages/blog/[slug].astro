@@ -158,10 +158,10 @@ const howToSchema = howToSteps.length > 0 ? {
 >
   <!-- FAQ & HowTo Rich Snippets -->
   {faqSchema && (
-    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
   )}
   {howToSchema && (
-    <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(howToSchema)}></script>
   )}
 
   <!-- Progress bar is injected by BaseLayout for articles -->
