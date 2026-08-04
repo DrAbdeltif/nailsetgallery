@@ -31,3 +31,7 @@ pnpm-debug.log*
 
 # wrangler
 .wrangler/
+
+# helper scripts
+scripts/
+
