@@ -32,7 +32,7 @@ const {
   googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION,
 } = Astro.props;
 
-const adsensePublisherId = googleAdsenseId || import.meta.env.PUBLIC_GOOGLE_ADSENSE_ID;
+const adsensePublisherId = googleAdsenseId || import.meta.env.PUBLIC_GOOGLE_ADSENSE_ID || 'ca-pub-6608919368603045';
 
 const siteUrl = 'https://nailsetgallery.com';
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
@@ -85,10 +85,11 @@ const fullTitle = title === 'NailSet Gallery'
     <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />
     <meta name="twitter:image:alt" content={title} />
 
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <!-- Favicons for Google Search, Browsers & PWA -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="NailSet Gallery" />
