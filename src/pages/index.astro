@@ -34,6 +34,37 @@ const featured = allPosts.find((p) => p.data.featured) ?? allPosts[0];
   title="NailSet Gallery"
   description="Discover the most beautiful nail set colors, styles, and trends. Your go-to gallery for nail art inspiration in 2026 and beyond."
 >
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What are the biggest nail trends for 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The top 2026 nail trends include glazed donut powder finishes, sheer soap nails, quiet luxury milky nudes, Korean jelly blush gradients, Japanese 3D nuance art, and micro French tips on almond nail shapes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between Gel-X and Acrylic nails?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gel-X nails use full-coverage soft gel tips cured under LED light, offering 3-4 week longevity with soak-off acetone removal and minimal natural nail damage. Acrylics use liquid monomer and powder for sculpted extensions, requiring filing for removal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I choose the best nail color for my skin tone?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cool skin undertones pair best with rosy nudes, mauve, berry reds, and icy pastels. Warm undertones suit peach nudes, burnt orange, terracotta, and olive greens. Neutral undertones can wear almost any shade, including classic crimson and rose quartz."
+        }
+      }
+    ]
+  })}></script>
+
   <!-- Desktop floating navbar -->
   <Navbar />
 

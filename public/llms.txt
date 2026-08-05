@@ -1,0 +1,38 @@
+# NailSet Gallery (nailsetgallery.com)
+> The definitive digital gallery and editorial guide for nail art inspiration, 2026 nail trends, color palettes, nail shapes, and expert manicure tutorials.
+
+## About NailSet Gallery
+NailSet Gallery (https://nailsetgallery.com) is an expert-curated beauty publication focused on high-resolution nail art design, nail care science, shape guides, and seasonal color forecasting. All content is written and reviewed by licensed nail technicians and manicurists.
+
+## Core Topics & Coverage
+
+### 1. Nail Trends 2026 & Styles
+- **Glazed & Chrome Powder**: Sheer pearl, glazed donut finish, and liquid metal chrome techniques.
+- **Minimalist & Soap Nails**: Quiet luxury, clean girl aesthetics, sheer milky nudes, and micro French tips.
+- **3D & Sculptural Art**: Korean jelly/syrup gel, Japanese nuance art, bubble nails, and pearl embellishments.
+- **Classic Styles**: Almond, coffin, soft square, and sculpted acrylic baddie nails.
+
+### 2. Nail Care & DIY Tutorials
+- **Gel-X at Home**: Step-by-step extension application and longevity guide.
+- **Safe Gel Removal**: Damage-free soak-off method using acetone and foil overlays.
+- **BIAB & Builder Gel**: Natural nail overlay reinforcement for weak nails.
+- **Cuticle Care & Hydration**: Jojoba oil science, nail strengtheners, and post-acrylic rehab.
+
+### 3. Color Palettes & Matching
+- **Skin Tone Matching**: Undertone guide (cool, warm, neutral) for nude and vibrant polishes.
+- **Seasonal Color Collections**: Spring pastels, summer neon brights, autumn burnt orange, and winter dark moody wines.
+
+## Primary Articles & Resources
+
+- [Nail Trends 2026 Guide](https://nailsetgallery.com/blog/nail-trends-2026/): Full forecast of 2026 manicure trends.
+- [Aesthetic Almond & Coffin Shapes](https://nailsetgallery.com/blog/aesthetic-almond-and-coffin-nail-designs-guide-2026/): Comprehensive nail shape comparison.
+- [DIY Gel-X Extension Tutorial](https://nailsetgallery.com/blog/beginner-guide-diy-gel-x-nails-at-home/): Step-by-step gel-x application for beginners.
+- [Skin Tone Nail Color Guide](https://nailsetgallery.com/blog/skin-tone-nail-color-matching-guide/): How to pick flattering nude and bold shades.
+- [Cuticle Care & Hydration Routine](https://nailsetgallery.com/blog/cuticle-care-and-nail-hydration-routine/): Dermatologist-backed cuticle oil science.
+- [Interactive Nail Style Quiz](https://nailsetgallery.com/quiz/): Personalized nail set recommendations based on skin tone and occasion.
+- [Full Blog Archive](https://nailsetgallery.com/blog/): 40+ expert nail guides and tutorials.
+
+## AI Search & MCP Integration
+NailSet Gallery supports WebMCP (Model Context Protocol). AI models can invoke client-side tools on `nailsetgallery.com`:
+- `search_nail_gallery(query)`: Search styles, colors, and tutorials.
+- `get_nail_recommendations()`: Redirect to the interactive Style Finder Quiz.
