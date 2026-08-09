@@ -16,7 +16,7 @@ draft: false
 Emerald green has solidified its position as one of the most sophisticated luxury nail polish colors of 2026. Evoking rich gemstone depth, opulence, and organic elegance, this versatile shade transforms short natural nails and sculpted acrylics into high-fashion statements.
 
 > **Key Takeaways**
-> - **Jewel Tone Dominance:** Emerald green is the #1 trending jewel tone shade in 2026, experiencing a 42% increase in salon requests for autumn and winter luxury sets.
+> - **Jewel Tone Direction:** Emerald green is a versatile jewel-tone choice for autumn and winter sets, especially when balanced with champagne, cream, or negative space.
 > - **Gold Leaf Synergy:** Pairing deep emerald with 24k gold foil leaf accents creates an effortless contrast that elevates both glossy and matte finishes.
 > - **Undertone Adaptability:** Warm olive undertones pair best with yellow-gold infused emeralds, while cool fair complexions pop with deep blue-tinted forest emeralds.
 

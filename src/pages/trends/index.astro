@@ -5,6 +5,7 @@ import MobileNav from '../../components/nav/MobileNav.astro';
 import Footer from '../../components/nav/Footer.astro';
 import CategoryPills from '../../components/nav/CategoryPills.astro';
 import GalleryGrid from '../../components/gallery/GalleryGrid.astro';
+import EditorialHubIntro from '../../components/content/EditorialHubIntro.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft && data.category === 'trends');
@@ -34,6 +35,18 @@ const galleryItems = posts.map((post) => ({
         Stay ahead of the curve with our weekly trend reports, salon forecasts, and viral nail art predictions.
       </p>
     </div>
+
+    <EditorialHubIntro
+      eyebrow="How to read a nail trend"
+      heading="Separate lasting manicure ideas from short-lived viral aesthetics"
+      intro="A trend is more useful when you can translate it into a wearable color, shape, finish, and maintenance plan. These reports explain the technique behind the look, who it suits, and how to adapt it for short natural nails, salon appointments, or at-home manicures."
+      answer="The most wearable trends usually combine a familiar base—such as a nude, French tip, or deep red—with one current detail such as chrome powder, aura color, jelly translucency, or a sculptural accent. Choose the technique you can maintain, not only the image that is trending today."
+      links={[
+        { label: 'Nail trends 2026 guide', href: '/blog/nail-trends-2026/' },
+        { label: 'Aura nail art guide', href: '/blog/aura-and-airbrush-nail-art-trend-guide/' },
+        { label: 'Soap and jelly nails', href: '/blog/soap-and-jelly-nails-trend-guide/' },
+      ]}
+    />
 
     <CategoryPills activeCategory="trends" />
 

@@ -13,7 +13,7 @@ draft: false
 
 Gel polish offers glossy, chip-resistant shine for weeks—but removing it incorrectly is the #1 cause of peeling, thin, and brittle natural nails. Peeling, picking, or scraping hardened gel off your nail plate rips away delicate keratin layers, leaving behind weak, bendy nails that hurt.
 
-The good news? Removing gel polish at home can be completely damage-free when you follow professional soak-off methods. This step-by-step guide walks you through tools, acetone wrap techniques, and emergency recovery routines.
+The good news? Careful soak-off removal can reduce the risk of thinning and peeling, but no removal method is risk-free. This step-by-step guide walks you through tools, acetone wrap techniques, and recovery steps without encouraging force or scraping.
 
 > **Key Takeaways**
 >
@@ -35,7 +35,7 @@ When you pick or peel gel off:
 
 ---
 
-## Tool Checklist for Damage-Free Gel Removal
+## Tool Checklist for Safer Gel Removal
 
 Before beginning removal, prepare your removal kit:
 

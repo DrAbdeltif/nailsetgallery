@@ -68,7 +68,7 @@ Compare the pros and cons of salon manicures versus at-home press-ons for your f
 
 | Feature | Salon Gel Manicure | DIY High-Quality Press-Ons |
 | :--- | :--- | :--- |
-| **Day-One Perfection** | 100% Guaranteed custom fit & cuticle clean | Requires careful sizing for natural look |
+| **Day-One Perfection** | Custom fit with careful sizing and clean edges | Requires more preparation for a natural look |
 | **Time Investment** | 60–90 Minutes at salon | 15 Minutes at home |
 | **Cost** | $45–$80+ | $10–$18 |
 | **Last-Minute Emergency Safe?** | Hard to book last-minute | Perfect for night-before prep |

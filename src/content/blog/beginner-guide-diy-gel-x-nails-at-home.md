@@ -15,13 +15,13 @@ draft: false
 
 Gel-X nail extensions have revolutionized at-home nail care by offering long-lasting, lightweight, natural-looking extensions without traditional acrylic powder, liquid monomer, or harsh chemical fumes. 
 
-> **TL;DR:** DIY Gel-X nails use full-coverage soft gel tips bonded to natural nails with a light-cured gel resin. When properly prepped and flash-cured at a 45-degree angle, Gel-X extensions last 3 to 4 weeks without lifting or nail damage.
+> **TL;DR:** DIY Gel-X nails use full-coverage soft gel tips bonded to natural nails with a light-cured gel resin. Wear time varies by product, prep, lifestyle, and removal; correct curing and gentle soak-off are essential to reduce lifting and damage risk.
 
 ---
 
 ## What Is the DIY Gel-X Extension System?
 
-Gel-X is a soft-gel full-coverage nail extension system that bonds pre-formed gel tips directly to the natural nail using a UV/LED light-cured gel adhesive. Unlike traditional hard gels or liquid-and-powder acrylics, soft gel tips are pre-molded, lightweight, and fully soakable in acetone for zero-damage removal.
+Gel-X is a soft-gel full-coverage nail extension system that bonds pre-formed gel tips directly to the natural nail using a UV/LED light-cured gel adhesive. Unlike traditional hard gels or liquid-and-powder acrylics, soft gel tips are pre-molded, lightweight, and designed for soak-off removal when the system is compatible and used as directed.
 
 Because the extensions cover the entire nail bed from cuticle to tip, they provide immediate structure and length while protecting fragile natural nails underneath.
 
@@ -96,8 +96,8 @@ Before starting your application, assemble these tools on a clean workspace:
 ### How long do DIY Gel-X nails last?
 Gel-X extensions last 3 to 4 weeks when applied with proper nail prep, dehydrator, primer, and correct flash-curing technique.
 
-### Will Gel-X damage my natural nails?
-No, Gel-X extensions do not damage natural nails because soft gel dissolves gently in acetone without aggressive filing or tearing.
+### Can Gel-X damage my natural nails?
+Gel-X can contribute to thinning or irritation if the nail is over-filed, product touches skin, the system is under-cured, or the set is peeled off. Follow the product instructions, use the matching lamp, and remove by filing only the bulk and soaking the compatible soft gel rather than forcing it off.
 
 ### Can I reuse soft gel Gel-X tips?
 No, Gel-X tips dissolve in acetone during removal and cannot be reused. Reusable nail extensions require press-on nails instead.

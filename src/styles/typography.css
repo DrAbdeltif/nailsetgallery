@@ -193,6 +193,43 @@ p {
   color: var(--color-text);
 }
 
+/* ── Step-Flow & Code Blocks in Article Body ── */
+.prose pre {
+  background-color: var(--color-bg-deep);
+  border: 1px solid rgba(139, 26, 74, 0.12);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  margin: var(--space-lg) 0;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: 1.65;
+  color: var(--color-text);
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  box-shadow: inset 0 1px 3px rgba(139, 26, 74, 0.02);
+}
+
+.prose pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.prose code {
+  background-color: var(--color-bg-deep);
+  color: var(--color-rose-dark);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.875em;
+}
+
 /* ── Responsive typography adjustments ── */
 @media (max-width: 768px) {
   .text-hero {

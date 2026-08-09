@@ -90,7 +90,7 @@ Understanding why press-on nails pop off helps you prevent lifting:
 With proper nail dehydration, surface buffing, and a 30-second press, press-on nails stay on for 2 to 3 weeks without popping.
 
 ### Can press-on nails damage your natural nails?
-No, press-on nails do not damage natural nails when removed properly by soaking in warm soapy water with cuticle oil.
+Press-ons can cause thinning, peeling, or irritation if they are forced off, worn over damaged nails, or applied with glue on the surrounding skin. Removal should be gradual with warm soapy water and oil; never pry or rip a firmly attached tip away.
 
 ### Are press-on nails reusable?
 Yes, high-quality acrylic press-on nails can be reused by gently buffing away dried glue residue from the underside of the tip.

@@ -201,7 +201,7 @@
   box-shadow: var(--shadow-nav);
 }
 
-/* ── Category pill active state ── */
+/* ── Category pill active state (GPU-composited scaleX transition) ── */
 .category-pill {
   position: relative;
   transition:
@@ -213,19 +213,19 @@
   content: '';
   position: absolute;
   bottom: -2px;
-  left: 50%;
-  right: 50%;
+  left: 0;
+  right: 0;
   height: 1px;
   background: var(--color-rose);
-  transition:
-    left var(--duration-normal) var(--ease-out),
-    right var(--duration-normal) var(--ease-out);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform var(--duration-normal) var(--ease-out);
+  will-change: transform;
 }
 
 .category-pill:hover::after,
 .category-pill.active::after {
-  left: 0;
-  right: 0;
+  transform: scaleX(1);
 }
 
 .category-pill.active {

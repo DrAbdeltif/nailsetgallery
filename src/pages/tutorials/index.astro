@@ -5,6 +5,7 @@ import MobileNav from '../../components/nav/MobileNav.astro';
 import Footer from '../../components/nav/Footer.astro';
 import CategoryPills from '../../components/nav/CategoryPills.astro';
 import GalleryGrid from '../../components/gallery/GalleryGrid.astro';
+import EditorialHubIntro from '../../components/content/EditorialHubIntro.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft && data.category === 'tutorials');
@@ -34,6 +35,18 @@ const galleryItems = posts.map((post) => ({
         Master at-home manicures, press-on longevity, cuticle care, and professional gel removal step by step.
       </p>
     </div>
+
+    <EditorialHubIntro
+      eyebrow="Safe nail care and DIY technique"
+      heading="Choose a tutorial by goal, product system, and removal method"
+      intro="At-home nail tutorials work best when preparation, curing, wear time, and removal are treated as one process. Start with the guide that matches your product system, then follow the safety and maintenance steps before adding length or embellishment."
+      answer="For beginners, press-ons are typically the simplest temporary option; Gel-X and builder gel require correct prep, compatible products, and a suitable lamp; acrylics require monomer handling and professional-level removal care. Never peel cured product from the natural nail, and stop if you feel pain, burning, or irritation."
+      links={[
+        { label: 'DIY Gel-X guide', href: '/blog/beginner-guide-diy-gel-x-nails-at-home/' },
+        { label: 'Safe gel removal', href: '/blog/safe-gel-nail-polish-removal-at-home-guide/' },
+        { label: 'Natural nail care', href: '/blog/ultimate-beginners-guide-natural-nail-care/' },
+      ]}
+    />
 
     <CategoryPills activeCategory="tutorials" />
 

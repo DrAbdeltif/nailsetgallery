@@ -5,6 +5,7 @@ import MobileNav from '../../components/nav/MobileNav.astro';
 import Footer from '../../components/nav/Footer.astro';
 import CategoryPills from '../../components/nav/CategoryPills.astro';
 import GalleryGrid from '../../components/gallery/GalleryGrid.astro';
+import EditorialHubIntro from '../../components/content/EditorialHubIntro.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft && data.category === 'colors');
@@ -42,6 +43,18 @@ const colorPalettes = [
         Curated color combinations, shade pairings, and seasonal palettes for your next manicure.
       </p>
     </div>
+
+    <EditorialHubIntro
+      eyebrow="How to choose a nail color"
+      heading="Find a nail palette that works for your undertone, occasion, and finish"
+      intro="A useful nail color search starts with more than a trend name. Compare undertone, contrast, finish, and maintenance before choosing a shade. This hub brings together practical color theory and wearable nail set ideas for everyday manicures, events, and seasonal looks."
+      answer="Cool undertones usually suit rosy pinks, mauves, berry shades, and blue-based reds; warm undertones often pair well with peach, terracotta, coral, and olive; neutral undertones can move between both families. The finish—sheer, chrome, shimmer, or matte—changes the result as much as the color itself."
+      links={[
+        { label: 'Skin-tone matching guide', href: '/blog/skin-tone-nail-color-matching-guide/' },
+        { label: 'Cherry red designs', href: '/blog/cherry-red-and-wine-nail-designs-2026/' },
+        { label: 'Quiet luxury nudes', href: '/blog/quiet-luxury-nude-gel-guide/' },
+      ]}
+    />
 
     <CategoryPills activeCategory="colors" />
 

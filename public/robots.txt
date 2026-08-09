@@ -44,5 +44,3 @@ User-agent: Applebot
 Allow: /
 
 Sitemap: https://nailsetgallery.com/sitemap-index.xml
-Sitemap: https://nailsetgallery.com/sitemap-0.xml
-Sitemap: https://nailsetgallery.com/llms.txt

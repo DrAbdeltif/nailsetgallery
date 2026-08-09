@@ -145,6 +145,10 @@ const howToSchema = howToSteps.length > 0 ? {
     "text": step.text,
   })),
 } : null;
+
+const editorialNote = category === 'tutorials'
+  ? "Editorial note: Product formulas, lamps, and cure times vary. Follow the product manufacturer's instructions, avoid uncured gel touching skin, and stop if you feel burning, pain, or irritation."
+  : 'Editorial note: Trend and color recommendations are editorial inspiration, not a market survey. Adapt the look to your nail length, routine, and personal style.';
 ---
 
 <BaseLayout
@@ -217,10 +221,17 @@ const howToSchema = howToSteps.length > 0 ? {
           alt={heroImageAlt ?? title}
           loading="eager"
           decoding="async"
+          width="1600"
+          height="700"
           class="article-hero-img"
         />
       </div>
     )}
+
+    <aside class="editorial-note container" aria-label="Editorial note">
+      <strong>Good to know</strong>
+      <p>{editorialNote}</p>
+    </aside>
 
     <!-- Article body -->
     <div class="article-body container">
@@ -259,6 +270,82 @@ const howToSchema = howToSteps.length > 0 ? {
       </a>
     </div>
   </main>
+
+  <script is:inline>
+    (function() {
+      const preBlocks = document.querySelectorAll('.prose pre');
+      preBlocks.forEach((pre) => {
+        const text = pre.textContent || '';
+
+        // Match horizontal step flow: [Step 1] ➔ [Step 2] ...
+        if (text.includes('➔') || (text.includes('[') && text.includes(']'))) {
+          const steps = text.split('➔').map((s) => s.trim().replace(/^\[|\]$/g, '')).filter(Boolean);
+          if (steps.length > 1) {
+            const container = document.createElement('div');
+            container.className = 'step-flow-container';
+            steps.forEach((stepText, idx) => {
+              const stepCard = document.createElement('div');
+              stepCard.className = 'step-flow-card';
+
+              const badge = document.createElement('span');
+              badge.className = 'step-flow-badge';
+              badge.textContent = String(idx + 1);
+
+              const content = document.createElement('span');
+              content.className = 'step-flow-text';
+              content.textContent = stepText;
+
+              stepCard.append(badge, content);
+              container.append(stepCard);
+
+              if (idx < steps.length - 1) {
+                const arrow = document.createElement('span');
+                arrow.className = 'step-flow-arrow';
+                arrow.textContent = '➔';
+                arrow.setAttribute('aria-hidden', 'true');
+                container.append(arrow);
+              }
+            });
+            pre.replaceWith(container);
+            return;
+          }
+        }
+
+        // Match vertical step flow: Step 1 ... ↓ Step 2 ...
+        if (text.includes('↓')) {
+          const lines = text.split(/\n|↓/).map((s) => s.trim()).filter((s) => s && s !== '↓');
+          if (lines.length > 1) {
+            const container = document.createElement('div');
+            container.className = 'step-flow-container step-flow-vertical';
+            lines.forEach((lineText, idx) => {
+              const stepCard = document.createElement('div');
+              stepCard.className = 'step-flow-card';
+
+              const badge = document.createElement('span');
+              badge.className = 'step-flow-badge';
+              badge.textContent = String(idx + 1);
+
+              const content = document.createElement('span');
+              content.className = 'step-flow-text';
+              content.textContent = lineText.replace(/^Step \d+:\s*/i, '');
+
+              stepCard.append(badge, content);
+              container.append(stepCard);
+
+              if (idx < lines.length - 1) {
+                const arrow = document.createElement('span');
+                arrow.className = 'step-flow-arrow step-flow-arrow--down';
+                arrow.textContent = '↓';
+                arrow.setAttribute('aria-hidden', 'true');
+                container.append(arrow);
+              }
+            });
+            pre.replaceWith(container);
+          }
+        }
+      });
+    })();
+  </script>
 
   <Footer />
   <MobileNav />
@@ -398,6 +485,19 @@ const howToSchema = howToSteps.length > 0 ? {
     padding-bottom: var(--space-2xl);
   }
 
+  .editorial-note {
+    margin-bottom: var(--space-xl);
+    padding: var(--space-md) var(--space-lg);
+    border-left: 3px solid var(--color-rose);
+    background: var(--color-bg-deep);
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .editorial-note strong { color: var(--color-text); }
+  .editorial-note p { margin-top: var(--space-xs); }
+
   /* Tags */
   .article-tags {
     display: flex;
@@ -436,6 +536,71 @@ const howToSchema = howToSteps.length > 0 ? {
   }
 
   .btn-back:hover { color: var(--color-rose); }
+
+  /* Step Flow Component (Editorial DIY Tutorials & Guides) */
+  :global(.step-flow-container) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--color-bg-deep);
+    border: 1px solid rgba(139, 26, 74, 0.14);
+    border-radius: var(--radius-md);
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-lg) 0;
+    box-shadow: 0 2px 10px rgba(139, 26, 74, 0.03);
+  }
+
+  :global(.step-flow-container.step-flow-vertical) {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-sm);
+  }
+
+  :global(.step-flow-card) {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 1px solid var(--color-border-soft);
+    border-radius: var(--radius-full);
+    padding: 6px 14px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  }
+
+  :global(.step-flow-badge) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: var(--radius-full);
+    background-color: var(--color-rose);
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  :global(.step-flow-text) {
+    font-size: var(--text-xs);
+    font-weight: 500;
+    color: var(--color-text);
+    letter-spacing: 0.01em;
+  }
+
+  :global(.step-flow-arrow) {
+    color: var(--color-rose);
+    font-size: 14px;
+    margin: 0 2px;
+  }
+
+  :global(.step-flow-arrow--down) {
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 0;
+  }
 
   @media (max-width: 767px) {
     .article-header { padding-top: calc(54px + var(--space-lg)); }

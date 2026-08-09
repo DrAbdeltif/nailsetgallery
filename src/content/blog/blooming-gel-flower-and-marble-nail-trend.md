@@ -89,7 +89,7 @@ No. Blooming gel only works with UV/LED gel polishes because regular nail polish
 
 ### Do I need a special brand of blooming gel?
 
-Most major gel polish brands offer clear blooming gel. They are universally compatible with standard LED-curable gel polishes.
+Many gel brands offer clear blooming gel, but compatibility and curing requirements vary. Check the brand’s instructions and test the combination on a practice tip before applying it to a client or your own nails.
 
 ### How long does a blooming gel manicure last?
 

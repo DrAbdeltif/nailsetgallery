@@ -5,6 +5,7 @@ import MobileNav from '../../components/nav/MobileNav.astro';
 import Footer from '../../components/nav/Footer.astro';
 import CategoryPills from '../../components/nav/CategoryPills.astro';
 import GalleryGrid from '../../components/gallery/GalleryGrid.astro';
+import EditorialHubIntro from '../../components/content/EditorialHubIntro.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft && data.category === 'styles');
@@ -41,6 +42,18 @@ const shapes = [
         Explore almond, coffin, square, and oval shapes alongside press-on and gel extension guides.
       </p>
     </div>
+
+    <EditorialHubIntro
+      eyebrow="How to choose a nail shape"
+      heading="Match nail shape and length to your hands, routine, and design goals"
+      intro="The best nail shape is a balance between natural nail structure, desired length, daily tasks, and the look you want. Use this hub to compare almond, coffin, square, oval, gel, press-on, and acrylic styles before booking or creating your next set."
+      answer="Almond and oval shapes visually elongate the fingers; soft square is practical and versatile; coffin creates a wider canvas for art but needs more length and support. Shorter lengths are usually easier to maintain, while extensions create more room for detailed designs."
+      links={[
+        { label: 'Almond shape guide', href: '/blog/almond-shape-nail-designs-and-styling-guide/' },
+        { label: 'Almond vs. coffin', href: '/blog/aesthetic-almond-and-coffin-nail-designs-guide-2026/' },
+        { label: 'French tip variations', href: '/blog/french-tip-nail-art-variations-2026/' },
+      ]}
+    />
 
     <CategoryPills activeCategory="styles" />
 

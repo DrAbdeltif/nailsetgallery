@@ -10,6 +10,20 @@ import Footer from '../components/nav/Footer.astro';
   title="About Us"
   description="About NailSet Gallery — Our mission, editorial team, and commitment to high-quality nail set design, color palettes, and nail care advice."
 >
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": "https://nailsetgallery.com/about/#webpage",
+    "url": "https://nailsetgallery.com/about/",
+    "name": "About NailSet Gallery",
+    "mainEntity": {
+      "@type": "Person",
+      "@id": "https://nailsetgallery.com/about/#person",
+      "name": "NailSet Gallery Editorial Team",
+      "url": "https://nailsetgallery.com/about/",
+      "worksFor": { "@id": "https://nailsetgallery.com#organization" }
+    }
+  })}></script>
   <Navbar />
 
   <main id="main-content" class="container page-main">

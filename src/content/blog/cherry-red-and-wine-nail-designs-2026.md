@@ -17,7 +17,7 @@ Whether you prefer sleek short natural nails or sculpted almond gel extensions, 
 
 > **Key Takeaways**
 >
-> - **The 2026 Cherry Resurgence:** Searches for "dark cherry chrome nails" and "black cherry glass manicure" have grown over 65% year-over-year.
+> - **The 2026 Cherry Resurgence:** Dark cherry, burgundy, and wine finishes are a strong editorial direction for 2026, especially in glass, velvet, and chrome effects.
 > - **Tone Customization:** Warm yellow and olive undertones shine in rich claret red, while cool undertones pop under blue-based oxblood and berry burgundy.
 > - **Finish Versatility:** 2026 elevates red polish beyond traditional glossy cream into cat-eye velvet, glass jelly, and liquid metallic chrome.
 

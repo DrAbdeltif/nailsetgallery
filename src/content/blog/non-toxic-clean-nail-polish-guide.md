@@ -13,7 +13,7 @@ draft: false
 
 Clean non-toxic nail polishes eliminate harsh chemical solvents, plasticizers, and endocrine disruptors while maintaining high-shine, chip-resistant wear.
 
-> **TL;DR:** Non-toxic nail polishes eliminate toxic chemicals like formaldehyde, toluene, and DBP using 10-Free or 21-Free plant-based formulas. Breathable water-permeable polishes allow oxygen and moisture vapor to pass through the nail plate, keeping natural nails healthy and hydrated.
+> **TL;DR:** “10-free” and “21-free” are product-label terms describing ingredients a formula excludes; they are not a universal safety certification. Compare the brand’s ingredient list, ventilation guidance, finish, and wear claims, and treat “breathable” marketing claims cautiously.
 
 ---
 
@@ -93,9 +93,9 @@ Sweep a non-toxic top coat across the free edge tip. Refresh with a top coat lay
 
 Yes, when applied over alcohol-dehydrated nails with a non-toxic top coat, 10-free clean polishes last 7 to 10 days without chipping.
 
-### Is non-toxic nail polish safe during pregnancy?
+### Can I use “10-free” nail polish during pregnancy?
 
-Yes, 10-free and 21-free non-toxic polishes eliminate endocrine disruptors like phthalates and toluene, making them safer during pregnancy.
+“10-free” and similar labels describe a brand’s excluded-ingredient list, not a universal safety guarantee. Ventilation, exposure, personal allergies, and the exact formula still matter. During pregnancy, follow your clinician’s advice and the product label rather than relying on a marketing label alone.
 
 ### What is breathable nail polish?
 

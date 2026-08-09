@@ -2,7 +2,7 @@
 title: "The Ultimate Beginner's Guide to Healthy Natural Nail Care"
 description: "Discover the 4-phase daily and weekly routine to grow strong, flexible natural nails at home without expensive salon treatments or harsh chemicals."
 pubDate: 2026-07-30
-author: "Dr. Elena Vance, Licensed Dermatologist & Nail Specialist"
+author: "NailSet Gallery Editorial Team"
 heroImage: "/images/natural-nail-care-hero.jpg"
 heroImageAlt: "A woman applying nourishing cuticle oil to clean, natural fingernails"
 category: "tutorials"
@@ -163,9 +163,9 @@ If you are looking for design inspiration to pair with your newly healthy natura
 
 ---
 
-## About the Author & Medical Review
+## Editorial Review & Medical Disclaimer
 
-**Dr. Elena Vance, MD** is a board-certified dermatologist and medical specialist in nail disorders. With over 12 years of clinical practice, Dr. Vance focuses on non-invasive natural nail rehabilitation, cuticle physiology, and botanical lipid therapies. This guide is reviewed to comply with standard dermatological care recommendations established by the American Academy of Dermatology (AAD).
+This guide is prepared by the NailSet Gallery editorial team and is intended for general nail-care education, not diagnosis or medical treatment. The cited American Academy of Dermatology guidance is provided for general care context. See a qualified clinician for persistent pain, swelling, discoloration, infection, or changes that do not improve.
 
 ---
 

@@ -103,18 +103,32 @@ const fullTitle = title === 'NailSet Gallery'
       </>
     )}
 
-    <!-- Google Fonts — preconnect for performance -->
+    <!-- Google Fonts — non-render-blocking async load -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300;1,500&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300;1,500&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300;1,500&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
 
-    <!-- Google AdSense Script -->
+    <!-- Google AdSense Script (deferred to prevent blocking FCP/LCP) -->
     {adsensePublisherId && (
       <script
         async
+        defer
         src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsensePublisherId}`}
         crossorigin="anonymous"
       />
@@ -132,7 +146,7 @@ const fullTitle = title === 'NailSet Gallery'
             "description": description,
             "datePublished": pubDate.toISOString(),
             "dateModified": (updatedDate ?? pubDate).toISOString(),
-            "author": { "@id": `${siteUrl}/author/${encodeURIComponent(author ?? 'NailSet Gallery')}#person` },
+            "author": { "@id": `${siteUrl}/about/#person` },
             "publisher": { "@id": `${siteUrl}#organization` },
             "image": { "@id": `${canonicalURL}#primaryimage` },
             "mainEntityOfPage": {
@@ -142,9 +156,9 @@ const fullTitle = title === 'NailSet Gallery'
           },
           {
             "@type": "Person",
-            "@id": `${siteUrl}/author/${encodeURIComponent(author ?? 'NailSet Gallery')}#person`,
+            "@id": `${siteUrl}/about/#person`,
             "name": author ?? "NailSet Gallery",
-            "url": siteUrl,
+            "url": `${siteUrl}/about/`,
             "worksFor": { "@id": `${siteUrl}#organization` }
           },
           {
@@ -204,7 +218,20 @@ const fullTitle = title === 'NailSet Gallery'
             "@id": `${siteUrl}#website`,
             "name": "NailSet Gallery",
             "url": siteUrl,
-            "description": description
+            "description": description,
+            "inLanguage": "en-US",
+            "publisher": { "@id": `${siteUrl}#organization` }
+          },
+          {
+            "@type": "Organization",
+            "@id": `${siteUrl}#organization`,
+            "name": "NailSet Gallery",
+            "url": siteUrl,
+            "logo": {
+              "@type": "ImageObject",
+              "url": `${siteUrl}/images/og-default.jpg`
+            },
+            "sameAs": ["https://fr.pinterest.com/nailsetgallery/"]
           },
           ...(Astro.url.pathname !== '/' ? [{
             "@type": "CollectionPage",
@@ -271,7 +298,7 @@ const fullTitle = title === 'NailSet Gallery'
             },
             execute: function(params) {
               var q = params && params.query ? encodeURIComponent(params.query) : '';
-              window.location.href = '/blog?search=' + q;
+              window.location.href = '/blog/?search=' + q;
               return Promise.resolve({ success: true, query: params ? params.query : '' });
             }
           },
@@ -302,8 +329,8 @@ const fullTitle = title === 'NailSet Gallery'
               properties: {}
             },
             execute: function() {
-              window.location.href = '/quiz';
-              return Promise.resolve({ success: true, redirect: '/quiz' });
+              window.location.href = '/quiz/';
+              return Promise.resolve({ success: true, redirect: '/quiz/' });
             }
           }
         ];

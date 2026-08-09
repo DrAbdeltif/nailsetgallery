@@ -90,6 +90,7 @@ const currentPath = Astro.url.pathname;
     class="mobile-drawer"
     id="mobile-menu-drawer"
     aria-hidden="true"
+    inert
   >
     <div class="mobile-drawer__content">
       <ul class="mobile-drawer__links" role="list">
@@ -207,6 +208,11 @@ const currentPath = Astro.url.pathname;
     mobileToggle.classList.toggle('is-active', isMobileMenuOpen);
     mobileDrawer.classList.toggle('is-open', isMobileMenuOpen);
     mobileDrawer.setAttribute('aria-hidden', String(!isMobileMenuOpen));
+    if (isMobileMenuOpen) {
+      mobileDrawer.removeAttribute('inert');
+    } else {
+      mobileDrawer.setAttribute('inert', '');
+    }
     navbar.classList.toggle('drawer-open', isMobileMenuOpen);
 
     // Keep navbar visible when menu is open
@@ -332,7 +338,7 @@ const currentPath = Astro.url.pathname;
 
   @keyframes sparkle-pulse {
     0%, 100% { transform: scale(1) rotate(0deg); opacity: 0.9; }
-    50% { transform: scale(1.18) rotate(15deg); opacity: 1; filter: drop-shadow(0 0 4px var(--color-rose-light)); }
+    50% { transform: scale(1.18) rotate(15deg); opacity: 1; }
   }
 
   .navbar__logo-text {

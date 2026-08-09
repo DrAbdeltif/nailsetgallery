@@ -5,6 +5,7 @@ import MobileNav from '../../components/nav/MobileNav.astro';
 import Footer from '../../components/nav/Footer.astro';
 import CategoryPills from '../../components/nav/CategoryPills.astro';
 import GalleryGrid from '../../components/gallery/GalleryGrid.astro';
+import EditorialHubIntro from '../../components/content/EditorialHubIntro.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft && data.category === 'seasons');
@@ -41,6 +42,18 @@ const seasons = [
         Match your manicure to the seasons — from fresh spring florals to rich winter velvet.
       </p>
     </div>
+
+    <EditorialHubIntro
+      eyebrow="Seasonal nail planning"
+      heading="Build a seasonal manicure around color, finish, and the occasion"
+      intro="Seasonal nail ideas are easiest to wear when you adapt the palette to your wardrobe, nail length, and appointment timing. Browse these guides for spring, summer, autumn, and winter combinations that range from low-maintenance polish to detailed gel art."
+      answer="Start with one seasonal anchor color, then add a neutral and a finish that suits your routine. Sheer pastels and short shapes work well for spring; bright or translucent colors suit summer; earthy oranges, olives, and burgundies transition into autumn; velvet, chrome, and deep jewel tones create winter contrast."
+      links={[
+        { label: 'Seasonal color guide', href: '/blog/seasonal-nail-art-and-color-trends/' },
+        { label: 'Spring pastel designs', href: '/blog/spring-pastel-nail-art-ideas-2026/' },
+        { label: 'Dark fall nail trends', href: '/blog/fall-winter-2026-dark-nail-color-trends/' },
+      ]}
+    />
 
     <CategoryPills activeCategory="seasons" />
 
