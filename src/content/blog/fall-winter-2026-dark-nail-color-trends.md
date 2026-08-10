@@ -1,7 +1,8 @@
----
+﻿---
 title: "Dark & Vampy Nail Color Trends for Fall/Winter 2026: Deep Espresso to Black Cherry"
 description: "Explore the top dark nail color trends for Fall and Winter 2026, featuring deep espresso browns, rich burgundy, and glossy black cherry shades."
 pubDate: 2026-07-28
+updatedDate: 2026-07-28
 author: "NailSet Gallery Team"
 heroImage: "/images/dark-fall-nails-hero.jpg"
 heroImageAlt: "Deep espresso brown and black cherry high-gloss gel nails for fall 2026"

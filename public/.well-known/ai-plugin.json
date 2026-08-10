@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "NailSet Gallery",
+  "name_for_model": "nailset_gallery",
+  "description_for_human": "Search nail art inspiration, 2026 nail trends, color palettes, and expert manicure tutorials on NailSet Gallery.",
+  "description_for_model": "NailSet Gallery is an expert-curated nail art publication. Use it to search nail styles, colors, seasonal trends, DIY tutorials, and nail care guides. Available tools: search by keyword, browse by category (colors, styles, seasons, trends, tutorials), and access the interactive nail style quiz.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://nailsetgallery.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://nailsetgallery.com/web-app-manifest-512x512.png",
+  "contact_email": "contact@nailsetgallery.com",
+  "legal_info_url": "https://nailsetgallery.com/privacy-policy/"
+}

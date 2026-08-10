@@ -1,7 +1,8 @@
----
+﻿---
 title: "Nail Trends 2026: The Definitive Guide to What's In This Year"
 description: "Everything you need to know about nail trends 2026 — from the biggest color shifts to the most wearable nail art styles dominating salons right now."
 pubDate: 2026-07-15
+updatedDate: 2026-07-15
 author: "NailSet Gallery Team"
 heroImage: "/images/nail-trends-2026-hero.jpg"
 heroImageAlt: "Collage of trending nail sets for 2026 including glazed, chrome, and floral designs"

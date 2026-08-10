@@ -7,9 +7,11 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "node scripts/generate-llms-full.mjs",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "generate:llms": "node scripts/generate-llms-full.mjs"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^14.1.7",

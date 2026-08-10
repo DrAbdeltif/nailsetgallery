@@ -1,7 +1,8 @@
----
+﻿---
 title: "Almond Nail Shapes Guide 2026: Elegant Designs for Short & Medium Lengths"
 description: "Master the almond nail shape in 2026. Discover how to file natural almond nails at home, top design ideas for short & medium lengths, and break-proofing tips."
 pubDate: 2026-08-02
+updatedDate: 2026-08-02
 author: "NailSet Gallery Team"
 heroImage: "/images/almond-nail-shape-guide-hero.jpg"
 heroImageAlt: "Elegantly manicured hands with medium almond nails and thin white micro French tips"

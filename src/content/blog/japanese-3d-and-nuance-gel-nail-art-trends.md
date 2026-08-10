@@ -1,7 +1,8 @@
----
+﻿---
 title: "Japanese Nail Art Trends 2026: 3D Gel Sculpting & Nuance Layers"
 description: "Master Japanese nail art in 2026. Explore Tokyo salon techniques, clear 3D gel droplets, nuance watercolor layering, and artisan Japanese gel products."
 pubDate: 2026-08-03
+updatedDate: 2026-08-03
 author: "NailSet Gallery Team"
 heroImage: "/images/japanese-nuance-3d-nails-hero.png"
 heroImageAlt: "Intricate Japanese 3D nuance gel nail art with clear gel droplets, gold leaf flakes, and Tokyo salon aesthetic"

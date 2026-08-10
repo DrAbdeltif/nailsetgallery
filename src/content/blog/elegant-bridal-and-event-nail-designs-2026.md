@@ -1,7 +1,8 @@
----
+﻿---
 title: "Elegant Bridal & Wedding Nails 2026: Trends, Shapes & Prep Timeline"
 description: "Plan your dream wedding manicure in 2026. Discover elegant bridal nail designs, pearl accents, baby boomer ombré, and a 6-month bride nail prep timeline."
 pubDate: 2026-08-03
+updatedDate: 2026-08-03
 author: "NailSet Gallery Team"
 heroImage: "/images/elegant-bridal-event-nails-hero.png"
 heroImageAlt: "Delicate bridal wedding manicure featuring sheer pearl gel, micro-pearl accents, and white lace detail holding roses"

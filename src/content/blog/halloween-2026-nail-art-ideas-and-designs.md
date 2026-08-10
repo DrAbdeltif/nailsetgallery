@@ -1,7 +1,8 @@
----
+﻿---
 title: "Spooky & Elegant Halloween Nail Art Ideas 2026: From Ghosts to 3D Webs"
 description: "Discover 2026's top Halloween nail art ideas. From cute ghost accents to 3D spider webs and gothic black French tips, find spooky manicure inspo."
 pubDate: 2026-08-06
+updatedDate: 2026-08-06
 author: "NailSet Gallery Team"
 heroImage: "/images/halloween-2026-nails-hero.png"
 heroImageAlt: "Spooky and elegant Halloween nail art designs featuring black micro French tips, ghost accents, and spider webs"

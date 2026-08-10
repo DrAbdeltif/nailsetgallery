@@ -1,7 +1,8 @@
----
+﻿---
 title: "Moody Dark Nail Color Palettes 2026: Espresso, Cherry & Navy"
 description: "Explore 2026's rich moody dark nail palettes. From deep cherry cola to dark espresso and midnight velvet navy, elevate your moody manicure."
 pubDate: 2026-07-28
+updatedDate: 2026-07-28
 author: "NailSet Gallery Team"
 heroImage: "/images/moody-dark-nails-hero.png"
 heroImageAlt: "Rich glossy deep cherry cola gel manicure on short oval nails"

@@ -25,7 +25,7 @@ interface Props {
 const { items, columns = 4 } = Astro.props;
 ---
 
-<section class="gallery-grid" aria-label="Nail gallery">
+<section class="gallery-grid" aria-label={`Nail gallery, ${items.length} article${items.length !== 1 ? 's' : ''}`}>
   <div class={`gallery-grid__columns gallery-grid__columns--${columns}`}>
     {items.map((item) => (
       <NailCard {...item} />

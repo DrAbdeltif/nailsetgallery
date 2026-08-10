@@ -352,6 +352,7 @@ const {
 
     .hero__headline {
       max-width: 20ch;
+      font-size: clamp(2.4rem, 5vw, var(--text-hero));
     }
   }
 
@@ -360,11 +361,29 @@ const {
       min-height: auto;
       align-items: flex-start;
       padding-top: calc(54px + var(--space-md));
-      padding-bottom: calc(var(--space-xl) + 60px); /* space for mobile nav */
+      padding-bottom: calc(var(--space-xl) + 68px); /* space for 60px nav + 8px safe area */
     }
 
     .hero__headline {
+      /* Fluid font: 2.2rem on 320px, 3.2rem on 767px */
+      font-size: clamp(2.2rem, 8vw, 3.2rem);
       max-width: 100%;
+    }
+
+    /* Hide decorative blobs on mobile to reduce paint cost */
+    .hero__blob {
+      display: none;
+    }
+
+    /* Stack CTAs vertically on small phones */
+    .hero__cta-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .btn-primary {
+      width: 100%;
+      justify-content: center;
     }
 
     .hero__stats {
@@ -375,7 +394,17 @@ const {
       gap: var(--space-sm);
     }
 
+    /* On mobile, hide the 3rd and 4th collage items to reduce payload */
+    .hero__collage-item--3,
+    .hero__collage-item--4 {
+      display: none;
+    }
+
+    /* Expand visible items to fill the grid */
+    .hero__collage-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
     .hero__collage-item--2 { margin-top: var(--space-lg); }
-    .hero__collage-item--3 { margin-top: calc(var(--space-lg) * -1); }
   }
 </style>

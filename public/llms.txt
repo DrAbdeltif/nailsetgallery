@@ -2,7 +2,13 @@
 > The definitive digital gallery and editorial guide for nail art inspiration, 2026 nail trends, color palettes, nail shapes, and expert manicure tutorials.
 
 ## About NailSet Gallery
-NailSet Gallery (https://nailsetgallery.com) is an expert-curated beauty publication focused on high-resolution nail art design, nail care science, shape guides, and seasonal color forecasting. All content is written and reviewed by licensed nail technicians and manicurists.
+NailSet Gallery (https://nailsetgallery.com) is an expert-curated beauty publication focused on high-resolution nail art design, nail care science, shape guides, and seasonal color forecasting. All content is written and reviewed by experienced nail professionals and manicure enthusiasts.
+
+## Editorial Standards
+- Content reviewed regularly for accuracy and freshness
+- DIY tutorials include safety notes and product-specific disclaimers
+- Health and chemical-safety claims cite professional guidance
+- Updated dates are tracked per article
 
 ## Core Topics & Coverage
 
@@ -22,17 +28,91 @@ NailSet Gallery (https://nailsetgallery.com) is an expert-curated beauty publica
 - **Skin Tone Matching**: Undertone guide (cool, warm, neutral) for nude and vibrant polishes.
 - **Seasonal Color Collections**: Spring pastels, summer neon brights, autumn burnt orange, and winter dark moody wines.
 
-## Primary Articles & Resources
+## Structured Data
+Pages use schema.org JSON-LD: BlogPosting, FAQPage, HowTo (tutorials only), BreadcrumbList, Organization, WebSite (with SearchAction), WebPage (with Speakable).
 
-- [Nail Trends 2026 Guide](https://nailsetgallery.com/blog/nail-trends-2026/): Full forecast of 2026 manicure trends.
-- [Aesthetic Almond & Coffin Shapes](https://nailsetgallery.com/blog/aesthetic-almond-and-coffin-nail-designs-guide-2026/): Comprehensive nail shape comparison.
-- [DIY Gel-X Extension Tutorial](https://nailsetgallery.com/blog/beginner-guide-diy-gel-x-nails-at-home/): Step-by-step gel-x application for beginners.
-- [Skin Tone Nail Color Guide](https://nailsetgallery.com/blog/skin-tone-nail-color-matching-guide/): How to pick flattering nude and bold shades.
-- [Cuticle Care & Hydration Routine](https://nailsetgallery.com/blog/cuticle-care-and-nail-hydration-routine/): Dermatologist-backed cuticle oil science.
+## Primary Articles & Resources (All 47)
+
+### Trends
+- [Nail Trends 2026 Guide](https://nailsetgallery.com/blog/nail-trends-2026/): Definitive forecast of 2026 manicure trends — glazed, chrome, quiet luxury, and micro-art.
+- [Seasonal Nail Art & Color Trends 2026](https://nailsetgallery.com/blog/seasonal-nail-art-and-color-trends-2026/): Spring through winter color stories and seasonal design themes.
+- [Aura & Airbrush Nail Art Trend Guide](https://nailsetgallery.com/blog/aura-and-airbrush-nail-art-trend-guide/): Gradient airbrush technique and aura effect step-by-step.
+- [Blooming Gel Flower & Marble Nail Trend](https://nailsetgallery.com/blog/blooming-gel-flower-and-marble-nail-trend/): How to create blooming gel floral and marble effects.
+- [Japanese 3D & Nuance Gel Nail Art Trends](https://nailsetgallery.com/blog/japanese-3d-and-nuance-gel-nail-art-trends/): Japanese nail art aesthetics and nuance gel layering.
+- [Korean Jelly & Syrup Blush Nail Art Guide](https://nailsetgallery.com/blog/korean-jelly-and-syrup-blush-nail-art-guide/): Translucent jelly and syrup nail finishes popular in K-beauty.
+- [Soap & Jelly Nails Trend Guide](https://nailsetgallery.com/blog/soap-and-jelly-nails-trend-guide/): The sheer soap nail and jelly gel finish explained.
+- [Magnetic Cat Eye Gel Nails Guide](https://nailsetgallery.com/blog/magnetic-cat-eye-gel-nails-guide/): Cat-eye gel magnet technique, colors, and longevity tips.
+- [3D Pearl & Charm Nail Art Tutorial](https://nailsetgallery.com/blog/3d-pearl-and-charm-nail-art-tutorial/): How to apply 3D pearls, charms, and micro-embellishments.
+
+### Styles & Shapes
+- [Aesthetic Almond & Coffin Nail Designs Guide 2026](https://nailsetgallery.com/blog/aesthetic-almond-and-coffin-nail-designs-guide-2026/): Comprehensive shape comparison for almond and coffin nails.
+- [Coffin Nail Shapes & Design Guide 2026](https://nailsetgallery.com/blog/coffin-nail-shapes-and-design-guide-2026/): Everything about coffin/ballerina shape — filing, length, designs.
+- [Almond Shape Nail Designs & Styling Guide](https://nailsetgallery.com/blog/almond-shape-nail-designs-and-styling-guide/): Almond nail filing technique and design inspiration.
+- [American Sculpted Acrylic Baddie Nail Trends](https://nailsetgallery.com/blog/american-sculpted-acrylic-baddie-nail-trends/): Bold sculpted acrylic styles and baddie aesthetic guide.
+- [French Tip Nail Art Variations 2026](https://nailsetgallery.com/blog/french-tip-nail-art-variations-2026/): Classic, colored, angled, and double French tip variations.
+- [French Parisian Chic Manicure Trends 2026](https://nailsetgallery.com/blog/french-parisian-chic-manicure-trends-2026/): Understated Parisian manicure aesthetic and color choices.
+- [Minimalist Clean Girl Manicures & Soap Nails](https://nailsetgallery.com/blog/minimalist-clean-girl-manicures-and-soap-nails/): The clean girl aesthetic nail breakdown.
+- [Minimalist Office Work Nail Colors](https://nailsetgallery.com/blog/minimalist-office-work-nail-colors/): Professional-friendly polish colors and neutral palettes.
+
+### Colors
+- [Skin Tone Nail Color Matching Guide](https://nailsetgallery.com/blog/skin-tone-nail-color-matching-guide/): How to pick flattering nude and bold shades by undertone.
+- [Quiet Luxury Nude Gel Guide](https://nailsetgallery.com/blog/quiet-luxury-nude-gel-guide/): Skin-matched milky nude gel polishes for understated elegance.
+- [Cherry Red & Wine Nail Designs 2026](https://nailsetgallery.com/blog/cherry-red-and-wine-nail-designs-2026/): Classic red and deep wine shades making a comeback.
+- [Emerald Green Nail Art Guide 2026](https://nailsetgallery.com/blog/emerald-green-nail-art-guide-2026/): Shades of green from mint to deep forest and design ideas.
+- [Moody Dark Nail Color Palettes](https://nailsetgallery.com/blog/moody-dark-nail-color-palettes/): Dark berry, plum, black, and moody navy palettes.
+- [Fall 2026 Dark Nail Color & Design Trends](https://nailsetgallery.com/blog/fall-2026-dark-nail-color-and-design-trends/): Autumn-specific dark nail colors and moody aesthetics.
+- [Fall Winter 2026 Dark Nail Color Trends](https://nailsetgallery.com/blog/fall-winter-2026-dark-nail-color-trends/): Dark season colors for fall through winter 2026.
+
+### Seasonal
+- [Spring Pastel Nail Art Ideas 2026](https://nailsetgallery.com/blog/spring-pastel-nail-art-ideas-2026/): Soft pastels, floral accents, and spring color stories.
+- [Summer Nail Ideas 2026](https://nailsetgallery.com/blog/summer-nail-ideas-2026/): Bright neons, tropical florals, and summer color picks.
+- [Cute August Nail Ideas & Late Summer Trends 2026](https://nailsetgallery.com/blog/cute-august-nail-ideas-and-late-summer-trends-2026/): Late summer-to-fall transition nail trends.
+- [Autumn Burnt Orange Nail Art Ideas 2026](https://nailsetgallery.com/blog/autumn-burnt-orange-nail-art-ideas-2026/): Warm autumn tones — burnt orange, terracotta, and rust.
+- [Halloween 2026 Nail Art Ideas & Designs](https://nailsetgallery.com/blog/halloween-2026-nail-art-ideas-and-designs/): Halloween nail art from spooky to chic.
+- [Winter Holiday & Festive Nail Art Ideas](https://nailsetgallery.com/blog/winter-holiday-and-festive-nail-art-ideas/): Christmas, New Year, and winter holiday nail designs.
+
+### Tutorials & DIY
+- [Beginner Guide: DIY Gel-X Nails at Home](https://nailsetgallery.com/blog/beginner-guide-diy-gel-x-nails-at-home/): Step-by-step gel extension application for beginners.
+- [How to Do Builder Gel Overlay at Home](https://nailsetgallery.com/blog/how-to-do-builder-gel-overlay-at-home/): BIAB/builder gel application over natural nails.
+- [Glazed Chrome Powder Nail Tutorial](https://nailsetgallery.com/blog/glazed-chrome-powder-nail-tutorial/): Chrome powder application technique for mirror finishes.
+- [How to Apply Press-On Nails for Longevity](https://nailsetgallery.com/blog/how-to-apply-press-on-nails-longevity/): Prep, application, and tips for 1–2 week press-on wear.
+- [Safe Gel Nail Polish Removal at Home Guide](https://nailsetgallery.com/blog/safe-gel-nail-polish-removal-at-home-guide/): Damage-free acetone soak-off removal method.
+- [Cuticle Care & Nail Hydration Routine](https://nailsetgallery.com/blog/cuticle-care-and-nail-hydration-routine/): Jojoba oil science, cuticle pushers, and hydration tips.
+- [Post-Acrylic Nail Rehab & Recovery Guide](https://nailsetgallery.com/blog/post-acrylic-nail-rehab-recovery-guide/): How to restore natural nail health after acrylics.
+- [Ultimate Beginner's Guide to Natural Nail Care](https://nailsetgallery.com/blog/ultimate-beginners-guide-natural-nail-care/): Comprehensive nail health, filing, cuticle care, and nutrition guide.
+- [Best Nail Strengtheners & Treatments](https://nailsetgallery.com/blog/best-nail-strengtheners-and-treatments/): Formaldehyde-free strengtheners and nail hardeners reviewed.
+- [Non-Toxic Clean Nail Polish Guide](https://nailsetgallery.com/blog/non-toxic-clean-nail-polish-guide/): 5-free, 10-free, and 21-free polish options explained.
+
+### Special Occasions
+- [Bridal & Wedding Nail Art Ideas 2026](https://nailsetgallery.com/blog/bridal-and-wedding-nail-art-ideas-2026/): Elegant nail sets for weddings and bridal parties.
+- [Elegant Bridal & Event Nail Designs 2026](https://nailsetgallery.com/blog/elegant-bridal-and-event-nail-designs-2026/): Refined nail art for formal events and occasions.
+
+### Lifestyle & Age Groups
+- [Aesthetic Teen Nail Designs & Trends 2026](https://nailsetgallery.com/blog/aesthetic-teen-nail-designs-and-trends-2026/): Fun, colorful teen nail trends and beginner-friendly ideas.
+- [Cute Back-to-School Nail Ideas for Teens 2026](https://nailsetgallery.com/blog/cute-back-to-school-nail-ideas-for-teens-2026/): School-appropriate and stylish nail ideas for teens.
+- [First Day of School Nail Ideas & Manicure Guide](https://nailsetgallery.com/blog/first-day-of-school-nail-ideas-and-manicure-guide/): Back-to-school nail looks from minimal to fun.
+- [Short Nails for Teens — Ideas & Care Guide 2026](https://nailsetgallery.com/blog/short-nails-for-teens-ideas-and-care-guide-2026/): Short nail styling and care guide for active teens.
+
+### Comparisons & Guides
+- [Press-On vs Gel Nails — Ultimate Guide 2026](https://nailsetgallery.com/blog/press-on-vs-gel-nails-ultimate-guide-2026/): Full comparison of press-ons and gel polish for cost, longevity, and damage.
+
+## Interactive Tools
 - [Interactive Nail Style Quiz](https://nailsetgallery.com/quiz/): Personalized nail set recommendations based on skin tone and occasion.
-- [Full Blog Archive](https://nailsetgallery.com/blog/): 40+ expert nail guides and tutorials.
+- [Full Blog Archive](https://nailsetgallery.com/blog/): All 47 nail guides and tutorials.
+- [Nail Colors Hub](https://nailsetgallery.com/colors/): Curated color palettes and undertone guides.
+- [Nail Styles Hub](https://nailsetgallery.com/styles/): Shape guides and design inspiration.
+- [Nail Trends Hub](https://nailsetgallery.com/trends/): 2026 trend forecasts and seasonal updates.
+- [Nail Tutorials Hub](https://nailsetgallery.com/tutorials/): Safe DIY procedures and nail care routines.
 
 ## AI Search & MCP Integration
 NailSet Gallery supports WebMCP (Model Context Protocol). AI models can invoke client-side tools on `nailsetgallery.com`:
-- `search_nail_gallery(query)`: Search styles, colors, and tutorials.
+- `search_nail_gallery(query)`: Search styles, colors, and tutorials by keyword.
 - `get_nail_recommendations()`: Redirect to the interactive Style Finder Quiz.
+- `get_trending_nails()`: Navigate to the current trending nail styles.
+- `get_nail_by_category(category)`: Browse by colors, styles, trends, or tutorials.
+
+## Contact & Licensing
+- Website: https://nailsetgallery.com
+- Contact: https://nailsetgallery.com/contact/
+- Privacy Policy: https://nailsetgallery.com/privacy-policy/
+- Content is © NailSet Gallery. AI training use is permitted for non-commercial indexing and citation; reproduction without attribution is not permitted.

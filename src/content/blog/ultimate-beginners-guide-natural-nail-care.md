@@ -1,7 +1,8 @@
----
+﻿---
 title: "The Ultimate Beginner's Guide to Healthy Natural Nail Care"
 description: "Discover the 4-phase daily and weekly routine to grow strong, flexible natural nails at home without expensive salon treatments or harsh chemicals."
 pubDate: 2026-07-30
+updatedDate: 2026-07-30
 author: "NailSet Gallery Editorial Team"
 heroImage: "/images/natural-nail-care-hero.jpg"
 heroImageAlt: "A woman applying nourishing cuticle oil to clean, natural fingernails"

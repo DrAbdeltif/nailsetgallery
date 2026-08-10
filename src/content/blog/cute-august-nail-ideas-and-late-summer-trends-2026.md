@@ -1,7 +1,8 @@
----
+﻿---
 title: "25 Cute August Nail Ideas 2026: Transitioning Late Summer to Autumn"
 description: "Discover 2026's cutest August nail designs. Transition from late summer brights to warm early autumn tones with sunset chrome, lemon glaze, and floral art."
 pubDate: 2026-08-06
+updatedDate: 2026-08-06
 author: "NailSet Gallery Team"
 heroImage: "/images/cute-august-nails-hero.png"
 heroImageAlt: "Cute August nail designs featuring warm sunset chrome gradients, butter yellow glaze, and micro floral accents"

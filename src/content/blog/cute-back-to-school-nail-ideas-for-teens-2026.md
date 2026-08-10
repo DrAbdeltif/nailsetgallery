@@ -1,7 +1,8 @@
----
+﻿---
 title: "Cute Back to School Nail Ideas for Teens (2026): Simple DIY Inspo for Short Nails"
 description: "Discover 2026's cutest back to school nail ideas for teens. Short nails, mini apple accents, soft pastels, and easy DIY first day of school nail inspo."
 pubDate: 2026-08-06
+updatedDate: 2026-08-06
 author: "NailSet Gallery Team"
 heroImage: "/images/back-to-school-nails-hero.png"
 heroImageAlt: "Cute back to school nail designs for teens featuring short pastel nails, mini apple accents, and subtle sparkle"

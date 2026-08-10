@@ -1,7 +1,8 @@
----
+﻿---
 title: "Minimalist Office Work Nail Colors 2026: Chic & Professional"
 description: "Explore corporate-chic minimalist nail colors for 2026. From sheer greiges to soft matte blush, discover professional low-maintenance manicures."
 pubDate: 2026-07-28
+updatedDate: 2026-07-28
 author: "NailSet Gallery Team"
 heroImage: "/images/minimalist-office-nails-hero.png"
 heroImageAlt: "Professional minimalist manicure with short squoval shape in soft greige polish"

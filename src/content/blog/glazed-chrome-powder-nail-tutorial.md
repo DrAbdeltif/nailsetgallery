@@ -1,7 +1,8 @@
----
+﻿---
 title: "Glazed Chrome Powder Nail Tutorial: No-Wipe Technique"
 description: "Master glazed donut and liquid chrome nails. Learn exact curing times, applicator techniques, and tip-sealing methods to prevent chrome peeling."
 pubDate: 2026-07-28
+updatedDate: 2026-07-28
 author: "NailSet Gallery Team"
 heroImage: "/images/aesthetic-almond-coffin-hero.png"
 heroImageAlt: "Glazed iridescent chrome powder manicure reflecting soft pastel light"

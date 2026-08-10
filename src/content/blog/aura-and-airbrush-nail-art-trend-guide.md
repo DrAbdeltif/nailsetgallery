@@ -1,7 +1,8 @@
----
+﻿---
 title: "Aura & Airbrush Nail Art Trend Guide: Colors, Gradients & Techniques 2026"
 description: "Master viral aura and airbrushed gradient nails in 2026. Learn blooming gel vs airbrush techniques, color energy combos, and anti-blur curing steps."
 pubDate: 2026-08-01
+updatedDate: 2026-08-01
 author: "NailSet Gallery Team"
 heroImage: "/images/aura-airbrush-nails-hero.jpg"
 heroImageAlt: "Trendy airbrushed aura manicured nails with glowing radial gradient bloom"

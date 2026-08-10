@@ -1,7 +1,8 @@
----
+﻿---
 title: "Autumn Burnt Orange Nail Art: Harvest Color Palettes & Cozy Aesthetic 2026"
 description: "Embrace cozy fall vibes with burnt orange nail art. Explore terracotta gradients, warm tortoise shell accents, gold foil pairings, and seasonal care tricks."
 pubDate: 2026-08-01
+updatedDate: 2026-08-01
 author: "NailSet Gallery Team"
 heroImage: "/images/burnt-orange-fall-nails-hero.jpg"
 heroImageAlt: "Manicure featuring burnt orange terracotta fall nails with subtle gold leaf highlights"

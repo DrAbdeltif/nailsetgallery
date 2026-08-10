@@ -1,7 +1,8 @@
----
+﻿---
 title: "French Parisian Chic Manicures 2026: Micro Tips & Modern Trends"
 description: "Master the French Parisian chic manicure in 2026. Explore ultra-thin micro French tips, double smile lines, sheer rose bases, and effortless French style."
 pubDate: 2026-08-03
+updatedDate: 2026-08-03
 author: "NailSet Gallery Team"
 heroImage: "/images/french-parisian-chic-nails-hero.png"
 heroImageAlt: "Chic Parisian French manicure with ultra-thin micro white tips on a natural sheer pink base"

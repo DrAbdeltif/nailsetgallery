@@ -1,7 +1,8 @@
----
+﻿---
 title: "Winter & Holiday Nail Art Ideas 2026: Festive Velvet, Glazed Snow & Gold Accents"
 description: "Discover 2026's top winter & holiday nail art trends. From midnight blue velvet cat-eye to glazed snow chrome, explore cold-weather manicures."
 pubDate: 2026-08-02
+updatedDate: 2026-08-02
 author: "NailSet Gallery Team"
 heroImage: "/images/winter-holiday-nails-hero.jpg"
 heroImageAlt: "Midnight blue velvet cat eye gel nails with delicate silver snowflake accents"

@@ -1,7 +1,8 @@
----
+﻿---
 title: "Blooming Gel Nail Art Trend 2026: Watercolor Flowers & Marble Techniques"
 description: "Master 2026's blooming gel nail art trend. Learn watercolor blooming flowers, rose quartz marble, smoke aura effects, and pro curing tips."
 pubDate: 2026-08-02
+updatedDate: 2026-08-02
 author: "NailSet Gallery Team"
 heroImage: "/images/blooming-gel-nails-hero.jpg"
 heroImageAlt: "Close-up of blooming gel nail art with pastel pink watercolor floral spreading effect"

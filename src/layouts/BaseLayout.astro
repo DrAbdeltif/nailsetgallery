@@ -49,6 +49,8 @@ const fullTitle = title === 'NailSet Gallery'
     <!-- Charset & Viewport -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#8B1A4A" />
 
     <!-- Primary Meta & Search Engine Directives -->
     <title>{fullTitle}</title>
@@ -77,8 +79,9 @@ const fullTitle = title === 'NailSet Gallery'
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={`${siteUrl}${ogImage}`} />
     <meta property="og:image:alt" content={title} />
-    <meta property="og:image:width" content="1024" />
-    <meta property="og:image:height" content="1024" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:site_name" content="NailSet Gallery" />
 
     <!-- Twitter Card -->
@@ -223,7 +226,15 @@ const fullTitle = title === 'NailSet Gallery'
             "url": siteUrl,
             "description": description,
             "inLanguage": "en-US",
-            "publisher": { "@id": `${siteUrl}#organization` }
+            "publisher": { "@id": `${siteUrl}#organization` },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": `${siteUrl}/blog/?search={search_term_string}`
+              },
+              "query-input": "required name=search_term_string"
+            }
           },
           {
             "@type": "Organization",
@@ -264,6 +275,21 @@ const fullTitle = title === 'NailSet Gallery'
           }] : [])
         ]
       })}></script>
+    )}
+
+    <!-- Speakable Schema (article pages — for voice assistants & AI) -->
+    {ogType === 'article' && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": `${canonicalURL}#webpage`,
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".article-title", ".editorial-note", ".prose > p:first-of-type"]
+        },
+        "url": canonicalURL.toString()
+      })}
+      ></script>
     )}
 
     <!-- RSS & LLM discovery -->
@@ -334,6 +360,40 @@ const fullTitle = title === 'NailSet Gallery'
             execute: function() {
               window.location.href = '/quiz/';
               return Promise.resolve({ success: true, redirect: '/quiz/' });
+            }
+          },
+          {
+            name: 'get_trending_nails',
+            description: 'Navigate to the current trending nail styles and 2026 nail trend forecasts on NailSet Gallery',
+            inputSchema: {
+              type: 'object',
+              properties: {}
+            },
+            execute: function() {
+              window.location.href = '/trends/';
+              return Promise.resolve({ success: true, redirect: '/trends/' });
+            }
+          },
+          {
+            name: 'get_nail_by_category',
+            description: 'Browse nail content by category: colors, styles, seasons, trends, or tutorials',
+            inputSchema: {
+              type: 'object',
+              properties: {
+                category: {
+                  type: 'string',
+                  enum: ['colors', 'styles', 'seasons', 'trends', 'tutorials'],
+                  description: 'Category to browse'
+                }
+              },
+              required: ['category']
+            },
+            execute: function(params) {
+              var cat = params && params.category ? params.category.toLowerCase().trim() : 'blog';
+              var validCats = ['colors', 'styles', 'seasons', 'trends', 'tutorials'];
+              var dest = validCats.includes(cat) ? '/' + cat + '/' : '/blog/';
+              window.location.href = dest;
+              return Promise.resolve({ success: true, redirect: dest, category: cat });
             }
           }
         ];

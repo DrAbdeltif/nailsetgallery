@@ -1,7 +1,8 @@
----
+﻿---
 title: "Spring 2026 Pastel Nail Designs: Butter Yellow, Lavender, and Glazed Mint"
 description: "Welcome spring with these fresh, soft pastel nail art ideas featuring butter yellow, lavender chrome, and glazed mint green manicures."
 pubDate: 2026-07-28
+updatedDate: 2026-07-28
 author: "NailSet Gallery Team"
 heroImage: "/images/spring-pastel-nails-hero.jpg"
 heroImageAlt: "Spring pastel gel nail art designs featuring butter yellow and lavender chrome manicures"

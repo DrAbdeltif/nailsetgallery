@@ -1,6 +1,7 @@
 ---
 // Mobile bottom tab bar — visible only on screens < 768px
-// High-level navigation: Home, Gallery, Trends, Tutorials, About
+// 5-tab layout: Home, Gallery, Trends, Tutorials, Search
+// Quiz & About are accessible via the top hamburger drawer (Navbar.astro)
 
 const currentPath = Astro.url.pathname;
 
@@ -10,42 +11,42 @@ const tabs = [
     label: 'Home',
     icon: `<path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z"/><polyline points="9,21 9,12 15,12 15,21"/>`,
     exact: true,
+    type: 'link',
   },
   {
     href: '/blog/',
     label: 'Gallery',
-    icon: `<path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>`,
+    icon: `<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>`,
     exact: false,
+    type: 'link',
   },
   {
     href: '/trends/',
     label: 'Trends',
     icon: `<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/>`,
     exact: false,
+    type: 'link',
   },
   {
     href: '/tutorials/',
     label: 'Tutorials',
     icon: `<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>`,
     exact: false,
+    type: 'link',
   },
   {
-    href: '/quiz/',
-    label: 'Quiz',
-    icon: `<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>`,
+    href: null,
+    label: 'Search',
+    icon: `<circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>`,
     exact: false,
+    type: 'search',
   },
-  {
-    href: '/about/',
-    label: 'About',
-    icon: `<circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/>`,
-    exact: false,
-  },
-];
+] as const;
 
-function isActive(tab: { href: string; exact: boolean }) {
+function isActive(tab: typeof tabs[number]) {
+  if (tab.type === 'search') return false;
   if (tab.exact) return currentPath === '/' || currentPath === '';
-  return currentPath.startsWith(tab.href);
+  return tab.href ? currentPath.startsWith(tab.href) : false;
 }
 ---
 
@@ -56,6 +57,31 @@ function isActive(tab: { href: string; exact: boolean }) {
 >
   {tabs.map((tab) => {
     const active = isActive(tab);
+    if (tab.type === 'search') {
+      return (
+        <button
+          class="mobile-nav__tab mobile-nav__search-trigger"
+          data-search-trigger
+          aria-label="Open search"
+          type="button"
+        >
+          <span class="mobile-nav__icon-wrapper">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              set:html={tab.icon}
+            />
+          </span>
+          <span class="mobile-nav__label">{tab.label}</span>
+        </button>
+      );
+    }
     return (
       <a
         href={tab.href}
@@ -95,10 +121,8 @@ function isActive(tab: { href: string; exact: boolean }) {
     if (currentScrollY <= 60) {
       mobileNav.classList.remove('mobile-nav--hidden');
     } else if (currentScrollY > lastScrollY + delta) {
-      // Scrolling down -> hide bottom tab bar
       mobileNav.classList.add('mobile-nav--hidden');
     } else if (currentScrollY < lastScrollY - delta) {
-      // Scrolling up -> reveal bottom tab bar
       mobileNav.classList.remove('mobile-nav--hidden');
     }
 
@@ -136,7 +160,8 @@ function isActive(tab: { href: string; exact: boolean }) {
       backdrop-filter: blur(16px) saturate(1.6);
       -webkit-backdrop-filter: blur(16px) saturate(1.6);
       border-top: 1px solid var(--color-border-soft);
-      padding-bottom: env(safe-area-inset-bottom, 0px); /* iOS home indicator safe area */
+      /* iOS home indicator safe area */
+      padding-bottom: env(safe-area-inset-bottom, 8px);
       box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.04);
       transition: transform var(--duration-normal) var(--ease-out);
     }
@@ -152,11 +177,15 @@ function isActive(tab: { href: string; exact: boolean }) {
       align-items: center;
       justify-content: center;
       gap: 3px;
-      padding: 8px var(--space-xs);
-      min-height: 56px;
+      padding: 8px 4px;
+      min-height: 60px;
       min-width: 0;
       color: var(--color-text-subtle);
       text-decoration: none;
+      background: none;
+      border: none;
+      font: inherit;
+      cursor: pointer;
       transition: color var(--duration-fast) var(--ease-out);
       -webkit-tap-highlight-color: transparent;
       position: relative;
@@ -170,13 +199,18 @@ function isActive(tab: { href: string; exact: boolean }) {
       content: '';
       position: absolute;
       top: 0;
-      left: 30%;
-      right: 30%;
+      left: 25%;
+      right: 25%;
       height: 2px;
       background-color: var(--color-rose);
       border-radius: var(--radius-full);
     }
 
+    .mobile-nav__search-trigger {
+      color: var(--color-text-subtle);
+    }
+
+    .mobile-nav__search-trigger:active,
     .mobile-nav__tab:active {
       opacity: 0.75;
     }
@@ -191,11 +225,14 @@ function isActive(tab: { href: string; exact: boolean }) {
 
     .mobile-nav__label {
       font-family: var(--font-body);
-      font-size: 11px;
+      font-size: 10px;
       font-weight: 500;
       letter-spacing: 0.02em;
       line-height: 1;
       white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
     }
   }
 </style>

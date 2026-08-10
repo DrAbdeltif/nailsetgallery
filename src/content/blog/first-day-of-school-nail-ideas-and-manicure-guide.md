@@ -1,7 +1,8 @@
----
+﻿---
 title: "20 First Day of School Nail Ideas: Cute, Confidence-Boosting Manicures for 2026"
 description: "Discover 2026's best first day of school nail ideas. From subtle chrome glazes and micro French tips to chic notebook accents for high school and college."
 pubDate: 2026-08-06
+updatedDate: 2026-08-06
 author: "NailSet Gallery Team"
 heroImage: "/images/first-day-of-school-nails-hero.png"
 heroImageAlt: "First day of school nail designs featuring short almond pearl glaze, micro French tips, and gold starburst accents"

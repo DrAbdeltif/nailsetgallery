@@ -1,7 +1,8 @@
----
+﻿---
 title: "Aesthetic Almond & Coffin Nails 2026: Shapes, Designs & Styling Guide"
 description: "Compare aesthetic almond and coffin nails for 2026. Learn practical filing steps, length guidance, apex support, and design pairing ideas."
 pubDate: 2026-08-03
+updatedDate: 2026-08-03
 author: "NailSet Gallery Team"
 heroImage: "/images/aesthetic-almond-coffin-hero.png"
 heroImageAlt: "Aesthetic almond and coffin nail designs side-by-side with micro french tips and chrome glaze"

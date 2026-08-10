@@ -1,7 +1,8 @@
----
+﻿---
 title: "Bridal & Wedding Nail Art Ideas 2026: Elegant Styles for Brides"
 description: "Discover 2026 wedding nail trends. From glazed micro-frenches to pearl accents and milky ombres, find the perfect bridal manicure look."
 pubDate: 2026-07-28
+updatedDate: 2026-07-28
 author: "NailSet Gallery Team"
 heroImage: "/images/bridal-wedding-nails-hero.jpg"
 heroImageAlt: "Elegant bridal manicure with delicate white micro French tips and subtle pearl shimmer"

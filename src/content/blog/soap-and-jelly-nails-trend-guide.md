@@ -1,7 +1,8 @@
----
+﻿---
 title: "Soap & Jelly Nails Trend Guide 2026: Sheer Glossy Aesthetics"
 description: "Discover 2026's soap and jelly nail trends. Learn how to achieve translucent syrup colors, ultra-clean cuticle work, and glass-like high gloss."
 pubDate: 2026-07-28
+updatedDate: 2026-07-28
 author: "NailSet Gallery Team"
 heroImage: "/images/soap-jelly-nails-hero.jpg"
 heroImageAlt: "Translucent glossy pink jelly manicure with squeaky-clean soap finish"

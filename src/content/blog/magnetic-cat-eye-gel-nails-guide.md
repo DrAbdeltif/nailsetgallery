@@ -1,7 +1,8 @@
----
+﻿---
 title: "Magnetic Cat-Eye Gel Nails Guide 2026: Velvet Effects & Art"
 description: "Master 3D magnetic cat-eye gel nails in 2026. Learn magnet positioning, velvet effects, and topcoat sealing for salon-quality results."
 pubDate: 2026-07-28
+updatedDate: 2026-07-28
 author: "NailSet Gallery Team"
 heroImage: "/images/magnetic-cat-eye-hero.jpg"
 heroImageAlt: "Magnetic cat-eye gel nail art with iridescent velvet shine"

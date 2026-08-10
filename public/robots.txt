@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Crawl-delay: 5
 
 User-agent: Mediapartners-Google
 Allow: /
@@ -11,6 +13,12 @@ User-agent: Google-Extended
 Allow: /
 
 User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Yandex
 Allow: /
 
 User-agent: Pinterestbot
