@@ -1,5 +1,5 @@
 ﻿---
-title: "20 Cute Short Nails for Teens: Low-Maintenance School & Everyday Designs (2026)"
+title: "Short Nails for Teens 2026: Cute School & Everyday Designs"
 description: "Discover 2026's best short nails for teens. From chip-resistant BIAB overlays and micro French tips to cute pastel accents perfect for school and sports."
 pubDate: 2026-08-06
 updatedDate: 2026-08-06

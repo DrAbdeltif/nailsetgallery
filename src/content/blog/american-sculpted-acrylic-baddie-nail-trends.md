@@ -1,5 +1,5 @@
 ﻿---
-title: "American Sculpted Acrylics & Baddie Nails 2026: Glam Culture Guide"
+title: "Sculpted Acrylics & Baddie Nails 2026: Glam Culture Guide"
 description: "Explore 2026 American sculpted acrylics and baddie nail trends. Learn about XL coffin shapes, Swarovski crystal placement, French ombre, and maintenance."
 pubDate: 2026-08-03
 updatedDate: 2026-08-03

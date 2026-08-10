@@ -1,5 +1,5 @@
 ﻿---
-title: "Coffin Nail Shape & Art Guide: Sculpting, Trends & Strength Tips 2026"
+title: "Coffin Nail Shape Guide 2026: Sculpting, Trends & Tips"
 description: "Guide to coffin (ballerina) nails in 2026. Learn shaping techniques, gel vs acrylic structural balance, trendy matte designs, and strength maintenance."
 pubDate: 2026-08-01
 updatedDate: 2026-08-01

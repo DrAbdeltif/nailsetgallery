@@ -1,5 +1,5 @@
 ﻿---
-title: "30 Aesthetic Teen Nail Ideas 2026: Cute, Short & Low-Maintenance Designs"
+title: "Aesthetic Teen Nail Ideas 2026: Cute & Low-Maintenance"
 description: "Discover the top 2026 aesthetic teen nail trends. From cute short manicures and press-ons to pastel French tips and easy DIY high school nail art."
 pubDate: 2026-08-06
 updatedDate: 2026-08-06

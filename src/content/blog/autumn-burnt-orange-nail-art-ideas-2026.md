@@ -1,5 +1,5 @@
 ﻿---
-title: "Autumn Burnt Orange Nail Art: Harvest Color Palettes & Cozy Aesthetic 2026"
+title: "Autumn Burnt Orange Nails 2026: Harvest Palettes & Cozy Looks"
 description: "Embrace cozy fall vibes with burnt orange nail art. Explore terracotta gradients, warm tortoise shell accents, gold foil pairings, and seasonal care tricks."
 pubDate: 2026-08-01
 updatedDate: 2026-08-01

@@ -1,5 +1,5 @@
 ﻿---
-title: "Emerald Green Nail Art Guide: Shades, Combos & Skin Tone Pairing 2026"
+title: "Emerald Green Nail Art 2026: Shades, Combos & Skin Tone Tips"
 description: "Master emerald green nail art in 2026. Discover deep jewel tones, gold leaf accents, marble effects, and skin tone matching tips for luxury manicures."
 pubDate: 2026-08-01
 updatedDate: 2026-08-01

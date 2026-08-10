@@ -1,5 +1,5 @@
 ﻿---
-title: "How to Do DIY Gel-X Nail Extensions at Home: Step-by-Step Guide (2026)"
+title: "DIY Gel-X Nails at Home: Step-by-Step Beginner Guide 2026"
 description: "Learn how to apply, shape, and maintain salon-quality Gel-X nail extensions at home with our complete step-by-step tutorial and comparison."
 pubDate: 2026-07-28
 updatedDate: 2026-07-28

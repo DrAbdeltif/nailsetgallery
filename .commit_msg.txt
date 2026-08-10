@@ -1,0 +1,7 @@
+fix: trim 25 article titles to SEO-optimal length (≤65 chars)
+
+All title tags must be under 65 chars to avoid Google truncation
+in search results. Fixed 25 articles — keywords preserved, just
+condensed (e.g. "& Guide" → removed, "Step-by-Step" → shortened).
+
+Also adds audit script (scripts/audit-articles.cjs) for future checks.
