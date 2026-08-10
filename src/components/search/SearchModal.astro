@@ -111,11 +111,30 @@ const searchIndex = posts.map((p) => ({
     activeTrigger = null;
   }
 
-  triggers.forEach((trigger) => {
-    trigger.addEventListener('click', () => openModal(trigger));
+  // Event delegation for search triggers (handles Navbar, MobileNav, and dynamically added triggers)
+  document.addEventListener('click', (e) => {
+    const trigger = e.target.closest?.('[data-search-trigger]');
+    if (trigger) {
+      e.preventDefault();
+      openModal(trigger);
+    }
   });
+
   backdrop?.addEventListener('click', closeModal);
   closeBtn?.addEventListener('click', closeModal);
+
+  // Auto-open modal if URL contains ?search= query parameter (e.g. from Google SearchBox or WebMCP)
+  function checkUrlSearchParam() {
+    const params = new URLSearchParams(window.location.search);
+    const query = params.get('search') || params.get('q');
+    if (query && input) {
+      openModal();
+      input.value = query;
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+    }
+  }
+  checkUrlSearchParam();
+  document.addEventListener('astro:page-load', checkUrlSearchParam);
 
   window.addEventListener('keydown', (e) => {
     const isShortcut = (e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k';
@@ -178,7 +197,6 @@ const searchIndex = posts.map((p) => ({
       const category = document.createElement('span');
       category.className = 'search-result-tag';
       category.textContent = match.category.toUpperCase();
-      // Ensure display:block for dynamically created elements (CSS :global() may not apply)
       category.style.cssText = 'display:block;font-size:10px;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-rose);font-weight:500;margin-bottom:4px;';
 
       const title = document.createElement('strong');
