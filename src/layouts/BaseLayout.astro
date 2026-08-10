@@ -16,6 +16,7 @@ interface Props {
   googleAdsenseId?: string;
   bingSiteVerification?: string;
   googleSiteVerification?: string;
+  pinterestSiteVerification?: string;
 }
 
 const {
@@ -30,6 +31,7 @@ const {
   googleAdsenseId,
   bingSiteVerification = import.meta.env.PUBLIC_BING_SITE_VERIFICATION || '47A28E9D30F443B78912E750C184C8A2',
   googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION,
+  pinterestSiteVerification = import.meta.env.PUBLIC_PINTEREST_SITE_VERIFICATION || '536a4fe29b5a65c34cd2c23a122a9ad9',
 } = Astro.props;
 
 const adsensePublisherId = googleAdsenseId || import.meta.env.PUBLIC_GOOGLE_ADSENSE_ID || 'ca-pub-6608919368603045';
@@ -66,6 +68,7 @@ const fullTitle = title === 'NailSet Gallery'
     <meta name="indexnow" content="47a28e9d30f443b78912e750c184c8a2" />
     {bingSiteVerification && <meta name="msvalidate.01" content={bingSiteVerification} />}
     {googleSiteVerification && <meta name="google-site-verification" content={googleSiteVerification} />}
+    {pinterestSiteVerification && <meta name="p:domain_verify" content={pinterestSiteVerification} />}
 
     <!-- Open Graph -->
     <meta property="og:type" content={ogType} />
