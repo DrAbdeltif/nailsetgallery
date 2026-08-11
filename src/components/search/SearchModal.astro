@@ -1,18 +1,6 @@
 ---
 // Search Modal Component
-// Accessible dialog, backdrop blur, keyboard ESC to close, client-side filtering
-
-import { getCollection } from 'astro:content';
-
-const posts = await getCollection('blog', ({ data }) => !data.draft);
-const searchIndex = posts.map((p) => ({
-  id: p.id,
-  title: p.data.title,
-  description: p.data.description,
-  category: p.data.category,
-  tags: p.data.tags,
-  href: `/blog/${p.id}/`,
-}));
+// Accessible dialog, backdrop blur, keyboard ESC to close, client-side filtering via /api/search-index.json
 ---
 
 <button
@@ -73,29 +61,59 @@ const searchIndex = posts.map((p) => ({
   </div>
 </div>
 
-<script is:inline define:vars={{ searchIndex }}>
+<script>
+  interface SearchItem {
+    id: string;
+    title: string;
+    description: string;
+    category: string;
+    tags: string[];
+    href: string;
+  }
+
+  let searchIndex: SearchItem[] = [];
+  let isFetching = false;
+
+  async function ensureSearchIndexLoaded(): Promise<SearchItem[]> {
+    if (searchIndex.length > 0) return searchIndex;
+    if (isFetching) return [];
+    isFetching = true;
+    try {
+      const res = await fetch('/api/search-index.json');
+      if (res.ok) {
+        searchIndex = await res.json();
+      }
+    } catch (err) {
+      console.error('Failed to load search index', err);
+    } finally {
+      isFetching = false;
+    }
+    return searchIndex;
+  }
+
   const triggers = Array.from(document.querySelectorAll('[data-search-trigger]'));
   const modal = document.getElementById('search-modal');
   const backdrop = document.getElementById('search-backdrop');
   const closeBtn = document.getElementById('search-close');
-  const input = document.getElementById('search-input');
+  const input = document.getElementById('search-input') as HTMLInputElement | null;
   const resultsContainer = document.getElementById('search-results');
   const focusableSelector = 'a[href], button:not([disabled]), input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])';
-  let activeTrigger = null;
+  let activeTrigger: HTMLElement | null = null;
 
-  function setTriggerExpanded(expanded) {
+  function setTriggerExpanded(expanded: boolean) {
     triggers.forEach((button) => button.setAttribute('aria-expanded', String(expanded)));
   }
 
-  function openModal(trigger) {
+  async function openModal(trigger?: Element | null) {
     if (!modal) return;
-    activeTrigger = trigger instanceof HTMLElement ? trigger : document.activeElement;
+    activeTrigger = (trigger instanceof HTMLElement ? trigger : document.activeElement) as HTMLElement | null;
     modal.removeAttribute('inert');
     modal.classList.add('open');
     modal.setAttribute('aria-hidden', 'false');
     setTriggerExpanded(true);
     document.body.style.overflow = 'hidden';
     setTimeout(() => input?.focus(), 100);
+    await ensureSearchIndexLoaded();
   }
 
   function closeModal() {
@@ -113,7 +131,8 @@ const searchIndex = posts.map((p) => ({
 
   // Event delegation for search triggers (handles Navbar, MobileNav, and dynamically added triggers)
   document.addEventListener('click', (e) => {
-    const trigger = e.target.closest?.('[data-search-trigger]');
+    const target = e.target as HTMLElement | null;
+    const trigger = target?.closest?.('[data-search-trigger]');
     if (trigger) {
       e.preventDefault();
       openModal(trigger);
@@ -122,13 +141,14 @@ const searchIndex = posts.map((p) => ({
 
   backdrop?.addEventListener('click', closeModal);
   closeBtn?.addEventListener('click', closeModal);
+  input?.addEventListener('focus', () => ensureSearchIndexLoaded());
 
   // Auto-open modal if URL contains ?search= query parameter (e.g. from Google SearchBox or WebMCP)
-  function checkUrlSearchParam() {
+  async function checkUrlSearchParam() {
     const params = new URLSearchParams(window.location.search);
     const query = params.get('search') || params.get('q');
     if (query && input) {
-      openModal();
+      await openModal();
       input.value = query;
       input.dispatchEvent(new Event('input', { bubbles: true }));
     }
@@ -154,14 +174,16 @@ const searchIndex = posts.map((p) => ({
     }
   });
 
-  input?.addEventListener('input', (e) => {
-    const query = e.target.value.toLowerCase().trim();
+  input?.addEventListener('input', async (e) => {
+    const target = e.target as HTMLInputElement;
+    const query = target.value.toLowerCase().trim();
     if (query.length === 0) {
       renderResults([]);
       return;
     }
 
-    const matches = searchIndex.filter((item) => {
+    const index = await ensureSearchIndexLoaded();
+    const matches = index.filter((item) => {
       return (
         item.title.toLowerCase().includes(query) ||
         item.description.toLowerCase().includes(query) ||
@@ -173,7 +195,7 @@ const searchIndex = posts.map((p) => ({
     renderResults(matches);
   });
 
-  function renderResults(matches) {
+  function renderResults(matches: SearchItem[]) {
     if (!resultsContainer) return;
     resultsContainer.replaceChildren();
 
@@ -216,17 +238,17 @@ const searchIndex = posts.map((p) => ({
     resultsContainer.append(fragment);
   }
 
-  function createHint(text) {
+  function createHint(text: string) {
     const hint = document.createElement('p');
     hint.className = 'search-modal__hint';
     hint.textContent = text;
     return hint;
   }
 
-  function trapFocus(event) {
+  function trapFocus(event: KeyboardEvent) {
     if (!modal) return;
     const focusable = Array.from(modal.querySelectorAll(focusableSelector))
-      .filter((element) => element instanceof HTMLElement && element.offsetParent !== null);
+      .filter((element) => element instanceof HTMLElement && element.offsetParent !== null) as HTMLElement[];
     if (focusable.length === 0) return;
 
     const first = focusable[0];
