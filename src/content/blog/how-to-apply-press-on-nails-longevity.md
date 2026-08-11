@@ -24,7 +24,7 @@ Press-on nails have evolved far beyond cheap plastic kits into reusable, salon-g
 
 Press-on nails are pre-designed artificial nail enhancements made from molded ABS plastic or acrylic resin that adhere directly to the natural nail plate using nail glue or adhesive tabs. They offer an instant, non-damaging manicure that can be applied at home in under 20 minutes.
 
-Because press-ons do not require UV lamp curing or liquid monomer, they provide a flexible, commitment-free alternative to traditional salon acrylics or our [DIY Gel-X nail extension guide](/blog/beginner-guide-diy-gel-x-nails-at-home).
+Because press-ons do not require UV lamp curing or liquid monomer, they provide a flexible, commitment-free alternative to traditional salon acrylics or our [DIY Gel-X nail extension guide](/blog/beginner-guide-diy-gel-x-nails-at-home/).
 
 ---
 
@@ -108,4 +108,4 @@ Soak hands in warm water mixed with dish soap and cuticle oil for 15 minutes, th
 
 Achieving a 3-week salon-quality press-on manicure comes down to meticulous preparation, precise sizing, and bubble-free application. By eliminating natural oils and holding steady 30-second pressure, your press-ons will stay secure through daily activities.
 
-For toenail press-on guides, read our [press-on toenails application guide](/blog/press-on-toenails-how-to-apply), or check out our [trendy 2026 nail ideas](/blog/nail-trends-2026) for styling inspiration!
+For toenail press-on guides, read our [press-on toenails application guide](/blog/how-to-apply-press-on-nails-longevity/), or check out our [trendy 2026 nail ideas](/blog/nail-trends-2026/) for styling inspiration!

@@ -62,11 +62,11 @@ Add cozy texture to accent nails using thick gel paint sprinkled with clear acry
 
 ### 4. Minimalist Gold Ribbon & French Tips
 
-For lovers of understated elegance, combine a quiet nude base (inspired by our [quiet luxury nude guide](/blog/quiet-luxury-nude-gel-guide)) with fine champagne gold metallic tip lines.
+For lovers of understated elegance, combine a quiet nude base (inspired by our [quiet luxury nude guide](/blog/quiet-luxury-nude-gel-guide/)) with fine champagne gold metallic tip lines.
 
 ### 5. Deep Emerald & Burnt Orange Accent Mix
 
-Warm up cold winter days by pairing deep evergreen polish with rich amber notes. See our [burnt orange fall/winter guide](/blog/autumn-burnt-orange-nail-art-ideas-2026) for color inspiration.
+Warm up cold winter days by pairing deep evergreen polish with rich amber notes. See our [burnt orange fall/winter guide](/blog/autumn-burnt-orange-nail-art-ideas-2026/) for color inspiration.
 
 ---
 

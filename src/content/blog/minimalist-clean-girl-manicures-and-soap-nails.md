@@ -49,7 +49,7 @@ For those who want a touch of art without overwhelming the clean look: a tiny si
 ### 3. Soap Pink & Bubble Bath Glaze
 A sheer blush pink polish topped with a dusting of fine pearl chrome, giving a healthy, flushed appearance to pale or deep skin tones alike.
 
-Explore related subtle hues in our guide on [Minimalist Office & Work Nail Colors](/blog/minimalist-office-work-nail-colors).
+Explore related subtle hues in our guide on [Minimalist Office & Work Nail Colors](/blog/minimalist-office-work-nail-colors/).
 
 ---
 
@@ -105,11 +105,11 @@ When executed with structured rubber base gel, clean girl soap nails last 3 to 4
 ### Can I do clean girl manicures on natural nails without gel?
 Yes! You can achieve this look using regular natural polishes or non-toxic 10-free clean nail polishes. Apply a ridge-filling base coat, two sheer layers of pink-nude polish, and a plush plumping topcoat.
 
-Read more in our guide to [Non-Toxic Clean Nail Polish Options](/blog/non-toxic-clean-nail-polish-guide).
+Read more in our guide to [Non-Toxic Clean Nail Polish Options](/blog/non-toxic-clean-nail-polish-guide/).
 
 ---
 
 ## Recommended Further Reading
-- [Quiet Luxury Nude Gel Guide](/blog/quiet-luxury-nude-gel-guide)
-- [Cuticle Care & Nail Hydration Routine](/blog/cuticle-care-and-nail-hydration-routine)
-- [Soap & Jelly Nails Trend Breakdown](/blog/soap-and-jelly-nails-trend-guide)
+- [Quiet Luxury Nude Gel Guide](/blog/quiet-luxury-nude-gel-guide/)
+- [Cuticle Care & Nail Hydration Routine](/blog/cuticle-care-and-nail-hydration-routine/)
+- [Soap & Jelly Nails Trend Breakdown](/blog/soap-and-jelly-nails-trend-guide/)

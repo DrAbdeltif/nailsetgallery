@@ -62,11 +62,11 @@ Follow this simple tutorial to create stunning blooming roses at home:
 
 ### 1. Rose Quartz & Gold Leaf Marble
 
-Layer milky white blooming gel over a translucent pink base, draw thin white veins, allow them to bloom softly, cure, and add 24k gold leaf foil highlights. Check out our [3D pearl & charm tutorial](/blog/3d-pearl-and-charm-nail-art-tutorial) for extra charm pairing ideas.
+Layer milky white blooming gel over a translucent pink base, draw thin white veins, allow them to bloom softly, cure, and add 24k gold leaf foil highlights. Check out our [3D pearl & charm tutorial](/blog/3d-pearl-and-charm-nail-art-tutorial/) for extra charm pairing ideas.
 
 ### 2. Aura Smoke Clouds
 
-Combine blooming gel with vibrant aura color drops for a mesmerizing hazy cloud effect. Learn more in our [aura and airbrush trend guide](/blog/aura-and-airbrush-nail-art-trend-guide).
+Combine blooming gel with vibrant aura color drops for a mesmerizing hazy cloud effect. Learn more in our [aura and airbrush trend guide](/blog/aura-and-airbrush-nail-art-trend-guide/).
 
 ### 3. Glass Jelly Blooming Reptile Print
 

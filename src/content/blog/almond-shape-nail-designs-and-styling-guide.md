@@ -26,7 +26,7 @@ Whether you're transitioning from square nails or sculpting almond gel extension
 
 ## Why Almond Nails Are the Most Popular Nail Shape
 
-In comparison to oval, square, or coffin shapes (explore our [coffin nail shapes guide](/blog/coffin-nail-shapes-and-design-guide-2026)), almond nails offer an ideal balance between durability and high-end sophistication.
+In comparison to oval, square, or coffin shapes (explore our [coffin nail shapes guide](/blog/coffin-nail-shapes-and-design-guide-2026/)), almond nails offer an ideal balance between durability and high-end sophistication.
 
 - **Flattering Profile:** Softly tapered sidewalls create symmetrical harmony across wide or narrow nail beds.
 - **Resilient & Low Maintenance:** Eliminates sharp sidewall corners that snag on fabrics or chip during daily work.
@@ -65,7 +65,7 @@ Featuring an ultra-thin, razor-sharp French line hugging the tip of the almond a
 
 ### 2. Korean Aura Gradient
 
-A delicate blooming airbrush effect centered on the nail plate, blending soft rose pink into pearlescent chrome. Check our [aura and airbrush trend guide](/blog/aura-and-airbrush-nail-art-trend-guide) for technique breakdowns.
+A delicate blooming airbrush effect centered on the nail plate, blending soft rose pink into pearlescent chrome. Check our [aura and airbrush trend guide](/blog/aura-and-airbrush-nail-art-trend-guide/) for technique breakdowns.
 
 ### 3. Chrome Outline Swirls
 
@@ -81,7 +81,7 @@ Translucent pastel jelly polish sealed with glazed donut chrome powder for a cle
 
 Because natural almond nails taper toward the center, protecting your sidewalls is essential:
 
-- **Use a Builder Gel (BIAB) Overlay:** Reinforce thin natural nails with a structured builder gel base to prevent snapping. Learn more in our [beginner gel-x guide](/blog/beginner-guide-diy-gel-x-nails-at-home).
+- **Use a Builder Gel (BIAB) Overlay:** Reinforce thin natural nails with a structured builder gel base to prevent snapping. Learn more in our [beginner gel-x guide](/blog/beginner-guide-diy-gel-x-nails-at-home/).
 - **Never File Into the Stress Points:** Keep filing strokes concentrated above the point where your natural nail detaches from the nail bed.
 - **Hydrate Cuticles Daily:** Apply jojoba-based cuticle oil twice daily to preserve nail flexibility and prevent brittleness.
 

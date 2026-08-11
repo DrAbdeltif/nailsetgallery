@@ -112,4 +112,4 @@ Remove clean nail polish using soy-based or non-acetone organic polish removers 
 
 Clean beauty in 2026 offers high-performance, vibrant nail colors without compromising health. Choosing 10-free or breathable formulas protects your nail matrix and reduces chemical exposure.
 
-Pair clean polishes with healthy natural nail routines in our [ultimate natural nail care guide](/blog/ultimate-beginners-guide-natural-nail-care) or discover flattering shades in our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide).
+Pair clean polishes with healthy natural nail routines in our [ultimate natural nail care guide](/blog/ultimate-beginners-guide-natural-nail-care/) or discover flattering shades in our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide/).

@@ -115,4 +115,4 @@ Premature popping is caused by unetched tip contact pads, natural oils left on t
 
 DIY Gel-X nail extensions deliver salon-quality length, strength, and durability directly at home without damaging your natural nails. By mastering proper dual dehydration, interior tip etching, and 45-degree flash curing, you can enjoy flawless 4-week manicures.
 
-For tips on maintaining your nail bed health underneath extensions, explore our [ultimate natural nail care guide](/blog/ultimate-beginners-guide-natural-nail-care) or learn how to choose flattering shades with our [skin tone color matching guide](/blog/skin-tone-nail-color-matching-guide).
+For tips on maintaining your nail bed health underneath extensions, explore our [ultimate natural nail care guide](/blog/ultimate-beginners-guide-natural-nail-care/) or learn how to choose flattering shades with our [skin tone color matching guide](/blog/skin-tone-nail-color-matching-guide/).

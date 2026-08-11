@@ -111,4 +111,4 @@ Cool pink nudes on warm golden skin create color clashes that highlight yellow s
 
 Matching your nail polish to your skin's unique cool, warm, or olive undertones transforms simple manicures into flattering accessories. By testing swatches in natural light and following color theory, your hand aesthetic will always look cohesive.
 
-Explore nude shade selection in our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide) or discover non-toxic formulas in our [clean nail polish guide](/blog/non-toxic-clean-nail-polish-guide).
+Explore nude shade selection in our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide/) or discover non-toxic formulas in our [clean nail polish guide](/blog/non-toxic-clean-nail-polish-guide/).

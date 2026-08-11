@@ -76,6 +76,6 @@ Yes! Korean blush nails look exceptionally cute on short natural rounded or squo
 ---
 
 ## Related K-Beauty Guides & Trends
-- [Soap & Jelly Nails Trend Guide](/blog/soap-and-jelly-nails-trend-guide)
-- [Aura & Airbrush Nail Art Trend Guide](/blog/aura-and-airbrush-nail-art-trend-guide)
-- [Nail Trends 2026 Overview](/blog/nail-trends-2026)
+- [Soap & Jelly Nails Trend Guide](/blog/soap-and-jelly-nails-trend-guide/)
+- [Aura & Airbrush Nail Art Trend Guide](/blog/aura-and-airbrush-nail-art-trend-guide/)
+- [Nail Trends 2026 Overview](/blog/nail-trends-2026/)

@@ -103,4 +103,4 @@ Dehydrate nails with 90%+ isopropyl alcohol before polish application and cap fr
 
 2026 nail trends deliver versatile options ranging from understated quiet luxury nude gels to high-tech magnetic velvet. By adopting wearable squoval shapes and quality gel sealing, your trend sets will stay stunning.
 
-Explore specific tutorials in our [glazed chrome guide](/blog/glazed-chrome-powder-nail-tutorial) or try [magnetic cat-eye gel nails](/blog/magnetic-cat-eye-gel-nails-guide).
+Explore specific tutorials in our [glazed chrome guide](/blog/glazed-chrome-powder-nail-tutorial/) or try [magnetic cat-eye gel nails](/blog/magnetic-cat-eye-gel-nails-guide/).

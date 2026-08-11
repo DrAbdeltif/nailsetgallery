@@ -114,4 +114,4 @@ Overusing formaldehyde hardeners cross-links keratin excessively, making nails b
 
 Strengthening weak nails requires matching the treatment to your specific nail flaw. Soft nails thrive under hydrolyzed keratin builders, while brittle nails require lipid hydration oils.
 
-For complete natural growth routines, read our [ultimate natural nail care guide](/blog/ultimate-beginners-guide-natural-nail-care) or explore [cuticle care & nail hydration routines](/blog/cuticle-care-and-nail-hydration-routine).
+For complete natural growth routines, read our [ultimate natural nail care guide](/blog/ultimate-beginners-guide-natural-nail-care/) or explore [cuticle care & nail hydration routines](/blog/cuticle-care-and-nail-hydration-routine/).

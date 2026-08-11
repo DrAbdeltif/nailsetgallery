@@ -107,4 +107,4 @@ The eponychium is the living skin fold at the base of the nail, while the cuticl
 
 Consistent cuticle oiling with jojoba oil is the single most effective habit for growing long, flexible, healthy natural nails. By respecting living skin folds and removing dead pterygium gently, you create the ideal foundation for natural growth and manicures.
 
-For complete natural nail growth routines, check out our [ultimate natural nail care guide](/blog/ultimate-beginners-guide-natural-nail-care) or explore [post-acrylic nail rehab strategies](/blog/post-acrylic-nail-rehab-recovery-guide).
+For complete natural nail growth routines, check out our [ultimate natural nail care guide](/blog/ultimate-beginners-guide-natural-nail-care/) or explore [post-acrylic nail rehab strategies](/blog/post-acrylic-nail-rehab-recovery-guide/).

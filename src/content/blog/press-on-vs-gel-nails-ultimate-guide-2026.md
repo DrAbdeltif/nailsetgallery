@@ -53,7 +53,7 @@ Modern luxury press-ons are crafted from full-cover soft gel tips rather than ch
 4. **Apply Glue Correctly:** Apply a drop of brush-on glue to your natural nail AND a small bead inside the press-on tip.
 5. **Press at 45° Angle:** Place the press-on at a 45-degree angle near the cuticle fold and press down firmly for 30 seconds to push out air bubbles.
 
-Learn more in-depth tricks in [How to Apply Press-On Nails for Maximum Longevity](/blog/how-to-apply-press-on-nails-longevity).
+Learn more in-depth tricks in [How to Apply Press-On Nails for Maximum Longevity](/blog/how-to-apply-press-on-nails-longevity/).
 
 ---
 
@@ -70,7 +70,7 @@ Gel manicures rely on oligomer resins that cure under LED/UV lamps into a strong
 - **Cap the Free Edge:** Always swipe your polish brush along the tip of the nail edge to seal it against moisture.
 - **Use Quality UV Lamps:** Ensure your LED lamp has adequate wattage (at least 36W to 48W) to fully cure gel layers.
 
-Master builder gel at home with our guide: [DIY Builder Gel Overlay Step-by-Step](/blog/how-to-do-builder-gel-overlay-at-home).
+Master builder gel at home with our guide: [DIY Builder Gel Overlay Step-by-Step](/blog/how-to-do-builder-gel-overlay-at-home/).
 
 ---
 
@@ -82,7 +82,7 @@ The #1 cause of thin, peeling nails is ripping or picking off gel polish or pres
 - **For Press-Ons:** Soak hands in warm water mixed with dish soap and 5 drops of cuticle oil for 15 minutes until tips slide off effortlessly.
 - **For Gel Nails:** File off the shiny topcoat layer, then wrap nail beds in acetone-soaked cotton pads wrapped in foil for 15 minutes. Scrape off softened gel gently with a wooden orange stick.
 
-See detailed safe removal instructions in [Safe Gel Polish Removal at Home](/blog/safe-gel-nail-polish-removal-at-home-guide).
+See detailed safe removal instructions in [Safe Gel Polish Removal at Home](/blog/safe-gel-nail-polish-removal-at-home-guide/).
 
 ---
 
@@ -97,6 +97,6 @@ Yes! Adding a layer of UV gel top coat over your press-on set locks in printed a
 ---
 
 ## Related Guides & Tutorials
-- [Beginner's Guide to DIY Gel-X Nails](/blog/beginner-guide-diy-gel-x-nails-at-home)
-- [Post-Acrylic & Gel Nail Rehab Recovery](/blog/post-acrylic-nail-rehab-recovery-guide)
-- [Best Nail Strengtheners & Treatments](/blog/best-nail-strengtheners-and-treatments)
+- [Beginner's Guide to DIY Gel-X Nails](/blog/beginner-guide-diy-gel-x-nails-at-home/)
+- [Post-Acrylic & Gel Nail Rehab Recovery](/blog/post-acrylic-nail-rehab-recovery-guide/)
+- [Best Nail Strengtheners & Treatments](/blog/best-nail-strengtheners-and-treatments/)

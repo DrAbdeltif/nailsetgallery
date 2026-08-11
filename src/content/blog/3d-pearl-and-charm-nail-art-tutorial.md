@@ -113,4 +113,4 @@ Viscous hard builder gel or non-flowing solid gel glue provides the strongest st
 
 Mastering 3D pearl and charm application allows you to create high-fashion, jewelry-inspired nail art that lasts over 3 weeks without snagging. By scuffing placement zones and carefully encapsulating charm bases, your dimensional art will remain secure.
 
-For more trendy technique tutorials, explore our [glazed chrome powder guide](/blog/glazed-chrome-powder-nail-tutorial) or try [magnetic cat-eye gel nails](/blog/magnetic-cat-eye-gel-nails-guide).
+For more trendy technique tutorials, explore our [glazed chrome powder guide](/blog/glazed-chrome-powder-nail-tutorial/) or try [magnetic cat-eye gel nails](/blog/magnetic-cat-eye-gel-nails-guide/).

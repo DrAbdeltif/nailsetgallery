@@ -89,6 +89,6 @@ They do not need to match identically! A popular bridal combo is wearing an eleg
 ---
 
 ## Related Bridal Inspiration
-- [Bridal & Wedding Nail Art Ideas 2026](/blog/bridal-and-wedding-nail-art-ideas-2026)
-- [3D Pearl & Charm Nail Art Tutorial](/blog/3d-pearl-and-charm-nail-art-tutorial)
-- [French Tip Nail Art Variations 2026](/blog/french-tip-nail-art-variations-2026)
+- [Bridal & Wedding Nail Art Ideas 2026](/blog/bridal-and-wedding-nail-art-ideas-2026/)
+- [3D Pearl & Charm Nail Art Tutorial](/blog/3d-pearl-and-charm-nail-art-tutorial/)
+- [French Tip Nail Art Variations 2026](/blog/french-tip-nail-art-variations-2026/)

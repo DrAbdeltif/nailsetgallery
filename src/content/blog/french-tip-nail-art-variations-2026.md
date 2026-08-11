@@ -104,4 +104,4 @@ Yes, paint the tip line with non-wipe gel, cure for 30 seconds, burnish chrome p
 
 Modern French tip nail designs provide endless ways to customize a classic manicure. Whether you choose minimal micro-lines or dramatic liquid chrome arcs, precise line work and free-edge top coat sealing ensure a long-lasting set.
 
-Discover more design ideas in our [glazed chrome powder guide](/blog/glazed-chrome-powder-nail-tutorial) or learn about [quiet luxury nude gel matching](/blog/quiet-luxury-nude-gel-guide).
+Discover more design ideas in our [glazed chrome powder guide](/blog/glazed-chrome-powder-nail-tutorial/) or learn about [quiet luxury nude gel matching](/blog/quiet-luxury-nude-gel-guide/).

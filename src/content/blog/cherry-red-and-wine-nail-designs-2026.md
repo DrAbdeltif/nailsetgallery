@@ -63,7 +63,7 @@ Achieved by mixing deep cherry gel polish with a clear builder gel base, creatin
 
 ### 2. Deep Burgundy French Tips with Gold Leaf
 
-Replace traditional white tips with crisp burgundy arches edged in ultra-thin 24k gold foil lines. Pair with a quiet luxury nude base like our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide).
+Replace traditional white tips with crisp burgundy arches edged in ultra-thin 24k gold foil lines. Pair with a quiet luxury nude base like our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide/).
 
 ### 3. Ruby Velvet Magnetic Cat-Eye
 

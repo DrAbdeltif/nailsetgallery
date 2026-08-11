@@ -120,4 +120,4 @@ Refill builder gel or acrylic every 2 to 3 weeks to keep the apex positioned ove
 
 Coffin nails provide the ultimate canvas for modern nail artistry, combining structural elegance with dramatic flair. By reinforcing the apex and maintaining straight filing angles, your coffin manicures will remain strong and chip-free.
 
-To discover step-by-step extension methods, check out our [beginner guide to DIY Gel-X nails](/blog/beginner-guide-diy-gel-x-nails-at-home) or learn how to apply [press-on nails for maximum longevity](/blog/how-to-apply-press-on-nails-longevity).
+To discover step-by-step extension methods, check out our [beginner guide to DIY Gel-X nails](/blog/beginner-guide-diy-gel-x-nails-at-home/) or learn how to apply [press-on nails for maximum longevity](/blog/how-to-apply-press-on-nails-longevity/).

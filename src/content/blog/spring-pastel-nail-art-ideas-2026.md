@@ -106,4 +106,4 @@ When prepped with alcohol dehydration and sealed free edges, pastel gel manicure
 
 Spring 2026 pastel nail designs infuse fresh energy into your manicure routine with butter yellow, lavender chrome, and botanical mint. By applying paper-thin coats and sealing tips cleanly, your spring set will stay streak-free.
 
-Explore more seasonal designs in our [summer nail ideas guide](/blog/summer-nail-ideas-2026) or try [french tip variations](/blog/french-tip-nail-art-variations-2026).
+Explore more seasonal designs in our [summer nail ideas guide](/blog/summer-nail-ideas-2026/) or try [french tip variations](/blog/french-tip-nail-art-variations-2026/).

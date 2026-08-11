@@ -133,4 +133,4 @@ Airbrush acrylic paint must be completely dry before applying top coat. Lightly 
 
 Aura and airbrush nail art represents the perfect blend of modern gradient technology and expressive color theory. Whether you use a professional airbrush gun or a simple makeup sponge at home, aura nails deliver ethereal depth to any manicure set.
 
-To complement your gradient skills, check out our [magnetic cat eye gel nails guide](/blog/magnetic-cat-eye-gel-nails-guide) or discover the viral [soap and jelly nails trend guide](/blog/soap-and-jelly-nails-trend-guide).
+To complement your gradient skills, check out our [magnetic cat eye gel nails guide](/blog/magnetic-cat-eye-gel-nails-guide/) or discover the viral [soap and jelly nails trend guide](/blog/soap-and-jelly-nails-trend-guide/).

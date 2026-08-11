@@ -97,4 +97,4 @@ When prepped with alcohol dehydration and sealed free edges, summer gel manicure
 
 Summer 2026 nail trends deliver luminous, vacation-ready style with glazed coral and ocean gradients. By protecting nail plates from sunscreen oils and sealing tips with top coat, your summer manicure will last through every beach trip.
 
-Explore pastel color trends in our [spring pastel nail guide](/blog/spring-pastel-nail-art-ideas-2026) or try [press-on toenails for summer](/blog/press-on-toenails-how-to-apply).
+Explore pastel color trends in our [spring pastel nail guide](/blog/spring-pastel-nail-art-ideas-2026/) or try [press-on toenails for summer](/blog/how-to-apply-press-on-nails-longevity/).

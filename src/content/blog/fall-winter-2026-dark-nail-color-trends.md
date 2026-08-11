@@ -96,4 +96,4 @@ Cap the free edge tip thoroughly during polish and top coat application, and rea
 
 Fall and Winter 2026 dark nail trends deliver opulent, vampy style with black cherry and roasted espresso shades. By using protective base coats and capping tip edges cleanly, your dark manicure will stay chip-free.
 
-Explore more dark palette ideas in our [moody dark nail guide](/blog/moody-dark-nail-color-palettes) or check out [magnetic cat-eye gel nails](/blog/magnetic-cat-eye-gel-nails-guide).
+Explore more dark palette ideas in our [moody dark nail guide](/blog/moody-dark-nail-color-palettes/) or check out [magnetic cat-eye gel nails](/blog/magnetic-cat-eye-gel-nails-guide/).

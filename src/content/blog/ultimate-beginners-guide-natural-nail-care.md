@@ -14,7 +14,7 @@ draft: false
 
 If you have ever dealt with nails that peel, snap at the slightest touch, or refuse to grow past your fingertips, you are not alone. Many of us grow up believing that strong, beautiful nails are purely a matter of genetics or monthly salon visits. The truth is far simpler: healthy natural nails are the result of consistent, gentle care and proper hydration.
 
-Whether you are recovering from enhancements with our [post-acrylic nail rehab recovery guide](/blog/post-acrylic-nail-rehab-recovery-guide) or wanting to enhance your look with clean [minimalist office nail colors](/blog/minimalist-office-work-nail-colors), this comprehensive guide covers everything you need to know. By understanding how your nails work and establishing a simple 4-phase routine, you can achieve resilient, healthy natural nails right at home.
+Whether you are recovering from enhancements with our [post-acrylic nail rehab recovery guide](/blog/post-acrylic-nail-rehab-recovery-guide/) or wanting to enhance your look with clean [minimalist office nail colors](/blog/minimalist-office-work-nail-colors/), this comprehensive guide covers everything you need to know. By understanding how your nails work and establishing a simple 4-phase routine, you can achieve resilient, healthy natural nails right at home.
 
 > **TL;DR:** Healthy natural nail care relies on daily jojoba oil hydration, glass file shaping, cuticle protection, and shielding hands from excess water. Flexible, hydrated keratin flexes under impact without snapping or peeling.
 
@@ -39,7 +39,7 @@ According to research published in the [National Library of Medicine (PubMed)](h
 
 ## Phase 1: Shaping and Gentle Prep
 
-Proper filing and cuticle prep are the foundation of any natural nail routine. Incorrect tools and aggressive sawing motion can cause micro-tears along the free edge, leading to peeling layers weeks later. If you are comparing filing tools and strengthening treatments, see our guide on the [best nail strengtheners and treatments](/blog/best-nail-strengtheners-and-treatments).
+Proper filing and cuticle prep are the foundation of any natural nail routine. Incorrect tools and aggressive sawing motion can cause micro-tears along the free edge, leading to peeling layers weeks later. If you are comparing filing tools and strengthening treatments, see our guide on the [best nail strengtheners and treatments](/blog/best-nail-strengtheners-and-treatments/).
 
 ### Ditch Metal Files for Glass (Crystal) Files
 
@@ -73,7 +73,7 @@ If there is one non-negotiable step in natural nail care, it is **hydration**. D
 
 Not all oils are created equal when it comes to nail penetration. Most commercial lotions contain heavy mineral oils or large molecules that sit on the surface without absorbing into the dense keratin matrix.
 
-[Dermatological studies on botanical oils](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5796020/) demonstrate that **jojoba oil** has a molecular structure almost identical to human sebum. This unique chemical profile allows jojoba oil to penetrate deep into the keratin layers, locking in moisture and carrying nutrients deep into the nail plate. For a complete deep dive into application methods, read our dedicated [cuticle care and nail hydration routine](/blog/cuticle-care-and-nail-hydration-routine).
+[Dermatological studies on botanical oils](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5796020/) demonstrate that **jojoba oil** has a molecular structure almost identical to human sebum. This unique chemical profile allows jojoba oil to penetrate deep into the keratin layers, locking in moisture and carrying nutrients deep into the nail plate. For a complete deep dive into application methods, read our dedicated [cuticle care and nail hydration routine](/blog/cuticle-care-and-nail-hydration-routine/).
 
 | Botanical Oil Type | Chemical Structure | Keratin Penetration & Absorption | Primary Effect |
 | :--- | :--- | :---: | :--- |
@@ -112,7 +112,7 @@ Keratin absorbs water like a sponge. When your nails soak in water during dishwa
 
 ### Wear a Protective Base Coat
 
-Even if you prefer not to wear colored polish or prefer subtle options from our [non-toxic clean nail polish guide](/blog/non-toxic-clean-nail-polish-guide), wearing a clear **protective base coat** acts as armor. It seals in your natural moisture, provides structural support against bending, and guards the nail surface from friction.
+Even if you prefer not to wear colored polish or prefer subtle options from our [non-toxic clean nail polish guide](/blog/non-toxic-clean-nail-polish-guide/), wearing a clear **protective base coat** acts as armor. It seals in your natural moisture, provides structural support against bending, and guards the nail surface from friction.
 
 1. Clean your nail plate with rubbing alcohol to remove surface oil.
 2. Apply 1 to 2 thin coats of a nourishing base coat or ridge filler.
@@ -160,7 +160,7 @@ Water expands natural nail keratin layers. Repeated swelling and drying breaks d
 
 Healthy natural nails don't require expensive weekly manicures or complex chemical treatments. By adopting a gentle filing technique with glass tools, prioritizing daily jojoba oil hydration, and shielding your hands from excess water exposure, you give your natural nails everything they need to thrive.
 
-If you are looking for design inspiration to pair with your newly healthy natural nails, check out our latest curated [fall/winter nail trends](/blog/fall-winter-2026-dark-nail-color-trends)!
+If you are looking for design inspiration to pair with your newly healthy natural nails, check out our latest curated [fall/winter nail trends](/blog/fall-winter-2026-dark-nail-color-trends/)!
 
 ---
 

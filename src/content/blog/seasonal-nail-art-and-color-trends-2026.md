@@ -38,7 +38,7 @@ Spring manicures focus on renewal, delicate soft lighting, and botanical inspira
 1. **Blooming Gel Botanical Flowers:** Using blooming gel base coats to let pastel petals spread softly across milky white nails.
 2. **Pastel Skittle Manicure:** Painting each fingernail a different complementary pastel tone (mint, butter yellow, baby blue, lilac, blush pink).
 
-Check out our full collection of [Spring Pastel Nail Art Ideas 2026](/blog/spring-pastel-nail-art-ideas-2026).
+Check out our full collection of [Spring Pastel Nail Art Ideas 2026](/blog/spring-pastel-nail-art-ideas-2026/).
 
 ---
 
@@ -55,7 +55,7 @@ Summer is all about vibrant hues, high-gloss shine, and vacation-ready durabilit
 1. **Fruit Syrup & Chrome:** Strawberry, cherry, and lemon micro motifs with 3D gel water droplets.
 2. **Mermaid Pearl Glaze:** Iridescent aurora chrome rubbed over soft blush or turquoise gel polish.
 
-Discover more beach-ready styles in [Summer Nail Ideas 2026](/blog/summer-nail-ideas-2026).
+Discover more beach-ready styles in [Summer Nail Ideas 2026](/blog/summer-nail-ideas-2026/).
 
 ---
 
@@ -72,7 +72,7 @@ As autumn arrives, nail aesthetics transition into rich, cozy, and warm multidim
 1. **Multi-Layer Tortoise Shell:** Layering jelly orange and dark brown polish to simulate natural amber stone.
 2. **Magnetic Copper Velvet:** Cat-eye magnetic gels that shimmer like golden autumn light.
 
-Read our complete breakdown of [Autumn Burnt Orange & Fall Nail Trends](/blog/autumn-burnt-orange-nail-art-ideas-2026).
+Read our complete breakdown of [Autumn Burnt Orange & Fall Nail Trends](/blog/autumn-burnt-orange-nail-art-ideas-2026/).
 
 ---
 
@@ -89,7 +89,7 @@ Winter nail aesthetics combine festive grandeur with crisp, icy elegance.
 1. **Glazed Pearl & Snowflake Details:** Hand-painted fine white line snowflakes over pearl chrome bases.
 2. **Subtle Cable Knit Texture:** 3D acrylic powder stippled into sweater pattern lines over matte gel polish.
 
-Explore our curated guide to [Winter Holiday & Festive Nail Art Ideas](/blog/winter-holiday-and-festive-nail-art-ideas).
+Explore our curated guide to [Winter Holiday & Festive Nail Art Ideas](/blog/winter-holiday-and-festive-nail-art-ideas/).
 
 ---
 
@@ -123,6 +123,6 @@ Neon gel pigments can fade under prolonged UV sunlight. Always use a non-wiping 
 ---
 
 ## Related Content
-- [Fall & Winter Dark Color Trends](/blog/fall-winter-2026-dark-nail-color-trends)
-- [Cherry Red & Wine Nail Designs](/blog/cherry-red-and-wine-nail-designs-2026)
-- [Skin Tone Nail Color Matching Guide](/blog/skin-tone-nail-color-matching-guide)
+- [Fall & Winter Dark Color Trends](/blog/fall-winter-2026-dark-nail-color-trends/)
+- [Cherry Red & Wine Nail Designs](/blog/cherry-red-and-wine-nail-designs-2026/)
+- [Skin Tone Nail Color Matching Guide](/blog/skin-tone-nail-color-matching-guide/)

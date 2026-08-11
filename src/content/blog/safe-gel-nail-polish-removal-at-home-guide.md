@@ -95,7 +95,7 @@ Wash hands with warm water and mild soap to remove residual acetone. Gently smoo
 If your nails feel weak after removing long-term acrylics or gels, follow our recovery protocol:
 
 1. **Keep Nails Short:** File natural nails down to a short round or squoval shape to prevent breaking.
-2. **Apply Keratin Strengtheners:** Coat nails with a protective strengthener. Learn more in our [best nail strengtheners guide](/blog/best-nail-strengtheners-and-treatments).
+2. **Apply Keratin Strengtheners:** Coat nails with a protective strengthener. Learn more in our [best nail strengtheners guide](/blog/best-nail-strengtheners-and-treatments/).
 3. **Oil 3 Times Daily:** Massage jojoba oil into cuticles and under the free edge to restore lipid flexibility.
 4. **Take a 7-Day Polish Break:** Allow natural nail plates to rehydrate before your next gel session.
 

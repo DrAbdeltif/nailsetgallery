@@ -111,4 +111,4 @@ Cherry cola nail polish is a deep mahogany red with dark black undertones that l
 
 Moody dark nail color palettes provide a sophisticated, vampy alternative to light nudes and neons. By using stain-blocking base coats and cleaning up cuticle lines precisely, your dark manicure will look flawless.
 
-Explore fall/winter trends in our [fall winter 2026 dark nail guide](/blog/fall-winter-2026-dark-nail-color-trends) or check out [magnetic cat-eye gel art](/blog/magnetic-cat-eye-gel-nails-guide).
+Explore fall/winter trends in our [fall winter 2026 dark nail guide](/blog/fall-winter-2026-dark-nail-color-trends/) or check out [magnetic cat-eye gel art](/blog/magnetic-cat-eye-gel-nails-guide/).

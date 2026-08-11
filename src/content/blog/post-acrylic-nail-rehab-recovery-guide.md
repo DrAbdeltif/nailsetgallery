@@ -113,4 +113,4 @@ Yes, keeping damaged nails filed short eliminates leverage stress, preventing pa
 
 Rehabilitating damaged nails after acrylics or dip powder takes patience, short length management, and intensive daily jojoba oil hydration. By avoiding harsh hardeners and letting your nail matrix grow out, your natural strength will fully return.
 
-Learn how to maintain healthy natural nails long-term in our [ultimate natural nail care guide](/blog/ultimate-beginners-guide-natural-nail-care) or explore [cuticle care science](/blog/cuticle-care-and-nail-hydration-routine).
+Learn how to maintain healthy natural nails long-term in our [ultimate natural nail care guide](/blog/ultimate-beginners-guide-natural-nail-care/) or explore [cuticle care science](/blog/cuticle-care-and-nail-hydration-routine/).

@@ -122,4 +122,4 @@ Matte top coat absorbs light reflection, making burnt orange look slightly deepe
 
 Burnt orange nail art brings cozy autumn warmth to your fingertips. Whether styled with gold leaf accents, moody tortoise shell patterns, or a clean matte velvet top coat, this versatile hue is the ultimate fall aesthetic statement.
 
-For more fall color inspiration, explore our guide on [fall & winter dark nail color trends](/blog/fall-winter-2026-dark-nail-color-trends) or view our showcase of [moody dark nail color palettes](/blog/moody-dark-nail-color-palettes).
+For more fall color inspiration, explore our guide on [fall & winter dark nail color trends](/blog/fall-winter-2026-dark-nail-color-trends/) or view our showcase of [moody dark nail color palettes](/blog/moody-dark-nail-color-palettes/).

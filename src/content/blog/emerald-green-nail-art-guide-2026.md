@@ -132,4 +132,4 @@ With proper nail prep, base coating, and free-edge sealing, an emerald green gel
 
 Emerald green is a staple luxury color that brings gemstone elegance to any nail length or shape. By pairing the right undertone with gold leaf or marble accents, you can achieve salon-quality results that stay vibrant for weeks.
 
-To explore more color palettes and luxury trends, check out our guide on [skin tone nail color matching](/blog/skin-tone-nail-color-matching-guide) or read our breakdown of [quiet luxury nude gel nails](/blog/quiet-luxury-nude-gel-guide).
+To explore more color palettes and luxury trends, check out our guide on [skin tone nail color matching](/blog/skin-tone-nail-color-matching-guide/) or read our breakdown of [quiet luxury nude gel nails](/blog/quiet-luxury-nude-gel-guide/).

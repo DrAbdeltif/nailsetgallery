@@ -93,6 +93,6 @@ Yes! You will need a non-wipe 3D gel accessory gel, a fine detail liner brush, c
 ---
 
 ## Related Content
-- [3D Pearl & Charm Nail Art Tutorial](/blog/3d-pearl-and-charm-nail-art-tutorial)
-- [Aura & Airbrush Nail Art Trend Guide](/blog/aura-and-airbrush-nail-art-trend-guide)
-- [Magnetic Cat-Eye Gel Nails Guide](/blog/magnetic-cat-eye-gel-nails-guide)
+- [3D Pearl & Charm Nail Art Tutorial](/blog/3d-pearl-and-charm-nail-art-tutorial/)
+- [Aura & Airbrush Nail Art Trend Guide](/blog/aura-and-airbrush-nail-art-trend-guide/)
+- [Magnetic Cat-Eye Gel Nails Guide](/blog/magnetic-cat-eye-gel-nails-guide/)

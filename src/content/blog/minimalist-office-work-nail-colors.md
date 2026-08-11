@@ -113,4 +113,4 @@ Greige nail polish is a blend of beige and gray that creates a neutral, sophisti
 
 Minimalist office nail colors combine corporate elegance with low-maintenance durability. By choosing short squoval shapes and chip-disguising sheer greiges, your manicure will look polished throughout the work week.
 
-Explore nude shade selection in our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide) or check out [french tip variations](/blog/french-tip-nail-art-variations-2026).
+Explore nude shade selection in our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide/) or check out [french tip variations](/blog/french-tip-nail-art-variations-2026/).

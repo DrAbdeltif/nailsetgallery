@@ -105,4 +105,4 @@ When sealed with a non-wipe high-plumping gel top coat and cured for 60 seconds,
 
 Soap and jelly nails offer an effortless, ultra-clean aesthetic that highlights healthy natural hands. By mastering dry cuticle prep and applying sheer, plumping top coats, you can achieve 2026's most viral translucent glass manicures.
 
-Discover more color matching tips in our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide) or explore [2026 spring pastel nail art](/blog/spring-pastel-nail-art-ideas-2026).
+Discover more color matching tips in our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide/) or explore [2026 spring pastel nail art](/blog/spring-pastel-nail-art-ideas-2026/).

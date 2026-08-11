@@ -52,7 +52,7 @@ Instead of thick traditional French tips, 2026 favors ultra-fine micro lines in 
 ### 3. Tortoise Shell & Gold Foil Accents
 Almond shapes elevate rich animal prints like tortoise shell. Layer jelly amber and brown polishes with floating gold leaf foil to create a warm luxury statement.
 
-Explore more almond inspirations in our dedicated [Almond Shape Styling Guide](/blog/almond-shape-nail-designs-and-styling-guide).
+Explore more almond inspirations in our dedicated [Almond Shape Styling Guide](/blog/almond-shape-nail-designs-and-styling-guide/).
 
 ---
 
@@ -69,7 +69,7 @@ Magnetic velvet gel polish creates a hypnotizing depth effect. Moving a magnetic
 ### 3. Deep Cherry Red & Encapsulated Glitter
 Rich berry red and wine tones on long coffin nails radiate timeless luxury. Add an accent nail with encapsulated iridescent glitter in clear gel for a stunning contrast.
 
-Read our complete breakdown in the [Coffin Nail Shapes & Design Guide](/blog/coffin-nail-shapes-and-design-guide-2026).
+Read our complete breakdown in the [Coffin Nail Shapes & Design Guide](/blog/coffin-nail-shapes-and-design-guide-2026/).
 
 ---
 
@@ -98,6 +98,6 @@ While short coffin nails are possible, the shape looks most flattering on medium
 ---
 
 ## Related Guides & Inspiration
-- [Glazed Chrome Powder Nail Tutorial](/blog/glazed-chrome-powder-nail-tutorial)
-- [Quiet Luxury Nude Gel Guide](/blog/quiet-luxury-nude-gel-guide)
-- [How to Do Builder Gel Overlay at Home](/blog/how-to-do-builder-gel-overlay-at-home)
+- [Glazed Chrome Powder Nail Tutorial](/blog/glazed-chrome-powder-nail-tutorial/)
+- [Quiet Luxury Nude Gel Guide](/blog/quiet-luxury-nude-gel-guide/)
+- [How to Do Builder Gel Overlay at Home](/blog/how-to-do-builder-gel-overlay-at-home/)

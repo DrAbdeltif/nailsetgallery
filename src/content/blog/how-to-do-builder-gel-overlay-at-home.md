@@ -94,7 +94,7 @@ You don't need to soak off your builder gel overlay every time you get regrowth!
 3. Apply a thin base layer to the growth area.
 4. Float a small bead of BIAB over the growth gap, self-level, and cure.
 
-For post-acrylic restoration strategies, explore our [post-acrylic rehab guide](/blog/post-acrylic-nail-rehab-recovery-guide).
+For post-acrylic restoration strategies, explore our [post-acrylic rehab guide](/blog/post-acrylic-nail-rehab-recovery-guide/).
 
 ---
 

@@ -120,4 +120,4 @@ Graininess is caused by under-curing the base top coat or using coarse, low-qual
 
 Achieving flawless glazed chrome powder nails requires mastering no-wipe curing timing and sealing free edges cleanly. By burning pigment onto a 30-second half-cured top coat and anchoring tip edges with primer, your glazed manicure will maintain mirror shine for up to 4 weeks.
 
-Pair your chrome nails with 3D accents using our [3D pearl & charm tutorial](/blog/3d-pearl-and-charm-nail-art-tutorial) or discover trendy [2026 spring pastel nail ideas](/blog/spring-pastel-nail-art-ideas-2026).
+Pair your chrome nails with 3D accents using our [3D pearl & charm tutorial](/blog/3d-pearl-and-charm-nail-art-tutorial/) or discover trendy [2026 spring pastel nail ideas](/blog/spring-pastel-nail-art-ideas-2026/).

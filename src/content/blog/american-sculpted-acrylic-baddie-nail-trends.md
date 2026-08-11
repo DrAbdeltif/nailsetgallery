@@ -73,6 +73,6 @@ A complete full set of XL sculpted acrylics with intricate hand-painted art, V-c
 ---
 
 ## Related Content
-- [Coffin Nail Shapes & Design Guide 2026](/blog/coffin-nail-shapes-and-design-guide-2026)
-- [Aesthetic Almond & Coffin Nails 2026](/blog/aesthetic-almond-and-coffin-nail-designs-guide-2026)
-- [Post-Acrylic & Gel Rehab Recovery Guide](/blog/post-acrylic-nail-rehab-recovery-guide)
+- [Coffin Nail Shapes & Design Guide 2026](/blog/coffin-nail-shapes-and-design-guide-2026/)
+- [Aesthetic Almond & Coffin Nails 2026](/blog/aesthetic-almond-and-coffin-nail-designs-guide-2026/)
+- [Post-Acrylic & Gel Rehab Recovery Guide](/blog/post-acrylic-nail-rehab-recovery-guide/)

@@ -106,4 +106,4 @@ When prepped properly with alcohol dehydration and capped tips, quiet luxury nud
 
 The quiet luxury nude gel manicure delivers timeless elegance by harmonizing polish undertones with your natural skin tone. By prioritizing immaculate cuticle prep and applying paper-thin gel coats, your hands will look effortlessly refined.
 
-Explore more color matching strategies in our [skin tone nail color guide](/blog/skin-tone-nail-color-matching-guide), browse our [soap & jelly nails trend guide](/blog/soap-and-jelly-nails-trend-guide), or check out elegant [bridal and wedding nail art ideas](/blog/bridal-and-wedding-nail-art-ideas-2026).
+Explore more color matching strategies in our [skin tone nail color guide](/blog/skin-tone-nail-color-matching-guide/), browse our [soap & jelly nails trend guide](/blog/soap-and-jelly-nails-trend-guide/), or check out elegant [bridal and wedding nail art ideas](/blog/bridal-and-wedding-nail-art-ideas-2026/).

@@ -104,4 +104,4 @@ Bridal nail art does not need to match the dress fabric identically; a soft blus
 
 Bridal nail art in 2026 balances timeless romantic tones with delicate glazed textures. By planning a trial run 3 months prior and locking in your final set 2 days before the wedding, your ring photos will look flawless.
 
-Explore nude shade guides in our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide) or try [french tip variations](/blog/french-tip-nail-art-variations-2026).
+Explore nude shade guides in our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide/) or try [french tip variations](/blog/french-tip-nail-art-variations-2026/).

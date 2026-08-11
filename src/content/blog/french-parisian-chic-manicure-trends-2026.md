@@ -79,6 +79,6 @@ Absolutely! Micro French tips were specifically designed for short natural nails
 ---
 
 ## Related French Style Guides
-- [French Tip Nail Art Variations 2026](/blog/french-tip-nail-art-variations-2026)
-- [Quiet Luxury Nude Gel Guide](/blog/quiet-luxury-nude-gel-guide)
-- [Cherry Red & Wine Nail Designs 2026](/blog/cherry-red-and-wine-nail-designs-2026)
+- [French Tip Nail Art Variations 2026](/blog/french-tip-nail-art-variations-2026/)
+- [Quiet Luxury Nude Gel Guide](/blog/quiet-luxury-nude-gel-guide/)
+- [Cherry Red & Wine Nail Designs 2026](/blog/cherry-red-and-wine-nail-designs-2026/)
