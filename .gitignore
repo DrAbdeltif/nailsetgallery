@@ -35,6 +35,7 @@ pnpm-debug.log*
 # helper scripts
 /scripts/
 !/scripts/export-pinterest.js
+!/scripts/generate-llms-full.mjs
 !src/scripts/
 
 
