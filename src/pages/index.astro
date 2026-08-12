@@ -8,6 +8,7 @@ import HeroSection from '../components/hero/HeroSection.astro';
 import GalleryGrid from '../components/gallery/GalleryGrid.astro';
 import FeatureCard from '../components/gallery/FeatureCard.astro';
 import NewsletterSubscribe from '../components/ui/NewsletterSubscribe.astro';
+import AdSenseUnit from '../components/ui/AdSenseUnit.astro';
 import { getCollection } from 'astro:content';
 
 // Fetch latest blog posts
@@ -120,6 +121,22 @@ const featured = allPosts.find((p) => p.data.featured) ?? allPosts[0];
         </div>
       </section>
 
+      <!-- Interactive Look Finder / Nail Quiz Teaser -->
+      <section class="quiz-teaser-section reveal-fade" aria-label="Interactive Nail Shape Finder">
+        <div class="quiz-teaser-card">
+          <div class="quiz-teaser-info">
+            <span class="label label-rose">✦ Interactive Tool</span>
+            <h2 class="section-title">Nail Look & Shape Finder</h2>
+            <p class="quiz-teaser-desc">
+              Unsure which nail shape, length, or color suits your hand type and daily lifestyle? Answer 4 quick questions to unlock personalized manicure recommendations.
+            </p>
+            <a href="/quiz/" class="btn-primary" style="margin-top: 16px; display: inline-flex; align-items: center; gap: 8px;">
+              Take The Nail Finder Quiz →
+            </a>
+          </div>
+        </div>
+      </section>
+
       <!-- Trend spotlight -->
       <section class="trends-section reveal-fade" aria-label="Nail trend spotlight">
         <div class="section-header">
@@ -140,6 +157,9 @@ const featured = allPosts.find((p) => p.data.featured) ?? allPosts[0];
           ))}
         </div>
       </section>
+
+      <!-- AdSense Unit -->
+      <AdSenseUnit format="auto" />
 
       <!-- Newsletter Banner CTA -->
       <section aria-label="Newsletter Subscription">
@@ -218,6 +238,27 @@ const featured = allPosts.find((p) => p.data.featured) ?? allPosts[0];
   .btn-outline:hover {
     background-color: var(--color-rose);
     color: #ffffff;
+  }
+
+  /* Quiz Teaser Section */
+  .quiz-teaser-section {
+    margin: var(--space-2xl) 0;
+  }
+
+  .quiz-teaser-card {
+    background-color: var(--color-bg-deep);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    box-shadow: var(--shadow-card);
+  }
+
+  .quiz-teaser-desc {
+    font-size: var(--text-base);
+    color: var(--color-text-muted);
+    max-width: 60ch;
+    margin-top: var(--space-xs);
+    line-height: var(--leading-relaxed);
   }
 
   /* Trends section */

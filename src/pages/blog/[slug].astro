@@ -7,6 +7,10 @@ import Tag from '../../components/ui/Tag.astro';
 import ArticleNav from '../../components/blog/ArticleNav.astro';
 import RelatedPosts from '../../components/blog/RelatedPosts.astro';
 import NewsletterSubscribe from '../../components/ui/NewsletterSubscribe.astro';
+import QuickAnswer from '../../components/content/QuickAnswer.astro';
+import ShopTheLook from '../../components/ui/ShopTheLook.astro';
+import PinterestSaveButton from '../../components/ui/PinterestSaveButton.astro';
+import AdSenseUnit from '../../components/ui/AdSenseUnit.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -213,9 +217,9 @@ const editorialNote = category === 'tutorials'
       </div>
     </header>
 
-    <!-- Hero image -->
+    <!-- Hero image with Pinterest Save Button -->
     {heroImage && (
-      <div class="article-hero-image container-wide reveal-fade">
+      <div class="article-hero-image container-wide reveal-fade" style="position: relative;">
         <img
           src={heroImage}
           alt={heroImageAlt ?? title}
@@ -225,8 +229,26 @@ const editorialNote = category === 'tutorials'
           height="700"
           class="article-hero-img"
         />
+        <PinterestSaveButton
+          url={`https://nailsetgallery.com/blog/${post.id}/`}
+          media={heroImage}
+          description={`${title}: ${description}`}
+          variant="floating"
+        />
       </div>
     )}
+
+    <!-- GEO / AEO Quick Answer Summary Box -->
+    <div class="container">
+      <QuickAnswer
+        answerText={description}
+        takeaways={[
+          { label: 'Category', value: category.charAt(0).toUpperCase() + category.slice(1) },
+          { label: 'Estimated Read', value: `${readingTime} min` },
+          { label: 'Updated', value: formattedUpdated ?? formattedPubDate },
+        ]}
+      />
+    </div>
 
     <aside class="editorial-note container" aria-label="Editorial note">
       <strong>Good to know</strong>
@@ -238,6 +260,12 @@ const editorialNote = category === 'tutorials'
       <article class="prose">
         <Content />
       </article>
+
+      <!-- Shop The Look Affiliate Component -->
+      <ShopTheLook />
+
+      <!-- AdSense In-Article Display Unit -->
+      <AdSenseUnit format="auto" />
     </div>
 
     <!-- Tags -->
