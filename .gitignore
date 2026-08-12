@@ -34,6 +34,7 @@ pnpm-debug.log*
 
 # helper scripts
 /scripts/
+!/scripts/export-pinterest.js
 !src/scripts/
 
 
