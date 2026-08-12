@@ -1,5 +1,5 @@
 ﻿---
-title: "Cuticle Care & Nail Hydration Routine: The Science of Oils"
+title: 'Cuticle Care & Hydration Routine'
 description: "Master cuticle health and nail hydration. Learn the science of jojoba oil penetration, dry cuticle prep, and moisture barrier maintenance."
 pubDate: 2026-07-28
 updatedDate: 2026-07-28

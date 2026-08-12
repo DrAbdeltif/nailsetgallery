@@ -1,5 +1,5 @@
 ﻿---
-title: "Aura & Airbrush Nail Art 2026: Colors, Gradients & Techniques"
+title: 'Aura & Airbrush Nail Art 2026'
 description: "Master viral aura and airbrushed gradient nails in 2026. Learn blooming gel vs airbrush techniques, color energy combos, and anti-blur curing steps."
 pubDate: 2026-08-01
 updatedDate: 2026-08-01
@@ -12,7 +12,7 @@ featured: true
 draft: false
 ---
 
-# Aura & Airbrush Nail Art Trend Guide: Colors, Gradients & Techniques 2026
+## Aura & Airbrush Nail Art Trend Guide: Colors, Gradients & Techniques 2026
 
 Aura nail art has captured the spotlight as one of the defining nail trends of 2026. Inspired by energy fields and ethereal glowing halos, aura nails feature a soft, circular radial gradient blooming out from the center of the nail bed, blending seamlessly into a contrasting perimeter base color.
 

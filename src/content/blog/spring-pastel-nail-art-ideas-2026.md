@@ -1,5 +1,5 @@
 ﻿---
-title: "Spring 2026 Pastel Nails: Butter Yellow, Lavender & Mint"
+title: 'Spring 2026 Pastel Nail Art Ideas'
 description: "Welcome spring with these fresh, soft pastel nail art ideas featuring butter yellow, lavender chrome, and glazed mint green manicures."
 pubDate: 2026-07-28
 updatedDate: 2026-07-28
@@ -12,7 +12,7 @@ featured: false
 draft: false
 ---
 
-# Spring 2026 Pastel Nail Designs: Butter Yellow, Lavender, and Glazed Mint
+## Spring 2026 Pastel Nail Designs: Butter Yellow, Lavender, and Glazed Mint
 
 Spring 2026 pastel nail trends feature creamy butter yellow, glazed lavender chrome, mint green, and pastel skittle mix-and-match manicures.
 

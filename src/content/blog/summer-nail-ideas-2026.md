@@ -1,5 +1,5 @@
 ﻿---
-title: "Summer Nail Ideas 2026: The Hottest Colors & Styles to Wear Now"
+title: 'Summer Nail Ideas & Trends 2026'
 description: "Discover the best summer nail ideas for 2026 — from glazed coral and ocean blues to tropical florals and minimalist neons. Full gallery with expert tips."
 pubDate: 2026-07-20
 updatedDate: 2026-07-20
@@ -12,7 +12,7 @@ featured: true
 draft: false
 ---
 
-# Summer Nail Ideas 2026: The Hottest Colors & Styles to Wear Now
+## Summer Nail Ideas 2026: The Hottest Colors & Styles to Wear Now
 
 Summer 2026 nail ideas combine vibrant glazed coral sheers, ocean ombre gradients, tropical floral accents, and desaturated neon matte finishes.
 

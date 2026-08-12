@@ -1,5 +1,5 @@
 ﻿---
-title: "Builder Gel (BIAB) Overlay Tutorial: Stronger Natural Nails"
+title: 'Builder Gel (BIAB) Overlay Tutorial'
 description: "Master Builder Gel in a Bottle (BIAB) overlays at home. Learn apex creation, self-leveling techniques, nail strengthening, and infill maintenance."
 pubDate: 2026-08-02
 updatedDate: 2026-08-02

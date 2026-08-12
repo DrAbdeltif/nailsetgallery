@@ -1,5 +1,5 @@
 ﻿---
-title: "Korean Jelly & Syrup Blush Nails 2026: K-Beauty Nail Guide"
+title: 'Korean Jelly & Syrup Blush Nails 2026'
 description: "Discover Korean jelly and syrup blush nail trends in 2026. Master K-beauty glass nails, center blush aura gradients, cat-eye gloss, and syrup gel art."
 pubDate: 2026-08-03
 updatedDate: 2026-08-03

@@ -1,5 +1,5 @@
 ﻿---
-title: "Nail Trends 2026: The Definitive Guide to What's In This Year"
+title: 'Nail Trends 2026: Definitive Guide'
 description: "Everything you need to know about nail trends 2026 — from the biggest color shifts to the most wearable nail art styles dominating salons right now."
 pubDate: 2026-07-15
 updatedDate: 2026-07-15
@@ -11,7 +11,7 @@ tags: ["trending-2026", "chrome-nails", "glazed-nails", "minimalist-nails"]
 featured: false
 ---
 
-# Nail Trends 2026: The Definitive Guide to What's In This Year
+## Nail Trends 2026: The Definitive Guide to What's In This Year
 
 2026 nail trends blend quiet luxury nude gel aesthetics, 3D magnetic textures, glazed chrome finishes, and desaturated vintage color stories.
 

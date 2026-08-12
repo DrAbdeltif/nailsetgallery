@@ -1,5 +1,5 @@
 ﻿---
-title: "Skin Tone Nail Color Matching Guide: Cool, Warm & Olive"
+title: 'Skin Tone Nail Color Matching Guide'
 description: "Find your perfect nail polish shades for cool, warm, neutral, and olive undertones. A comprehensive color theory guide for nudes, reds, and pastels."
 pubDate: 2026-07-28
 updatedDate: 2026-07-28

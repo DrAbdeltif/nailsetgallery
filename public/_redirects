@@ -1,0 +1,4 @@
+# Domain Normalization (301 Permanent Redirects)
+http://nailsetgallery.com/* https://nailsetgallery.com/:splat 301
+http://www.nailsetgallery.com/* https://nailsetgallery.com/:splat 301
+https://www.nailsetgallery.com/* https://nailsetgallery.com/:splat 301

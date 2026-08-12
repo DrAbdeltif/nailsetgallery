@@ -1,5 +1,5 @@
 ﻿---
-title: "2026 Seasonal Nail Art & Color Guide: Year-Round Manicure Trends"
+title: 'Seasonal Nail Art & Color Guide 2026'
 description: "Explore the ultimate 2026 seasonal nail art and color guide. Master top trends for Spring, Summer, Autumn, and Winter with expert styling tips."
 pubDate: 2026-08-03
 updatedDate: 2026-08-03

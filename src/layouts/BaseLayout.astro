@@ -38,9 +38,11 @@ const adsensePublisherId = googleAdsenseId || import.meta.env.PUBLIC_GOOGLE_ADSE
 
 const siteUrl = 'https://nailsetgallery.com';
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
-const fullTitle = title === 'NailSet Gallery'
+const brandSuffix = title.length <= 48 ? ' | NailSet Gallery' : ' | NSG';
+const fullTitle = title.includes('NailSet Gallery') || title.includes('NSG')
   ? title
-  : `${title} | NailSet Gallery`;
+  : `${title}${brandSuffix}`;
+
 ---
 
 <!doctype html>

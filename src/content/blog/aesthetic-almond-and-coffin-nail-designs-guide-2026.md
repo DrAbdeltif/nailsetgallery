@@ -1,5 +1,5 @@
 ﻿---
-title: "Almond & Coffin Nails 2026: Shapes, Designs & Styling Guide"
+title: 'Almond & Coffin Nails 2026 Guide'
 description: "Compare aesthetic almond and coffin nails for 2026. Learn practical filing steps, length guidance, apex support, and design pairing ideas."
 pubDate: 2026-08-03
 updatedDate: 2026-08-03

@@ -1,5 +1,5 @@
 ﻿---
-title: "Fall 2026 Dark Nails: Moody Colors, Velvet Gel & Gothic Chic"
+title: 'Fall 2026 Dark Nail Color Trends'
 description: "Explore Fall 2026 dark nail trends. From espresso brown velvet gel to dark emerald and gothic chic manicures, discover moody nail inspiration."
 pubDate: 2026-08-06
 updatedDate: 2026-08-06

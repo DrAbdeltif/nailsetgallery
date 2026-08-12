@@ -1,5 +1,5 @@
 ﻿---
-title: "Coffin Nail Shape Guide 2026: Sculpting, Trends & Tips"
+title: 'Coffin Nail Shape Guide 2026'
 description: "Guide to coffin (ballerina) nails in 2026. Learn shaping techniques, gel vs acrylic structural balance, trendy matte designs, and strength maintenance."
 pubDate: 2026-08-01
 updatedDate: 2026-08-01
@@ -12,7 +12,7 @@ featured: true
 draft: false
 ---
 
-# Coffin Nail Shape & Art Guide: Sculpting, Trends & Strength Tips 2026
+## Coffin Nail Shape & Art Guide: Sculpting, Trends & Strength Tips 2026
 
 Coffin nails—also widely known as ballerina nails—remain one of the most sought-after nail shapes in modern nail styling. Characterized by long, tapering sidewalls that abruptly flatten into a crisp, straight-edge square tip, coffin nails offer a sleek, dramatic silhouette that elongates fingers.
 

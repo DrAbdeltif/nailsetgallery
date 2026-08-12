@@ -1,5 +1,5 @@
 ﻿---
-title: "Non-Toxic Clean Nail Polish Guide 2026: 10-Free & Breathable"
+title: 'Non-Toxic Clean Nail Polish 2026'
 description: "Navigate clean beauty in 2026. Understand 10-free, 16-free, and breathable non-toxic nail polishes for safer, eco-conscious manicures."
 pubDate: 2026-07-28
 updatedDate: 2026-07-28

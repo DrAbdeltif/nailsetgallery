@@ -1,5 +1,5 @@
 ﻿---
-title: "10 Modern French Tip Nail Designs You'll See Everywhere in 2026"
+title: 'Modern French Tip Nail Designs 2026'
 description: "Discover 10 aesthetic variations of the classic French manicure, from micro-lines and chrome rims to double arcs and ombre finishes."
 pubDate: 2026-07-28
 updatedDate: 2026-07-28
@@ -12,7 +12,7 @@ featured: false
 draft: false
 ---
 
-# 10 Modern French Tip Nail Designs You'll See Everywhere in 2026
+## 10 Modern French Tip Nail Designs You'll See Everywhere in 2026
 
 Modern French tip nail art evolves the classic white smile line with micro-lines, liquid chrome arcs, double geometric outlines, and soft ombre gradients.
 

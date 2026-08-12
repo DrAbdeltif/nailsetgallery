@@ -1,5 +1,5 @@
 ﻿---
-title: "Autumn Burnt Orange Nails 2026: Harvest Palettes & Cozy Looks"
+title: 'Autumn Burnt Orange Nails 2026'
 description: "Embrace cozy fall vibes with burnt orange nail art. Explore terracotta gradients, warm tortoise shell accents, gold foil pairings, and seasonal care tricks."
 pubDate: 2026-08-01
 updatedDate: 2026-08-01
@@ -12,7 +12,7 @@ featured: false
 draft: false
 ---
 
-# Autumn Burnt Orange Nail Art: Harvest Color Palettes & Cozy Aesthetic 2026
+## Autumn Burnt Orange Nail Art: Harvest Color Palettes & Cozy Aesthetic 2026
 
 As temperatures cool and autumn wardrobes transition to cozy knits and leather layers, burnt orange emerges as the ultimate seasonal nail color of 2026. Striking the ideal balance between vibrant rusty warmth and grounded earthy terracotta, burnt orange nail art captures the warm essence of fall foliage.
 

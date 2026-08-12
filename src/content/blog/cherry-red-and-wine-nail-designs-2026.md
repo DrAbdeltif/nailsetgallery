@@ -1,5 +1,5 @@
 ﻿---
-title: "Cherry Red Nail Designs 2026: Deep Wine, Chrome & Velvet Finishes"
+title: 'Cherry Red & Wine Nail Designs 2026'
 description: "Explore 2026's top cherry red and deep wine nail designs. From black cherry glass to metallic velvet, discover skin tone pairs and longevity tips."
 pubDate: 2026-08-02
 updatedDate: 2026-08-02

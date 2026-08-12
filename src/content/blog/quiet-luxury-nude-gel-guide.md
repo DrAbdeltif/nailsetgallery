@@ -1,5 +1,5 @@
 ﻿---
-title: "The Quiet Luxury Nude Gel Guide: Perfect Skin Tone Match"
+title: 'Quiet Luxury Nude Gel Polish Guide'
 description: "How to choose and apply the perfect nude gel nail polish for your skin tone in 2026. A complete guide to elegant, clean girl manicures."
 pubDate: 2026-07-22
 updatedDate: 2026-07-22
@@ -12,7 +12,7 @@ featured: false
 draft: false
 ---
 
-# The Quiet Luxury Nude Gel Guide: Finding Your Perfect Skin Tone Match
+## The Quiet Luxury Nude Gel Guide: Finding Your Perfect Skin Tone Match
 
 Quiet luxury nude gel manicures focus on bespoke shade matching, flawless cuticle prep, and translucent finishes that complement your skin undertones.
 

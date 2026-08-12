@@ -1,5 +1,5 @@
 ﻿---
-title: "3D Pearl & Charm Nail Art Tutorial: Application & Longevity"
+title: '3D Pearl & Charm Nail Art Tutorial'
 description: "Learn how to apply 3D pearls, charms, and faux piercings to gel nails. Master builder gel placement for 3+ week retention without snagging."
 pubDate: 2026-07-28
 updatedDate: 2026-07-28
@@ -12,7 +12,7 @@ featured: false
 draft: false
 ---
 
-# 3D Pearl & Charm Nail Art Tutorial: Application & Longevity
+## 3D Pearl & Charm Nail Art Tutorial: Application & Longevity
 
 Dimensional 3D nail art—featuring flat-backed pearls, vintage gold filigree, chrome bows, and faux nail piercings—instantly transforms manicures into statement jewelry pieces.
 

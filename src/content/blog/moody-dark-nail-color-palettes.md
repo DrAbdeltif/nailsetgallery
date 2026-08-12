@@ -1,5 +1,5 @@
 ﻿---
-title: "Moody Dark Nail Color Palettes 2026: Espresso, Cherry & Navy"
+title: 'Moody Dark Nail Color Palettes 2026'
 description: "Explore 2026's rich moody dark nail palettes. From deep cherry cola to dark espresso and midnight velvet navy, elevate your moody manicure."
 pubDate: 2026-07-28
 updatedDate: 2026-07-28

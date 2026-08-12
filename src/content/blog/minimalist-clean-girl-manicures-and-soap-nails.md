@@ -1,5 +1,5 @@
 ﻿---
-title: "Clean Girl Manicure Guide: Minimalist Soap Nails & Milky Nudes"
+title: 'Clean Girl Minimalist Manicures 2026'
 description: "Master the 2026 clean girl manicure trend. Discover soap nails, translucent milky nudes, cuticle care secrets, and minimalist quiet luxury nail aesthetics."
 pubDate: 2026-08-03
 updatedDate: 2026-08-03
