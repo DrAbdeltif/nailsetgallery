@@ -2,7 +2,7 @@
 title: 'Skin Tone Nail Color Matching Guide'
 description: "Find your perfect nail polish shades for cool, warm, neutral, and olive undertones. A comprehensive color theory guide for nudes, reds, and pastels."
 pubDate: 2026-07-28
-updatedDate: 2026-07-28
+updatedDate: 2026-08-12
 author: "NailSet Gallery Team"
 heroImage: "/images/quiet-luxury-nude-hero.jpg"
 heroImageAlt: "Manicure swatch samples matching nude and blush polishes to varied skin undertones"
@@ -13,6 +13,8 @@ draft: false
 ---
 
 Selecting nail polish shades that match your skin undertones prevents washed-out hands and highlights your natural complexion.
+
+**Quick answer:** the best **nail color for your skin tone** depends on undertone. Cool undertones usually suit rosy nudes, mauves, berry reds, and blue-based reds. Warm undertones suit peach nudes, coral, terracotta, caramel, and orange-red. Neutral undertones can wear both families, while olive undertones often look polished in taupe, dusty rose, forest green, and muted wine.
 
 > **TL;DR:** To match nail polish to skin tone, check your wrist veins: blue veins indicate cool undertones suited for pink nudes and blue-reds; green veins indicate warm undertones suited for peachy nudes and orange-reds; dark olive veins suit taupe and forest tones.
 
