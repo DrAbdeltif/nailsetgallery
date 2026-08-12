@@ -70,9 +70,10 @@ const fullTitle = title.includes('NailSet Gallery') || title.includes('NSG')
 
     <!-- Bing IndexNow & Site Verification -->
     <meta name="indexnow" content="47a28e9d30f443b78912e750c184c8a2" />
+    <meta name="p:domain_verify" content="536a4fe29b5a65c34cd2c23a122a9ad9" />
     {bingSiteVerification && <meta name="msvalidate.01" content={bingSiteVerification} />}
     {googleSiteVerification && <meta name="google-site-verification" content={googleSiteVerification} />}
-    {pinterestSiteVerification && <meta name="p:domain_verify" content={pinterestSiteVerification} />}
+    {pinterestSiteVerification && pinterestSiteVerification !== '536a4fe29b5a65c34cd2c23a122a9ad9' && <meta name="p:domain_verify" content={pinterestSiteVerification} />}
 
     <!-- Open Graph -->
     <meta property="og:type" content={ogType} />
