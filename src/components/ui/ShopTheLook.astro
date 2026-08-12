@@ -60,9 +60,11 @@ const {
   <div class="shop-the-look__grid">
     {products.map((item) => (
       <div class="shop-card hover-lift">
-        {item.badge && <span class="shop-card__badge">{item.badge}</span>}
         <div class="shop-card__info">
-          <span class="shop-card__category">{item.category}</span>
+          <div class="shop-card__meta-row">
+            <span class="shop-card__category">{item.category}</span>
+            {item.badge && <span class="shop-card__badge">{item.badge}</span>}
+          </div>
           <h4 class="shop-card__title">{item.title}</h4>
           {item.description && <p class="shop-card__desc">{item.description}</p>}
         </div>
@@ -127,13 +129,9 @@ const {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: relative;
   }
 
   .shop-card__badge {
-    position: absolute;
-    top: var(--space-md);
-    right: var(--space-md);
     font-size: 10px;
     font-weight: 600;
     letter-spacing: var(--tracking-wider);
@@ -142,6 +140,8 @@ const {
     color: var(--color-rose);
     padding: 3px 8px;
     border-radius: var(--radius-full);
+    margin-left: auto;
+    white-space: nowrap;
   }
 
   .shop-card__info {
@@ -149,6 +149,14 @@ const {
     flex-direction: column;
     gap: 4px;
     margin-bottom: var(--space-md);
+  }
+
+  .shop-card__meta-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 4px;
   }
 
   .shop-card__category {
