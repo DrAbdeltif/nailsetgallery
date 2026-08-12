@@ -1,6 +1,13 @@
 import { defineMiddleware } from 'astro:middleware';
 
 export const onRequest = defineMiddleware(async (context, next) => {
+  const host = context.url.host;
+  if (host === 'www.nailsetgallery.com') {
+    const targetUrl = new URL(context.url);
+    targetUrl.hostname = 'nailsetgallery.com';
+    return context.redirect(targetUrl.toString(), 301);
+  }
+
   const response = await next();
   const contentType = response.headers.get('content-type') || '';
 

@@ -1,4 +1,2 @@
-# Domain Normalization (301 Permanent Redirects)
-http://nailsetgallery.com/* https://nailsetgallery.com/:splat 301
-http://www.nailsetgallery.com/* https://nailsetgallery.com/:splat 301
-https://www.nailsetgallery.com/* https://nailsetgallery.com/:splat 301
+# Cloudflare Static Assets relative redirects (301 Permanent Redirects)
+# Note: Domain normalization (www to non-www) is handled dynamically in src/middleware.ts
