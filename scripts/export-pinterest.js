@@ -46,6 +46,9 @@ function getBoardName(category, tags = []) {
   const cat = (category || '').toLowerCase();
   const tagList = Array.isArray(tags) ? tags.map((t) => t.toLowerCase()) : [];
 
+  if (tagList.includes('transition-nails') || tagList.includes('late-summer-nails') || tagList.includes('early-fall-nails')) {
+    return 'Fall & Seasonal Transition Nails';
+  }
   if (tagList.includes('teen-nails') || tagList.includes('back-to-school-nails') || tagList.includes('school-nails') || tagList.includes('first-day-of-school-nails') || tagList.includes('nails-for-teens-short')) {
     return 'Teen Nails & Back to School Art';
   }
@@ -79,6 +82,13 @@ function buildHashtags(category, tags = []) {
   return base.join(' ');
 }
 
+function generateShortVideoPrompt(title, category, tags = [], description = '') {
+  const tagList = Array.isArray(tags) ? tags.join(', ') : '';
+  const cleanTitle = title.replace(/[^\w\s-&]/g, '').trim();
+
+  return `9:16 vertical short video (Pinterest Idea Pin / TikTok / Reels). Ultra-aesthetic 4K macro beauty shot of manicured hands showcasing ${cleanTitle}. Smooth slow-motion camera pan and subtle hand tilt revealing ultra-glossy gel reflections, intricate textures, and flawless cuticle work. Studio beauty lighting, clean aesthetic background, 60fps cinematic video, high-fashion nail salon quality.`;
+}
+
 function escapeCsvField(field) {
   if (field === null || field === undefined) return '""';
   const str = String(field).replace(/"/g, '""');
@@ -86,7 +96,7 @@ function escapeCsvField(field) {
 }
 
 async function main() {
-  const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith('.md'));
+  const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith('.md')).sort();
   console.log(`Found ${files.length} blog post files.`);
 
   const pinRecords = [];
@@ -118,6 +128,12 @@ async function main() {
     const pinDescription = `${frontmatter.description || ''}\n\nExplore full tutorial & color guide on NailSet Gallery.\n\n${hashtags}`.slice(0, 500);
     const altText = frontmatter.heroImageAlt || frontmatter.title || 'Nail set art design inspiration';
     const mediaUrl = `${BASE_URL}${heroImageRel}`;
+    const videoPrompt = generateShortVideoPrompt(
+      frontmatter.title || slug,
+      frontmatter.category,
+      frontmatter.tags,
+      frontmatter.description
+    );
 
     pinRecords.push({
       Title: pinTitle,
@@ -130,6 +146,7 @@ async function main() {
       Alt_Text: altText,
       Category: frontmatter.category || 'general',
       Tags: Array.isArray(frontmatter.tags) ? frontmatter.tags.join(', ') : '',
+      Video_Prompt: videoPrompt,
     });
   }
 
@@ -145,6 +162,7 @@ async function main() {
     'Alt_Text',
     'Category',
     'Tags',
+    'Video_Prompt',
   ];
 
   const csvRows = [
@@ -164,6 +182,7 @@ async function main() {
 
   console.log(`\n✅ Pinterest Export Complete!`);
   console.log(`📁 Destination Folder: ${DEST_DIR}`);
+  console.log(`📌 Total Pins Exported: ${pinRecords.length}`);
   console.log(`🖼️  Images Copied: ${pinRecords.length} files into ${DEST_IMG_DIR}`);
   console.log(`📊 Excel CSV Created: ${csvPath}`);
   console.log(`📄 JSON Dataset Created: ${jsonPath}`);
