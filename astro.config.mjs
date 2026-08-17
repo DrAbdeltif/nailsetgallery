@@ -10,7 +10,9 @@ import cloudflare from '@astrojs/cloudflare';
 export default defineConfig({
   site: 'https://nailsetgallery.com',
   trailingSlash: 'always',
-  adapter: cloudflare(),
+  adapter: cloudflare({
+    imageService: 'passthrough',
+  }),
 
   vite: {
     plugins: [tailwindcss()],

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Skin Tone Nail Color Matching Guide'
 description: "Find your perfect nail polish shades for cool, warm, neutral, and olive undertones. A comprehensive color theory guide for nudes, reds, and pastels."
 pubDate: 2026-07-28
@@ -11,6 +11,7 @@ tags: ["color-theory", "skin-tone-matching", "nude-nails", "colors"]
 featured: false
 draft: false
 ---
+
 
 Selecting nail polish shades that match your skin undertones prevents washed-out hands and highlights your natural complexion.
 
@@ -114,3 +115,5 @@ Cool pink nudes on warm golden skin create color clashes that highlight yellow s
 Matching your nail polish to your skin's unique cool, warm, or olive undertones transforms simple manicures into flattering accessories. By testing swatches in natural light and following color theory, your hand aesthetic will always look cohesive.
 
 Explore nude shade selection in our [quiet luxury nude gel guide](/blog/quiet-luxury-nude-gel-guide/) or discover non-toxic formulas in our [clean nail polish guide](/blog/non-toxic-clean-nail-polish-guide/).
+
+For more color palette guidance, explore [quiet luxury nude gel polishes](/blog/quiet-luxury-nude-gel-guide/), discover [cherry red and wine nail designs](/blog/cherry-red-and-wine-nail-designs-2026/), see our [emerald green nail art guide](/blog/emerald-green-nail-art-guide-2026/), check out [non-toxic clean nail polishes](/blog/non-toxic-clean-nail-polish-guide/), or browse our [colors hub](/colors/).

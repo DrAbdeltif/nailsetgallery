@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Moody Dark Nail Color Palettes 2026'
 description: "Explore 2026's rich moody dark nail palettes. From deep cherry cola to dark espresso and midnight velvet navy, elevate your moody manicure."
 pubDate: 2026-07-28
@@ -11,6 +11,7 @@ tags: ["dark-nails", "color-palettes", "trending-2026", "colors"]
 featured: false
 draft: false
 ---
+
 
 Moody dark nail color palettes feature complex, deep undertones like cherry cola mahogany, roasted espresso, midnight navy, and velvet forest green.
 
@@ -114,3 +115,5 @@ Cherry cola nail polish is a deep mahogany red with dark black undertones that l
 Moody dark nail color palettes provide a sophisticated, vampy alternative to light nudes and neons. By using stain-blocking base coats and cleaning up cuticle lines precisely, your dark manicure will look flawless.
 
 Explore fall/winter trends in our [fall winter 2026 dark nail guide](/blog/fall-winter-2026-dark-nail-color-trends/) or check out [magnetic cat-eye gel art](/blog/magnetic-cat-eye-gel-nails-guide/).
+
+For more rich color stories, explore our [cherry red and wine nail designs](/blog/cherry-red-and-wine-nail-designs-2026/), see [fall-winter dark nail color trends](/blog/fall-winter-2026-dark-nail-color-trends/), try [magnetic cat-eye gel nails](/blog/magnetic-cat-eye-gel-nails-guide/), check out our [emerald green nail art guide](/blog/emerald-green-nail-art-guide-2026/), or browse our [colors hub](/colors/).
