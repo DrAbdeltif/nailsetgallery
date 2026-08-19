@@ -1,6 +1,6 @@
 ---
 title: 'Quiet Luxury Nude Gel Guide: The Old Money Manicure for 2026'
-description: "Master the quiet luxury nude gel manicure for 2026. Learn how to match sheer nude gels to your skin undertone, master glass finishes, and achieve old money elegance."
+description: "Master the quiet luxury nude gel manicure in 2026. Learn to match sheer nude gels to your skin undertone, craft glass finishes, and achieve elegance."
 pubDate: 2026-07-11
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"

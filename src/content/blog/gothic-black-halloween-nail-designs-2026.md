@@ -1,6 +1,6 @@
 ---
 title: 'Gothic Black Halloween Nail Designs for 2026 (Dark Glam)'
-description: "Discover 2026's top gothic black Halloween nail designs: matte-gloss contrast, 3D molten silver crosses, Victorian lace, blood drip chrome, and dark stiletto glam."
+description: "Discover 2026's top gothic black Halloween nail designs: matte-gloss contrast, 3D molten silver crosses, Victorian lace, blood drips, and stiletto glam."
 pubDate: 2026-08-17
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
