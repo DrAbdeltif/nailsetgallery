@@ -4,7 +4,7 @@ description: "Discover the cutest Halloween nail art ideas for 2026: pastel ghos
 pubDate: 2026-08-16
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/cute-halloween-nails-hero.jpg"
+heroImage: "/images/cute-halloween-nails-hero.png"
 heroImageAlt: "Cute Halloween nail art featuring pastel pink ghosties, mini glitter pumpkins, and delicate spiderweb french tips"
 category: "seasons"
 tags: ["halloween-nails", "cute-halloween", "spooky-nails", "nail-art", "seasonal-nails"]

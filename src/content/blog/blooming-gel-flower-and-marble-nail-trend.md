@@ -4,7 +4,7 @@ description: "Master blooming gel nail art for 2026: realistic rose florals, nat
 pubDate: 2026-08-07
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/blooming-gel-hero.jpg"
+heroImage: "/images/blooming-gel-nails-hero.jpg"
 heroImageAlt: "Delicate blooming gel floral nail art with soft watercolor rose petals and gold foil veining"
 category: "trends"
 tags: ["blooming-gel", "marble-nails", "floral-nails", "watercolor-nails", "nail-tutorial"]

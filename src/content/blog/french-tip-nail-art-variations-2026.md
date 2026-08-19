@@ -4,7 +4,7 @@ description: "Explore 7 modern French tip nail art variations for 2026: colored 
 pubDate: 2026-07-23
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/french-tip-variations-hero.jpg"
+heroImage: "/images/french-tip-2026-hero.jpg"
 heroImageAlt: "Modern French tip nail art variations featuring colorful pastel tips, chrome outlines, and geometric V-cuts"
 category: "styles"
 tags: ["french-tips", "nail-art", "colored-french", "modern-nails", "nail-trends"]

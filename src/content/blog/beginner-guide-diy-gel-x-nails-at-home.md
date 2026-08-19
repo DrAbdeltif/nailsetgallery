@@ -4,7 +4,7 @@ description: "Learn how to do DIY Gel-X soft gel nail extensions at home. Master
 pubDate: 2026-07-20
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/gel-x-nails-hero.jpg"
+heroImage: "/images/gel-x-diy-hero.jpg"
 heroImageAlt: "DIY Gel-X nail extension kit and application on natural nails"
 category: "tutorials"
 tags: ["gel-x-nails", "diy-gel-extensions", "soft-gel-tips", "nail-tutorial", "gel-nails"]

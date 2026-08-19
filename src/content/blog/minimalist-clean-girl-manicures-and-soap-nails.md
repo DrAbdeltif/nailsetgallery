@@ -4,7 +4,7 @@ description: "Master the 2026 Clean Girl manicure and soap nails aesthetic: shee
 pubDate: 2026-07-19
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/clean-girl-soap-nails-hero.jpg"
+heroImage: "/images/minimalist-clean-girl-hero.png"
 heroImageAlt: "Ultra glossy clean girl soap manicure with translucent milky pink sheer gel and immaculate cuticles"
 category: "styles"
 tags: ["clean-girl-aesthetic", "soap-nails", "minimalist-nails", "nude-nails", "nail-trends"]

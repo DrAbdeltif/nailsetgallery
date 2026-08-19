@@ -4,7 +4,7 @@ description: "Master coffin and ballerina nail shapes in 2026. Learn precision f
 pubDate: 2026-08-02
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/coffin-nails-guide-hero.jpg"
+heroImage: "/images/coffin-nails-hero.jpg"
 heroImageAlt: "Dramatic sculpted coffin ballerina nails with razor-sharp squared tips and high-gloss velvet ombré art"
 category: "styles"
 tags: ["coffin-nails", "ballerina-nails", "nail-shapes", "nail-trends", "acrylic-nails"]

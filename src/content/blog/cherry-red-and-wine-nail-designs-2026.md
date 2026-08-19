@@ -4,7 +4,7 @@ description: "Discover 2026's top cherry red and wine nail designs: black cherry
 pubDate: 2026-08-11
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/cherry-wine-nails-hero.jpg"
+heroImage: "/images/cherry-red-wine-nails-hero.jpg"
 heroImageAlt: "High gloss deep cherry red and merlot wine almond manicure with rich burgundy glass reflection"
 category: "colors"
 tags: ["red-nails", "cherry-nails", "wine-nails", "burgundy-nails", "nail-colors-2026"]

@@ -4,7 +4,7 @@ description: "Discover the cutest back-to-school nail ideas for teens in 2026: p
 pubDate: 2026-08-01
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/back-to-school-nails-hero.jpg"
+heroImage: "/images/back-to-school-nails-hero.png"
 heroImageAlt: "Cute back to school teen manicure featuring pastel micro french tips, mini apple accents, and clean short squovals"
 category: "seasons"
 tags: ["back-to-school-nails", "teen-nails", "school-nails", "cute-nails", "nail-trends"]

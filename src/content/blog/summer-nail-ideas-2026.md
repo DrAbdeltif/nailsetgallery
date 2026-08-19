@@ -4,7 +4,7 @@ description: "Discover 2026's hottest summer nail ideas: juicy fruit jelly, suns
 pubDate: 2026-08-01
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/summer-nails-hero.jpg"
+heroImage: "/images/summer-nail-ideas-hero.jpg"
 heroImageAlt: "Vibrant summer 2026 manicure featuring sunset aura gradients, glazed apricot chrome, and juicy fruit jelly glass nails"
 category: "seasons"
 tags: ["summer-nails", "summer-2026", "vacation-nails", "nail-trends", "neon-nails"]

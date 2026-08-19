@@ -4,7 +4,7 @@ description: "Master Fall & Winter 2026 dark nail trends: icy midnight navy, fro
 pubDate: 2026-08-14
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/fall-winter-dark-hero.jpg"
+heroImage: "/images/dark-fall-nails-hero.jpg"
 heroImageAlt: "Moody cold weather manicure featuring deep wine, frosted navy, and molten silver chrome accents"
 category: "seasons"
 tags: ["fall-winter-nails", "dark-nails", "winter-nails", "nail-colors-2026", "seasonal-nails"]

@@ -4,7 +4,7 @@ description: "Discover 2026's top autumn burnt orange nail art ideas: spiced ter
 pubDate: 2026-08-15
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/autumn-burnt-orange-hero.jpg"
+heroImage: "/images/burnt-orange-fall-nails-hero.jpg"
 heroImageAlt: "Cozy autumn burnt orange and spiced terracotta almond manicure with gold leaf and tortoiseshell accents"
 category: "seasons"
 tags: ["autumn-nails", "fall-nails", "orange-nails", "terracotta-nails", "seasonal-nails"]

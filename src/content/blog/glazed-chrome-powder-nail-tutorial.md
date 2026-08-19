@@ -4,7 +4,7 @@ description: "Master glazed donut and liquid mirror chrome nails at home. Step-b
 pubDate: 2026-07-26
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/glazed-chrome-hero.jpg"
+heroImage: "/images/glazed-chrome-nails-hero.jpg"
 heroImageAlt: "Pearly glazed donut chrome powder manicure with reflective mirror shine"
 category: "tutorials"
 tags: ["chrome-nails", "glazed-nails", "nail-tutorial", "gel-nails", "nail-trends"]

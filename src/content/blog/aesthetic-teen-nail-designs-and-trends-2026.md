@@ -4,7 +4,7 @@ description: "Discover 2026's trendiest aesthetic teen nail designs: coquette bo
 pubDate: 2026-08-01
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/teen-aesthetic-nails-hero.jpg"
+heroImage: "/images/teen-nails-hero.png"
 heroImageAlt: "Cute aesthetic teen nail art featuring pastel french tips, micro bows, and subtle chrome stars"
 category: "styles"
 tags: ["teen-nails", "aesthetic-nails", "cute-nails", "nail-trends", "school-nails"]

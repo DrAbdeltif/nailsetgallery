@@ -4,7 +4,7 @@ description: "Master Korean syrup blush nails and translucent jelly glass manicu
 pubDate: 2026-08-06
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/korean-jelly-syrup-hero.jpg"
+heroImage: "/images/korean-jelly-blush-nails-hero.png"
 heroImageAlt: "Juicy translucent Korean jelly syrup blush manicure with glowing pink center ombré and high gloss glass finish"
 category: "trends"
 tags: ["korean-nails", "jelly-nails", "syrup-nails", "blush-nails", "nail-trends"]

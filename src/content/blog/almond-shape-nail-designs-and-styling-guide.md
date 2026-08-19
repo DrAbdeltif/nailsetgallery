@@ -4,7 +4,7 @@ description: "Master almond shape nail designs. Learn how to file short, medium,
 pubDate: 2026-07-17
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/almond-nails-styling-hero.jpg"
+heroImage: "/images/almond-nail-shape-guide-hero.jpg"
 heroImageAlt: "Stunning almond shaped manicure with sheer nude base and modern chrome french smile lines"
 category: "styles"
 tags: ["almond-nails", "nail-shapes", "nail-art", "nail-styling", "nail-care"]

@@ -4,7 +4,7 @@ description: "Discover the top dark nail color trends for Fall 2026: black cherr
 pubDate: 2026-08-16
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/fall-dark-nails-hero.jpg"
+heroImage: "/images/fall-2026-dark-nails-hero.png"
 heroImageAlt: "Moody Fall 2026 dark manicure featuring glossy black cherry and roasted espresso almond nails"
 category: "seasons"
 tags: ["fall-nails", "dark-nails", "autumn-nails", "nail-colors-2026", "nail-trends"]

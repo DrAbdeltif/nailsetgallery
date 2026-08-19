@@ -4,7 +4,7 @@ description: "Discover sophisticated bridal and special event nail designs for 2
 pubDate: 2026-07-31
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/elegant-event-nails-hero.jpg"
+heroImage: "/images/elegant-bridal-event-nails-hero.png"
 heroImageAlt: "Sophisticated bridal and formal event manicure featuring soft blush almond nails with champagne gold shimmer"
 category: "styles"
 tags: ["event-nails", "bridal-nails", "elegant-nails", "formal-nails", "nail-trends"]

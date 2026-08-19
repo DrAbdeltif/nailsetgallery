@@ -4,7 +4,7 @@ description: "Discover the best nail strengtheners, hardeners, and recovery trea
 pubDate: 2026-07-22
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/nail-strengthener-treatments-hero.jpg"
+heroImage: "/images/nail-strengtheners-hero.png"
 heroImageAlt: "Healthy natural nails with professional nail strengtheners and cuticle treatments"
 category: "tutorials"
 tags: ["nail-strengthener", "nail-care", "damaged-nails", "natural-nails", "nail-health"]

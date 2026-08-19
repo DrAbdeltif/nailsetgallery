@@ -4,7 +4,7 @@ description: "Master the 2026 transition from late summer to early fall nails: s
 pubDate: 2026-08-10
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/late-summer-fall-transition-hero.jpg"
+heroImage: "/images/late-summer-early-fall-nails-hero.jpg"
 heroImageAlt: "Warm transitional late summer to early fall manicure with amber jelly tones, spiced terracotta, and gold chrome accents"
 category: "seasons"
 tags: ["transition-nails", "late-summer-nails", "early-fall-nails", "autumn-nails", "nail-trends"]

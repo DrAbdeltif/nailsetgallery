@@ -4,7 +4,7 @@ description: "The definitive guide to Halloween 2026 nail art: 3D chrome spiders
 pubDate: 2026-08-15
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/halloween-2026-hero.jpg"
+heroImage: "/images/halloween-2026-nails-hero.png"
 heroImageAlt: "Stunning collage of 2026 Halloween nail art including chrome spiderwebs, velvet cat eye ghosts, and blood drip stilettos"
 category: "seasons"
 tags: ["halloween-nails", "halloween-2026", "nail-art", "spooky-nails", "nail-trends"]

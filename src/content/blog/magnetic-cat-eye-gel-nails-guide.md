@@ -4,7 +4,7 @@ description: "Master magnetic cat eye and velvet gel nails in 2026. Learn magnet
 pubDate: 2026-08-09
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/cat-eye-nails-hero.jpg"
+heroImage: "/images/magnetic-cat-eye-hero.jpg"
 heroImageAlt: "Hypnotizing magnetic cat eye gel manicure with plush velvet shimmer and dimensional crystal light reflection"
 category: "trends"
 tags: ["cat-eye-nails", "magnetic-nails", "velvet-nails", "gel-nails", "nail-tutorial"]

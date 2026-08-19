@@ -4,7 +4,7 @@ description: "Discover the artistic world of Japanese nuance gel nails and 3D te
 pubDate: 2026-08-08
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/japanese-nuance-nails-hero.jpg"
+heroImage: "/images/japanese-nuance-3d-nails-hero.png"
 heroImageAlt: "Artistic Japanese nuance gel manicure with organic 3D clear gel droplets and earthy tortoiseshell amber layers"
 category: "trends"
 tags: ["japanese-nails", "nuance-nails", "3d-nail-art", "nail-trends", "gel-nails"]

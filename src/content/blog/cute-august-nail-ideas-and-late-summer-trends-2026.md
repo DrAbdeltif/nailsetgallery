@@ -4,7 +4,7 @@ description: "Discover 2026's top August nail ideas and late-summer trends: suns
 pubDate: 2026-08-02
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/august-late-summer-hero.jpg"
+heroImage: "/images/cute-august-nails-hero.png"
 heroImageAlt: "Vibrant late summer August manicure featuring sunset aura blush and glazed golden apricot chrome"
 category: "seasons"
 tags: ["august-nails", "late-summer-nails", "summer-nails", "nail-trends", "seasonal-nails"]

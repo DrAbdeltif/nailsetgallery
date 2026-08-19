@@ -4,7 +4,7 @@ description: "Start the school year with 2026's best first-day-of-school nail id
 pubDate: 2026-08-03
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/first-day-school-hero.jpg"
+heroImage: "/images/first-day-of-school-nails-hero.png"
 heroImageAlt: "Fresh, clean back to school manicure with pastel french micro smile lines on short natural squoval nails"
 category: "seasons"
 tags: ["school-nails", "first-day-of-school", "teen-nails", "cute-nails", "nail-guide"]

@@ -4,7 +4,7 @@ description: "Explore the bold world of American sculpted acrylic baddie nails: 
 pubDate: 2026-07-27
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/acrylic-baddie-nails-hero.jpg"
+heroImage: "/images/american-baddie-acrylic-nails-hero.png"
 heroImageAlt: "High fashion XXL sculpted acrylic baddie nails with 3D chrome charms and crisp tapered square edges"
 category: "styles"
 tags: ["baddie-nails", "acrylic-nails", "sculpted-nails", "long-nails", "nail-trends"]

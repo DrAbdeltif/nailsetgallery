@@ -4,7 +4,7 @@ description: "Discover the best non-toxic clean nail polish brands. Understand 5
 pubDate: 2026-07-12
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/non-toxic-clean-nail-polish-hero.jpg"
+heroImage: "/images/non-toxic-clean-nails-hero.jpg"
 heroImageAlt: "Collection of non-toxic clean cruelty-free nail polish bottles in soft pastel and neutral tones"
 category: "tutorials"
 tags: ["non-toxic-nails", "clean-beauty", "nail-care", "organic-nails", "nail-polish"]

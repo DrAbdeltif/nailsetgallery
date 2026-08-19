@@ -4,7 +4,7 @@ description: "Discover 2026 French Parisian chic manicure trends: micro French t
 pubDate: 2026-07-21
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/french-parisian-manicure-hero.jpg"
+heroImage: "/images/french-parisian-chic-nails-hero.png"
 heroImageAlt: "Model with elegant French Parisian chic manicure featuring sheer rosy base and delicate micro white smile lines"
 category: "styles"
 tags: ["french-manicure", "parisian-chic", "classic-nails", "clean-girl-aesthetic", "nail-trends"]

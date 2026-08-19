@@ -4,7 +4,7 @@ description: "Discover the cutest short nail ideas and healthy care routines for
 pubDate: 2026-08-04
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/short-teen-nails-hero.jpg"
+heroImage: "/images/short-nails-for-teens-hero.png"
 heroImageAlt: "Cute short natural nails on teen hands with pastel daisy micro art and clean glossy cuticles"
 category: "styles"
 tags: ["teen-nails", "short-nails", "nail-care", "cute-nails", "natural-nails"]

@@ -4,7 +4,7 @@ description: "Discover 2026's top gothic black Halloween nail designs: matte-glo
 pubDate: 2026-08-17
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/gothic-black-halloween-hero.jpg"
+heroImage: "/images/gothic-black-halloween-nails-hero.png"
 heroImageAlt: "Dramatic gothic black Halloween stiletto manicure with 3D silver chrome crosses, matte black velvet, and blood drip accents"
 category: "seasons"
 tags: ["gothic-nails", "halloween-nails", "black-nails", "dark-nails", "nail-art"]

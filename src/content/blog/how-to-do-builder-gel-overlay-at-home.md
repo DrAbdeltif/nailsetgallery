@@ -4,7 +4,7 @@ description: "Master DIY Builder Gel in a Bottle (BIAB) overlays on natural nail
 pubDate: 2026-07-16
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/builder-gel-hero.jpg"
+heroImage: "/images/builder-gel-biab-tutorial-hero.jpg"
 heroImageAlt: "Applying thick self leveling builder in a bottle gel overlay to natural nails"
 category: "tutorials"
 tags: ["builder-gel", "biab-nails", "nail-overlay", "natural-nail-growth", "gel-nails"]

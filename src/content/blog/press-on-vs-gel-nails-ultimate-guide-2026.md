@@ -4,7 +4,7 @@ description: "Compare press-on nails vs gel nails for cost, durability, nail hea
 pubDate: 2026-07-30
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/press-on-vs-gel-hero.jpg"
+heroImage: "/images/press-on-gel-nails-hero.png"
 heroImageAlt: "Press-on nail tips compared side-by-side with cured salon gel manicures"
 category: "tutorials"
 tags: ["press-on-vs-gel", "gel-nails", "press-on-nails", "nail-comparison", "diy-nails"]

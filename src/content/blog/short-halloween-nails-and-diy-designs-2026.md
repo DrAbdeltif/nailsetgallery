@@ -4,7 +4,7 @@ description: "Discover 2026's cutest short Halloween nail designs: micro spiderw
 pubDate: 2026-08-17
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/short-halloween-nails-hero.jpg"
+heroImage: "/images/short-halloween-nails-hero.png"
 heroImageAlt: "Cute short Halloween manicure with tiny white ghosties and delicate black spiderweb micro french tips on natural squovals"
 category: "seasons"
 tags: ["short-halloween-nails", "halloween-nails", "diy-halloween", "short-nails", "cute-nails"]

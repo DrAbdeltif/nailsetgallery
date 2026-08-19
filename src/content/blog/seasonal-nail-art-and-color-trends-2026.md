@@ -4,7 +4,7 @@ description: "The complete 2026 seasonal nail calendar: Spring pastels, Summer n
 pubDate: 2026-08-05
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/seasonal-nail-trends-hero.jpg"
+heroImage: "/images/seasonal-nail-art-colors-hero.png"
 heroImageAlt: "Four quadrant seasonal collage showcasing spring pastels, summer brights, autumn terracottas, and winter jewel tones"
 category: "seasons"
 tags: ["seasonal-nails", "nail-trends-2026", "nail-colors", "seasonal-guide", "nail-art"]
