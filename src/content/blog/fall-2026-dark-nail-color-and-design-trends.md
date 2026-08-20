@@ -17,8 +17,8 @@ category: "seasons"
 tags: ["fall-nails", "dark-nails", "autumn-nails", "nail-colors-2026", "nail-trends"]
 featured: false
 draft: false
-heroImage: '/images/fall-2026-dark-nails-hero.png'
-heroImageAlt: 'Moody autumn dark nail palette featuring espresso brown, midnight navy, and forest green tones'
+heroImage: '/images/moody-dark-nails-hero.jpg'
+heroImageAlt: 'Rich dark espresso brown, blackened cherry, and forest green autumn nail color palette'
 ---
 
 

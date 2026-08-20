@@ -4,8 +4,8 @@ description: "Discover 2026's top professional office nail colors and minimalist
 pubDate: 2026-07-13
 updatedDate: 2026-08-18
 author: "NailSet Gallery Team"
-heroImage: "/images/minimalist-office-nails-hero.png"
-heroImageAlt: "Model typing on laptop with immaculate minimalist professional office manicure in sheer blush nude"
+heroImage: '/images/minimalist-office-nails-hero.jpg'
+heroImageAlt: 'Clean professional office manicure in sheer blush nude on natural squoval nails'
 category: "styles"
 tags: ["office-nails", "work-nails", "minimalist-nails", "professional-nails", "nude-nails"]
 featured: false
