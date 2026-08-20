@@ -12,8 +12,11 @@ interface Props {
 
 const { headings } = Astro.props;
 
-// Filter to H2 and H3 headings
-const filteredHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
+// Filter to main section H2 headings (plus H3 if brief article)
+const h2Headings = headings.filter((h) => h.depth === 2);
+const filteredHeadings = h2Headings.length >= 4
+  ? h2Headings
+  : headings.filter((h) => h.depth === 2 || h.depth === 3);
 ---
 
 {filteredHeadings.length > 0 && (
@@ -58,6 +61,8 @@ const filteredHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
     margin-bottom: var(--space-xl);
     box-shadow: var(--shadow-sm);
     transition: box-shadow var(--duration-normal) var(--ease-out);
+    overflow: visible;
+    max-height: none;
   }
 
   .toc-widget:hover {
