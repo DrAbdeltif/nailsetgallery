@@ -245,7 +245,27 @@ p {
   border-radius: var(--radius-lg);
   margin: var(--space-xl) 0;
   object-fit: cover;
+  box-shadow: 0 4px 20px rgba(28, 28, 28, 0.08);
+  transition: transform var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out);
 }
+
+.prose img:hover {
+  box-shadow: 0 8px 30px rgba(139, 26, 74, 0.14);
+}
+
+.prose figure {
+  margin: var(--space-xl) 0;
+  max-width: 100%;
+}
+
+.prose figcaption {
+  margin-top: var(--space-xs);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  text-align: center;
+  font-style: italic;
+}
+
 
 .prose .table-responsive,
 .table-responsive {
