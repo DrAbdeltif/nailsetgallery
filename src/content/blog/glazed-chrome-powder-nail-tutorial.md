@@ -12,6 +12,7 @@ featured: true
 draft: false
 ---
 
+
 Glazed chrome nails—from the iconic pearlescent "glazed donut" look made famous worldwide to liquid silver mirror, gold champagne, and aurora holographic shifts—continue to dominate modern manicure aesthetics.
 
 While the finished effect looks ultra-luxurious, getting a flawless chrome finish at home can be tricky. Common pitfalls include dull, glittery graininess (instead of a mirror reflection), streaks, and chrome chipping at the free edge within 48 hours. In this comprehensive step-by-step tutorial, you will master the exact lamp cure times, silicone applicator techniques, and the dual-seal encapsulation method for 3+ weeks of mirror-like chrome wear.

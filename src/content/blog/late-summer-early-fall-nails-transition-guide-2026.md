@@ -12,6 +12,7 @@ featured: false
 draft: false
 ---
 
+
 The seasonal bridge between late August and late September is one of the most exciting windows in nail fashion. As vibrant neon summer sunsets give way to crisp autumn mornings, manicure palettes evolve toward **warm, grounded transitional hues** that bridge both worlds seamlessly.
 
 Instead of jumping straight into heavy winter blacks or clinging to summery brights, 2026 transitional manicures focus on **amber honey syrups, spiced terracotta, desaturated matcha olive, glazed pumpkin chrome, and warm cashmere neutrals**. In this comprehensive seasonal guide, our stylists teach you how to curate the perfect September transition manicure.

@@ -12,6 +12,7 @@ featured: false
 draft: false
 ---
 
+
 Halloween manicures are no longer limited to gore and scary black-and-blood motifs. In 2026, **cute Halloween nail art**—often called "Spooky Chic" or "Pastel Ween"—has taken social media by storm. Combining adorable, friendly ghosts, baby pink pumpkins, delicate spiderweb micro-French tips, and glow-in-the-dark celestial stars, cute Halloween nails deliver festive fun with wearable elegance.
 
 Whether you want subtle spooky accents for work or playful DIY art for costume parties, this guide showcases the top cute Halloween designs, step-by-step painting tutorials using simple dotting tools, and color palettes.

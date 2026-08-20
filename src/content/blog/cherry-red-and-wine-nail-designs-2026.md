@@ -12,6 +12,7 @@ featured: true
 draft: false
 ---
 
+
 Classic red manicures have taken a seductive, moody turn in 2026. Transitioning away from bright summer vermilion, current runway and salon trends are captivated by **deep cherry red, black cherry, rich Bordeaux, and velvet merlot wine tones**.
 
 Radiating timeless glamour, quiet power, and old-money sophistication, dark cherry and wine shades flatter every skin undertone from porcelain fair to rich deep melanin. In this styling masterclass and color guide, our editorial team breaks down the nuances of dark cherry palettes, trending nail art combinations, undertone matching, and how to maintain high-gloss glass shine.

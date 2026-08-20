@@ -16,6 +16,17 @@ const blog = defineCollection({
     tags: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
     draft: z.boolean().default(false),
+    authorBio: z.string().optional(),
+    reviewer: z.string().optional(),
+    reviewerRole: z.string().optional(),
+    lastReviewedDate: z.coerce.date().optional(),
+    medicalDisclaimer: z.boolean().default(false),
+    difficulty: z.enum(['Beginner', 'Intermediate', 'Advanced']).optional(),
+    timeEstimate: z.string().optional(),
+    costEstimate: z.string().optional(),
+    testingNotes: z.string().optional(),
+    isPillar: z.boolean().default(false),
+    pillarUrl: z.string().optional(),
   }),
 });
 

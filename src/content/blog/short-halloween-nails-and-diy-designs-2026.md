@@ -12,6 +12,7 @@ featured: false
 draft: false
 ---
 
+
 You don't need long, dramatic extension claws to celebrate spooky season. In 2026, **short Halloween nails** are one of the biggest trends on social media: proving that short, healthy natural nails provide the perfect canvas for clean, charming, and wearable festive artistry.
 
 Short Halloween manicures are practical for typing, daily work, and household tasks while looking chic at Halloween costume parties. From easy DIY dotting-tool ghosts and micro-spiderweb French tips to blood drip accents and pastel pumpkins, this guide delivers the best short Halloween nail designs with beginner-friendly instructions.

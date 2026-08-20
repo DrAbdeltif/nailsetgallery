@@ -12,6 +12,7 @@ featured: false
 draft: false
 ---
 
+
 As temperatures cool and autumn foliage turns golden, nail aesthetics naturally transition into cozy, rich, and comforting palettes. In 2026, **burnt orange, spiced terracotta, cinnamon amber, and pumpkin glaze** reign supreme as the signature color story of the fall season.
 
 Far from being loud or fluorescent, modern autumn orange manicures embrace sophisticated desaturated warmth: think roasted paprika, caramelized ginger, earthy clay, and deep amber tortoiseshell. In this seasonal styling guide, our editorial team curates the top 2026 burnt orange nail art designs, color pairings, and cozy fall styling aesthetics.

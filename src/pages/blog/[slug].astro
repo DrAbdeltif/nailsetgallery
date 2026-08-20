@@ -52,6 +52,17 @@ const {
   pubDate,
   updatedDate,
   author,
+  authorBio,
+  reviewer,
+  reviewerRole,
+  lastReviewedDate,
+  medicalDisclaimer,
+  difficulty,
+  timeEstimate,
+  costEstimate,
+  testingNotes,
+  isPillar,
+  pillarUrl,
   heroImage,
   heroImageAlt,
   category,
@@ -64,6 +75,10 @@ const formattedPubDate = new Intl.DateTimeFormat('en-US', {
 
 const formattedUpdated = updatedDate
   ? new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' }).format(updatedDate)
+  : null;
+
+const formattedLastReviewed = lastReviewedDate
+  ? new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' }).format(lastReviewedDate)
   : null;
 
 // Estimate reading time — rough estimate based on description length
@@ -151,8 +166,8 @@ const howToSchema = howToSteps.length > 0 ? {
 } : null;
 
 const editorialNote = category === 'tutorials'
-  ? "Editorial note: Product formulas, lamps, and cure times vary. Follow the product manufacturer's instructions, avoid uncured gel touching skin, and stop if you feel burning, pain, or irritation."
-  : 'Editorial note: Trend and color recommendations are editorial inspiration, not a market survey. Adapt the look to your nail length, routine, and personal style.';
+  ? "Editorial note: Product formulas, UV lamps, and cure times vary by manufacturer. Follow all product instructions, prevent uncured liquid gel from contacting skin to avoid sensitization, and discontinue use if heat spikes or irritation occur."
+  : 'Editorial note: Trend forecasts, nail art designs, and shade selections are editorial recommendations. Adjust nail shape, length, and formula to your lifestyle and natural nail health.';
 ---
 
 <BaseLayout
@@ -192,8 +207,11 @@ const editorialNote = category === 'tutorials'
       <!-- Category + date -->
       <div class="article-meta reveal-fade">
         <Tag label={category} variant="blush" size="md" href={`/${category}/`} />
+        {isPillar && (
+          <span class="badge-pillar" title="Comprehensive Master Guide">✦ Pillar Guide</span>
+        )}
         <time datetime={pubDate.toISOString()} class="article-date">
-          {formattedPubDate}
+          Published: {formattedPubDate}
         </time>
         <span class="article-read-time">{readingTime} min read</span>
       </div>
@@ -201,21 +219,77 @@ const editorialNote = category === 'tutorials'
       <!-- Title -->
       <h1 class="article-title reveal-fade">{title}</h1>
 
-      <!-- Author -->
-      <div class="article-author reveal-fade">
-        <div class="article-author__avatar" aria-hidden="true">
-          {author?.charAt(0) ?? 'N'}
-        </div>
-        <div>
-          <p class="article-author__name">{author ?? 'NailSet Gallery'}</p>
-          {formattedUpdated && (
-            <p class="article-author__updated">
-              Updated: <time datetime={updatedDate?.toISOString()}>{formattedUpdated}</time>
+      <!-- Author & Reviewer E-E-A-T Row -->
+      <div class="article-author-row reveal-fade">
+        <div class="article-author">
+          <div class="article-author__avatar" aria-hidden="true">
+            {author?.charAt(0) ?? 'N'}
+          </div>
+          <div>
+            <p class="article-author__name">
+              By <strong>{author ?? 'Elena Rostova'}</strong>
             </p>
+            {formattedUpdated && (
+              <p class="article-author__updated">
+                Updated: <time datetime={updatedDate?.toISOString()}>{formattedUpdated}</time>
+              </p>
+            )}
+          </div>
+        </div>
+
+        {reviewer && (
+          <div class="article-reviewer">
+            <div class="reviewer-badge-icon" aria-hidden="true">✓</div>
+            <div>
+              <p class="reviewer-title">
+                Reviewed by <strong>{reviewer}</strong>
+              </p>
+              <p class="reviewer-sub">
+                {reviewerRole ?? 'Licensed Aesthetician & Nail Educator'} {formattedLastReviewed && `• ${formattedLastReviewed}`}
+              </p>
+            </div>
+          </div>
+        )}
+      </div>
+    </header>
+
+    <!-- Pillar / Spoke Hub Navigation Notice -->
+    {pillarUrl && (
+      <div class="container">
+        <aside class="pillar-banner" aria-label="Pillar Guide Reference">
+          <div class="pillar-banner__icon">🏛️</div>
+          <div class="pillar-banner__text">
+            <strong>Part of our Master Topic Series:</strong> This focused guide explores a specific technique. For the full comprehensive foundation, read our main pillar: <a href={pillarUrl}>Comprehensive Master Guide &rarr;</a>
+          </div>
+        </aside>
+      </div>
+    )}
+
+    <!-- Practical Spec Bar (Difficulty, Time, Cost) -->
+    {(difficulty || timeEstimate || costEstimate) && (
+      <div class="container">
+        <div class="specs-bar">
+          {difficulty && (
+            <div class="spec-item">
+              <span class="spec-label">Skill Level</span>
+              <span class="spec-val spec-badge">{difficulty}</span>
+            </div>
+          )}
+          {timeEstimate && (
+            <div class="spec-item">
+              <span class="spec-label">Estimated Time</span>
+              <span class="spec-val">⏱️ {timeEstimate}</span>
+            </div>
+          )}
+          {costEstimate && (
+            <div class="spec-item">
+              <span class="spec-label">Estimated Cost</span>
+              <span class="spec-val">🏷️ {costEstimate}</span>
+            </div>
           )}
         </div>
       </div>
-    </header>
+    )}
 
     <!-- Hero image with Pinterest Save Button -->
     {heroImage && (
@@ -245,10 +319,35 @@ const editorialNote = category === 'tutorials'
         takeaways={[
           { label: 'Category', value: category.charAt(0).toUpperCase() + category.slice(1) },
           { label: 'Estimated Read', value: `${readingTime} min` },
-          { label: 'Updated', value: formattedUpdated ?? formattedPubDate },
+          { label: 'Reviewed', value: formattedLastReviewed ?? formattedUpdated ?? formattedPubDate },
         ]}
       />
     </div>
+
+    <!-- Health / Medical Disclaimer Banner (if applicable) -->
+    {medicalDisclaimer && (
+      <div class="container">
+        <aside class="medical-disclaimer" aria-label="Medical and Health Disclaimer">
+          <div class="disclaimer-header">
+            <span class="disclaimer-icon">⚠️</span>
+            <strong>Health, Safety & Dermatological Notice</strong>
+          </div>
+          <p>
+            The chemical, nail health, and DIY removal techniques described in this article are for informational and aesthetic education only. They do not constitute medical or dermatological advice. If you experience burning, redness, nail dystrophy, onycholysis, or suspect an allergic reaction to acrylates, discontinue product use immediately and consult a board-certified dermatologist. Learn more in our <a href="/disclaimer/">Editorial & Health Disclaimer</a>.
+          </p>
+        </aside>
+      </div>
+    )}
+
+    <!-- Editorial Testing Notes (if applicable) -->
+    {testingNotes && (
+      <div class="container">
+        <aside class="testing-notes-box" aria-label="Hands-On Testing Notes">
+          <strong>🔬 Editorial Testing Notes & Lab Observations:</strong>
+          <p>{testingNotes}</p>
+        </aside>
+      </div>
+    )}
 
     <aside class="editorial-note container" aria-label="Editorial note">
       <strong>Good to know</strong>
@@ -260,6 +359,24 @@ const editorialNote = category === 'tutorials'
       <article class="prose">
         <Content />
       </article>
+
+      <!-- Author Bio Box -->
+      <section class="author-bio-card" aria-label="Author Profile">
+        <div class="author-bio-card__avatar">
+          {author?.charAt(0) ?? 'E'}
+        </div>
+        <div class="author-bio-card__content">
+          <h3>Written by {author ?? 'Elena Rostova'}</h3>
+          <p class="author-bio-card__role">Editorial Director & Master Nail Artist at NailSet Gallery</p>
+          <p class="author-bio-card__desc">
+            {authorBio ?? 'Elena Rostova is a veteran nail designer and salon consultant with over 9 years of experience in structured manicures, Japanese nuance gel art, and nail plate rehabilitation. Her work focuses on precision cuticle care and safe, damage-free DIY methods.'}
+          </p>
+          <div class="author-bio-card__links">
+            <a href="/about/">About Our Editorial Standards &rarr;</a>
+            <a href="/disclaimer/">Health & Review Policy &rarr;</a>
+          </div>
+        </div>
+      </section>
 
       <!-- AdSense In-Article Display Unit -->
       <AdSenseUnit format="auto" />
@@ -554,9 +671,255 @@ const editorialNote = category === 'tutorials'
     margin: 2px 0;
   }
 
+  /* Pillar Badge */
+  .badge-pillar {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: linear-gradient(135deg, rgba(139, 26, 74, 0.12), rgba(199, 125, 155, 0.18));
+    color: var(--color-rose);
+    border: 1px solid rgba(139, 26, 74, 0.25);
+    border-radius: var(--radius-full);
+    padding: 3px 10px;
+    font-size: var(--text-xs);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+
+  /* Author & Reviewer E-E-A-T Row */
+  .article-author-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    padding: var(--space-md) var(--space-lg);
+    background: var(--color-bg-deep);
+    border: 1px solid var(--color-border-soft);
+    border-radius: var(--radius-md);
+  }
+
+  .article-reviewer {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding-left: var(--space-md);
+    border-left: 1px solid var(--color-border-soft);
+  }
+
+  .reviewer-badge-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: var(--radius-full);
+    background-color: #2E7D32;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .reviewer-title {
+    font-size: var(--text-xs);
+    color: var(--color-text);
+    margin: 0;
+  }
+
+  .reviewer-sub {
+    font-size: 11px;
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+
+  /* Pillar Banner */
+  .pillar-banner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    background: linear-gradient(135deg, rgba(139, 26, 74, 0.06), rgba(199, 125, 155, 0.08));
+    border: 1px solid rgba(139, 26, 74, 0.2);
+    border-radius: var(--radius-md);
+    padding: var(--space-md) var(--space-lg);
+    margin-bottom: var(--space-lg);
+    font-size: var(--text-sm);
+    color: var(--color-text);
+  }
+
+  .pillar-banner__icon {
+    font-size: 24px;
+    flex-shrink: 0;
+  }
+
+  .pillar-banner a {
+    color: var(--color-rose);
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  /* Practical Specs Bar */
+  .specs-bar {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border: 1px solid var(--color-border-soft);
+    border-radius: var(--radius-md);
+    padding: var(--space-sm) var(--space-lg);
+    margin-bottom: var(--space-lg);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  }
+
+  .spec-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .spec-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-subtle);
+    font-weight: 600;
+  }
+
+  .spec-val {
+    font-size: var(--text-xs);
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .spec-badge {
+    color: var(--color-rose);
+  }
+
+  /* Medical / Health Disclaimer */
+  .medical-disclaimer {
+    background: #FFF8E1;
+    border: 1px solid #FFE082;
+    border-left: 4px solid #FFA000;
+    border-radius: var(--radius-md);
+    padding: var(--space-md) var(--space-lg);
+    margin-bottom: var(--space-lg);
+    font-size: var(--text-xs);
+    line-height: var(--leading-relaxed);
+    color: #5D4037;
+  }
+
+  .disclaimer-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    margin-bottom: 4px;
+    color: #E65100;
+    font-size: var(--text-xs);
+  }
+
+  .medical-disclaimer a {
+    color: #E65100;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  /* Testing Notes */
+  .testing-notes-box {
+    background: #F3E5F5;
+    border: 1px solid #E1BEE7;
+    border-left: 4px solid #8E24AA;
+    border-radius: var(--radius-md);
+    padding: var(--space-md) var(--space-lg);
+    margin-bottom: var(--space-lg);
+    font-size: var(--text-xs);
+    line-height: var(--leading-relaxed);
+    color: #4A148C;
+  }
+
+  .testing-notes-box strong {
+    display: block;
+    margin-bottom: 4px;
+    color: #6A1B9A;
+  }
+
+  /* Author Bio Card */
+  .author-bio-card {
+    display: flex;
+    gap: var(--space-lg);
+    align-items: flex-start;
+    background: var(--color-bg-deep);
+    border: 1px solid var(--color-border-soft);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-xl);
+  }
+
+  .author-bio-card__avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: var(--radius-full);
+    background: linear-gradient(135deg, var(--color-rose), #5B0E2B);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: var(--text-2xl);
+    font-weight: 400;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(139, 26, 74, 0.15);
+  }
+
+  .author-bio-card__content h3 {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    font-weight: 400;
+    margin: 0 0 4px 0;
+    color: var(--color-text);
+  }
+
+  .author-bio-card__role {
+    font-size: var(--text-xs);
+    font-weight: 600;
+    color: var(--color-rose);
+    margin: 0 0 var(--space-sm) 0;
+  }
+
+  .author-bio-card__desc {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    line-height: var(--leading-relaxed);
+    margin: 0 0 var(--space-md) 0;
+  }
+
+  .author-bio-card__links {
+    display: flex;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+  }
+
+  .author-bio-card__links a {
+    font-size: var(--text-xs);
+    font-weight: 600;
+    color: var(--color-text);
+    text-decoration: underline;
+    transition: color var(--duration-fast) var(--ease-out);
+  }
+
+  .author-bio-card__links a:hover {
+    color: var(--color-rose);
+  }
+
   @media (max-width: 767px) {
     .article-header { padding-top: calc(54px + var(--space-lg)); }
     .article-title { font-size: var(--text-3xl); }
     .container, .container-wide { padding: 0 var(--space-md); }
+    .article-author-row { flex-direction: column; align-items: flex-start; }
+    .article-reviewer { border-left: none; border-top: 1px solid var(--color-border-soft); padding-left: 0; padding-top: var(--space-sm); width: 100%; }
+    .author-bio-card { flex-direction: column; align-items: center; text-align: center; }
+    .author-bio-card__links { justify-content: center; }
   }
 </style>

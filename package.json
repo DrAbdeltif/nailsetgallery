@@ -11,6 +11,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "audit:seo": "node scripts/generate-seo-audit.mjs",
     "generate:llms": "node scripts/generate-llms-full.mjs",
     "export:pinterest": "node scripts/export-pinterest.js"
   },
