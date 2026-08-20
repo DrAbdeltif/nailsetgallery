@@ -58,13 +58,14 @@ export const POST: APIRoute = async ({ request }) => {
       );
     }
 
-    // Optional webhook forwarding to Email Service Provider (Mailchimp, ConvertKit, Brevo, Resend, etc.)
+    // Optional webhook forwarding to Email Service Provider or Google Sheets Webhook
     const webhookUrl = import.meta.env.NEWSLETTER_WEBHOOK_URL || process.env.NEWSLETTER_WEBHOOK_URL;
     if (webhookUrl) {
       try {
         await fetch(webhookUrl, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
+          redirect: 'follow',
           body: JSON.stringify({
             email,
             source,
