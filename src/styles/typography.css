@@ -230,6 +230,46 @@ p {
   font-size: 0.875em;
 }
 
+.prose {
+  max-width: 68ch;
+  width: 100%;
+  line-height: var(--leading-relaxed);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.prose img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  margin: var(--space-xl) 0;
+  object-fit: cover;
+}
+
+.prose .table-responsive,
+.table-responsive {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: var(--space-lg) 0;
+  border-radius: var(--radius-md);
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+}
+
+.prose th,
+.prose td {
+  padding: 12px 14px;
+  vertical-align: top;
+}
+
 /* ── Responsive typography adjustments ── */
 @media (max-width: 768px) {
   .text-hero {
@@ -239,4 +279,21 @@ p {
   .prose {
     max-width: 100%;
   }
+
+  .prose ul, .prose ol {
+    padding-left: var(--space-lg);
+  }
+
+  .prose blockquote {
+    padding-left: var(--space-md);
+    margin: var(--space-lg) 0;
+    font-size: var(--text-lg);
+  }
+
+  .prose th,
+  .prose td {
+    padding: 10px 8px;
+    font-size: var(--text-xs);
+  }
 }
+

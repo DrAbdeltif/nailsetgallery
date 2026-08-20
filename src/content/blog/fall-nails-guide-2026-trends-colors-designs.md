@@ -43,7 +43,7 @@ From liquid-amber tortoiseshell and magnetic espresso velvet to tactile 3D sweat
 
 ---
 
-<div style="background: linear-gradient(135deg, rgba(139, 26, 74, 0.06) 0%, rgba(200, 90, 50, 0.08) 100%); border-left: 4px solid #8B1A4A; padding: 20px 24px; border-radius: 8px; margin: 28px 0;">
+<div class="callout-box" style="background: linear-gradient(135deg, rgba(139, 26, 74, 0.06) 0%, rgba(200, 90, 50, 0.08) 100%); border-left: 4px solid #8B1A4A; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #8B1A4A; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>🍂</span> <strong>Quick Summary: The 2026 Fall Nail Trend Forecast</strong>
 </h3>
@@ -170,7 +170,8 @@ Dynamic retro-inspired ribbons of color flowing across a naked or sheer jelly ba
 
 Choosing the right shape enhances both the beauty and the durability of your autumn manicure:
 
-<table style="width:100%; border-collapse: collapse; margin: 20px 0; font-size: 0.95rem;">
+<div class="table-responsive" style="width: 100%; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: 8px; box-sizing: border-box;">
+<table style="width: 100%; min-width: 520px; border-collapse: collapse; margin: 0; font-size: 0.92rem;">
   <thead>
     <tr style="background: rgba(139, 26, 74, 0.08); border-bottom: 2px solid #8B1A4A;">
       <th style="padding: 12px; text-align: left; color: #8B1A4A;">Nail Shape</th>
@@ -206,6 +207,7 @@ Choosing the right shape enhances both the beauty and the durability of your aut
     </tr>
   </tbody>
 </table>
+</div>
 
 ---
 
@@ -213,27 +215,27 @@ Choosing the right shape enhances both the beauty and the durability of your aut
 
 To make your fall manicure pop, match your shade undertones to your skin's natural complexion:
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 24px 0;">
+<div class="skin-tone-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 16px; margin: 24px 0; width: 100%; box-sizing: border-box;">
 
-<div style="background: #FFFFFF; border: 1px solid rgba(139, 26, 74, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03);">
+<div style="background: #FFFFFF; border: 1px solid rgba(139, 26, 74, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); box-sizing: border-box; width: 100%; word-break: break-word;">
   <h4 style="margin: 0 0 8px 0; color: #8B1A4A; font-size: 1.05rem;">✨ Warm & Golden Undertones</h4>
   <p style="font-size: 0.9rem; color: #4A3F3F; margin-bottom: 8px;">Veins appear greenish; gold jewelry shines brightest.</p>
   <p style="font-size: 0.92rem; margin: 0;"><strong>Top Picks:</strong> Burnt Terracotta, Spiced Mustard, Warm Amber, Copper Chrome, and Toffee Brown.</p>
 </div>
 
-<div style="background: #FFFFFF; border: 1px solid rgba(139, 26, 74, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03);">
+<div style="background: #FFFFFF; border: 1px solid rgba(139, 26, 74, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); box-sizing: border-box; width: 100%; word-break: break-word;">
   <h4 style="margin: 0 0 8px 0; color: #8B1A4A; font-size: 1.05rem;">❄️ Cool & Pink Undertones</h4>
   <p style="font-size: 0.9rem; color: #4A3F3F; margin-bottom: 8px;">Veins appear blue/purple; silver jewelry looks striking.</p>
   <p style="font-size: 0.92rem; margin: 0;"><strong>Top Picks:</strong> Black Cherry Merlot, Deep Plum, Midnight Navy, Slate Steel Grey, and Blackberry Gel.</p>
 </div>
 
-<div style="background: #FFFFFF; border: 1px solid rgba(139, 26, 74, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03);">
+<div style="background: #FFFFFF; border: 1px solid rgba(139, 26, 74, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); box-sizing: border-box; width: 100%; word-break: break-word;">
   <h4 style="margin: 0 0 8px 0; color: #8B1A4A; font-size: 1.05rem;">🌿 Olive Undertones</h4>
   <p style="font-size: 0.9rem; color: #4A3F3F; margin-bottom: 8px;">Greenish/neutral cast that balances warm and cool tones.</p>
   <p style="font-size: 0.92rem; margin: 0;"><strong>Top Picks:</strong> Forest Olive Green, Muted Moss, Dark Chocolate, Burnt Sienna, and Antique Gold.</p>
 </div>
 
-<div style="background: #FFFFFF; border: 1px solid rgba(139, 26, 74, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03);">
+<div style="background: #FFFFFF; border: 1px solid rgba(139, 26, 74, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); box-sizing: border-box; width: 100%; word-break: break-word;">
   <h4 style="margin: 0 0 8px 0; color: #8B1A4A; font-size: 1.05rem;">👑 Deep & Rich Complexions</h4>
   <p style="font-size: 0.9rem; color: #4A3F3F; margin-bottom: 8px;">High contrast beauty that makes vibrant and moody tones pop.</p>
   <p style="font-size: 0.92rem; margin: 0;"><strong>Top Picks:</strong> High-voltage Ochre, Spiced Crimson, Emerald Moss, Caramel Latte, and 24k Gold Accents.</p>
@@ -247,7 +249,7 @@ To make your fall manicure pop, match your shade undertones to your skin's natur
 
 Want to create salon-grade fall nail art at home? Follow this foolproof 5-step tortoiseshell tutorial using standard gel polish:
 
-<div style="background: #FAF8F5; border: 1px solid rgba(139, 26, 74, 0.15); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<div class="tutorial-box" style="background: #FAF8F5; border: 1px solid rgba(139, 26, 74, 0.15); border-radius: 12px; padding: clamp(14px, 3.5vw, 24px); margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 
 <ol style="padding-left: 20px; line-height: 1.8; color: #2B2323;">
   <li style="margin-bottom: 12px;">
