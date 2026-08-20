@@ -17,6 +17,8 @@ category: "trends"
 tags: ["soap-nails", "jelly-nails", "nail-trends", "minimalist-nails", "syrup-nails"]
 featured: false
 draft: false
+heroImage: '/images/soap-jelly-nails-hero.jpg'
+heroImageAlt: 'Glossy soap bubble nails with translucent jelly gel layers reflecting crystal clear shine'
 ---
 
 

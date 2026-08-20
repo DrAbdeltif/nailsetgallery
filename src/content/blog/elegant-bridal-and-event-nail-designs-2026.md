@@ -17,6 +17,8 @@ category: "styles"
 tags: ["event-nails", "bridal-nails", "wedding-guest", "nail-art", "formal-nails"]
 featured: false
 draft: false
+heroImage: '/images/elegant-bridal-event-nails-hero.png'
+heroImageAlt: 'Glamorous event and wedding guest manicure with champagne shimmer and fine gold foil details'
 ---
 
 

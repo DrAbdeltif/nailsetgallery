@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["nail-strengthener", "nail-care", "damaged-nails", "natural-nails", "nail-health"]
 featured: false
 draft: false
+heroImage: '/images/nail-strengtheners-hero.jpg'
+heroImageAlt: 'Nail strengthening treatments, keratin base coats, and restorative serums on healthy natural nails'
 ---
 
 

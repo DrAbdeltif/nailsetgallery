@@ -18,6 +18,8 @@ category: "trends"
 tags: ["clean-girl-nails", "soap-nails", "minimalist-nails", "nail-trends", "natural-nails"]
 featured: true
 draft: false
+heroImage: '/images/minimalist-clean-girl-hero.png'
+heroImageAlt: 'Ultra-clean soap nails with high-gloss transparent pink finish on well-groomed natural nails'
 ---
 
 

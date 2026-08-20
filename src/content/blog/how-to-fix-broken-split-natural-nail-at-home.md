@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["nail-tutorials", "nail-care", "diy-nails", "nail-strengthener", "troubleshooting"]
 featured: false
 draft: false
+heroImage: '/images/broken-nail-repair-hero.jpg'
+heroImageAlt: 'Tea bag and silk wrap emergency repair method for a cracked or broken natural nail'
 ---
 
 

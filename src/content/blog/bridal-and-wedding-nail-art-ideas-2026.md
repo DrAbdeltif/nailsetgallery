@@ -18,6 +18,8 @@ category: "styles"
 tags: ["bridal-nails", "wedding-nails", "nail-art", "french-manicure", "nail-trends"]
 featured: true
 draft: false
+heroImage: '/images/bridal-wedding-nails-hero.jpg'
+heroImageAlt: 'Sophisticated bridal manicure featuring sheer blush base, micro chrome French tips, and delicate pearl dusting'
 ---
 
 

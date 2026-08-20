@@ -18,6 +18,8 @@ category: "colors"
 tags: ["dark-nails", "moody-nails", "nail-colors-2026", "gothic-nails", "nail-trends"]
 featured: true
 draft: false
+heroImage: '/images/moody-dark-nails-hero.jpg'
+heroImageAlt: 'Curated moody dark nail shades including blackened cherry, smoky charcoal, and deep aubergine'
 ---
 
 

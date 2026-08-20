@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["gel-x-nails", "diy-gel-extensions", "soft-gel-tips", "nail-tutorial", "gel-nails"]
 featured: true
 draft: false
+heroImage: '/images/gel-x-diy-hero.jpg'
+heroImageAlt: 'Full DIY Gel-X soft gel extension application setup with prep tools, extend gel, and natural tips'
 ---
 
 

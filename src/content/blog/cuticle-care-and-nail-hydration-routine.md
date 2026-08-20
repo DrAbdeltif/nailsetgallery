@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["cuticle-care", "nail-hydration", "cuticle-oil", "nail-care", "natural-nails"]
 featured: false
 draft: false
+heroImage: '/images/cuticle-care-hero.jpg'
+heroImageAlt: 'Nourishing cuticle oil dropper being applied to healthy, hydrated nail folds and cuticles'
 ---
 
 

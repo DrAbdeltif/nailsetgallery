@@ -17,6 +17,8 @@ category: "styles"
 tags: ["almond-nails", "nail-shapes", "nail-designs", "nail-trends", "styling-guide"]
 featured: false
 draft: false
+heroImage: '/images/almond-nail-shape-guide-hero.jpg'
+heroImageAlt: 'Classic medium almond nail shape manicure with soft neutral glaze and refined silhouette'
 ---
 
 

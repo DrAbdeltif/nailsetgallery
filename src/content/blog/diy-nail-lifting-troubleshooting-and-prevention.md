@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["nail-tutorials", "gel-nails", "nail-care", "troubleshooting", "press-on-nails"]
 featured: true
 draft: false
+heroImage: '/images/diy-nail-lifting-hero.jpg'
+heroImageAlt: 'Professional nail technician inspecting nail plate preparation to troubleshoot and prevent lifting'
 ---
 
 

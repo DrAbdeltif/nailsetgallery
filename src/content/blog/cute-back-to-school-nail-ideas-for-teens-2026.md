@@ -17,6 +17,8 @@ category: "seasons"
 tags: ["school-nails", "teen-nails", "back-to-school", "nail-art", "nail-trends"]
 featured: false
 draft: false
+heroImage: '/images/back-to-school-nails-hero.png'
+heroImageAlt: 'Cute back-to-school nail art with subtle pastel micro-french tips, tiny notebook doodles, and dainty stars'
 ---
 
 

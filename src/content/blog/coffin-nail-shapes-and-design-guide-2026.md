@@ -17,6 +17,8 @@ category: "styles"
 tags: ["coffin-nails", "nail-shapes", "nail-designs", "nail-trends", "acrylic-nails"]
 featured: false
 draft: false
+heroImage: '/images/coffin-nails-hero.jpg'
+heroImageAlt: 'Sleek sculpted coffin nails with crisp tapered edges in clean modern nude and white French design'
 ---
 
 

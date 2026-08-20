@@ -17,6 +17,8 @@ category: "styles"
 tags: ["teen-nails", "short-nails", "nail-care", "school-nails", "diy-nails"]
 featured: false
 draft: false
+heroImage: '/images/short-nails-for-teens-hero.png'
+heroImageAlt: 'Cute and durable short nail designs for teenagers with mini daisies and pastel squoval tips'
 ---
 
 

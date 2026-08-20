@@ -27,7 +27,7 @@ const { prevPost, nextPost } = Astro.props;
           </div>
           {prevPost.heroImage && (
             <div class="article-nav__thumb">
-              <img src={prevPost.heroImage} alt="" loading="lazy" decoding="async" />
+              <img src={prevPost.heroImage} alt={prevPost.title} loading="lazy" decoding="async" />
             </div>
           )}
           <div class="article-nav__content">
@@ -47,7 +47,7 @@ const { prevPost, nextPost } = Astro.props;
           </div>
           {nextPost.heroImage && (
             <div class="article-nav__thumb">
-              <img src={nextPost.heroImage} alt="" loading="lazy" decoding="async" />
+              <img src={nextPost.heroImage} alt={nextPost.title} loading="lazy" decoding="async" />
             </div>
           )}
           <div class="article-nav__icon" aria-hidden="true">

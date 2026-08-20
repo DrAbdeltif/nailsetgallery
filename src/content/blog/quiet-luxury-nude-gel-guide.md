@@ -17,6 +17,8 @@ category: "colors"
 tags: ["nude-nails", "quiet-luxury", "neutral-nails", "office-nails", "nail-colors-2026"]
 featured: false
 draft: false
+heroImage: '/images/quiet-luxury-nude-hero.jpg'
+heroImageAlt: 'Impeccable quiet luxury nude manicure tailored to skin tone with subtle satin sheen'
 ---
 
 

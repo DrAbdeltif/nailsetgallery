@@ -18,6 +18,8 @@ category: "styles"
 tags: ["nail-shapes", "almond-nails", "coffin-nails", "nail-trends", "nail-care"]
 featured: true
 draft: false
+heroImage: '/images/aesthetic-almond-coffin-hero.png'
+heroImageAlt: 'Side-by-side comparison of elegant almond and tapered coffin nail shapes with modern minimalist art'
 ---
 
 

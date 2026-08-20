@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["gel-removal", "nail-care", "diy-nails", "nail-health", "tutorials"]
 featured: false
 draft: false
+heroImage: '/images/safe-gel-removal-hero.jpg'
+heroImageAlt: 'Safe acetone foil wrap soak-off technique removing gel polish without scraping the natural nail plate'
 ---
 
 

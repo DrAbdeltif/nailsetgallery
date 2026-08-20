@@ -17,6 +17,8 @@ category: "trends"
 tags: ["korean-nails", "jelly-nails", "blush-nails", "syrup-nails", "nail-art"]
 featured: false
 draft: false
+heroImage: '/images/korean-jelly-blush-nails-hero.png'
+heroImageAlt: 'Translucent Korean syrup gel nails with soft center blush gradient and dewy glass-like finish'
 ---
 
 

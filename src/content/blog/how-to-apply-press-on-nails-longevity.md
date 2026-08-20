@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["press-on-nails", "diy-nails", "nail-glue", "tutorials", "nail-care"]
 featured: false
 draft: false
+heroImage: '/images/press-on-nails-hero.jpg'
+heroImageAlt: 'Step-by-step press-on nail application with nail glue and adhesive tabs for maximum longevity'
 ---
 
 

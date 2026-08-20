@@ -18,6 +18,8 @@ category: "styles"
 tags: ["teen-nails", "aesthetic-nails", "nail-trends", "school-nails", "nail-art"]
 featured: true
 draft: false
+heroImage: '/images/teen-nails-hero.png'
+heroImageAlt: 'Playful and trendy aesthetic nail art for teens featuring cute smiley faces, pastel swirls, and micro stars'
 ---
 
 

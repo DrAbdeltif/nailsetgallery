@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["press-on-nails", "nail-tutorials", "diy-nails", "beginner-nails", "nail-care"]
 featured: true
 draft: false
+heroImage: '/images/press-on-starter-kit-hero.jpg'
+heroImageAlt: 'Complete beginner press-on nail starter kit with sizing chart, files, buffer, and glue'
 ---
 
 

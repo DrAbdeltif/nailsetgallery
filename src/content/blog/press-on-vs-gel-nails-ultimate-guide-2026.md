@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["press-on-vs-gel", "gel-nails", "press-on-nails", "nail-comparison", "diy-nails"]
 featured: false
 draft: false
+heroImage: '/images/press-on-gel-nails-hero.png'
+heroImageAlt: 'Detailed comparison between salon gel polish manicures and modern custom press-on nails'
 ---
 
 

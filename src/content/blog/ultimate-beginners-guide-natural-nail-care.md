@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["natural-nails", "nail-care", "nail-health", "nail-growth", "tutorials"]
 featured: true
 draft: false
+heroImage: '/images/natural-nail-care-hero.jpg'
+heroImageAlt: 'Complete natural nail care essentials including glass files, jojoba oil, and nail strengthener'
 ---
 
 

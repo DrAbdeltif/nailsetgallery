@@ -17,6 +17,8 @@ category: "trends"
 tags: ["gel-nails", "acrylic-nails", "nail-care", "nail-trends", "tutorials"]
 featured: true
 draft: false
+heroImage: '/images/gel-dip-acrylic-comparison-hero.jpg'
+heroImageAlt: 'Three-way visual comparison between gel polish, dip powder, and sculpted acrylic manicure systems'
 ---
 
 

@@ -17,6 +17,8 @@ category: "seasons"
 tags: ["fall-winter-nails", "dark-nails", "winter-nails", "nail-colors-2026", "seasonal-nails"]
 featured: false
 draft: false
+heroImage: '/images/dark-fall-nails-hero.jpg'
+heroImageAlt: 'Rich dark winter nail colors including deep oxblood, plum, and obsidian gloss'
 ---
 
 

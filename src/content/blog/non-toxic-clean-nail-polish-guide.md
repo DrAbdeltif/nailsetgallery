@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["non-toxic-nails", "clean-beauty", "nail-care", "organic-nails", "nail-polish"]
 featured: false
 draft: false
+heroImage: '/images/non-toxic-clean-nails-hero.jpg'
+heroImageAlt: 'Breathable, 10-free non-toxic clean nail polishes swatched on healthy natural nails'
 ---
 
 

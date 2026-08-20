@@ -29,6 +29,8 @@ tags:
   ]
 featured: true
 draft: false
+heroImage: '/images/natural-nail-prep-hero.jpg'
+heroImageAlt: 'Natural nails and professional preparation tools laid out for home manicure'
 ---
 
 ![Natural nails and tools prepared for a home manicure](/images/natural-nail-prep-hero.jpg)
@@ -180,7 +182,7 @@ After completing the universal routine (Steps 1–6):
 3. Do not get nail glue on skin — it bonds almost instantly and can cause skin tears when pulled
 4. Avoid soaking hands in water for 1 hour after application
 
-For a full starter guide to press-ons, see our [press-on nail starter guide](/blog/press-on-starter-guide).
+For a full starter guide to press-ons, see our [press-on nail starter guide](/blog/press-on-nails-beginner-starter-guide).
 
 ---
 
@@ -272,9 +274,9 @@ Some nail prep and application products — particularly acrylic monomers and ce
 ## Related Reading
 
 - [DIY Gel-X Nails at Home: 2026 Beginner Step-by-Step Guide](/blog/beginner-guide-diy-gel-x-nails-at-home) — full soft gel extension tutorial once your prep is complete
-- [Press-On Nail Starter Guide](/blog/press-on-starter-guide) — sizing, application, and removal without nail damage
-- [Gel vs. Dip Powder vs. Acrylic: Which Is Right for You?](/blog/gel-vs-dip-powder-vs-acrylic) — compare the three main enhancement systems to pick the right one for your lifestyle
-- [How to Fix a Broken Nail at Home](/blog/broken-nail-fix) — emergency nail repairs before or after prep
+- [Press-On Nail Starter Guide](/blog/press-on-nails-beginner-starter-guide) — sizing, application, and removal without nail damage
+- [Gel vs. Dip Powder vs. Acrylic: Which Is Right for You?](/blog/gel-vs-dip-powder-vs-acrylic-comparison-guide) — compare the three main enhancement systems to pick the right one for your lifestyle
+- [How to Fix a Broken Nail at Home](/blog/how-to-fix-broken-split-natural-nail-at-home) — emergency nail repairs before or after prep
 - [Almond vs. Coffin Nails: Shape Guide and Design Ideas](/blog/aesthetic-almond-and-coffin-nail-designs-guide-2026) — choose your shape before prepping
 
 ---

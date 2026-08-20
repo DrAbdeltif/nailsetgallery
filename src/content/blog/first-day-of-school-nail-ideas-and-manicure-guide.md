@@ -17,6 +17,8 @@ category: "seasons"
 tags: ["school-nails", "teen-nails", "first-day-of-school", "nail-art", "quick-manicure"]
 featured: false
 draft: false
+heroImage: '/images/first-day-of-school-nails-hero.png'
+heroImageAlt: 'Clean, classy first-day-of-school natural nail look with sheer gloss and subtle pastel accent dots'
 ---
 
 

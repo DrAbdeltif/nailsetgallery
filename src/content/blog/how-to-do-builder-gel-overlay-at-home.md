@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["builder-gel", "biab-nails", "nail-overlay", "natural-nail-growth", "gel-nails"]
 featured: true
 draft: false
+heroImage: '/images/builder-gel-biab-tutorial-hero.jpg'
+heroImageAlt: 'Builder gel in a bottle (BIAB) self-leveling overlay application creating a smooth apex on natural nails'
 ---
 
 

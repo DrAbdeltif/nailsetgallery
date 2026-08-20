@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["nail-rehab", "damaged-nails", "acrylic-damage", "nail-recovery", "natural-nails"]
 featured: false
 draft: false
+heroImage: '/images/post-acrylic-rehab-hero.jpg'
+heroImageAlt: 'Restorative nail care routine with cuticle butter and strengthening oil for damaged natural nails'
 ---
 
 

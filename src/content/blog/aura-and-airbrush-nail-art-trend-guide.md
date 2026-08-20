@@ -17,6 +17,8 @@ category: "trends"
 tags: ["aura-nails", "airbrush-nails", "gradient-nails", "nail-trends", "nail-art"]
 featured: true
 draft: false
+heroImage: '/images/aura-airbrush-nails-hero.jpg'
+heroImageAlt: 'Vibrant center-bloom aura airbrush gradient nail art blending soft magenta and sunset orange'
 ---
 
 

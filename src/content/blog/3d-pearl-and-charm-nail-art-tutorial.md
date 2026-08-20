@@ -17,6 +17,8 @@ category: "tutorials"
 tags: ["3d-nail-art", "nail-charms", "pearl-nails", "gel-nails", "nail-tutorial"]
 featured: false
 draft: false
+heroImage: '/images/3d-pearl-charm-hero.jpg'
+heroImageAlt: 'Delicate 3D pearl and metallic charm accents on milky nude almond nails'
 ---
 
 
