@@ -11,6 +11,8 @@ import QuickAnswer from '../../components/content/QuickAnswer.astro';
 import ShopTheLook from '../../components/ui/ShopTheLook.astro';
 import PinterestSaveButton from '../../components/ui/PinterestSaveButton.astro';
 import AdSenseUnit from '../../components/ui/AdSenseUnit.astro';
+import TableOfContents from '../../components/blog/TableOfContents.astro';
+import SocialShareBar from '../../components/blog/SocialShareBar.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -44,7 +46,8 @@ export async function getStaticPaths() {
 }
 
 const { post, allPosts, prevPost, nextPost } = Astro.props;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+
 
 const {
   title,
@@ -354,33 +357,71 @@ const editorialNote = category === 'tutorials'
       <p>{editorialNote}</p>
     </aside>
 
-    <!-- Article body -->
-    <div class="article-body container">
-      <article class="prose">
-        <Content />
-      </article>
-
-      <!-- Author Bio Box -->
-      <section class="author-bio-card" aria-label="Author Profile">
-        <div class="author-bio-card__avatar">
-          {author?.charAt(0) ?? 'E'}
-        </div>
-        <div class="author-bio-card__content">
-          <h3>Written by {author ?? 'Elena Rostova'}</h3>
-          <p class="author-bio-card__role">Editorial Director & Master Nail Artist at NailSet Gallery</p>
-          <p class="author-bio-card__desc">
-            {authorBio ?? 'Elena Rostova is a veteran nail designer and salon consultant with over 9 years of experience in structured manicures, Japanese nuance gel art, and nail plate rehabilitation. Her work focuses on precision cuticle care and safe, damage-free DIY methods.'}
-          </p>
-          <div class="author-bio-card__links">
-            <a href="/about/">About Our Editorial Standards &rarr;</a>
-            <a href="/disclaimer/">Health & Review Policy &rarr;</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- AdSense In-Article Display Unit -->
-      <AdSenseUnit format="auto" />
+    <!-- Top Social Share Bar -->
+    <div class="container margin-bottom-lg">
+      <SocialShareBar
+        url={`https://nailsetgallery.com/blog/${post.id}/`}
+        title={title}
+        description={description}
+        media={heroImage}
+      />
     </div>
+
+    <!-- Article Body with 2-Column Layout Grid -->
+    <div class="article-body container-wide">
+      <div class="article-layout-grid">
+        <!-- Main Column -->
+        <main class="article-main-column">
+          <!-- Mobile Inline Table of Contents -->
+          <div class="mobile-toc-wrapper">
+            <TableOfContents headings={headings} />
+          </div>
+
+          <article class="prose">
+            <Content />
+          </article>
+
+          <!-- Bottom Social Share Bar -->
+          <div class="margin-top-xl">
+            <SocialShareBar
+              url={`https://nailsetgallery.com/blog/${post.id}/`}
+              title={title}
+              description={description}
+              media={heroImage}
+            />
+          </div>
+
+          <!-- Author Bio Box -->
+          <section class="author-bio-card" aria-label="Author Profile">
+            <div class="author-bio-card__avatar">
+              {author?.charAt(0) ?? 'E'}
+            </div>
+            <div class="author-bio-card__content">
+              <h3>Written by {author ?? 'Elena Rostova'}</h3>
+              <p class="author-bio-card__role">Editorial Director & Master Nail Artist at NailSet Gallery</p>
+              <p class="author-bio-card__desc">
+                {authorBio ?? 'Elena Rostova is a veteran nail designer and salon consultant with over 9 years of experience in structured manicures, Japanese nuance gel art, and nail plate rehabilitation. Her work focuses on precision cuticle care and safe, damage-free DIY methods.'}
+              </p>
+              <div class="author-bio-card__links">
+                <a href="/about/">About Our Editorial Standards &rarr;</a>
+                <a href="/disclaimer/">Health & Review Policy &rarr;</a>
+              </div>
+            </div>
+          </section>
+
+          <!-- AdSense In-Article Display Unit -->
+          <AdSenseUnit format="auto" />
+        </main>
+
+        <!-- Sticky Sidebar (Desktop Table of Contents & Quick Actions) -->
+        <aside class="article-sidebar-desktop" aria-label="Article Navigation Sidebar">
+          <div class="sticky-sidebar-inner">
+            <TableOfContents headings={headings} />
+          </div>
+        </aside>
+      </div>
+    </div>
+
 
     <!-- Tags -->
     {tags.length > 0 && (
@@ -911,6 +952,59 @@ const editorialNote = category === 'tutorials'
 
   .author-bio-card__links a:hover {
     color: var(--color-rose);
+  }
+
+  .margin-bottom-lg { margin-bottom: var(--space-lg); }
+  .margin-top-xl { margin-top: var(--space-xl); }
+
+  /* 2-Column Responsive Article Layout Grid */
+  .article-layout-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .article-sidebar-desktop {
+    display: none;
+  }
+
+  .mobile-toc-wrapper {
+    display: block;
+    margin-bottom: var(--space-md);
+  }
+
+  /* Progress Bar */
+  .progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: var(--color-rose);
+    z-index: 9999;
+    width: 0%;
+  }
+
+  @media (min-width: 1024px) {
+    .article-layout-grid {
+      grid-template-columns: minmax(0, 1fr) 280px;
+      gap: var(--space-2xl);
+      align-items: start;
+    }
+
+    .article-sidebar-desktop {
+      display: block;
+    }
+
+    .sticky-sidebar-inner {
+      position: sticky;
+      top: 100px;
+      max-height: calc(100vh - 120px);
+      overflow-y: auto;
+    }
+
+    .mobile-toc-wrapper {
+      display: none;
+    }
   }
 
   @media (max-width: 767px) {
