@@ -21,6 +21,7 @@ heroImage: '/images/broken-nail-repair-hero.jpg'
 heroImageAlt: 'Tea bag and silk wrap emergency repair method for a cracked or broken natural nail'
 ---
 
+![Tea bag and silk wrap emergency repair method for a cracked or broken natural nail](/images/broken-nail-repair-hero.jpg)
 
 Few beauty accidents are more painful or disappointing than catching your freshly grown natural nail on a drawer, sweater, or car door and watching a horizontal tear form across the sidewall.
 
@@ -30,6 +31,19 @@ Before you grab the clippers and sacrifice months of healthy growth on all ten f
 
 ---
 
+
+---
+
+<div class="callout-box" style="background: linear-gradient(135deg, rgba(13, 148, 136, 0.06) 0%, rgba(2, 132, 199, 0.08) 100%); border-left: 4px solid #0D9488; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
+<h3 style="margin: 0 0 10px 0; color: #0D9488; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
+  <span>🛠️</span> <strong>Quick Summary: The 2026 How to Fix a Broken or Split Natural Nail at Home (Fast DIY) Overview</strong>
+</h3>
+<p style="margin: 0; font-size: 0.98rem; line-height: 1.6; color: #2B2323;">
+  Save a broken, split, or cracked natural nail without cutting it down. Master the tea bag trick, silk wrap method, and builder gel emergency patch.
+</p>
+</div>
+
+---
 ## 3 Natural Nail Repair Methods Compared
 
 | Repair Technique | Best For | Supplies Needed | Durability | Natural Finish |

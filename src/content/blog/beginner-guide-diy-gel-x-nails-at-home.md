@@ -21,6 +21,7 @@ heroImage: '/images/gel-x-diy-hero.jpg'
 heroImageAlt: 'Full DIY Gel-X soft gel extension application setup with prep tools, extend gel, and natural tips'
 ---
 
+![Full DIY Gel-X soft gel extension application setup with prep tools, extend gel, and natural tips](/images/gel-x-diy-hero.jpg)
 
 Gel-X (soft gel extension system) has completely revolutionized the nail industry. Unlike traditional acrylics that require pungent liquid monomers and aggressive e-filing, Gel-X uses full-coverage tips made entirely of soak-off soft gel. When cured with an extend gel adhesive, they deliver lightweight length, natural flexibility, and 2 to 3 weeks of durable wear while preserving natural nail keratin when removed correctly.
 
@@ -30,6 +31,19 @@ If you are a beginner looking to skip expensive salon appointments and do high-q
 
 ---
 
+
+---
+
+<div class="callout-box" style="background: linear-gradient(135deg, rgba(13, 148, 136, 0.06) 0%, rgba(2, 132, 199, 0.08) 100%); border-left: 4px solid #0D9488; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
+<h3 style="margin: 0 0 10px 0; color: #0D9488; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
+  <span>🛠️</span> <strong>Quick Summary: The 2026 DIY Gel-X Nails at Home Overview</strong>
+</h3>
+<p style="margin: 0; font-size: 0.98rem; line-height: 1.6; color: #2B2323;">
+  Learn how to do DIY Gel-X soft gel nail extensions at home. Master sizing, prep, bubble-free application, flash curing, and safe acetone removal.
+</p>
+</div>
+
+---
 ## What Are Gel-X Nails and How Do They Work?
 
 **Gel-X** is a full-coverage soft gel nail extension system pioneered by Aprés Nail. Instead of sculpting acrylic over paper forms or gluing plastic tips with cyanoacrylate, Gel-X adheres pre-shaped, 100% soak-off soft gel tips directly over your entire natural nail plate using a light-cured gel adhesive (Extend Gel).
