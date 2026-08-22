@@ -31,9 +31,6 @@ Whether you are looking for a quick weekend look, protecting your natural nails 
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(13, 148, 136, 0.06) 0%, rgba(2, 132, 199, 0.08) 100%); border-left: 4px solid #0D9488; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #0D9488; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>🛠️</span> <strong>Quick Summary: The 2026 Beginner's Starter Guide to Press-On Nails Overview</strong>
@@ -44,6 +41,7 @@ Whether you are looking for a quick weekend look, protecting your natural nails 
 </div>
 
 ---
+
 ## Sizing Chart: How to Measure Your Natural Nails
 
 Most standard press-on boxes come with 24 to 30 tips numbered `0` (largest, thumb) to `9` (smallest, pinky). To find your perfect match:

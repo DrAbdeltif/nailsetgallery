@@ -30,9 +30,6 @@ Radiating timeless glamour, quiet power, and old-money sophistication, dark cher
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(139, 26, 74, 0.06) 0%, rgba(200, 90, 50, 0.08) 100%); border-left: 4px solid #8B1A4A; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #8B1A4A; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>🎨</span> <strong>Quick Summary: The 2026 Cherry Red & Wine Nail Designs for 2026 (Black Cherry & Merlot) Overview</strong>
@@ -43,6 +40,7 @@ Radiating timeless glamour, quiet power, and old-money sophistication, dark cher
 </div>
 
 ---
+
 ## The 2026 Wine & Cherry Palette Breakdown
 
 | Shade Name | Color Depth & Undertone | Visual Character | Best Season / Vibe |
@@ -97,8 +95,6 @@ Translucent cherry syrup gel concentrated in the center of a sheer milky base, b
 
 ---
 
----
-
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
@@ -130,7 +126,6 @@ Match your shade undertones to your skin complexion to achieve the most flatteri
 </div>
 
 </div>
-
 
 ## Frequently Asked Questions
 

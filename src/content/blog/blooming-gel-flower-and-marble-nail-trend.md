@@ -30,9 +30,6 @@ In 2026, blooming gel is the secret behind viral hyper-realistic roses, ethereal
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(216, 107, 133, 0.06) 0%, rgba(124, 58, 237, 0.08) 100%); border-left: 4px solid #D86B85; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #D86B85; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>✨</span> <strong>Quick Summary: The 2026 Blooming Gel Flower & Marble Nail Art Guide (2026 Tutorial) Overview</strong>
@@ -43,6 +40,7 @@ In 2026, blooming gel is the secret behind viral hyper-realistic roses, ethereal
 </div>
 
 ---
+
 ## What Is Blooming Gel and How Does It Work?
 
 **Blooming gel** (also called blossom gel or spread gel) is a clear, light-curing gel layer engineered with a low surface tension. When concentrated pigmented gel polish is introduced into an uncured blooming layer, the pigment naturally migrates and disperses outward across the liquid matrix.
@@ -128,8 +126,6 @@ Follow this 5-step method to paint delicate watercolor roses:
 
 ---
 
----
-
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
@@ -161,7 +157,6 @@ Match your shade undertones to your skin complexion to achieve the most flatteri
 </div>
 
 </div>
-
 
 ## Frequently Asked Questions
 

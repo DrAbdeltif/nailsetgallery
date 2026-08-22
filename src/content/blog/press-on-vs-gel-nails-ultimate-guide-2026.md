@@ -31,9 +31,6 @@ Both systems offer distinct advantages depending on your lifestyle, budget, natu
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(13, 148, 136, 0.06) 0%, rgba(2, 132, 199, 0.08) 100%); border-left: 4px solid #0D9488; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #0D9488; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>🛠️</span> <strong>Quick Summary: The 2026 Press-On vs. Gel Nails Overview</strong>
@@ -44,6 +41,7 @@ Both systems offer distinct advantages depending on your lifestyle, budget, natu
 </div>
 
 ---
+
 ## Head-to-Head Comparison: Press-Ons vs. Gel Manicures
 
 | Feature | High-Quality Press-On Nails | Traditional Gel Manicure | Gel-X / Soft Gel Extensions |

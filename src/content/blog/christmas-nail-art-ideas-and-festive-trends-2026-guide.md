@@ -123,28 +123,35 @@ Cozy gourmand shades for lovers of subtle, earthy holiday neutrals.
 ![Close-up beauty photography of trendy Christmas nail art designs on neat medium almond and squoval nails](/images/christmas-nail-art-designs-trends.jpg)
 
 ### 1. Metallic Gold Micro French Tips
+
 For minimalists who want subtle holiday glamour, the **gold micro French tip** (a razor-thin champagne or bronze line along the free edge) over a sheer nude or milky white base is the ultimate understated manicure.
 
 - **How to Wear It:** Pair a sheer blush base with champagne gold micro tips and a single tiny starburst rhinestone on the ring finger.
 
 ### 2. 3D Snowfall Cable-Knit Sweater Accent
+
 Crafted with thick embossing gel and powdered white acrylic over uncured gel, 3D sweater-knit accent nails mimic cozy knitted scarves.
 
 - **Finish:** Always finished with a **velvet matte topcoat** to reproduce real wool texture.
 
 ### 3. Velvet Cat-Eye Emerald & Crimson
+
 Magnetic velvet polish scatters fine iron particles across the whole nail bed, creating a lush texture that glimmers like holiday velvet ribbons under party lights.
 
 ### 4. Delicate Hand-Painted Snowflakes & Starbursts
+
 Fine liner brushes and silver chrome paint are used to craft intricate snowflake crystals and gleaming four-point stars over moody dark bases.
 
 ### 5. Candy Cane & Gingerbread Accents
+
 Playful holiday motifs featuring diagonal red-and-white stripes or tiny raised gingerbread figures over nude caramel bases.
 
 ### 6. Glazed Sugar & Chrome Frost
+
 Applying iridescent pearl chrome powder over deep berry red or emerald green gives nails a molten, sugar-glazed glow.
 
 ### 7. Minimalist Holly Berry Dot Art
+
 A clean-girl holiday look: a nude or clear base featuring two tiny emerald leaves and three crimson dots near the cuticle line.
 
 ---

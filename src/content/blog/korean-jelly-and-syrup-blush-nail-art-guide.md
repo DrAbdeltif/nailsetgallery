@@ -32,9 +32,6 @@ Unlike Western opaque polish or stark French tips, the Korean syrup aesthetic is
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(216, 107, 133, 0.06) 0%, rgba(124, 58, 237, 0.08) 100%); border-left: 4px solid #D86B85; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #D86B85; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>✨</span> <strong>Quick Summary: The 2026 Korean Jelly & Syrup Blush Nail Art Overview</strong>
@@ -45,6 +42,7 @@ Unlike Western opaque polish or stark French tips, the Korean syrup aesthetic is
 </div>
 
 ---
+
 ## 3 Signature Korean Syrup Nail Variations
 
 | Korean Style Variation | Visual Characteristic | Key Technique | Best Color Palette |
@@ -89,8 +87,6 @@ Translucent caramel-honey syrup blended with organic floating flakes of 24k gold
 
 ---
 
----
-
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
@@ -122,7 +118,6 @@ Match your shade undertones to your skin complexion to achieve the most flatteri
 </div>
 
 </div>
-
 
 ## Frequently Asked Questions
 

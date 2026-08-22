@@ -31,9 +31,6 @@ In 2026, the aura trend has leveled up: combining handheld cordless airbrush tec
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(216, 107, 133, 0.06) 0%, rgba(124, 58, 237, 0.08) 100%); border-left: 4px solid #D86B85; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #D86B85; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>✨</span> <strong>Quick Summary: The 2026 Aura & Airbrush Nail Art Trend Guide for 2026 Overview</strong>
@@ -44,6 +41,7 @@ In 2026, the aura trend has leveled up: combining handheld cordless airbrush tec
 </div>
 
 ---
+
 ## What Are Aura Nails? The Aesthetic & Color Symbolism
 
 **Aura nails** use radial color-gradient diffusion to create an optical glow effect. In modern nail culture, each aura color combination carries distinct energetic and stylistic vibes:
@@ -93,8 +91,6 @@ Using powder cosmetics over a tacky gel layer creates an exceptionally soft, air
 
 ---
 
----
-
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
@@ -126,7 +122,6 @@ Match your shade undertones to your skin complexion to achieve the most flatteri
 </div>
 
 </div>
-
 
 ## Frequently Asked Questions
 

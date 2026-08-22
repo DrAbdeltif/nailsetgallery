@@ -30,9 +30,6 @@ By experimenting with vibrant color blocks, liquid chrome finishes, negative-spa
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(109, 40, 217, 0.06) 0%, rgba(219, 39, 119, 0.08) 100%); border-left: 4px solid #6D28D9; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #6D28D9; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>💅</span> <strong>Quick Summary: The 2026 French Tip Nail Art Variations for 2026 Overview</strong>
@@ -43,6 +40,7 @@ By experimenting with vibrant color blocks, liquid chrome finishes, negative-spa
 </div>
 
 ---
+
 ## The 7 Best Modern French Tip Variations for 2026
 
 | Variation Style | Defining Feature | Best Nail Shape | Aesthetic Vibe |
@@ -93,8 +91,6 @@ Combining two mega-trends into one: a glowing airbrushed aura circle in soft pea
 
 ---
 
----
-
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
@@ -126,7 +122,6 @@ Match your shade undertones to your skin complexion to achieve the most flatteri
 </div>
 
 </div>
-
 
 ## Frequently Asked Questions
 

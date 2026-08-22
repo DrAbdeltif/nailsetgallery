@@ -30,9 +30,6 @@ In 2026, **holiday nail art trends** have evolved far beyond kitschy cartoon sno
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(27, 77, 62, 0.06) 0%, rgba(158, 27, 50, 0.08) 100%); border-left: 4px solid #1B4D3E; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #1B4D3E; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>🍂</span> <strong>Quick Summary: The 2026 Winter Holiday & Festive Nail Art Ideas for 2026 (Christmas & NYE) Overview</strong>
@@ -43,6 +40,7 @@ In 2026, **holiday nail art trends** have evolved far beyond kitschy cartoon sno
 </div>
 
 ---
+
 ## 2026 Festive Holiday Palette: The Jewel Box Spectrum
 
 | Holiday Palette Theme | Visual Character | Mood & Setting | Best Jewelry Match |
@@ -95,8 +93,6 @@ A sheer porcelain base adorned with raised 3D liquid gold chrome ribbon bows and
 
 ---
 
----
-
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
@@ -128,7 +124,6 @@ Match your shade undertones to your skin complexion to achieve the most flatteri
 </div>
 
 </div>
-
 
 ## Frequently Asked Questions
 

@@ -32,9 +32,6 @@ Rejecting one-dimensional shades, modern dark manicures explore **rich chromatic
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(139, 26, 74, 0.06) 0%, rgba(200, 90, 50, 0.08) 100%); border-left: 4px solid #8B1A4A; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #8B1A4A; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>🎨</span> <strong>Quick Summary: The 2026 Moody Dark Nail Color Palettes Overview</strong>
@@ -45,6 +42,7 @@ Rejecting one-dimensional shades, modern dark manicures explore **rich chromatic
 </div>
 
 ---
+
 ## 🏛️ Explore the Dark Nails Topic Series
 
 As our main pillar guide for dark nail aesthetics, this article covers year-round color theory and undertone matching. Explore our seasonal and cold-weather deep dives:
@@ -116,8 +114,6 @@ Paint a sheer milky nude base and cap the free edge with an ultra-fine 1mm smile
 
 ---
 
----
-
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
@@ -149,7 +145,6 @@ Match your shade undertones to your skin complexion to achieve the most flatteri
 </div>
 
 </div>
-
 
 ## Frequently Asked Questions
 

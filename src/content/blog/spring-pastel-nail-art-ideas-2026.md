@@ -30,9 +30,6 @@ In Spring 2026, pastel nails have leveled up beyond flat Easter-egg tones: curre
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(27, 77, 62, 0.06) 0%, rgba(158, 27, 50, 0.08) 100%); border-left: 4px solid #1B4D3E; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #1B4D3E; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>🍂</span> <strong>Quick Summary: The 2026 Spring Pastel Nail Art Ideas for 2026 (Botanical & Glazed) Overview</strong>
@@ -43,6 +40,7 @@ In Spring 2026, pastel nails have leveled up beyond flat Easter-egg tones: curre
 </div>
 
 ---
+
 ## 2026 Spring Pastel Palette: The Top 5 Shades
 
 | Spring Shade | Color Character | Aesthetic Personality | Best Complementary Accent |
@@ -98,8 +96,6 @@ Explore our full [Best Nail Strengtheners & Treatments Guide](/blog/best-nail-st
 
 ---
 
----
-
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
@@ -131,7 +127,6 @@ Match your shade undertones to your skin complexion to achieve the most flatteri
 </div>
 
 </div>
-
 
 ## Frequently Asked Questions
 

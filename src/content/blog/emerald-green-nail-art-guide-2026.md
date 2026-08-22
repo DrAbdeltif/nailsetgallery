@@ -30,9 +30,6 @@ From rich gemstone emerald and velvety pine to translucent jade stone marbling a
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(139, 26, 74, 0.06) 0%, rgba(200, 90, 50, 0.08) 100%); border-left: 4px solid #8B1A4A; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #8B1A4A; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>🎨</span> <strong>Quick Summary: The 2026 Emerald Green Nail Art Guide for 2026 (Dark Green & Jade) Overview</strong>
@@ -43,6 +40,7 @@ From rich gemstone emerald and velvety pine to translucent jade stone marbling a
 </div>
 
 ---
+
 ## The 2026 Green Palette Breakdown: From Sage to Emerald
 
 | Green Shade | Color Character | Best Undertone Pairing | Aesthetic Vibe |
@@ -103,8 +101,6 @@ Delicate hand-painted olive branches and fern leaves in emerald and white gel ov
 
 ---
 
----
-
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
@@ -136,7 +132,6 @@ Match your shade undertones to your skin complexion to achieve the most flatteri
 </div>
 
 </div>
-
 
 ## Frequently Asked Questions
 

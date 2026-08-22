@@ -30,9 +30,6 @@ Whether you are seeking subtle minimalist accents for your corporate workplace o
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(27, 77, 62, 0.06) 0%, rgba(158, 27, 50, 0.08) 100%); border-left: 4px solid #1B4D3E; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #1B4D3E; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>🍂</span> <strong>Quick Summary: The 2026 Halloween 2026 Nail Art Ideas & Designs Overview</strong>
@@ -43,6 +40,7 @@ Whether you are seeking subtle minimalist accents for your corporate workplace o
 </div>
 
 ---
+
 ## 2026 Halloween Trend Matrix: The 4 Major Themes
 
 | Halloween Theme | Signature Art Elements | Dominant Palette | Best Shape & Length |
@@ -92,8 +90,6 @@ Halloween manicures often feature heavy 3D elements and dark pigments. Follow th
 
 ---
 
----
-
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
@@ -125,7 +121,6 @@ Match your shade undertones to your skin complexion to achieve the most flatteri
 </div>
 
 </div>
-
 
 ## Frequently Asked Questions
 

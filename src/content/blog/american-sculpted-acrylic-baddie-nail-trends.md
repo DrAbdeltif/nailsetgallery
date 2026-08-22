@@ -30,9 +30,6 @@ Far from simple flat polish, true sculpted acrylics require expert apex architec
 
 ---
 
-
----
-
 <div class="callout-box" style="background: linear-gradient(135deg, rgba(109, 40, 217, 0.06) 0%, rgba(219, 39, 119, 0.08) 100%); border-left: 4px solid #6D28D9; padding: clamp(14px, 3.5vw, 20px) clamp(16px, 4vw, 24px); border-radius: 8px; margin: 24px 0; max-width: 100%; box-sizing: border-box; word-break: break-word;">
 <h3 style="margin: 0 0 10px 0; color: #6D28D9; font-size: 1.15rem; display: flex; align-items: center; gap: 8px;">
   <span>💅</span> <strong>Quick Summary: The 2026 American Sculpted Acrylic & Baddie Nail Trends (2026 Guide) Overview</strong>
@@ -43,6 +40,7 @@ Far from simple flat polish, true sculpted acrylics require expert apex architec
 </div>
 
 ---
+
 ## Signature Baddie Nail Silhouettes: The Shape Breakdown
 
 | Shape Style | Visual Profile | Structural Requirement | Vibe & Aesthetic |
@@ -106,8 +104,6 @@ Wearing long acrylic extensions safely requires structural balance:
 
 ---
 
----
-
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
@@ -139,7 +135,6 @@ Match your shade undertones to your skin complexion to achieve the most flatteri
 </div>
 
 </div>
-
 
 ## Frequently Asked Questions
 
