@@ -1,5 +1,5 @@
 ---
-title: "First Date Nail Ideas 2026: Manicure Styles, Outfit Pairs & Dating Suggestions"
+title: "First Date Nail Ideas: Top Manicures & Dating Tips (2026)"
 description: "Make an unforgettable first impression. Explore 2026's top first date nail ideas, outfit coordination tips, date activity pairings, and expert advice."
 pubDate: 2026-08-22
 updatedDate: 2026-08-22

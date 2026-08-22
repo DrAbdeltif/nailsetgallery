@@ -1,5 +1,5 @@
 ---
-title: "Cute Back to School Nails: Top Girly Acrylic Ideas & Inspo for Teens (2026)"
+title: "Cute Back to School Nails: Girly Acrylic Inspo (2026)"
 description: "Fresh pencils, fresh nails! Explore the cutest back to school nail ideas, girly acrylic nails, and trendy nail inspo for teens to start the year in style."
 pubDate: 2026-08-22
 updatedDate: 2026-08-22

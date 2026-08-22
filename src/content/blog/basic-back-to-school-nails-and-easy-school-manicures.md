@@ -1,5 +1,5 @@
 ---
-title: "Basic Back to School Nails: Easy DIY Manicures & Everyday School Nail Inspo"
+title: "Basic Back to School Nails: Easy DIY Manicure Guide"
 description: "Fresh pencils, fresh nails! Discover effortless basic back to school nails, short natural manicures, and easy DIY nail inspo for teens heading to class."
 pubDate: 2026-08-22
 updatedDate: 2026-08-22
