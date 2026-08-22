@@ -1,5 +1,5 @@
 ---
-title: 'Minimalist Office & Work Nail Colors for 2026 (Professional Chic)'
+title: 'Minimalist Office & Work Nail Colors: Chic 2026 Ideas'
 description: "Discover 2026's top professional office nail colors and minimalist manicures: sheer nudes, soft taupe, muted blush, warm espresso, and corporate chic art."
 pubDate: 2026-07-13
 updatedDate: 2026-08-18

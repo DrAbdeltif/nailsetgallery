@@ -1,5 +1,5 @@
 ---
-title: 'Winter Holiday & Festive Nail Art Ideas for 2026 (Christmas & NYE)'
+title: 'Winter Holiday & Festive Nail Art Ideas for 2026 (NYE Inspo)'
 description: "Discover 2026's top winter holiday & festive nail art ideas: velvet emerald cat-eye, champagne French tips, 24k gold foil, and New Year's Eve glam."
 pubDate: 2026-08-18
 updatedDate: 2026-08-18

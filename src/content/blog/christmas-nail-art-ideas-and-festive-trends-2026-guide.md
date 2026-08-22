@@ -1,5 +1,5 @@
 ---
-title: 'Christmas Nails 2026: 35+ Festive Color Palettes, Nail Art Designs & Holiday Styling Guide'
+title: 'Christmas Nails 2026: 35+ Festive Ideas & Holiday Designs'
 description: 'Discover the ultimate 2026 Christmas nails guide featuring crimson velvet, gold French tips, 3D snowflake art, candy cane accents, and winter care routines.'
 pubDate: 2026-08-20
 updatedDate: 2026-08-20

@@ -1,5 +1,5 @@
 ---
-title: 'French Parisian Chic Manicure Trends for 2026 (Modern Classic)'
+title: 'French Parisian Chic Manicures 2026: Modern Classic Nails'
 description: "Discover 2026 French Parisian chic manicure trends: micro French tips, soft vanilla chrome, reverse half-moons, double smile lines, and baby boomer ombré."
 pubDate: 2026-07-21
 updatedDate: 2026-08-18

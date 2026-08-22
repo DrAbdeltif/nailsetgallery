@@ -1,5 +1,5 @@
 ---
-title: 'Cherry Red & Wine Nail Designs for 2026 (Black Cherry & Merlot)'
+title: 'Cherry Red & Wine Nail Designs 2026: Merlot & Black Cherry'
 description: "Discover 2026's top cherry red and wine nail designs: black cherry glass, rich Bordeaux, velvet merlot cat-eye, micro French tips, and styling rules."
 pubDate: 2026-08-11
 updatedDate: 2026-08-18

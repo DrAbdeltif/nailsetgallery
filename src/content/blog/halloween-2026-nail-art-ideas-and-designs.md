@@ -1,5 +1,5 @@
 ---
-title: 'Halloween 2026 Nail Art Ideas & Designs: The Master Trend Guide'
+title: 'Halloween 2026 Nail Art Ideas & Spooky Designs Master Guide'
 description: "The definitive guide to Halloween 2026 nail art: 3D chrome spiders, velvet cat-eye ghosts, blood drip stilettos, pastel pumpkins, and press-on hacks."
 pubDate: 2026-08-15
 updatedDate: 2026-08-18

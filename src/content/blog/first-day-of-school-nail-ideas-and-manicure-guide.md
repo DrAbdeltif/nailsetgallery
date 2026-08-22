@@ -1,5 +1,5 @@
 ---
-title: 'First Day of School Nail Ideas: Express Manicure Guide (2026)'
+title: 'First Day of School Nail Ideas: Cute Manicures for 2026'
 description: "Look photo-ready for your first day of school. Fast 15-minute express manicures, outfit coordination tips, and cute aesthetic nail art ideas."
 pubDate: 2026-08-16
 updatedDate: 2026-08-20

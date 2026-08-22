@@ -1,5 +1,5 @@
 ---
-title: 'How to Safely Remove Gel Nails at Home: 2026 Step-by-Step Guide'
+title: 'How to Safely Remove Gel Nails at Home: Step-by-Step Guide'
 description: "Learn how to remove gel nail polish safely at home in 15–20 minutes. Pure acetone foil wrap method, warm steam hacks, and natural nail protection."
 pubDate: 2026-07-14
 updatedDate: 2026-08-20

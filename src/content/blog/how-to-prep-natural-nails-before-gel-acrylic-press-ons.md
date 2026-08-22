@@ -1,6 +1,6 @@
 ---
-title: 'How to Prep Your Natural Nails Before Gel, Acrylic, or Press-Ons'
-description: "Learn the nail prep routine pros use before gel, acrylic, and press-on nails. Prevent lifting and pop-offs with this beginner-friendly, step-by-step guide."
+title: 'How to Prep Natural Nails for Gel, Acrylic & Press-Ons'
+description: "Master natural nail prep for gel, acrylic, and press-on nails. Learn cuticle work, nail dehydration, and buffing to prevent lifting and pop-offs."
 pubDate: 2026-08-20
 updatedDate: 2026-08-20
 author: "Elena Rostova"

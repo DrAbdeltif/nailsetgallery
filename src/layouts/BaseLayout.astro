@@ -38,10 +38,16 @@ const adsensePublisherId = googleAdsenseId || import.meta.env.PUBLIC_GOOGLE_ADSE
 
 const siteUrl = 'https://nailsetgallery.com';
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
-const brandSuffix = title.length <= 48 ? ' | NailSet Gallery' : ' | NSG';
-const fullTitle = title.includes('NailSet Gallery') || title.includes('NSG')
-  ? title
-  : `${title}${brandSuffix}`;
+
+// SEOptimer Title Tag Optimization (50–60 characters ideal length for Google SERP)
+let fullTitle = title.trim();
+if (!fullTitle.includes('NailSet Gallery') && !fullTitle.includes('NSG')) {
+  if (fullTitle.length <= 42) {
+    fullTitle = `${fullTitle} | NailSet Gallery`;
+  } else if (fullTitle.length <= 53) {
+    fullTitle = `${fullTitle} | NSG`;
+  }
+}
 
 ---
 
@@ -53,6 +59,16 @@ const fullTitle = title.includes('NailSet Gallery') || title.includes('NSG')
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light" />
     <meta name="theme-color" content="#8B1A4A" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5HLNRJJG8V"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5HLNRJJG8V');
+    </script>
 
     <!-- Primary Meta & Search Engine Directives -->
     <title>{fullTitle}</title>

@@ -1,5 +1,5 @@
 ---
-title: 'Summer Nail Ideas for 2026: The Ultimate Vacation & Festival Guide'
+title: 'Summer Nail Ideas 2026: Vacation & Festival Manicure Guide'
 description: "Discover 2026's hottest summer nail ideas: juicy fruit jelly, sunset aura gradients, glazed apricot chrome, cobalt blue French, and beach-proof tips."
 pubDate: 2026-08-01
 updatedDate: 2026-08-18

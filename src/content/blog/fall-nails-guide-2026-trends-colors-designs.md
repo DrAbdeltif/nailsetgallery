@@ -1,5 +1,5 @@
 ---
-title: 'Fall Nails 2026: 35+ Trendsetting Autumn Color Palettes, Designs & Styling Guide'
+title: 'Fall Nails 2026: 35+ Autumn Color Palettes & Trendy Designs'
 description: 'Explore the ultimate 2026 fall nails guide featuring rich autumn color palettes, tortoiseshell accents, velvet cat-eye, micro French tips, and styling tips.'
 pubDate: 2026-08-20
 updatedDate: 2026-08-20
