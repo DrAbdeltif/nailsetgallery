@@ -30,24 +30,24 @@ Whether you have strict high school dress codes, play school sports, or simply l
 
 | Everyday School Need | Best Nail Technique | Color Choice | Maintenance Level |
 | :--- | :--- | :--- | :--- |
-| **Fast Typing & Coding Classes** | Short Squoval Natural Base | Sheer Soap Pink | Ultra-low (No snagging) |
-| **Chemistry & Science Labs** | Gel Overlay on Short Nails | Milky Nude / Soft Beige | High resistance to alcohol/water |
-| **Sports, PE & Cheer** | Sport Length Round Nails | Clear Gloss / Nude Sheer | Maximum durability & safety |
-| **Study Hall & Library Days** | Micro-French Tip Guides | Crisp White / Cream Tip | Classic salon look in 15 min |
+| Fast Typing & Coding Classes | Short Squoval Natural Base | Sheer Soap Pink | Ultra-low (No snagging) |
+| Chemistry & Science Labs | Gel Overlay on Short Nails | Milky Nude / Soft Beige | High resistance to alcohol/water |
+| Sports, PE & Cheer | Sport Length Round Nails | Clear Gloss / Nude Sheer | Maximum durability & safety |
+| Study Hall & Library Days | Micro-French Tip Guides | Crisp White / Cream Tip | Classic salon look in 15 min |
 
 ---
 
 ## 1. The Clean Girl Soap Manicure: Natural Short Nails for School
 
-When you need **basic back to school nails** that go with literally every single outfit in your closet, the sheer soap manicure is undefeated. High-gloss translucent pink applied over short, neatly filed natural nails provides a clean, healthy glow.
+When you need everyday school manicures that go with literally every single outfit in your closet, the sheer soap manicure is undefeated. High-gloss translucent pink applied over short, neatly filed natural nails provides a clean, healthy glow.
 
 ![Basic back to school nails on short natural nails holding pencil](/images/b2s-basic-clean-natural-hero.jpg)
 
 ### Why It Works for Busy Students
 
-- **Zero Snags:** Short, rounded edges never catch on textbook corners, binder rings, or backpack pockets.
-- **Fast 10-Minute Application:** Apply two coats of sheer milky pink and a quick-dry top coat the night before school.
-- **Dress Code Compliant:** Perfectly aligned with even the strictest private school and athletic grooming standards.
+- *Zero Snags:* Short, rounded edges never catch on textbook corners, binder rings, or backpack pockets.
+- *Fast 10-Minute Application:* Apply two coats of sheer milky pink and a quick-dry top coat the night before school.
+- *Dress Code Compliant:* Perfectly aligned with even the strictest private school and athletic grooming standards.
 
 ---
 
@@ -59,10 +59,10 @@ If you want a classic French manicure that won't get in the way of typing essays
 
 ### How to Achieve Perfect Micro-Lines at Home
 
-1. **File into Squoval:** Square off the top edge, then gently round off the two sharp corners.
-2. **Apply Neutral Base Coat:** Use a sheer beige or blush nude base.
-3. **Silicone Stamper Trick:** Paint a thin line of white polish onto a silicone nail stamper, then press your nail tip gently into the edge at a 45-degree angle.
-4. **Top Coat:** Seal with two layers of glossy top coat for salon-quality smoothness.
+1. *File into Squoval:* Square off the top edge, then gently round off the two sharp corners.
+2. *Apply Neutral Base Coat:* Use a sheer beige or blush nude base.
+3. *Silicone Stamper Trick:* Paint a thin line of white polish onto a silicone nail stamper, then press your nail tip gently into the edge at a 45-degree angle.
+4. *Top Coat:* Seal with two layers of glossy top coat for salon-quality smoothness.
 
 ---
 
@@ -74,9 +74,9 @@ Rushing out the door on Monday morning requires **nails back to school** that lo
 
 ### Key Benefits of Nude Polish for School
 
-- **Invisible Regrowth:** As your natural nails grow throughout the term, sheer nudes show virtually zero demarcation line.
-- **Flattering Across All Skin Tones:** Warm peach nudes complement golden undertones, while cool rose nudes brighten fair complexion.
-- **Locker-Ready Durability:** Pairs effortlessly with backpacks, pencil pouches, and everyday school routines.
+- *Invisible Regrowth:* As your natural nails grow throughout the term, sheer nudes show virtually zero demarcation line.
+- *Flattering Across All Skin Tones:* Warm peach nudes complement golden undertones, while cool rose nudes brighten fair complexion.
+- *Locker-Ready Durability:* Pairs effortlessly with backpacks, pencil pouches, and everyday school routines.
 
 ---
 
@@ -88,9 +88,9 @@ Between studying for biology tests and extracurricular clubs, finding 2 hours fo
 
 ### Quick Press-On Application Routine
 
-- **Clean with Alcohol:** Wipe nail surfaces with an alcohol pad to remove natural oils for maximum adhesive grip.
-- **Size Each Finger:** Select the correct tab and nail size before applying glue.
-- **Press & Hold for 30 Seconds:** Press firmly from cuticle to tip to eliminate air bubbles and ensure a secure, week-long hold.
+- *Clean with Alcohol:* Wipe nail surfaces with an alcohol pad to remove natural oils for maximum adhesive grip.
+- *Size Each Finger:* Select the correct tab and nail size before applying glue.
+- *Press & Hold for 30 Seconds:* Press firmly from cuticle to tip to eliminate air bubbles and ensure a secure, week-long hold.
 
 ---
 
