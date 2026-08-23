@@ -58,7 +58,50 @@ export const POST: APIRoute = async ({ request }) => {
       );
     }
 
-    // Optional webhook forwarding to Email Service Provider or Google Sheets Webhook
+    // ── Brevo (Sendinblue) API Integration ──
+    const brevoApiKey = import.meta.env.BREVO_API_KEY || process.env.BREVO_API_KEY;
+    const brevoListId = Number(import.meta.env.BREVO_LIST_ID || process.env.BREVO_LIST_ID) || undefined;
+
+    if (brevoApiKey) {
+      try {
+        const brevoPayload: Record<string, any> = {
+          email,
+          updateEnabled: true,
+        };
+
+        if (brevoListId && !isNaN(brevoListId)) {
+          brevoPayload.listIds = [brevoListId];
+        }
+
+        let brevoRes = await fetch('https://api.brevo.com/v3/contacts', {
+          method: 'POST',
+          headers: {
+            'api-key': brevoApiKey,
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+          },
+          body: JSON.stringify(brevoPayload),
+        });
+
+        // If Brevo returns an error, try without attributes (if any were passed) or log detailed diagnosis
+        if (!brevoRes.ok && brevoRes.status !== 204) {
+          const errData = await brevoRes.json().catch(() => ({}));
+          console.error('Brevo API subscription error details:', {
+            status: brevoRes.status,
+            statusText: brevoRes.statusText,
+            error: errData,
+          });
+        } else {
+          console.log(`[Brevo] Successfully added/updated contact: ${email}`);
+        }
+      } catch (brevoErr) {
+        console.error('Brevo dispatch exception:', brevoErr);
+      }
+    } else {
+      console.warn('[Brevo] No BREVO_API_KEY found in environment variables.');
+    }
+
+    // ── Generic Webhook Fallback ──
     const webhookUrl = import.meta.env.NEWSLETTER_WEBHOOK_URL || process.env.NEWSLETTER_WEBHOOK_URL;
     if (webhookUrl) {
       try {
