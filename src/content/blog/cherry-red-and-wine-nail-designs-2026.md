@@ -95,6 +95,23 @@ Translucent cherry syrup gel concentrated in the center of a sheer milky base, b
 
 ---
 
+## The Anatomy of Deep Cherry & Bordeaux Manicures
+
+Deep cherry, merlot, and blackberry wine represent the pinnacle of timeless luxury. Formulated with deep red pigments and subtle black undertones, wine shades deliver high-impact contrast that flatters both fair porcelain and deep rich skin tones.
+
+### 4 Editorial Ways to Style Cherry Wine Nails
+
+1. **The Glassy 'Black Cherry' Syrup:** Apply two sheer coats of deep cherry jelly lacquer under a plumping top coat to create the wet, glossy appearance of fresh cherries.
+2. **Velvet Magnetic Bordeaux:** Utilize a magnetic cat-eye wand diagonally across a deep wine gel base to generate shimmering crimson light ribbons.
+3. **Minimalist Micro-Wine French:** Trace an ultra-thin 1mm deep wine smile line over a milky translucent nude base for understated office elegance.
+4. **Negative Space Accents:** Combine clean geometric cutouts with rich bordeaux polish for a modern architectural aesthetic.
+
+### Stain Prevention & Removal Protocol
+
+Because cherry red pigments are intensely concentrated, always apply a high-grade ridge-filling base coat to prevent keratin staining. When removing, saturate a lint-free cotton pad with acetone and press firmly on the nail for 10 seconds before wiping downward in one clean stroke.
+
+---
+
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:

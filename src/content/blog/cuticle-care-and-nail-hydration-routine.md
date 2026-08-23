@@ -101,6 +101,24 @@ Step 1: Apply Cuticle Softener ➔ Step 2: Push with Angle Tool ➔ Step 3: Wipe
 
 ---
 
+## The Science of the Eponychium: Cuticle Health vs. Cosmetic Trimming
+
+The living skin surrounding your nail plate—the *eponychium* and proximal nail fold—acts as the primary waterproof barrier protecting your nail matrix from bacterial infections. Trimming living skin with nippers causes jagged regrowth and inflammation.
+
+### The 4-Step Clinical Cuticle Revival Protocol
+
+1. **Daily Lipid Replacement (Jojoba Oil):** Jojoba oil molecules closely mimic human sebum, penetrating deep into keratin layers to restore nail elasticity.
+2. **Chemical Exfoliation over Cutting:** Use an AHA or potassium hydroxide cuticle remover once weekly to dissolve dead skin cells without mechanical cutting.
+3. **Gentle Dry Pushing:** Use a sterilized stainless steel pusher at a 30-degree angle to glide softened dead pterygium tissue off the nail plate.
+4. **Nighttime Occlusive Sealing:** Apply a rich balm containing shea butter, squalane, or panthenol before bed to lock in moisture overnight.
+
+### Common Cuticle Mistakes to Avoid
+
+- **Never cut living skin folds:** Cutting living skin triggers the body's defense mechanism, causing cuticles to grow back thicker and harder.
+- **Avoid hot water soaking before gel application:** Water expands keratin plates; applying gel over soaked nails causes severe lifting once the nail shrinks back to normal dry size.
+
+---
+
 ## Frequently Asked Questions
 
 ### What should I do with a painful hangnail?

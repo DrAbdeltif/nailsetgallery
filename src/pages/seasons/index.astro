@@ -79,6 +79,70 @@ const seasons = [
         </div>
       )}
     </section>
+
+    <!-- Comprehensive Seasonal Transition Guide -->
+    <section class="season-editorial-guide reveal-fade" aria-label="Seasonal nail calendar and trend guide">
+      <div class="section-divider"></div>
+      <div class="editorial-content-box">
+        <h2 class="editorial-heading text-display">The Seasonal Manicure Calendar: Navigating Trends Year-Round</h2>
+        <p class="editorial-lead">
+          Seasonal manicures are more than aesthetic novelty—they reflect the natural rhythm of daylight, fashion outerwear shifts, and social occasions. Discover how to plan your nail appointments, transition colors smoothly between seasons, and maintain peak keratin hydration through winter dry air and summer humidity.
+        </p>
+
+        <div class="editorial-grid">
+          <div class="editorial-card">
+            <h3>🌸 Spring: Awakening Botanical & Syrup Pastels</h3>
+            <p>
+              As daylight lengthens, heavy winter pigments give way to translucent Korean syrup gels, airy matcha greens, soft butter yellows, and delicate 3D cherry blossom florals. Spring nail care emphasizes post-winter cuticle exfoliation, ridge hydration, and sheer soap base coats.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>☀️ Summer: Prismatic Chromes & Poolside Longevity</h3>
+            <p>
+              Summer demands high-vibrancy corals, poolside turquoise, glazed donut pearl finishes, and chlorine-resistant top coats. Shorter natural shapes and builder gel overlays prevent water-induced peeling during beach vacations, boat trips, and outdoor activities.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>🍂 Autumn: Moody Earth Tones & Cozy Textures</h3>
+            <p>
+              Autumn invites tactile depth: spiced pumpkin amber, burnt terracotta, tortoise shell glass art, and rich espresso mocha. Matte finishes paired with glossy French smiles recreate the cozy aesthetic of cashmere sweaters and fall boots.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>❄️ Winter: Jewel Opulence & Magnetic Velvet</h3>
+            <p>
+              Holiday festivities call for dramatic deep wine burgundy, forest emerald green, 24k gold leaf foil, and holographic magnetic cat-eye finishes. Winter nail routines require heavy lipid-based cuticle balms to counter cold outdoor winds and indoor central heating.
+            </p>
+          </div>
+        </div>
+
+        <!-- Season FAQs -->
+        <div class="category-faqs">
+          <h3 class="faq-title text-display">Frequently Asked Questions: Seasonal Nail Trends</h3>
+          
+          <div class="faq-item">
+            <h4>How do I smoothly transition my nails between summer and fall?</h4>
+            <p>
+              Late summer to early fall is ideal for warm neutral transitions—such as olive green micro-French tips, caramel latte glaze, or muted terracotta syrup. These shades pair effortlessly with late summer linen as well as autumn knitwear.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h4>Why do gel nails lift faster in cold winter weather?</h4>
+            <p>
+              Winter cold contracts natural keratin plates while dry indoor heating siphons moisture from cuticles, causing the natural nail to flex away from rigid gel overlays. Applying daily jojoba oil preserves nail flexibility and eliminates seasonal lifting.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h4>What is the most popular holiday nail trend for 2026?</h4>
+            <p>
+              Dark cherry wine glazed with chrome shimmer, 3D pearl drops on nude bases, and magnetic velvet emerald are the leading holiday nail art styles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <Footer />
@@ -102,6 +166,26 @@ const seasons = [
   .empty-state { text-align: center; padding: var(--space-2xl) 0; color: var(--color-text-muted); display: flex; flex-direction: column; align-items: center; gap: var(--space-md); }
   .btn-outline { display: inline-flex; align-items: center; padding: 12px var(--space-lg); border: 1.5px solid var(--color-rose); color: var(--color-rose); border-radius: var(--radius-full); font-size: var(--text-xs); font-weight: 500; text-transform: uppercase; text-decoration: none; min-height: 48px; }
 
-  @media (max-width: 1024px) { .seasons-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 767px) { .page-main { padding-top: var(--space-xl); padding-bottom: calc(var(--space-2xl) + 70px); } .container { padding: 0 var(--space-md); } .seasons-grid { grid-template-columns: 1fr; } }
+  /* Editorial Guide & FAQs */
+  .season-editorial-guide { margin-top: var(--space-2xl); }
+  .editorial-content-box { max-width: 960px; margin: 0 auto; display: flex; flex-direction: column; gap: var(--space-xl); }
+  .editorial-heading { font-family: var(--font-display); font-size: var(--text-3xl); font-style: italic; color: var(--color-text); line-height: 1.25; }
+  .editorial-lead { font-size: var(--text-base); color: var(--color-text-muted); line-height: 1.7; }
+  .editorial-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); }
+  .editorial-card { background: var(--color-bg-card); border: 1px solid var(--color-border-soft); border-radius: var(--radius-md); padding: var(--space-lg); display: flex; flex-direction: column; gap: var(--space-xs); }
+  .editorial-card h3 { font-family: var(--font-display); font-size: var(--text-xl); font-style: italic; color: var(--color-text); margin: 0; }
+  .editorial-card p { font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6; margin: 0; }
+  .category-faqs { margin-top: var(--space-xl); display: flex; flex-direction: column; gap: var(--space-md); }
+  .faq-title { font-family: var(--font-display); font-size: var(--text-2xl); font-style: italic; color: var(--color-rose); }
+  .faq-item { background: var(--color-bg-card); border: 1px solid var(--color-border-soft); border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); }
+  .faq-item h4 { font-family: var(--font-body); font-size: var(--text-base); font-weight: 600; color: var(--color-text); margin: 0 0 6px 0; }
+  .faq-item p { font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6; margin: 0; }
+
+  @media (max-width: 1024px) { .seasons-grid { grid-template-columns: repeat(2, 1fr); } .editorial-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 767px) {
+    .page-main { padding-top: calc(54px + var(--space-lg)); padding-bottom: calc(var(--space-2xl) + 70px); }
+    .container { padding: 0 var(--space-md); }
+    .seasons-grid { grid-template-columns: 1fr; }
+    .editorial-heading { font-size: var(--text-2xl); }
+  }
 </style>

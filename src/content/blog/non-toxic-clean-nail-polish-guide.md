@@ -96,6 +96,22 @@ During pregnancy, hormonal changes can make skin and nail beds more sensitive to
 
 ---
 
+## Understanding Non-Toxic Formulations: From 5-Free to 21-Free
+
+The clean beauty revolution has transformed nail lacquers, eliminating volatile chemicals like formaldehyde, toluene, and dibutyl phthalate (DBP) in favor of bio-sourced solvents derived from sugarcane, cotton, and corn.
+
+### The Chemical Spectrum: What 'Free' Labels Mean
+
+- **5-Free:** Excludes the core toxic trio plus formaldehyde resin and camphor.
+- **10-Free:** Excludes toluene, DBP, formaldehyde, formaldehyde resin, camphor, TPHP, parabens, xylene, phthalates, and fragrances.
+- **21-Free:** Maximum purity, excluding animal byproducts, gluten, nanoparticles, and synthetic preservatives.
+
+### Best Practices for Long-Lasting Clean Manicures
+
+Non-toxic polishes require clean, oil-free nail plates for optimal adhesion. Always dehydrate with alcohol before applying a specialized clean base coat, and finish with a bio-sourced top coat to achieve 7–10 days of chip-free wear.
+
+---
+
 ## Frequently Asked Questions
 
 ### Does non-toxic nail polish chip faster than traditional polish?

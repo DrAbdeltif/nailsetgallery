@@ -91,6 +91,25 @@ Milky rose soap base buffed with a translucent pearl aurora chrome powder. Follo
 
 ---
 
+## Soap Nails vs. Jelly Nails: Understanding the Textural Differences
+
+While both soap nails and jelly nails celebrate translucency, they achieve distinct aesthetic effects:
+
+- **Soap Nails:** Emphasize high-gloss, milky translucency that mimics bubbly soap suds and clean bathwater. They are understated, subtle, and natural.
+- **Jelly Nails:** Emphasize vibrant, see-through candy hues (like tinted stained glass) that pop with colorful saturation while remaining 100% transparent.
+
+### How to Style Jelly & Soap Nails
+
+1. **The Pink Jelly Pop:** A translucent raspberry tint that looks like stained glass in the sun.
+2. **The Milky Soap Glaze:** A sheer porcelain wash topped with extra-thick self-leveling builder gel.
+3. **Syrup Ombre:** Layering multiple passes of syrup gel on the tip to create a natural watercolor gradient.
+
+### Longevity Protocol for Sheer Manicures
+
+Because sheer polishes reveal the underlying natural nail, immaculate preparation is essential. Clean cuticles thoroughly and buff away surface ridges to create a glass-like canvas.
+
+---
+
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:

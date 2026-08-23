@@ -125,6 +125,24 @@ Do not soak off your builder gel every month! Instead, perform an infill:
 
 ---
 
+## The BIAB (Builder in a Bottle) Revolution: Strengthening Natural Nails
+
+Builder gel overlays provide a flexible, durable reinforcement layer that shields natural nails from bending, breaking, and peeling. Unlike rigid acrylics, builder gel flexes with the natural nail, promoting months of healthy growth.
+
+### Complete 5-Step BIAB Application Protocol
+
+1. **Dry Prep & Dehydration:** Push cuticles back, gently remove shine with a 240-grit buffer, and wipe clean with 99% alcohol.
+2. **Slip Layer Application:** Apply a thin, uncured layer of builder gel over the entire nail to act as a glide track for the bead.
+3. **The Self-Leveling Bead:** Place a medium bead of builder gel near the cuticle, glide it gently down the center toward the tip, and float the brush without pressing down.
+4. **Flip the Hand for Apex Alignment:** Turn the hand palm-up for 5–10 seconds to let gravity pull the gel into a smooth, natural apex arch.
+5. **Full 60-Second Cure:** Cure thoroughly in a 48W LED lamp, wipe the sticky inhibition layer, and file any uneven edges.
+
+### BIAB Maintenance & Infill Routine
+
+Infill your builder gel every 2–3 weeks rather than soaking off completely each time. Gently buff down the outgrowth line and apply fresh builder gel at the cuticle to keep natural nails thick and undamaged.
+
+---
+
 ## Frequently Asked Questions
 
 ### Can I do builder gel on short, bitten nails?

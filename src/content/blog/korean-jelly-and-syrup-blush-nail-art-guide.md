@@ -87,6 +87,23 @@ Translucent caramel-honey syrup blended with organic floating flakes of 24k gold
 
 ---
 
+## The Korean Glass & Syrup Nail Craze: Translucent Watercolor Beauty
+
+Korean nail art is celebrated globally for its sheer, multi-layered translucency and ethereal glass finishes. Syrup gels differ from opaque western lacquers by offering watery, buildable pigmentation that creates mesmerizing depth.
+
+### Signature Korean Nail Art Techniques
+
+1. **The Peach Blush Manicure:** Dabbing pink or coral syrup gel in the center of the nail and diffusing the edges outward with a sponge brush to create a natural flushed look.
+2. **Aurora Ice Nails:** Layering iridescent transfer film between clear syrup gel coats to reflect holographic rainbow flashes like frozen ice.
+3. **3D Water Drop Accents:** Squeezing clear non-wipe hard gel into organic dewdrop shapes that catch ambient light.
+4. **Syrup Syrup Gradient:** Blending three complementary syrup pastels across the nail plate for a smooth watercolor transition.
+
+### How to Achieve the Syrup Look with Regular Polish
+
+Mix three drops of clear high-gloss top coat with one drop of your favorite pigmented creme polish on a palette to create custom DIY syrup lacquer at home.
+
+---
+
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:

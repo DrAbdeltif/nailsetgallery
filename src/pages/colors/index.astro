@@ -86,6 +86,70 @@ const colorPalettes = [
         </div>
       )}
     </section>
+
+    <!-- Comprehensive Color Theory & Editorial Guide -->
+    <section class="color-editorial-guide reveal-fade" aria-label="Color theory and manicure guide">
+      <div class="section-divider"></div>
+      <div class="editorial-content-box">
+        <h2 class="editorial-heading text-display">Mastering Nail Color Harmony: The 2026 Shade Selection Blueprint</h2>
+        <p class="editorial-lead">
+          Choosing the perfect nail polish shade is an art form that merges color psychology, skin undertone science, and aesthetic personal styling. While viral social media trends champion fleeting micro-shades every week, building a versatile manicure wardrobe relies on understanding how light interacts with pigment on your unique nail plate.
+        </p>
+
+        <div class="editorial-grid">
+          <div class="editorial-card">
+            <h3>🎨 1. Undertone Chemistry & Color Vibrancy</h3>
+            <p>
+              Your skin undertone (cool, warm, olive, or neutral) establishes the baseline contrast for any lacquer. Cool undertones with blue or pink subsurface veins flourish alongside crisp berry reds, iced mauves, lavender, and slate blue. Warm golden complexions radiate against rich terracotta, pumpkin spice, amber syrup, and creamy peach. Olive undertones, known for subtle greenish neutral tints, achieve editorial harmony with moss green, antique bronze, and plum noir.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>✨ 2. The Impact of Lacquer Finishes</h3>
+            <p>
+              The same base pigment produces completely different aesthetic results depending on its formulation finish. High-pigment cremes deliver opaque modern graphic lines, while translucent syrup and jelly polishes create soft, luminous dimensional depth. Micro-milled glazed chrome powders reflect prismatic sunlight, and magnetic cat-eye particles create dynamic velvet 3D light ribbons across the nail bed.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>🌿 3. Seasonal Color Cycles & Capsule Wardrobes</h3>
+            <p>
+              Transitioning your manicure colors across seasons maintains year-round freshness. Spring welcomes airy pastels and butter yellow; summer embraces electric corals and ocean aquamarines; autumn commands burnt orange, espresso brown, and tortoiseshell; and winter demands deep wine burgundy, forest emerald, and champagne metallics.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>💅 4. Color Longevity & Stain Prevention</h3>
+            <p>
+              Highly saturated dark lacquers—such as cherry noir, navy, and emerald—contain strong pigment loads that can stain bare keratin. Always apply a specialized non-staining base coat, and finish with a UV-filtering top coat to prevent sunlight-induced yellowing and color fading over extended two-to-three week wear.
+            </p>
+          </div>
+        </div>
+
+        <!-- Color FAQs -->
+        <div class="category-faqs">
+          <h3 class="faq-title text-display">Frequently Asked Questions: Nail Colors</h3>
+          
+          <div class="faq-item">
+            <h4>What nail color makes hands look younger and brighter?</h4>
+            <p>
+              Translucent neutral pinks, milky peach tones, and soft coral cremes reflect natural ambient light across the skin, minimizing the appearance of fine lines and veins. High-gloss glazed finishes also provide a luminous, refreshed glow.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h4>Which nail polish colors are best for short natural nails?</h4>
+            <p>
+              Dark dramatic shades (like deep burgundy, espresso, and forest green) look exceptionally chic and intentional on short square or squoval shapes. Alternatively, sheer soap nails and micro-French lines accentuate natural nail health without visually shortening the fingers.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h4>How do I prevent dark nail polish from staining my nail plate?</h4>
+            <p>
+              Always prep with a quality ridge-filling base coat or two thin layers of clear base. When removing dark polish, hold a saturated acetone pad over the nail for 10 seconds before wiping outward in a single stroke to avoid spreading pigment across cuticles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <Footer />
@@ -129,10 +193,26 @@ const colorPalettes = [
     display: inline-flex; align-items: center; padding: 12px var(--space-lg); border: 1.5px solid var(--color-rose); color: var(--color-rose); border-radius: var(--radius-full); font-size: var(--text-xs); font-weight: 500; text-transform: uppercase; text-decoration: none; min-height: 48px;
   }
 
-  @media (max-width: 1024px) { .swatches-grid { grid-template-columns: repeat(2, 1fr); } }
+  /* Editorial Guide & FAQs */
+  .color-editorial-guide { margin-top: var(--space-2xl); }
+  .editorial-content-box { max-width: 960px; margin: 0 auto; display: flex; flex-direction: column; gap: var(--space-xl); }
+  .editorial-heading { font-family: var(--font-display); font-size: var(--text-3xl); font-style: italic; color: var(--color-text); line-height: 1.25; }
+  .editorial-lead { font-size: var(--text-base); color: var(--color-text-muted); line-height: 1.7; }
+  .editorial-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); }
+  .editorial-card { background: var(--color-bg-card); border: 1px solid var(--color-border-soft); border-radius: var(--radius-md); padding: var(--space-lg); display: flex; flex-direction: column; gap: var(--space-xs); }
+  .editorial-card h3 { font-family: var(--font-display); font-size: var(--text-xl); font-style: italic; color: var(--color-text); margin: 0; }
+  .editorial-card p { font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6; margin: 0; }
+  .category-faqs { margin-top: var(--space-xl); display: flex; flex-direction: column; gap: var(--space-md); }
+  .faq-title { font-family: var(--font-display); font-size: var(--text-2xl); font-style: italic; color: var(--color-rose); }
+  .faq-item { background: var(--color-bg-card); border: 1px solid var(--color-border-soft); border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); }
+  .faq-item h4 { font-family: var(--font-body); font-size: var(--text-base); font-weight: 600; color: var(--color-text); margin: 0 0 6px 0; }
+  .faq-item p { font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6; margin: 0; }
+
+  @media (max-width: 1024px) { .swatches-grid { grid-template-columns: repeat(2, 1fr); } .editorial-grid { grid-template-columns: 1fr; } }
   @media (max-width: 767px) {
     .page-main { padding-top: calc(54px + var(--space-lg)); padding-bottom: calc(var(--space-2xl) + 70px); }
     .container { padding: 0 var(--space-md); }
     .swatches-grid { grid-template-columns: 1fr; }
+    .editorial-heading { font-size: var(--text-2xl); }
   }
 </style>

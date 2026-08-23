@@ -82,6 +82,23 @@ A velvety soft-touch matte nude nail bed paired with a high-gloss clear French t
 
 ---
 
+## The 'Quiet Luxury' Manicure: Finding Your Perfect Bespoke Nude
+
+The quiet luxury aesthetic is defined by tailored simplicity, immaculate execution, and customized color matching. The perfect nude manicure should enhance your natural skin tone rather than washing it out.
+
+### Undertone-Specific Nude Matching Rules
+
+1. **Cool Undertones:** Opt for sheer blush pinks, milky mauves, and soft oyster nudes with blue-pink undertones.
+2. **Warm Undertones:** Look for creamy peach, warm beige, honey almond, and light caramel syrup shades.
+3. **Olive Undertones:** Choose neutral taupes, creamy oat milk, and subtle sand tones that balance green undertones.
+4. **Deep Undertones:** Embrace rich cocoa, sheer espresso, warm cinnamon, and creamy toffee lacquers.
+
+### Salon Consultation Tip for Quiet Luxury Nails
+
+When visiting your nail technician, ask for a 'semi-sheer custom blend' by layering a milky white base beneath a sheer pink glaze to achieve a bespoke neutral tone tailored to your hands.
+
+---
+
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:

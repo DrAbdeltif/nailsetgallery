@@ -79,6 +79,70 @@ const shapes = [
         </div>
       )}
     </section>
+
+    <!-- Comprehensive Nail Architecture & Styling Blueprint -->
+    <section class="style-editorial-guide reveal-fade" aria-label="Nail styling and architecture guide">
+      <div class="section-divider"></div>
+      <div class="editorial-content-box">
+        <h2 class="editorial-heading text-display">Nail Architecture & Structural Anatomy: The 2026 Style Playbook</h2>
+        <p class="editorial-lead">
+          The foundation of every breathtaking manicure begins with structural geometry. Finding the right nail shape transforms hand proportions, accentuates finger length, and provides the required structural support for your daily lifestyle—whether you are typing on keyboards all day or creating high-fashion runway sets.
+        </p>
+
+        <div class="editorial-grid">
+          <div class="editorial-card">
+            <h3>💎 1. Geometric Silhouette Matching</h3>
+            <p>
+              Nail shapes interact with hand anatomy differently. Tapered silhouettes—such as almond, stiletto, and ballerina coffin—draw the eye lengthwise, creating the optical illusion of slender, elongated fingers. Parallel geometric shapes—like classic square and rounded squoval—reinforce lateral sidewalls, providing superior resistance against daily chipping and snagging.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>🔬 2. Enhancement Systems (Gel-X vs BIAB vs Acrylic vs Press-Ons)</h3>
+            <p>
+              The structural medium determines longevity and nail health. Builder in a Bottle (BIAB) strengthens natural keratin plates without artificial tips. Soft gel extensions (Gel-X) offer lightweight, pre-sculpted apex architecture soaked off cleanly in acetone. Traditional sculpted acrylics provide unmatched structural strength for dramatic lengths, while luxury press-on kits offer damage-free reusable flexibility for quick 10-minute transformations.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>⚖️ 3. The Apex Principle & Stress Area Balance</h3>
+            <p>
+              On medium to long nails, correct structural balance is critical. The "apex"—the thickest reinforcement point positioned over the middle third of the nail bed—absorbs mechanical shocks and prevents painful breaks. Nails sculpted without a proper apex are prone to snapping at the stress line during simple daily tasks.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>🌿 4. Natural Keratin Integrity & Safe Transitions</h3>
+            <p>
+              Rotating between extensions and natural nail recovery routines prevents long-term nail thinning. When removing gel or acrylic enhancements, avoid aggressive scraping or peeling. Gentle acetone soaks paired with deep keratin restoration oils ensure your natural nail bed stays thick, firm, and healthy between sets.
+            </p>
+          </div>
+        </div>
+
+        <!-- Style FAQs -->
+        <div class="category-faqs">
+          <h3 class="faq-title text-display">Frequently Asked Questions: Nail Shapes & Styles</h3>
+          
+          <div class="faq-item">
+            <h4>What is the strongest and most durable nail shape for weak natural nails?</h4>
+            <p>
+              Short squoval (soft square with rounded corners) and short oval are the most durable shapes. They eliminate sharp corners that catch on clothing and distribute mechanical pressure evenly across the entire nail plate.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h4>What is the difference between coffin nails and ballerina nails?</h4>
+            <p>
+              While often used interchangeably, ballerina nails taper gently inward with curved sidewalls before squaring off at the tip (resembling a ballerina pointe shoe), whereas coffin nails feature sharp, straight, crisp tapered edges before ending in a flat, blunt tip.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h4>Can I transition from acrylics to natural nails without severe damage?</h4>
+            <p>
+              Yes. Soak off acrylics completely in pure acetone rather than peeling or ripping them off. After removal, apply a BIAB builder gel overlay or a high-potency keratin strengthener to support the natural nail plate as fresh healthy keratin grows out.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <Footer />
@@ -102,6 +166,26 @@ const shapes = [
   .empty-state { text-align: center; padding: var(--space-2xl) 0; color: var(--color-text-muted); display: flex; flex-direction: column; align-items: center; gap: var(--space-md); }
   .btn-outline { display: inline-flex; align-items: center; padding: 12px var(--space-lg); border: 1.5px solid var(--color-rose); color: var(--color-rose); border-radius: var(--radius-full); font-size: var(--text-xs); font-weight: 500; text-transform: uppercase; text-decoration: none; min-height: 48px; }
 
-  @media (max-width: 1024px) { .shapes-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 767px) { .page-main { padding-top: var(--space-xl); padding-bottom: calc(var(--space-2xl) + 70px); } .container { padding: 0 var(--space-md); } .shapes-grid { grid-template-columns: 1fr; } }
+  /* Editorial Guide & FAQs */
+  .style-editorial-guide { margin-top: var(--space-2xl); }
+  .editorial-content-box { max-width: 960px; margin: 0 auto; display: flex; flex-direction: column; gap: var(--space-xl); }
+  .editorial-heading { font-family: var(--font-display); font-size: var(--text-3xl); font-style: italic; color: var(--color-text); line-height: 1.25; }
+  .editorial-lead { font-size: var(--text-base); color: var(--color-text-muted); line-height: 1.7; }
+  .editorial-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); }
+  .editorial-card { background: var(--color-bg-card); border: 1px solid var(--color-border-soft); border-radius: var(--radius-md); padding: var(--space-lg); display: flex; flex-direction: column; gap: var(--space-xs); }
+  .editorial-card h3 { font-family: var(--font-display); font-size: var(--text-xl); font-style: italic; color: var(--color-text); margin: 0; }
+  .editorial-card p { font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6; margin: 0; }
+  .category-faqs { margin-top: var(--space-xl); display: flex; flex-direction: column; gap: var(--space-md); }
+  .faq-title { font-family: var(--font-display); font-size: var(--text-2xl); font-style: italic; color: var(--color-rose); }
+  .faq-item { background: var(--color-bg-card); border: 1px solid var(--color-border-soft); border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); }
+  .faq-item h4 { font-family: var(--font-body); font-size: var(--text-base); font-weight: 600; color: var(--color-text); margin: 0 0 6px 0; }
+  .faq-item p { font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6; margin: 0; }
+
+  @media (max-width: 1024px) { .shapes-grid { grid-template-columns: repeat(2, 1fr); } .editorial-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 767px) {
+    .page-main { padding-top: calc(54px + var(--space-lg)); padding-bottom: calc(var(--space-2xl) + 70px); }
+    .container { padding: 0 var(--space-md); }
+    .shapes-grid { grid-template-columns: 1fr; }
+    .editorial-heading { font-size: var(--text-2xl); }
+  }
 </style>

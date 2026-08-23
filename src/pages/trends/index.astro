@@ -61,6 +61,70 @@ const galleryItems = posts.map((post) => ({
         </div>
       )}
     </section>
+
+    <!-- Comprehensive Trend Forecast & Editorial Guide -->
+    <section class="trend-editorial-guide reveal-fade" aria-label="Nail trend forecast and viral techniques">
+      <div class="section-divider"></div>
+      <div class="editorial-content-box">
+        <h2 class="editorial-heading text-display">Decoding Viral Manicure Movements: The 2026/2027 Trend Forecast</h2>
+        <p class="editorial-lead">
+          Viral beauty micro-trends move faster than ever across TikTok and Instagram. At NailSet Gallery, our editorial team tracks runway aesthetics, Japanese and Korean salon innovations, and celebrity manicure debuts to separate fleeting gimmicks from enduring high-fashion manicure trends.
+        </p>
+
+        <div class="editorial-grid">
+          <div class="editorial-card">
+            <h3>🫧 1. The Ultra-Gloss "Soap & Jelly" Aesthetic</h3>
+            <p>
+              Leading the minimalist "clean girl" revolution, soap nails focus on translucent bubble-pink and milky quartz syrup gels layered to mirror clean, wet glass. This style celebrates impeccably manicured cuticles and natural nail health with low-maintenance regrowth lines.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>🪐 2. Prismatic Chrome & 3D Sculptural Gel</h3>
+            <p>
+              Futuristic metallic chrome powders (vanilla pearl, liquid silver, champagne bronze) continue their dominance. Layered beneath clear 3D builder gel droplets, sculpted swirls, and water drop textures, chrome delivers dimensional tactile art.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>🎨 3. Korean Blush & Airbrush Aura Gradients</h3>
+            <p>
+              Soft radial color blooms radiating from the center of the nail plate create an ethereal mood ring effect. Created using handheld cosmetic airbrushes or velvety blooming gel bases, aura manicures provide customized chromatic self-expression.
+            </p>
+          </div>
+          <div class="editorial-card">
+            <h3>🍷 4. "Quiet Luxury" Noir & Vintage Cherries</h3>
+            <p>
+              High-pigment glossy black cherry, deep plum, espresso jelly, and forest spruce reflect timeless old-money sophistication. Paired with high-shine glass top coats, deep vampy shades elevate both casual streetwear and formal evening attire.
+            </p>
+          </div>
+        </div>
+
+        <!-- Trend FAQs -->
+        <div class="category-faqs">
+          <h3 class="faq-title text-display">Frequently Asked Questions: Viral Nail Trends</h3>
+          
+          <div class="faq-item">
+            <h4>How do I make viral chrome nails last without chipping at the tip?</h4>
+            <p>
+              Always lightly buff the free edge of the nail after applying chrome powder, apply a layer of rubber base coat or builder gel over the chrome, and seal with a high-durability no-wipe top coat that caps the tip completely.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h4>What is the difference between glazed donut nails and soap nails?</h4>
+            <p>
+              Glazed donut nails use an iridescent metallic or pearl chrome powder rubbed over a sheer base for a reflective pearlescent shimmer. Soap nails use ultra-clear, high-gloss jelly syrup polish without metallic powder to create the illusion of clean, wet glass.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h4>Are 3D textured gel nails practical for everyday office work?</h4>
+            <p>
+              Yes, if kept to subtle low-profile designs such as micro water droplets or gentle wave lines. Smooth, rounded 3D builder gel accents will not catch on keyboard keys or snag clothing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <Footer />
@@ -74,9 +138,30 @@ const galleryItems = posts.map((post) => ({
   .page-title { font-family: var(--font-display); font-size: var(--text-5xl); font-weight: 300; font-style: italic; color: var(--color-text); line-height: var(--leading-tight); }
   .page-subtitle { color: var(--color-text-muted); }
   .mb-lg { margin-bottom: var(--space-lg); }
+  .section-divider { height: 1px; background-color: var(--color-border-soft); margin: var(--space-2xl) 0; }
 
   .empty-state { text-align: center; padding: var(--space-2xl) 0; color: var(--color-text-muted); display: flex; flex-direction: column; align-items: center; gap: var(--space-md); }
   .btn-outline { display: inline-flex; align-items: center; padding: 12px var(--space-lg); border: 1.5px solid var(--color-rose); color: var(--color-rose); border-radius: var(--radius-full); font-size: var(--text-xs); font-weight: 500; text-transform: uppercase; text-decoration: none; min-height: 48px; }
 
-  @media (max-width: 767px) { .page-main { padding-top: calc(54px + var(--space-lg)); padding-bottom: calc(var(--space-2xl) + 70px); } .container { padding: 0 var(--space-md); } }
+  /* Editorial Guide & FAQs */
+  .trend-editorial-guide { margin-top: var(--space-2xl); }
+  .editorial-content-box { max-width: 960px; margin: 0 auto; display: flex; flex-direction: column; gap: var(--space-xl); }
+  .editorial-heading { font-family: var(--font-display); font-size: var(--text-3xl); font-style: italic; color: var(--color-text); line-height: 1.25; }
+  .editorial-lead { font-size: var(--text-base); color: var(--color-text-muted); line-height: 1.7; }
+  .editorial-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); }
+  .editorial-card { background: var(--color-bg-card); border: 1px solid var(--color-border-soft); border-radius: var(--radius-md); padding: var(--space-lg); display: flex; flex-direction: column; gap: var(--space-xs); }
+  .editorial-card h3 { font-family: var(--font-display); font-size: var(--text-xl); font-style: italic; color: var(--color-text); margin: 0; }
+  .editorial-card p { font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6; margin: 0; }
+  .category-faqs { margin-top: var(--space-xl); display: flex; flex-direction: column; gap: var(--space-md); }
+  .faq-title { font-family: var(--font-display); font-size: var(--text-2xl); font-style: italic; color: var(--color-rose); }
+  .faq-item { background: var(--color-bg-card); border: 1px solid var(--color-border-soft); border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); }
+  .faq-item h4 { font-family: var(--font-body); font-size: var(--text-base); font-weight: 600; color: var(--color-text); margin: 0 0 6px 0; }
+  .faq-item p { font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6; margin: 0; }
+
+  @media (max-width: 1024px) { .editorial-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 767px) {
+    .page-main { padding-top: calc(54px + var(--space-lg)); padding-bottom: calc(var(--space-2xl) + 70px); }
+    .container { padding: 0 var(--space-md); }
+    .editorial-heading { font-size: var(--text-2xl); }
+  }
 </style>

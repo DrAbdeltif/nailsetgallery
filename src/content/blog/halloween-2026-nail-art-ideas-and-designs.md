@@ -90,6 +90,23 @@ Halloween manicures often feature heavy 3D elements and dark pigments. Follow th
 
 ---
 
+## Spooky Season Manicures: Creative Halloween Nail Ideas 2026
+
+Halloween nail art is the ultimate outlet for playful creativity. Whether you prefer cute, friendly ghosts or spooky horror aesthetics, modern techniques allow for salon-level Halloween designs at home.
+
+### 4 Trendsetting Halloween Nail Styles
+
+1. **Cute Glow-in-the-Dark Ghosts:** Miniature white ghosts painted over sheer nude bases with glow-in-the-dark gel polish that illuminates at night.
+2. **Pumpkin Spice Tortoiseshell:** Spiced orange jelly blended with chocolate patches, pairing Halloween colors with chic autumn fashion.
+3. **Black Cat Micro-Art:** Dainty black cat silhouettes and crescent moons painted with a 000 fine detail brush on accent fingers.
+4. **Glazed Witchy Purple:** Deep amethyst purple topped with green-gold iridescent chrome powder for magical color shifts.
+
+### DIY Halloween Nail Art with Household Tools
+
+You don't need expensive brushes: use the rounded end of a bobby pin to dot perfect ghost eyes, or use clear scotch tape to mask crisp geometric vampire fangs.
+
+---
+
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:

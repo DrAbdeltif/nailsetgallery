@@ -86,6 +86,24 @@ A jewel-toned translucent emerald marble with smoky gold veins—perfect for win
 
 ---
 
+## The Modern Bride's Manicure Playbook: Timeless Elegance for 2026
+
+Bridal nails should complement—never compete with—your wedding gown, engagement ring, and floral bouquet. Modern bridal manicures balance classic romance with contemporary luminous textures.
+
+### Top 4 Bridal Nail Aesthetics
+
+1. **The Glazed Porcelain Veil:** Sheer milky white gel dusted with ultra-fine white pearl chrome powder, mimicking the subtle sheen of silk organza.
+2. **Micro-Pearl & Crystal Accents:** Translucent blush bases accented with tiny Swarovski flatback crystals or flat-back pearls placed at the lunula.
+3. **Ombre French Baby Boomer:** A seamless airbrushed gradient transitioning from soft petal pink into creamy white tips.
+4. **Botanical Lace Decals:** Ultra-fine white floral lace patterns hand-painted or applied via foil transfer on the accent ring finger.
+
+### Wedding Week Nail Timeline
+
+- **4 Weeks Prior:** Trial manicure appointment with your nail technician to test color matching against your dress fabric swatch.
+- **2 Days Prior:** Final bridal manicure application using BIAB or soft gel extensions to guarantee chip-free durability through the rehearsal dinner, ceremony, and honeymoon.
+
+---
+
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:

@@ -89,6 +89,22 @@ Step 1: Trim & File with Glass File ➔ Step 2: Push Cuticles ➔ Step 3: Apply 
 
 ---
 
+## Balancing Hallway Self-Expression with School Dress Codes
+
+Finding the ideal back-to-school manicure requires combining personal creativity with practical classroom requirements. Short natural lengths and subtle sheer colors ensure manicures remain approved under strict dress codes while withstanding heavy typing and science labs.
+
+### School-Approved DIY Manicure Strategies
+
+1. **The 15-Minute Soap Manicure:** High-gloss translucent pink applied over neatly filed squoval nails gives an effortless, clean aesthetic that pairs with every outfit.
+2. **Pastel Micro-French Tips:** A delicate 0.5mm lavender or baby blue line at the free edge provides playful color without distracting in lecture halls.
+3. **Weekend Press-On Sets:** Wear bare natural nails during the school week, and apply reusable press-on nails with temporary adhesive tabs on Friday afternoon for weekend parties.
+
+### Essential Backpack Nail Care Kit
+
+Keep a mini emergency kit in your pencil pouch containing a pocket-sized glass nail file, a roll-on jojoba cuticle oil, and travel nail glue for quick on-the-go maintenance between periods.
+
+---
+
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:

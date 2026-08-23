@@ -95,6 +95,23 @@ Follow these 4 simple steps at home:
 
 ---
 
+## Gothic Noir & High-Fashion Halloween Nail Aesthetics
+
+Gothic manicures have transcended seasonal costume novelties to become a celebrated subculture aesthetic. In 2026, gothic nail art merges Victorian romance, dark grunge, and sleek minimalist architecture.
+
+### Top Gothic Nail Art Ideas
+
+1. **Matte Black with Glossy French Tips:** A velvet matte black foundation paired with ultra-shiny black chrome tips creates a subtle, tactile contrast.
+2. **Blood Drip & Ruby Ombre:** Translucent deep bordeaux jelly gel fading into jet black tips, creating a dramatic vampire-inspired gradient.
+3. **Chrome Spiderwebs & Filigree:** Intricate silver chrome web detailing hand-painted over a sheer smoky black base.
+4. **Pierced Stiletto & Cross Charms:** Stiletto acrylics adorned with miniature silver cross charms or delicate dangling hoops.
+
+### Maintaining Jet Black Manicures
+
+Black polish easily shows chips and dullness. Always apply a stain-blocking rubber base coat, cap the free edge thoroughly, and refresh with a high-durability top coat every 4 days.
+
+---
+
 ## Skin Tone Matching Guide
 
 Match your shade undertones to your skin complexion to achieve the most flattering manicure look:
