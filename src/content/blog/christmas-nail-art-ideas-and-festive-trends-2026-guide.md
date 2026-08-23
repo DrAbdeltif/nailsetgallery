@@ -208,27 +208,19 @@ Match your shade undertones to your skin complexion to make your holiday manicur
 <div class="skin-tone-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 16px; margin: 24px 0; width: 100%; box-sizing: border-box;">
 
 <div style="background: #FFFFFF; border: 1px solid rgba(158, 27, 50, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); box-sizing: border-box; width: 100%; word-break: break-word;">
-  <h4 style="margin: 0 0 8px 0; color: #9E1B32; font-size: 1.05rem;">✨ Warm & Golden Undertones</h4>
-  <p style="font-size: 0.9rem; color: #4A3F3F; margin-bottom: 8px;">Veins appear greenish; gold jewelry shines brightest.</p>
-  <p style="font-size: 0.92rem; margin: 0;"><strong>Top Picks:</strong> Champagne Gold, Warm Crimson, Forest Emerald, Gingerbread Cinnamon, and Bronze Chrome.</p>
+  <h4 style="margin: 0 0 8px 0; color: #9E1B32; font-size: 1.05rem;">✨ <strong>Best Warm Shades:</strong> Champagne Gold, Warm Crimson, Forest Emerald, Gingerbread Cinnamon, and Bronze Chrome.</p>
 </div>
 
 <div style="background: #FFFFFF; border: 1px solid rgba(158, 27, 50, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); box-sizing: border-box; width: 100%; word-break: break-word;">
-  <h4 style="margin: 0 0 8px 0; color: #9E1B32; font-size: 1.05rem;">❄️ Cool & Pink Undertones</h4>
-  <p style="font-size: 0.9rem; color: #4A3F3F; margin-bottom: 8px;">Veins appear blue/purple; silver jewelry looks striking.</p>
-  <p style="font-size: 0.92rem; margin: 0;"><strong>Top Picks:</strong> Holly Berry Red, Deep Ruby, Snowfall White, Silver Chrome, and Midnight Sapphire.</p>
+  <h4 style="margin: 0 0 8px 0; color: #9E1B32; font-size: 1.05rem;">❄️ <strong>Best Cool Hues:</strong> Holly Berry Red, Deep Ruby, Snowfall White, Silver Chrome, and Midnight Sapphire.</p>
 </div>
 
 <div style="background: #FFFFFF; border: 1px solid rgba(158, 27, 50, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); box-sizing: border-box; width: 100%; word-break: break-word;">
-  <h4 style="margin: 0 0 8px 0; color: #9E1B32; font-size: 1.05rem;">🌿 Olive Undertones</h4>
-  <p style="font-size: 0.9rem; color: #4A3F3F; margin-bottom: 8px;">Greenish/neutral cast that balances warm and cool tones.</p>
-  <p style="font-size: 0.92rem; margin: 0;"><strong>Top Picks:</strong> Pine Forest Emerald, Muted Moss, Dark Ruby, Antique Gold, and Spiced Plum.</p>
+  <h4 style="margin: 0 0 8px 0; color: #9E1B32; font-size: 1.05rem;">🌿 <strong>Best Olive Tones:</strong> Pine Forest Emerald, Muted Moss, Dark Ruby, Antique Gold, and Spiced Plum.</p>
 </div>
 
 <div style="background: #FFFFFF; border: 1px solid rgba(158, 27, 50, 0.12); border-radius: 12px; padding: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); box-sizing: border-box; width: 100%; word-break: break-word;">
-  <h4 style="margin: 0 0 8px 0; color: #9E1B32; font-size: 1.05rem;">👑 Deep & Rich Complexions</h4>
-  <p style="font-size: 0.9rem; color: #4A3F3F; margin-bottom: 8px;">High contrast beauty that makes vibrant and jewel tones pop.</p>
-  <p style="font-size: 0.92rem; margin: 0;"><strong>Top Picks:</strong> High-voltage Crimson, Royal Sapphire, Emerald Velvet, 24k Gold Foil, and Glazed Pearl.</p>
+  <h4 style="margin: 0 0 8px 0; color: #9E1B32; font-size: 1.05rem;">👑 <strong>Best Rich Accents:</strong> High-voltage Crimson, Royal Sapphire, Emerald Velvet, 24k Gold Foil, and Glazed Pearl.</p>
 </div>
 
 </div>
