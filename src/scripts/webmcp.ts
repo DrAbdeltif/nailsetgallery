@@ -128,5 +128,17 @@ export function initWebMCP() {
 }
 
 
-initWebMCP();
-document.addEventListener('astro:page-load', initWebMCP);
+if (typeof window !== 'undefined') {
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(function() { initWebMCP(); });
+  } else {
+    setTimeout(initWebMCP, 1500);
+  }
+  document.addEventListener('astro:page-load', function() {
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(function() { initWebMCP(); });
+    } else {
+      setTimeout(initWebMCP, 500);
+    }
+  });
+}

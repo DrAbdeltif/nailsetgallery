@@ -60,14 +60,52 @@ if (!fullTitle.includes('NailSet Gallery') && !fullTitle.includes('NSG')) {
     <meta name="color-scheme" content="light" />
     <meta name="theme-color" content="#8B1A4A" />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5HLNRJJG8V"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <!-- High-Performance Lazy Loader for Google Analytics (GTM) and AdSense -->
+    <script is:inline define:vars={{ adsensePublisherId }}>
+      (function() {
+        let loaded = false;
+        function loadThirdPartyScripts() {
+          if (loaded) return;
+          loaded = true;
 
-      gtag('config', 'G-5HLNRJJG8V');
+          // Load Google Tag Manager / Analytics (gtag.js)
+          const gtagScript = document.createElement('script');
+          gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-5HLNRJJG8V';
+          gtagScript.async = true;
+          document.head.appendChild(gtagScript);
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', 'G-5HLNRJJG8V');
+
+          // Load Google AdSense
+          if (adsensePublisherId) {
+            const adsenseScript = document.createElement('script');
+            adsenseScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adsensePublisherId;
+            adsenseScript.async = true;
+            adsenseScript.crossOrigin = 'anonymous';
+            document.head.appendChild(adsenseScript);
+          }
+        }
+
+        // Trigger on earliest user interaction
+        const events = ['scroll', 'touchstart', 'mousemove', 'keydown', 'click'];
+        function triggerHandler() {
+          loadThirdPartyScripts();
+          events.forEach(e => window.removeEventListener(e, triggerHandler));
+        }
+        events.forEach(e => window.addEventListener(e, triggerHandler, { passive: true, once: true }));
+
+        // Safe fallback after main thread idle (3.5s)
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(function() {
+            setTimeout(loadThirdPartyScripts, 3500);
+          });
+        } else {
+          setTimeout(loadThirdPartyScripts, 3500);
+        }
+      })();
     </script>
 
     <!-- Primary Meta & Search Engine Directives -->
@@ -120,13 +158,15 @@ if (!fullTitle.includes('NailSet Gallery') && !fullTitle.includes('NSG')) {
     <meta name="apple-mobile-web-app-title" content="NailSet Gallery" />
     <link rel="manifest" href="/site.webmanifest" />
 
-    <!-- LCP Preload for Hero Collage Images on Homepage -->
-    {Astro.url.pathname === '/' && (
+    <!-- LCP Preload for Hero Images on Articles & Homepage -->
+    {Astro.url.pathname === '/' ? (
       <>
         <link rel="preload" as="image" href="/images/collage-nude-elegant.jpg" fetchpriority="high" />
         <link rel="preload" as="image" href="/images/collage-rose-quartz.jpg" fetchpriority="high" />
       </>
-    )}
+    ) : (ogType === 'article' && ogImage && (
+      <link rel="preload" as="image" href={ogImage} fetchpriority="high" />
+    ))}
 
     <!-- Google Fonts — non-render-blocking async load -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -148,16 +188,6 @@ if (!fullTitle.includes('NailSet Gallery') && !fullTitle.includes('NSG')) {
         rel="stylesheet"
       />
     </noscript>
-
-    <!-- Google AdSense Script (deferred to prevent blocking FCP/LCP) -->
-    {adsensePublisherId && (
-      <script
-        async
-        defer
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsensePublisherId}`}
-        crossorigin="anonymous"
-      />
-    )}
 
     <!-- Article Schema (@graph pattern for blog posts) -->
     {ogType === 'article' && pubDate && (
