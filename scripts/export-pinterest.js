@@ -89,6 +89,26 @@ function generateShortVideoPrompt(title, category, tags = [], description = '') 
   return `9:16 vertical short video (Pinterest Idea Pin / TikTok / Reels). Ultra-aesthetic 4K macro beauty shot of manicured hands showcasing ${cleanTitle}. Smooth slow-motion camera pan and subtle hand tilt revealing ultra-glossy gel reflections, intricate textures, and flawless cuticle work. Studio beauty lighting, clean aesthetic background, 60fps cinematic video, high-fashion nail salon quality.`;
 }
 
+function generatePinTitleForImage(altText, fileName, postTitle) {
+  if (fileName.includes('cute-ghost')) return 'Cute Ghost Nails: Adorable Halloween Nail Art Inspo';
+  if (fileName.includes('ghost-face')) return 'Ghost Face Nails: Spooky Scream Mask Coffin Nail Art';
+  if (fileName.includes('simple-short-halloween')) return 'Simple Short Halloween Nails: Minimalist Squoval Inspo';
+  if (fileName.includes('spooky-velvet-cat-eye')) return 'Spooky Velvet Cat-Eye Nails: Magnetic Emerald & Plum Art';
+  if (fileName.includes('halloween-themed-nail-designs-hero')) return 'Halloween-Themed Nail Designs: Cute, Simple & Spooky Ideas';
+
+  // Extract clean descriptive title from altText
+  const cleanAlt = altText.split('.')[0].trim();
+  if (cleanAlt.length > 10 && cleanAlt.length <= 90) {
+    return cleanAlt;
+  }
+  const cleanFile = path.basename(fileName, path.extname(fileName)).replace(/[-_]/g, ' ');
+  return `${cleanFile.charAt(0).toUpperCase() + cleanFile.slice(1)} | NailSet Gallery`;
+}
+
+function generatePinDescriptionForImage(altText, fileName, postDescription, hashtags) {
+  return `${altText}\n\nExplore step-by-step manicure ideas & tutorials on NailSet Gallery.\n\n${hashtags}`.slice(0, 500);
+}
+
 function escapeCsvField(field) {
   if (field === null || field === undefined) return '""';
   const str = String(field).replace(/"/g, '""');
@@ -112,18 +132,21 @@ async function main() {
 
     const slug = file.replace(/\.md$/, '');
     const canonicalLink = `${BASE_URL}/blog/${slug}/`;
+    const boardName = getBoardName(frontmatter.category, frontmatter.tags);
+    const hashtags = buildHashtags(frontmatter.category, frontmatter.tags);
+    const seenImages = new Set();
+
+    // 1. Primary Hero Image Pin
     const heroImageRel = frontmatter.heroImage || '/images/og-default.jpg';
+    seenImages.add(heroImageRel);
     const heroImageSrc = path.join(PUBLIC_DIR, heroImageRel.replace(/^\//, ''));
     const heroFileName = path.basename(heroImageRel);
     const heroImageDest = path.join(DEST_IMG_DIR, heroFileName);
 
-    // Copy image if source exists
     if (fs.existsSync(heroImageSrc)) {
       fs.copyFileSync(heroImageSrc, heroImageDest);
     }
 
-    const boardName = getBoardName(frontmatter.category, frontmatter.tags);
-    const hashtags = buildHashtags(frontmatter.category, frontmatter.tags);
     const pinTitle = (frontmatter.title || slug).slice(0, 100);
     const pinDescription = `${frontmatter.description || ''}\n\nExplore full tutorial & color guide on NailSet Gallery.\n\n${hashtags}`.slice(0, 500);
     const altText = frontmatter.heroImageAlt || frontmatter.title || 'Nail set art design inspiration';
@@ -148,6 +171,40 @@ async function main() {
       Tags: Array.isArray(frontmatter.tags) ? frontmatter.tags.join(', ') : '',
       Video_Prompt: videoPrompt,
     });
+
+    // 2. In-Article Body Images Pins
+    const bodyImages = Array.from(content.matchAll(/!\[(.*?)\]\((\/images\/[^)]+)\)/g));
+    for (const match of bodyImages) {
+      const imgAlt = match[1].trim();
+      const imgRel = match[2].trim();
+      if (seenImages.has(imgRel)) continue;
+      seenImages.add(imgRel);
+
+      const imgSrc = path.join(PUBLIC_DIR, imgRel.replace(/^\//, ''));
+      if (!fs.existsSync(imgSrc)) continue;
+
+      const imgFileName = path.basename(imgRel);
+      const imgDest = path.join(DEST_IMG_DIR, imgFileName);
+      fs.copyFileSync(imgSrc, imgDest);
+
+      const inBodyTitle = generatePinTitleForImage(imgAlt, imgFileName, frontmatter.title);
+      const inBodyDesc = generatePinDescriptionForImage(imgAlt, imgFileName, frontmatter.description, hashtags);
+      const inBodyVideoPrompt = generateShortVideoPrompt(inBodyTitle, frontmatter.category, frontmatter.tags, inBodyDesc);
+
+      pinRecords.push({
+        Title: inBodyTitle.slice(0, 100),
+        Description: inBodyDesc,
+        Destination_Link: canonicalLink,
+        Board_Name: boardName,
+        Image_File_Name: imgFileName,
+        Image_Local_Path: imgDest,
+        Media_URL: `${BASE_URL}${imgRel}`,
+        Alt_Text: imgAlt,
+        Category: frontmatter.category || 'general',
+        Tags: Array.isArray(frontmatter.tags) ? frontmatter.tags.join(', ') : '',
+        Video_Prompt: inBodyVideoPrompt,
+      });
+    }
   }
 
   // 1. Export CSV for Excel / Pinterest Bulk Upload (with UTF-8 BOM)
