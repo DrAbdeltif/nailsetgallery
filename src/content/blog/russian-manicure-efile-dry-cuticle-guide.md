@@ -47,21 +47,32 @@ However, because the Russian manicure involves specialized electric rotary tools
 
 To master or safely receive a Russian manicure, one must first understand human nail histology. In everyday speech, people often confuse the **true cuticle** with the **eponychium**:
 
-```text
-┌─────────────────────────────────────────────────────────────────────────┐
-│                    PROXIMAL NAIL FOLD & PTERYGIUM                       │
-├─────────────────────────────────────────────────────────────────────────┤
-│  [Eponychium / Proximal Fold]  <- LIVING skin barrier (Never cut deep)  │
-│          │                                                              │
-│          ▼                                                              │
-│  [The Cuticle Pocket]         <- Sub-fold space opened by flame bit     │
-│          │                                                              │
-│          ▼                                                              │
-│  [Pterygium / True Cuticle]   <- DEAD white cellular film on nail plate │
-│                                  (Buffed away by diamond abrasive)      │
-│  [Nail Matrix / Lunula]       <- Living germinative center under skin   │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+<div class="optical-layers-card" style="background: linear-gradient(145deg, #111827 0%, #1f2937 100%); border: 1px solid rgba(59, 130, 246, 0.35); border-radius: 12px; padding: clamp(16px, 3.5vw, 24px); margin: 24px 0; color: #f9fafb; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.35);">
+  <div style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.12em; color: #60a5fa; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 8px;">
+    <span>🔬</span> Proximal Nail Fold & Cuticle Anatomy Architecture
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <div style="background: rgba(255, 255, 255, 0.06); border-left: 3px solid #ef4444; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">[Eponychium / Proximal Fold]</span>
+      <span style="font-size: 0.8rem; color: #fca5a5; background: rgba(239, 68, 68, 0.2); padding: 3px 10px; border-radius: 12px; font-weight: 500;">LIVING Skin Barrier (Never cut deep)</span>
+    </div>
+    <div style="text-align: center; color: #60a5fa; font-size: 14px; line-height: 1;">↓</div>
+    <div style="background: rgba(255, 255, 255, 0.05); border-left: 3px solid #3b82f6; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">[The Cuticle Pocket]</span>
+      <span style="font-size: 0.8rem; color: #bfdbfe; background: rgba(59, 130, 246, 0.2); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Sub-Fold Space Opened by Flame Bit</span>
+    </div>
+    <div style="text-align: center; color: #60a5fa; font-size: 14px; line-height: 1;">↓</div>
+    <div style="background: rgba(255, 255, 255, 0.04); border-left: 3px solid #10b981; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">[Pterygium / True Cuticle]</span>
+      <span style="font-size: 0.8rem; color: #a7f3d0; background: rgba(16, 185, 129, 0.2); padding: 3px 10px; border-radius: 12px; font-weight: 500;">DEAD Cellular Film (Exfoliated Safely)</span>
+    </div>
+    <div style="text-align: center; color: #60a5fa; font-size: 14px; line-height: 1;">↓</div>
+    <div style="background: rgba(255, 255, 255, 0.03); border-left: 3px solid #8b5cf6; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">[Nail Matrix & Lunula]</span>
+      <span style="font-size: 0.8rem; color: #ddd6fe; background: rgba(139, 92, 246, 0.2); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Living Germinative Growth Center</span>
+    </div>
+  </div>
+</div>
 
 - **The Eponychium:** The living, vascular fold of skin that guards the root of the nail against bacterial pathogens. This living tissue should **never** be aggressively gouged or abraded.
 - **The True Cuticle (Pterygium):** A layer of non-living, translucent keratinized skin cells shed by the proximal fold that sticks tightly to the growing nail plate.

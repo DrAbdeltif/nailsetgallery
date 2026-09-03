@@ -45,18 +45,37 @@ While classic tortoiseshell nail art has long been a centerpiece of [autumn nail
 
 To replicate authentic amber tortoiseshell, you must understand light refraction through translucent polymer layers. Traditional nail polishes rely on high pigment density to achieve opaque single-coat coverage. In contrast, tortoiseshell art requires **jelly or syrup viscosity formulations**:
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                   OPTICAL RESIN DEPTH ARCHITECTURE                     │
-├────────────────────────────────────────────────────────────────────────┤
-│  Layer 5: Ultra-Glossy No-Wipe Gel Top Coat (Mirrored Glass Reflection)│
-│  Layer 4: Encapsulated 24k Gold Foil Flecks & Micro Highlight Dots     │
-│  Layer 3: 2nd Sheer Amber Jelly Glaze + Sharp Deep Espresso Accents    │
-│  Layer 2: 1st Diffused Blooming Brown/Black Drops (Soft Background)   │
-│  Layer 1: Base Coat + Primary Warm Honey-Amber Translucent Base        │
-│  Base:    Dehydrated, Primed Natural Nail Plate or Builder Gel Overlay │
-└────────────────────────────────────────────────────────────────────────┘
-```
+<div class="optical-layers-card" style="background: linear-gradient(145deg, #241408 0%, #381e0b 100%); border: 1px solid rgba(217, 119, 6, 0.35); border-radius: 12px; padding: clamp(16px, 3.5vw, 24px); margin: 24px 0; color: #fef3c7; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.35);">
+  <div style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.12em; color: #f59e0b; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 8px;">
+    <span>🍯</span> Optical Resin Depth Architecture
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <div style="background: rgba(255, 255, 255, 0.07); border-left: 3px solid #fbbf24; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">Layer 5: Ultra-Glossy No-Wipe Gel Top Coat</span>
+      <span style="font-size: 0.8rem; color: #fde68a; background: rgba(245, 158, 11, 0.2); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Mirrored Glass Reflection</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.06); border-left: 3px solid #f59e0b; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">Layer 4: Encapsulated 24k Gold Foil Flecks</span>
+      <span style="font-size: 0.8rem; color: #fde68a; background: rgba(245, 158, 11, 0.15); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Micro Highlight Suspensions</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.05); border-left: 3px solid #d97706; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">Layer 3: 2nd Sheer Amber Jelly Glaze</span>
+      <span style="font-size: 0.8rem; color: #fde68a; background: rgba(245, 158, 11, 0.15); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Sharp Deep Espresso Surface Accents</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.04); border-left: 3px solid #b45309; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">Layer 2: Diffused Blooming Brown/Black Drops</span>
+      <span style="font-size: 0.8rem; color: #fde68a; background: rgba(245, 158, 11, 0.12); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Soft Submerged Background Bloom</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.03); border-left: 3px solid #92400e; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #fde68a;">Layer 1: Warm Honey-Amber Base</span>
+      <span style="font-size: 0.8rem; color: #fcd34d; background: rgba(245, 158, 11, 0.1); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Translucent Syrup Primer</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.02); border-left: 3px solid #78350f; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #e5e5e5;">Foundation Prep</span>
+      <span style="font-size: 0.8rem; color: #d4d4d4; background: rgba(255, 255, 255, 0.08); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Dehydrated, Primed Natural Nail or BIAB</span>
+    </div>
+  </div>
+</div>
 
 When ambient light enters the nail, it passes through the top amber glass layer, reflects off the deeply submerged soft brown spots, and bounces back through the sharp surface spots. This multi-plane refraction gives the manicure its unmistakable "sunlight through antique sunglasses" dimensional glow.
 

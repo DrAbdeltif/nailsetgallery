@@ -49,18 +49,33 @@ The single greatest frustration nail artists face when creating molten chrome ac
 
 The professional solution is the **Matte Isolation Barrier**:
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                   3D MOLTEN CHROME CROSS-SECTION                       │
-├────────────────────────────────────────────────────────────────────────┤
-│  [Top Layer]        -> Precision Gloss Seal (Over Chrome ONLY)         │
-│  [Chrome Pigment]   -> Burnished Nano-Flakes (Mirror Reflection)       │
-│  [3D Relief Gel]    -> Raised Non-Wipe Hard Sculpting Gel Bead         │
-│  [Isolation Layer]  -> Fully Cured Velvet Matte Top Coat               │
-│                        (Dust slides off background like water!)         │
-│  [Base Layer]       -> Milky White, Nude Jelly, or Translucent Base    │
-└────────────────────────────────────────────────────────────────────────┘
-```
+<div class="optical-layers-card" style="background: linear-gradient(145deg, #18181b 0%, #27272a 100%); border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 12px; padding: clamp(16px, 3.5vw, 24px); margin: 24px 0; color: #f4f4f5; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.35);">
+  <div style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.12em; color: #eab308; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 8px;">
+    <span>⚡</span> 3D Molten Chrome Cross-Section Architecture
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <div style="background: rgba(255, 255, 255, 0.06); border-left: 3px solid #facc15; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">[Top Layer] Precision Gloss Seal</span>
+      <span style="font-size: 0.8rem; color: #fef08a; background: rgba(234, 179, 8, 0.2); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Over Chrome Details ONLY</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.05); border-left: 3px solid #e2e8f0; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">[Chrome Pigment] Burnished Nano-Flakes</span>
+      <span style="font-size: 0.8rem; color: #f1f5f9; background: rgba(255, 255, 255, 0.15); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Specular Mirror Reflection</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.04); border-left: 3px solid #38bdf8; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">[3D Relief Gel] Non-Wipe Hard Sculpting Gel</span>
+      <span style="font-size: 0.8rem; color: #bae6fd; background: rgba(56, 189, 248, 0.15); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Raised 3D Molten Bead</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.03); border-left: 3px solid #a1a1aa; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">[Isolation Layer] Fully Cured Velvet Matte Top Coat</span>
+      <span style="font-size: 0.8rem; color: #e4e4e7; background: rgba(255, 255, 255, 0.1); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Dust Slides Off Background Like Water</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.02); border-left: 3px solid #71717a; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #d4d4d8;">[Base Layer] Foundation Base</span>
+      <span style="font-size: 0.8rem; color: #a1a1aa; background: rgba(255, 255, 255, 0.08); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Milky White, Nude Jelly, or Translucent Base</span>
+    </div>
+  </div>
+</div>
 
 Because a fully cured, velvet-matte top coat has zero tacky inhibition layer and a microscopic textured surface, stray metallic powder cannot adhere to it. When you sculpt 3D lines with non-wipe clear gel on top of the matte base and burnish your powder, the chrome clings **only** to the raised 3D lines, leaving your background immaculate!
 
