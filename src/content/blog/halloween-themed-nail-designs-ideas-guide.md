@@ -159,13 +159,14 @@ You don't need years of fine-art training to paint showstopping **ghost nails**.
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Essential Tools Needed:
+### Essential Tools Needed
+
 - **Base Coat & Top Coat:** High-gloss, no-wipe gel formulas or long-wear air-dry enamel.
 - **Base Shade:** Sheer milky nude, soft jelly pink, or warm amber glaze.
 - **Art Pigments:** Opaque chalk-white nail art gel and high-density pitch-black liner paint.
 - **Applicators:** Dual-ended metal dotting tool (2mm ball and 0.8mm ball) or a clean bobby pin tip.
 
-### Execution Instructions:
+### Execution Instructions
 
 1. **Plate Preparation:** Lightly buff the nail shine away with a 240-grit buffer. Wipe thoroughly with 99% isopropyl alcohol to remove natural oils and dust. Apply a thin coat of base gel and cure for 30 seconds.
 2. **Apply Canvas Base:** Paint two coats of sheer milky pink jelly, curing 30 seconds per coat under an LED lamp.
@@ -181,14 +182,18 @@ You don't need years of fine-art training to paint showstopping **ghost nails**.
 Halloween celebrations often span several weeks—from pumpkin patch visits and haunted houses to office dress-up days and trick-or-treating. Keep your festive nail art pristine with these licensed technician recommendations:
 
 ### 1. Guard White Gel Against Yellowing
+
 White art gel on ghost bodies and spiderwebs is especially vulnerable to discoloration caused by hair dyes, self-tanners, and spices (such as turmeric or pumpkin latte syrups). Always seal white nail art with a **non-cleansing, UV-filtering top coat** that features optical brighteners to preserve crisp snowy pigmentation.
 
 ### 2. Lock Down Nail Stickers & Chrome Decals
+
 If you use adhesive bat decals or burnished chrome powders:
+
 - Never apply stickers onto a tacky dispersion layer; wipe the nail with alcohol first.
 - Apply a thin layer of **clear builder gel (BIAB)** or rubber base directly over stickers or chrome before applying your final top coat. This cushions the decals and stops edge peeling entirely.
 
 ### 3. Maintain Proximal Cuticle Hydration
+
 Crisp October winds and frequent handwashing rapidly deplete natural moisture around your nail folds. Apply cold-pressed **jojoba cuticle oil** twice daily. Jojoba’s molecular weight closely matches human sebum, allowing it to penetrate through nail folds, nourish the matrix, and preserve gel flexibility. Explore our recommended routine in the [cuticle care and nail hydration masterclass](/blog/cuticle-care-and-nail-hydration-routine/).
 
 ---
@@ -211,16 +216,21 @@ Looking to explore year-round seasonal transitions? Check out our guides to [aut
 ## Frequently Asked Questions (FAQ)
 
 ### What are the most popular simple Halloween nails for beginners?
+
 The most accessible simple Halloween nails include **micro ghost accent dots**, **spiderweb French smile lines**, and **tiny flying black bat decals** placed over a sheer milky nude base. These designs require minimal tools (a dotting tool and toothpick) and take less than 15 minutes per hand to complete.
 
 ### Can you create cute Halloween nails on short natural nails?
+
 Yes, absolutely! Short natural nails are currently one of the most trending silhouettes for cute Halloween nail art. Short squoval and round shapes look exceptionally chic with miniature floating sheet ghosts, baby pink pumpkins, and minimalist French accents because the compact canvas prevents the design from feeling cluttered.
 
 ### How do I paint Ghost Face nails without fine art skills?
+
 If drawing the Scream mask freehand feels daunting, you can use high-definition **waterslide nail decals** or silicone stamping plates. Simply transfer the white Scream mask graphic onto an accent nail painted in sheer nude or matte black, and encapsulate it with a coat of clear builder gel and top coat.
 
 ### How do I prevent black gel polish from wrinkling during Halloween art?
+
 Black gel contains ultra-dense pigments that block UV/LED light penetration. To prevent wrinkling or under-curing, always paint black art in **ultra-thin coats** and cure for a full 60 seconds under a quality 48W+ LED lamp. Never apply thick blobs of black gel.
 
 ### How should I safely remove Halloween gel nail art to protect my natural nails?
+
 Never scrape or pry gel art off the nail plate, as this tears off vital dorsal keratin layers. Instead, file off the shiny top coat with a 150-grit hand file, saturate 100% pure acetone on cotton pads, wrap each fingertip tightly in aluminum foil for 12–15 minutes, and gently slide the softened gel off with an orangewood stick. For detailed step-by-step safety, follow our [safe gel nail polish removal guide](/blog/safe-gel-nail-polish-removal-at-home-guide/).
