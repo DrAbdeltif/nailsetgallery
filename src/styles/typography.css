@@ -200,13 +200,13 @@ p {
   border-radius: var(--radius-md);
   padding: var(--space-md) var(--space-lg);
   margin: var(--space-lg) 0;
-  font-family: var(--font-body);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: var(--text-sm);
   line-height: 1.65;
   color: var(--color-text);
   overflow-x: auto;
-  white-space: pre-wrap;
-  word-break: break-word;
+  white-space: pre;
+  word-break: normal;
   box-shadow: inset 0 1px 3px rgba(139, 26, 74, 0.02);
 }
 
@@ -217,8 +217,8 @@ p {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
-  white-space: pre-wrap;
-  word-break: break-word;
+  white-space: pre;
+  word-break: normal;
 }
 
 .prose code {

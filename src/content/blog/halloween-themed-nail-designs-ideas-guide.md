@@ -61,17 +61,33 @@ Finding your signature festive manicure starts by matching aesthetic energy with
 
 Great **halloween nail art** relies on balanced negative space and strategic optical depth rather than cluttering every nail bed with heavy graphics. Modern professional nail artists construct the manicure in four distinct optical tiers:
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│               OPTICAL ARCHITECTURE OF A FESTIVE MANICURE               │
-├────────────────────────────────────────────────────────────────────────┤
-│  Layer 4: High-Gloss Glass Gel Top Coat (Capped Free Edge & Seal)     │
-│  Layer 3: Micro Detailing (Dotting Tool Ghost Eyes, 3D Chrome Webs)    │
-│  Layer 2: Silhouette Art (Solid White Ghost Sheet, Black Bat Decals)   │
-│  Layer 1: Translucent Canvas (Milky Nude Glaze or Velvet Cat-Eye Base) │
-│  Prep:    Dehydrated, Buffed Natural Plate or BIAB Reinforcement       │
-└────────────────────────────────────────────────────────────────────────┘
-```
+<div class="optical-layers-card" style="background: linear-gradient(145deg, #1c1917 0%, #292524 100%); border: 1px solid rgba(234, 88, 12, 0.3); border-radius: 12px; padding: clamp(16px, 3.5vw, 24px); margin: 24px 0; color: #f5f5f4; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.35);">
+  <div style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.12em; color: #ea580c; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 8px;">
+    <span>✨</span> Optical Layer Architecture of a Festive Manicure
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <div style="background: rgba(255, 255, 255, 0.06); border-left: 3px solid #fb923c; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">Layer 4: High-Gloss Glass Gel Top Coat</span>
+      <span style="font-size: 0.8rem; color: #fed7aa; background: rgba(234, 88, 12, 0.2); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Capped Free Edge & Mirror Seal</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.05); border-left: 3px solid #fdba74; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">Layer 3: Micro Detailing & Accents</span>
+      <span style="font-size: 0.8rem; color: #fed7aa; background: rgba(234, 88, 12, 0.15); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Dotting Ghost Eyes & 3D Chrome Webs</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.04); border-left: 3px solid #f97316; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">Layer 2: Silhouette Nail Art</span>
+      <span style="font-size: 0.8rem; color: #fed7aa; background: rgba(234, 88, 12, 0.15); padding: 3px 10px; border-radius: 12px; font-weight: 500;">White Sheet Ghosts & Bat Decals</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.03); border-left: 3px solid #ea580c; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #ffffff;">Layer 1: Translucent Canvas Base</span>
+      <span style="font-size: 0.8rem; color: #fed7aa; background: rgba(234, 88, 12, 0.12); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Milky Nude Glaze or Velvet Cat-Eye</span>
+    </div>
+    <div style="background: rgba(255, 255, 255, 0.02); border-left: 3px solid #9a3412; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
+      <span style="font-weight: 600; font-size: 0.92rem; color: #e7e5e4;">Foundation Prep</span>
+      <span style="font-size: 0.8rem; color: #d6d3d1; background: rgba(255, 255, 255, 0.08); padding: 3px 10px; border-radius: 12px; font-weight: 500;">Dehydrated, Buffed Plate or BIAB Overlay</span>
+    </div>
+  </div>
+</div>
 
 By keeping the foundation translucent or neutral, character accents like floating spirits or spiderweb smile lines pop cleanly without overwhelming the hands. For deep-dive cuticle and plate preparation protocols that guarantee flawless adhesion, consult our guide on [how to prep natural nails before gel, acrylic, or press-ons](/blog/how-to-prep-natural-nails-before-gel-acrylic-press-ons/).
 
@@ -147,17 +163,33 @@ Learn how to master magnetic particle manipulation, cylindrical wand positioning
 
 You don't need years of fine-art training to paint showstopping **ghost nails**. With a dual-ended dotting tool (or a common household bobby pin and toothpick), follow this foolproof protocol:
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                   HOW TO PAINT FOOLPROOF GHOST NAILS                   │
-├────────────────────────────────────────────────────────────────────────┤
-│  Step 1: Prep & apply 2 sheer coats of milky nude jelly base; cure.    │
-│  Step 2: Dip large dotting ball into white gel; place anchor dot.      │
-│  Step 3: Drag dot downward in 2 wavy swoops to form the flowing tail.  │
-│  Step 4: Flash cure 15s; use micro tip to add black oval eyes & mouth. │
-│  Step 5: Add pink blush dots; cure 60s & seal with no-wipe top coat.   │
-└────────────────────────────────────────────────────────────────────────┘
-```
+<div class="step-workflow-card" style="background: linear-gradient(135deg, rgba(234, 88, 12, 0.05) 0%, rgba(88, 28, 135, 0.06) 100%); border: 1px solid rgba(234, 88, 12, 0.25); border-radius: 12px; padding: clamp(16px, 3.5vw, 24px); margin: 24px 0;">
+  <div style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #c2410c; margin-bottom: 14px; display: flex; align-items: center; gap: 8px;">
+    <span>👻</span> Quick Protocol: Foolproof Ghost Nails
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+    <div style="background: #ffffff; border: 1px solid rgba(0, 0, 0, 0.06); padding: 12px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);">
+      <div style="font-weight: 700; color: #ea580c; font-size: 0.85rem; margin-bottom: 4px;">1. Base Canvas</div>
+      <div style="font-size: 0.88rem; color: #44403c; line-height: 1.45;">2 sheer coats of milky nude jelly base; full cure.</div>
+    </div>
+    <div style="background: #ffffff; border: 1px solid rgba(0, 0, 0, 0.06); padding: 12px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);">
+      <div style="font-weight: 700; color: #ea580c; font-size: 0.85rem; margin-bottom: 4px;">2. Anchor Dot</div>
+      <div style="font-size: 0.88rem; color: #44403c; line-height: 1.45;">Dip large dotting tool into white gel; stamp head.</div>
+    </div>
+    <div style="background: #ffffff; border: 1px solid rgba(0, 0, 0, 0.06); padding: 12px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);">
+      <div style="font-weight: 700; color: #ea580c; font-size: 0.85rem; margin-bottom: 4px;">3. Tail Flow</div>
+      <div style="font-size: 0.88rem; color: #44403c; line-height: 1.45;">Drag bead downward in gentle 'S' swoops to form sheet body.</div>
+    </div>
+    <div style="background: #ffffff; border: 1px solid rgba(0, 0, 0, 0.06); padding: 12px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);">
+      <div style="font-weight: 700; color: #ea580c; font-size: 0.85rem; margin-bottom: 4px;">4. Expression</div>
+      <div style="font-size: 0.88rem; color: #44403c; line-height: 1.45;">Micro-dot black oval eyes, smiling mouth & pink cheeks.</div>
+    </div>
+    <div style="background: #ffffff; border: 1px solid rgba(0, 0, 0, 0.06); padding: 12px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);">
+      <div style="font-weight: 700; color: #ea580c; font-size: 0.85rem; margin-bottom: 4px;">5. Seal & Cap</div>
+      <div style="font-size: 0.88rem; color: #44403c; line-height: 1.45;">Capped no-wipe high-gloss gel top coat; cure 60s.</div>
+    </div>
+  </div>
+</div>
 
 ### Essential Tools Needed
 
